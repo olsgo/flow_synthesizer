@@ -153,6 +153,8 @@ class FlowServer(OSCServer):
         self._modelpath = ""
         # Command-line arguments
         self.args = kwargs.get('args')
+        # Synthesizer information
+        self.synth_type = kwargs.get('synth_type', 'diva')
         # Data parameters
         self.data = kwargs.get('data')
         self.dataset = kwargs.get('dataset')
@@ -160,6 +162,7 @@ class FlowServer(OSCServer):
         self.param_dict = kwargs.get('param_dict')
         self.analysis = kwargs.get('analysis')
         self.pca = self.analysis['pca']
+        print(f'[Synthesizer type: {self.synth_type}]')
         print(self.pca)
         # Options flags
         self.freeze_mode = False

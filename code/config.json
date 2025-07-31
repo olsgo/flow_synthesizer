@@ -1,0 +1,40 @@
+{
+  "synthesizer": {
+    "default_type": "diva",
+    "plugin_paths": {
+      "diva": {
+        "mac": "/Library/Audio/Plug-Ins/VST/u-he/Diva.vst",
+        "linux": "synth/diva.64.so",
+        "windows": "synth/diva.dll"
+      },
+      "massive_x": {
+        "mac": "/Library/Audio/Plug-Ins/VST/Native Instruments/Massive X.vst",
+        "linux": "synth/massive_x.64.so", 
+        "windows": "synth/massive_x.dll"
+      }
+    },
+    "parameter_sets": {
+      "diva": {
+        "default": "synth/param_default_32.json",
+        "toy": "synth/param_nomod.json"
+      },
+      "massive_x": {
+        "default": "synth/massive_x_default.json",
+        "toy": "synth/massive_x_default.json"
+      }
+    }
+  },
+  "audio": {
+    "sample_rate": 44100,
+    "buffer_size": 512
+  },
+  "osc": {
+    "default_in_port": 1232,
+    "default_out_port": 1233,
+    "default_ip": "127.0.0.1"
+  },
+  "model": {
+    "default_path": "results/",
+    "default_name": "vae_mel_mse_32_cnn_mlp_1.model"
+  }
+}

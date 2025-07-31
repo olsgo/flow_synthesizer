@@ -31,7 +31,18 @@ parser.add_argument('--batch_size', type=int,   default=128,        help='')
 parser.add_argument('--nbworkers',  type=int,   default=0,          help='')
 parser.add_argument('--reanalyze',  type=int,   default=0,          help='')
 parser.add_argument('--device',     type=str,   default='cpu',      help='')
+parser.add_argument('--synth_type',  type=str,   default=None,       help='Synthesizer type (diva, massive_x)')
+parser.add_argument('--plugin_path', type=str,   default=None,       help='Path to VST/AU plugin')
+parser.add_argument('--list_synths', action='store_true',            help='List available synthesizer types and exit')
 args = parser.parse_args()
+
+# Handle listing synthesizers
+if args.list_synths:
+    from synth.synthesizer_interface import SynthesizerFactory
+    print("Available synthesizer types:")
+    for synth_type in SynthesizerFactory.get_supported_synthesizers():
+        print(f"  - {synth_type}")
+    exit(0)
 
 #%%
 """
@@ -72,17 +83,29 @@ test_loader = DataLoader(test_loader.dataset, batch_size=64, shuffle=False, num_
     
 #%% Combine sets    
 audioset = [train_loader, valid_loader, test_loader]
-# Handle DIVA parameters
-with open("synth/diva_params.txt") as f:
-    diva_midi_desc = ast.literal_eval(f.read())
-rev_idx = {diva_midi_desc[key]: key for key in diva_midi_desc}
-# Retrieve dataset parameters
-with open("synth/param_default_32.json") as f:
-    params_default = json.load(f)
+
+# Import configuration and synthesizer interface
+from config_manager import config
+from synth.synthesizer_interface import SynthesizerFactory
+
+# Determine synthesizer type
+synth_type = args.synth_type or config.get_synthesizer_type()
+print(f'[Using synthesizer: {synth_type}]')
+
+# Create synthesizer interface to get parameters
+plugin_path = args.plugin_path or config.get_plugin_path(synth_type)
+synth_interface = SynthesizerFactory.create_synthesizer(synth_type, plugin_path)
+
+# Load parameter mapping and defaults
+param_mapping = synth_interface.load_parameter_mapping()
+rev_idx = synth_interface.create_reverse_mapping(param_mapping)
+params_default = synth_interface.load_default_parameters(args.dataset)
+
 param_dict = params_default
 param_names = test_loader.dataset.final_params
 print('[Reference set on which model was trained]')
 print(param_names)
+print(f'[Parameter mapping loaded for {synth_type}: {len(param_mapping)} parameters]')
 
 #%%
 """
@@ -131,7 +154,7 @@ else:
 Create server
 ###################
 """
-server = FlowServer(args.in_port, args.out_port, model=model, dataset=audioset, data=args.data, param_names=param_names, param_dict=param_dict, analysis=model_analysis, debug=__DEBUG__, args=args)
+server = FlowServer(args.in_port, args.out_port, model=model, dataset=audioset, data=args.data, param_names=param_names, param_dict=param_dict, analysis=model_analysis, debug=__DEBUG__, args=args, synth_type=synth_type)
 #%%
 if (__DEBUG__):
     # Test pitch analysis

@@ -15,7 +15,7 @@ In order to try out the _Flow synthesizer_ plugin, you must
 ```
 2. Install the latest (bleeding-edge) version of both the [Bach and Dada library](https://www.bachproject.net/dl/) for MaxMsp
 3. Install the [Mubu library](https://forum.ircam.fr/projects/detail/mubu/) for MaxMsp
-4. Have an updated version of `Python 3.7`
+4. Have an updated version of `Python 3.7` or newer (tested up to `Python 3.12`)
 5. Install the Python dependencies by running the following line at the root of this folder
 ```bash
 $ pip install -r requirements.txt
@@ -57,13 +57,13 @@ The dataset can be downloaded here: [https://nubo.ircam.fr/index.php/s/nL3NQomqx
 
 #### Python
 
-Code has been developed with `Python 3.7`. It should work with other versions of `Python 3`, but has not been tested. Moreover, we rely on several third-party libraries, listed in [`requirements.txt`](requirements.txt). They can be installed with
+Code has been developed with `Python 3.7` and is compatible with newer versions up to `Python 3.12`. It has been tested on both Intel and Apple Silicon Macs. Moreover, we rely on several third-party libraries, listed in [`requirements.txt`](requirements.txt). They can be installed with
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-As our experiments are coded in PyTorch, no additional library is required to run them on GPU (provided you already have CUDA installed).
+As our experiments are coded in PyTorch, no additional library is required to run them on GPU (provided you already have CUDA installed). On Apple Silicon Macs, PyTorch will automatically utilize optimized Metal Performance Shaders (MPS) when available for improved performance.
 
 
 #### RenderMan

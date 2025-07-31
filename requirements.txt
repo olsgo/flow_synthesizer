@@ -1,3 +1,6 @@
+# Flow Synthesizer Python Dependencies
+# Compatible with Apple Silicon (M1/M2/M3) and Intel Macs
+
 asyncio
 librosa
 matplotlib
@@ -7,3 +10,8 @@ scipy
 torch
 torchvision
 scikit_learn
+
+# Note for Apple Silicon users:
+# - All dependencies have native Apple Silicon support
+# - PyTorch will automatically use optimized implementations
+# - For best performance on Apple Silicon, consider using MPS backend when available

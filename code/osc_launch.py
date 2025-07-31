@@ -42,7 +42,7 @@ Load model
 model = None
 args.model = args.model_path + args.dataset + '/' + args.model_name
 if args.model:
-    model = torch.load(args.model, map_location="cpu")
+    model = torch.load(args.model, map_location="cpu", weights_only=False)
     model = model.eval()
 
 """
@@ -56,7 +56,7 @@ if (args.train_type == 'random'):
 else:
     ref_split = args.path + '/reference_split_' + args.dataset + "_" + args.data + '.th'
     print('[About to load]')
-    data = torch.load(ref_split)
+    data = torch.load(ref_split, weights_only=False)
     train_loader, valid_loader, test_loader = data[0], data[1], data[2]
     print('[Changing refs in reference]')
     home = expanduser("~")

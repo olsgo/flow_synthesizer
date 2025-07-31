@@ -21,7 +21,6 @@ In order to try out the _Flow synthesizer_ plugin, you must
 $ pip install -r requirements.txt
 ```
 6. Put the `plugin/flow_synth.amxd` device inside a MIDI track in `Ableton Live`
-7. Optionally, if you happen to have a [LeapMotion sensor](https://www.leapmotion.com/), you can install the Leap framework to enjoy it with the synth.
 7. ???
 7. Profit
 
@@ -30,7 +29,7 @@ NB: If the device seems non-responding, you can try to run the server manually
 $ cd code && python osc_launch.py
 ```
 
-Note that the plugin has only been tested on MacOS X High Sierra (10.13.6)
+Note that the plugin has been tested on macOS High Sierra (10.13.6) and is fully compatible with Apple Silicon Macs (M1/M2/M3 series).
 
 ## Supporting webpage
 

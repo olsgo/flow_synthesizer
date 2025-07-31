@@ -91,27 +91,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-81",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1047.5, 226.932373, 126.0, 22.0 ],
-					"style" : "",
-					"text" : "r leap_right_message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-80",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"patching_rect" : [ 909.0, 226.932373, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "r leap_left_message"
+					"text" : "leap disabled"
 				}
 
 			}
@@ -1514,28 +1500,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-52",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "acids.leap.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 370.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 417.0, 576.0, 456.0, 399.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.5, -4.5, 432.5, 371.921814 ],
-					"viewvisibility" : 1
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2222,20 +2186,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "acids.leap.maxpat",
-				"bootpath" : "~/Coding/git/acids/flow_synthesizer/plugin",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "acids.leap.hand.maxpat",
-				"bootpath" : "~/Coding/git/acids/flow_synthesizer/plugin",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "acids.button.maxpat",
 				"bootpath" : "~/Coding/git/acids/flow_synthesizer/plugin",
 				"patcherrelativepath" : ".",
@@ -2262,10 +2212,6 @@
 				"patcherrelativepath" : "../../../../acids/demos/acids-live/orchids/graphics/icons_white_50",
 				"type" : "PNG ",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "leapmotion.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "xydisplay.mxo",

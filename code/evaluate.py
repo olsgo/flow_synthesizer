@@ -765,7 +765,7 @@ def check_model(base_model, model_name, fixed_data, test_loader, args):
     # Check if a non k-fold run model exists
     if (os.path.isfile(base_model + d + '.model') and args.eval_type == 'full'):
         # Load current model
-        model = torch.load(base_model + d + '.model')
+        model = torch.load(base_model + d + '.model', weights_only=False)
         # Perform full evalution
         evaluate_model(model, fixed_data, test_loader, args, name=fig_names)
     # Check parameters results are found

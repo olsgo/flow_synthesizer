@@ -31,6 +31,28 @@ $ cd code && python osc_launch.py
 
 Note that the plugin has been tested on macOS High Sierra (10.13.6) and is fully compatible with Apple Silicon Macs (M1/M2/M3 series).
 
+## Multi-Synthesizer Support
+
+**NEW:** The Flow Synthesizer now supports multiple synthesizers:
+
+- **Diva VST** (u-he) - Original synthesizer with 281 parameters  
+- **Massive X** (Native Instruments) - Wavetable synthesizer with 128 core parameters
+
+### Usage
+
+```bash
+# List available synthesizers
+$ cd code && python osc_launch.py --list_synths
+
+# Use Diva (default)
+$ cd code && python osc_launch.py --synth_type diva
+
+# Use Massive X 
+$ cd code && python osc_launch.py --synth_type massive_x
+```
+
+For detailed configuration and setup instructions, see [MASSIVE_X_SUPPORT.md](MASSIVE_X_SUPPORT.md).
+
 ## Supporting webpage
 
 For a better viewing experience, please **visit the corresponding [supporting website](https://acids-ircam.github.io/flow_synthesizer/ "Flow synthesizer")**.

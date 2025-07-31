@@ -1,6 +1,12 @@
 #%%
 import argparse
-import librenderman as rm
+try:
+    import librenderman as rm
+    LIBRENDERMAN_AVAILABLE = True
+except ImportError:
+    LIBRENDERMAN_AVAILABLE = False
+    print("Warning: librenderman not available. Synthesizer engine initialization will be disabled.")
+
 import numpy as np
 import json, ast
 import librosa
@@ -16,6 +22,9 @@ def resample(y, orig_sr, target_sr):
     return np.ascontiguousarray(y_hat, dtype=y.dtype)
 
 def play_patch(engine, patch_gen, patch=None):
+    if not LIBRENDERMAN_AVAILABLE:
+        print("Warning: Cannot play patch - librenderman not available")
+        return np.array([]), patch
     if patch is None:
         patch = patch_gen.get_random_patch()
     engine.set_patch(patch)
@@ -36,20 +45,17 @@ def midiname2num(patch, rev_diva_midi_desc):
     """
     return [(rev_diva_midi_desc[k], float(v)) for k,v in patch.items()]
 
-def create_synth(dataset, path='synth/diva.64.so'):
-    with open("synth/diva_params.txt") as f:
-        diva_midi_desc = ast.literal_eval(f.read())
-    rev_idx = {diva_midi_desc[key]: key for key in diva_midi_desc}
-    if dataset == "toy":
-        with open("synth/param_nomod.json") as f:
-            param_defaults = json.load(f)
-    else:
-        with open("synth/param_default_32.json") as f:
-            param_defaults = json.load(f)
-    engine = rm.RenderEngine(44100, 512, 512)
-    engine.load_plugin(path)
-    generator = rm.PatchGenerator(engine)
-    return engine, generator, param_defaults, rev_idx
+def create_synth(dataset, path='synth/diva.64.so', synth_type='diva'):
+    """
+    Create synthesizer engine - supports both Diva and Massive X
+    
+    Args:
+        dataset: Dataset type ('toy', 'default', etc.)
+        path: Path to VST/AU plugin
+        synth_type: Type of synthesizer ('diva' or 'massive_x')
+    """
+    from .synthesizer_interface import create_synth as create_synth_interface
+    return create_synth_interface(synth_type, path, dataset)
 
 def synthesize_audio(params, engine, generator, params_default):
     # Replace param_defaults with whatever preset to play
@@ -58,6 +64,10 @@ def synthesize_audio(params, engine, generator, params_default):
     return audio
 
 def synthesize_batch(batch, param_names, engine, generator, params_default, rev_idx, n_outs=2, orig_wave=None, name=None):
+    if not LIBRENDERMAN_AVAILABLE:
+        print("Warning: Cannot synthesize batch - librenderman not available")
+        return [np.array([])] * batch.shape[0]
+    
     final_audio = [None] * batch.shape[0]
     # Ensure that we reset the synth
     engine.load_preset("synth/osc_reset.fxb")

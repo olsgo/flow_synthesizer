@@ -1,11 +1,27 @@
 #%%
 import argparse
-import librenderman as rm
+import os
+import sys
+
+# Setup macOS library paths before importing librenderman
+if sys.platform == 'darwin':
+    try:
+        from macos_compat import setup_macos_library_paths
+        setup_macos_library_paths()
+    except ImportError:
+        # Fallback for when macos_compat is not in path
+        pass
+
+try:
+    import librenderman as rm
+except ImportError:
+    print("Warning: librenderman not available - some functionality will be limited")
+    rm = None
+
 import numpy as np
 import json, ast
 import librosa
 import scipy
-import os
 from plugin_config import PluginConfig
 from render_engine_wrapper import create_render_engine, create_patch_generator
 

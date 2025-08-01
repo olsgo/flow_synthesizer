@@ -14,8 +14,11 @@ from typing import Dict, List, Tuple, Optional
 sys.path.append('code')
 sys.path.append('code/synth')
 
-# Set up library path for macOS
-os.environ['DYLD_LIBRARY_PATH'] = '/usr/local/lib:' + os.environ.get('DYLD_LIBRARY_PATH', '')
+# Setup macOS library paths before importing librenderman
+if sys.platform == 'darwin':
+    sys.path.append('code/synth')
+    from macos_compat import setup_macos_library_paths
+    setup_macos_library_paths()
 
 try:
     import librenderman as rm
@@ -57,7 +60,7 @@ class RendermanFlowsynthTester:
         print("RENDERMAN FLOWSYNTH INTEGRATION TEST SUITE")
         print("=" * 60)
         print(f"Testing with plugin: {self.plugin_path}")
-        print(f"Librenderman library: /usr/local/lib/librenderman.so.dylib")
+        print(f"Librenderman library paths: {os.environ.get('DYLD_LIBRARY_PATH', 'Not set')}")
         print()
         
         tests = [

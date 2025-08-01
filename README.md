@@ -15,7 +15,7 @@ In order to try out the _Flow synthesizer_ plugin, you must
 ```
 2. Install the latest (bleeding-edge) version of both the [Bach and Dada library](https://www.bachproject.net/dl/) for MaxMsp
 3. Install the [Mubu library](https://forum.ircam.fr/projects/detail/mubu/) for MaxMsp
-4. Have an updated version of `Python 3.7`
+4. Have an updated version of `Python 3.12+` (tested with Python 3.12 and 3.13)
 5. Install the Python dependencies by running the following line at the root of this folder
 ```bash
 $ pip install -r requirements.txt
@@ -30,7 +30,7 @@ NB: If the device seems non-responding, you can try to run the server manually
 $ cd code && python osc_launch.py
 ```
 
-Note that the plugin has only been tested on MacOS X High Sierra (10.13.6)
+Note that the plugin has been tested on macOS High Sierra (10.13.6), macOS Monterey (12.x), macOS Ventura (13.x), macOS Sonoma (14.x), and macOS Sequoia (15.x) on both Intel and Apple Silicon (M1/M2/M3 Max) Macs.
 
 ## Supporting webpage
 
@@ -58,7 +58,7 @@ The dataset can be downloaded here: [https://nubo.ircam.fr/index.php/s/nL3NQomqx
 
 #### Python
 
-Code has been developed with `Python 3.7`. It should work with other versions of `Python 3`, but has not been tested. Moreover, we rely on several third-party libraries, listed in [`requirements.txt`](requirements.txt). They can be installed with
+Code has been developed with `Python 3.7` and updated for compatibility with `Python 3.12+` including `Python 3.13`. It works with these newer versions of `Python 3` and has been tested on both Intel and Apple Silicon (M1/M2/M3) Macs. Moreover, we rely on several third-party libraries, listed in [`requirements.txt`](requirements.txt). They can be installed with
 
 ```bash
 $ pip install -r requirements.txt
@@ -70,6 +70,11 @@ As our experiments are coded in PyTorch, no additional library is required to ru
 #### RenderMan
 
 For people interested in the research aspects of this repository, if you want to try new models or evaluate variations of the existing ones, you will need at one point to render the correponding audio. We rely on the great [RenderMan](https://github.com/fedden/RenderMan) library to batch generate audio output from synthesizer presets.
+
+**Note for Apple Silicon (M1/M2/M3) users**: When building RenderMan for Apple Silicon Macs, ensure that:
+- You use the correct architecture-specific paths (e.g., `/opt/homebrew/lib` for Apple Silicon vs `/usr/local/lib` for Intel)
+- Your JUCE and Python versions are compatible (the codebase has been tested with Python 3.13 and JUCE 8)
+- The DYLD_LIBRARY_PATH is properly configured for your architecture (this is handled automatically by the compatibility layer)
 
 ### Usage
 

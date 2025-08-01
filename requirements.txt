@@ -1,9 +1,8 @@
-asyncio
 librosa
 matplotlib
-numpy
+numpy>=1.24.0
 python-osc
 scipy
-torch
+torch>=2.0.0
 torchvision
 scikit_learn

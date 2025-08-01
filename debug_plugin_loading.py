@@ -15,8 +15,11 @@ except Exception as e:
 try:
     # DDRenderer method (hoping this works)
     renderer = DDRenderer(44100, 512)
-    renderer.load_plugin("/Library/Audio/Plug-Ins/Components/uaudio_polymax.component")
-    print("DDRenderer method works for Polymax!")
+    success = renderer.load_plugin("/Library/Audio/Plug-Ins/Components/uaudio_polymax.component")
+    if success:
+        print("DDRenderer method works for Polymax!")
+    else:
+        print("DDRenderer method failed for Polymax: Plugin did not load successfully")
 except Exception as e:
     print(f"DDRenderer method failed for Polymax: {e}")
 
@@ -24,7 +27,10 @@ print("\nTesting Polymax VST3:")
 try:
     # DDRenderer method with VST3
     renderer2 = DDRenderer(44100, 512)
-    renderer2.load_plugin("/Library/Audio/Plug-Ins/VST3/uaudio_polymax.vst3")
-    print("DDRenderer method works for Polymax VST3!")
+    success = renderer2.load_plugin("/Library/Audio/Plug-Ins/VST3/uaudio_polymax.vst3")
+    if success:
+        print("DDRenderer method works for Polymax VST3!")
+    else:
+        print("DDRenderer method failed for Polymax VST3: Plugin did not load successfully")
 except Exception as e:
     print(f"DDRenderer method failed for Polymax VST3: {e}")

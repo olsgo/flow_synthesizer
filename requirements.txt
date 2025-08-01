@@ -6,6 +6,7 @@ librosa
 matplotlib
 numpy
 python-osc
+pyyaml
 scipy
 torch
 torchvision

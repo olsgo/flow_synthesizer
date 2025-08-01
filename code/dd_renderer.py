@@ -3,7 +3,12 @@ import json
 import os
 from pathlib import Path
 import dawdreamer as daw
-from .plugin_config import get_config
+
+# Try relative import first, fall back to absolute import
+try:
+    from .plugin_config import get_config
+except ImportError:
+    from plugin_config import get_config
 
 class DDRenderer:
     def __init__(self, sample_rate=22050, block_size=512):

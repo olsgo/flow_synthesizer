@@ -5,10 +5,8 @@ Fixed comprehensive test suite for renderman integration with flowsynth training
 
 import os
 import sys
-import json
 import numpy as np
-import traceback
-from typing import Dict, List, Tuple, Optional
+from typing import Dict
 
 # Add the code directory to path
 sys.path.append('code')
@@ -24,10 +22,8 @@ except ImportError as e:
     print(f"ERROR: librenderman import failed: {e}")
     sys.exit(1)
 
-from synth.extract_plugin_params import DynamicPluginExtractor
-from synth.plugin_config import PluginConfig
-from synth.synthesize import create_synth, play_patch, synthesize_batch
 from synth.render_engine_wrapper import create_render_engine, create_patch_generator
+from synth.synthesize import play_patch
 
 class RendermanFlowsynthTester:
     def __init__(self, plugin_path: str = None):
@@ -57,7 +53,7 @@ class RendermanFlowsynthTester:
         print("RENDERMAN FLOWSYNTH INTEGRATION TEST SUITE")
         print("=" * 60)
         print(f"Testing with plugin: {self.plugin_path}")
-        print(f"Librenderman library: /usr/local/lib/librenderman.so.dylib")
+        print("Librenderman library: /usr/local/lib/librenderman.so.dylib")
         print()
         
         tests = [
@@ -259,7 +255,7 @@ class RendermanFlowsynthTester:
             
             if selected_params:
                 print(f"✓ Selected {len(selected_params)} parameters for training")
-                print(f"✓ Training data format compatible")
+                print("✓ Training data format compatible")
                 return True
             else:
                 print("✗ No parameters selected for training")

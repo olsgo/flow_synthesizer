@@ -92,7 +92,7 @@ if (args.device != 'cpu'):
     # Import synthesis
     from synth.synthesize import create_synth
     # Create synth rendering system
-    args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset)
+    args.engine, args.param_defaults, args.rev_idx = create_synth(args.dataset)
 # Load dataset
 ref_split = args.path + '/reference_split_' + args.dataset+ "_" +args.data + '.npz'
 data = np.load(ref_split)['arr_0']

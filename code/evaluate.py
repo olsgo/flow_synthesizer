@@ -311,7 +311,7 @@ def evaluate_meta_parameters(model, test_loader, args, train=False, name=None, n
                 out_batch = out_batch[:, -1, :]
             print('      - Generate audio for latent ' + str(l))
             from synth.synthesize import synthesize_batch
-            audio = synthesize_batch(out_batch.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=None, name=None)
+            audio = synthesize_batch(out_batch.cpu(), test_loader.dataset.final_params, args.engine, args.param_defaults, args.rev_idx, orig_wave=None, name=None)
             save_batch_audio(audio, args.base_audio + '_meta_parameters_z' + str(l) + '_v' + str(var_param[idx[:5]].mean().item()))
             # Now check how this parameter act on various sounds
             n_ins = ((args.semantic_dim > -1) and (l == 0)) and 32 or 4
@@ -327,7 +327,7 @@ def evaluate_meta_parameters(model, test_loader, args, train=False, name=None, n
                     tmp_data = tmp_data.view(tmp_data.shape[0], -1, args.latent_dims)
                     tmp_data = tmp_data[:, -1, :]
                 # Synthesize meta-modified test example :)                
-                audio = synthesize_batch(tmp_data.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=None, name=None)
+                audio = synthesize_batch(tmp_data.cpu(), test_loader.dataset.final_params, args.engine, args.param_defaults, args.rev_idx, orig_wave=None, name=None)
                 save_batch_audio(audio, args.base_audio + '_meta_parameters_z' + str(l) + '_b' + str(s))
         if len(x_tilde.shape) > 3:
             x_tilde = x_tilde[:,0]
@@ -399,7 +399,7 @@ def evaluate_latent_neighborhood(model, test_loader, args, train=False, name=Non
             if (args.loss in ['multi_mse']):
                 out1 = out1.view(out1.shape[0], -1, y.shape[1])
                 out1 = out1[:, -1, :]
-            audio = synthesize_batch(out1.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=None)
+            audio = synthesize_batch(out1.cpu(), test_loader.dataset.final_params, args.engine, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=None)
             save_batch_audio(audio, args.base_audio + '_neighbors_' + str(cur_batch) + '_p' + str(i))
             # Compute mel spectrograms
             full_mels = []
@@ -428,7 +428,7 @@ def evaluate_latent_neighborhood(model, test_loader, args, train=False, name=Non
             outs[e] = outs_t[0]
         # Compute mel spectrograms
         full_mels = []
-        audio = synthesize_batch(outs.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=None)
+        audio = synthesize_batch(outs.cpu(), test_loader.dataset.final_params, args.engine, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=None)
         save_batch_audio(audio, args.base_audio + '_neighbors_' + str(cur_batch) + '_interpolate')
         for b in range(outs.shape[0]):
             _, mse, sc, lm, f_mel = spectral_losses(audio[b], x[b], test_loader, args, raw=True)
@@ -563,7 +563,7 @@ def evaluate_synthesis(model, test_loader, args, train=False, name=None):
             out = out[:, -1, :]
         print('  - Generate audio outputs.')
         # Generate the test batch for comparison
-        audio = synthesize_batch(out.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=args.base_audio + '_batch_' + str(n_evals))
+        audio = synthesize_batch(out.cpu(), test_loader.dataset.final_params, args.engine, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=args.base_audio + '_batch_' + str(n_evals))
         # Compute mel spectrogram
         full_mels = []
         for b in range(x.shape[0]):
@@ -628,7 +628,7 @@ def evaluate_projection(model, test_loader, args, train=False, name=None, type_v
         if (args.synthesize == True):
             from synth.synthesize import synthesize_batch
             # Generate the test batch for comparison
-            audio = synthesize_batch(out.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=None)
+            audio = synthesize_batch(out.cpu(), test_loader.dataset.final_params, args.engine, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=None)
             # Compute mel spectrogram
             for b in range(x.shape[0]):
                 _, mse, sc, lm, f_mel = spectral_losses(audio[b], x[b], test_loader, args, raw=True)
@@ -686,7 +686,7 @@ def evaluate_projection(model, test_loader, args, train=False, name=None, type_v
             out = out.view(out.shape[0], args.n_classes + 1, -1)
             out = out[:, -1, :]
         # Generate the test batch for comparison
-        synthesize_batch(out.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=x_wave, n_outs=60, name=args.base_audio + '_' + type_val + '_best')
+        synthesize_batch(out.cpu(), test_loader.dataset.final_params, args.engine, args.param_defaults, args.rev_idx, orig_wave=x_wave, n_outs=60, name=args.base_audio + '_' + type_val + '_best')
             
             
 
@@ -838,7 +838,7 @@ if __name__ == '__main__':
         # Import synthesis
         from synth.synthesize import create_synth
         # Create synth rendering system
-        args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth()
+        args.engine, args.param_defaults, args.rev_idx = create_synth()
     #%%
     
     """

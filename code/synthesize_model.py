@@ -61,7 +61,7 @@ args.output_size = train_loader.dataset.output_size
 args.input_size = train_loader.dataset.input_size
 model = torch.load(args.model_path, map_location=args.device, weights_only=False)
 model.to(args.device)
-args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset)
+args.engine, args.param_defaults, args.rev_idx = create_synth(args.dataset)
 if not args.project:
     evaluate_synthesis(model, test_loader, args, train=False)
 else:

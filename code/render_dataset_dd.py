@@ -12,6 +12,11 @@ from dd_renderer import DDRenderer
 SR = 22050; NOTE_SEC = 3.0; RENDER_SEC = 4.0
 
 def main(plugin_path, preset_dir, out_dir):
+    # canonicalise & strip CLI paths
+    plugin_path = str(Path(plugin_path.strip()).expanduser().resolve())
+    preset_dir  = str(Path(preset_dir.strip()).expanduser().resolve())
+    out_dir     = str(Path(out_dir.strip()).expanduser())
+    print(f"[debug] plugin_path = '{plugin_path}'")  # <-- add this line
     out = Path(out_dir); out.mkdir(parents=True, exist_ok=True)
     R = DDRenderer(sample_rate=SR, block_size=512)
     R.load_plugin(plugin_path)
@@ -25,7 +30,7 @@ def main(plugin_path, preset_dir, out_dir):
     for f in sorted(Path(preset_dir).rglob("*")):
         if f.suffix.lower() == ".vstpreset":
             R.load_vst3_preset(str(f))
-        elif f.suffix.lower() in (".state", ".bin"):
+        elif f.suffix.lower() in (".state", ".bin", ".json"):
             R.load_state(str(f))
         else:
             continue

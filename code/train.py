@@ -358,7 +358,7 @@ with torch.no_grad():
         from synth.synthesize import create_synth
         print('[Synthesis evaluation]')
         # Create synth rendering system
-        args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset)
+        args.engine, args.param_defaults, args.rev_idx = create_synth(args.dataset)
     # Evaluation specific to AE models
     if (args.model not in ['mlp', 'gated_mlp', 'cnn', 'gated_cnn', 'res_cnn']):
         # Perform reconstruction evaluation

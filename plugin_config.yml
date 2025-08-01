@@ -1,0 +1,58 @@
+# Plugin Configuration for Flow Synthesizer
+#
+# This file allows you to specify custom plugin paths for your system.
+# Copy this file to ~/.flow_synthesizer/config.yml or ./plugin_config.yml
+# and modify the paths to match your system.
+
+# Plugin paths organized by plugin name
+plugins:
+  # Native Instruments plugins
+  massive_x:
+    vst3: "/Library/Audio/Plug-Ins/VST3/Massive X.vst3"
+    au: "/Library/Audio/Plug-Ins/Components/Massive X.component"
+    
+  fm8:
+    vst3: "/Library/Audio/Plug-Ins/VST3/FM8.vst3"
+    au: "/Library/Audio/Plug-Ins/Components/FM8.component"
+    
+  # U-He plugins
+  diva:
+    vst3: "/Library/Audio/Plug-Ins/VST3/Diva.vst3"
+    au: "/Library/Audio/Plug-Ins/Components/Diva.component"
+    vst: "/Library/Audio/Plug-Ins/VST/u-he/Diva.vst"
+    
+  # Universal Audio plugins
+  polymax:
+    vst3: "/Library/Audio/Plug-Ins/VST3/uaudio_polymax.vst3"
+    au: "/Library/Audio/Plug-Ins/Components/uaudio_polymax.component"
+    
+  # Xfer Records plugins
+  serum:
+    vst3: "/Library/Audio/Plug-Ins/VST3/Serum.vst3"
+    au: "/Library/Audio/Plug-Ins/Components/Serum.component"
+    
+  # LennarDigital plugins
+  sylenth1:
+    vst3: "/Library/Audio/Plug-Ins/VST3/Sylenth1.vst3"
+    au: "/Library/Audio/Plug-Ins/Components/Sylenth1.component"
+    
+# Custom plugin paths (add your own here)
+custom_plugins:
+  # Example:
+  # my_synth:
+  #   vst3: "/path/to/MySynth.vst3"
+  #   au: "/path/to/MySynth.component"
+  
+# Default preferences
+defaults:
+  # Preferred plugin format (vst3, au, vst)
+  preferred_format: "vst3"
+  
+  # Sample rate and block size for testing
+  sample_rate: 22050
+  block_size: 512
+  
+  # Audio rendering settings
+  midi_note: 60  # Middle C
+  note_duration: 3.0  # seconds
+  render_duration: 4.0  # seconds

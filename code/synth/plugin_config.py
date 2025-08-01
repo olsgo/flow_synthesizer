@@ -1,6 +1,6 @@
 import json
 import os
-from typing import Dict, List, Optional
+from typing import Dict
 
 class PluginConfig:
     def __init__(self, config_file: str = None):

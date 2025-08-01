@@ -150,7 +150,7 @@ if (args.train_type == 'random' or (not os.path.exists(ref_split))):
     fixed_data, fixed_params, fixed_meta, fixed_audio = fixed_data.to(args.device), fixed_params.to(args.device), fixed_meta, fixed_audio
     fixed_batch = (fixed_data, fixed_params, fixed_meta, fixed_audio)
 else:
-    data = torch.load(ref_split)
+    data = torch.load(ref_split, weights_only=False)
     train_loader, valid_loader, test_loader = data[0], data[1], data[2]
     fixed_data, fixed_params, fixed_meta, fixed_audio = next(iter(test_loader))
     fixed_data, fixed_params, fixed_meta, fixed_audio = fixed_data.to(args.device), fixed_params.to(args.device), fixed_meta, fixed_audio
@@ -225,7 +225,7 @@ model = model.to(args.device)
 # Two-step training loading procedure
 if (len(args.ref_model) > 0):
     print('[Loading reference ' + args.ref_model + ']')
-    ref_model = torch.load(args.ref_model)#, map_location=args.device)
+    ref_model = torch.load(args.ref_model, weights_only=False)#, map_location=args.device)
     if (args.regressor != 'mlp'):
         ref_model_ae = ref_model.ae_model.to(args.device)
         model.ae_model = None
@@ -345,7 +345,7 @@ args.plot = 'final'
 args.model_name, args.base_img, args.base_audio = model_name, base_img, base_audio
 args.base_model = args.output + '/models/' + model_name
 print('[Reload best performing model]')
-model = torch.load(args.output + '/models/' + model_name + '.model')
+model = torch.load(args.output + '/models/' + model_name + '.model', weights_only=False)
 model = model.to(args.device)
 print('[Performing final evaluation]')
 # Memory saver

@@ -1,0 +1,15 @@
+{
+  "discovery_mode": "auto",
+  "auto_select_params": true,
+  "max_params": 128,
+  "selection_strategy": "importance_ranking",
+  "param_filters": {
+    "exclude_keywords": ["bypass", "enable", "on_off"],
+    "prefer_keywords": ["frequency", "resonance", "attack", "decay", "sustain", "release", "volume", "mix", "depth", "rate", "feedback", "tune", "shape", "fm"]
+  },
+  "responsiveness_test": {
+    "enabled": true,
+    "test_range": [0.0, 1.0],
+    "min_variance_threshold": 0.01
+  }
+}

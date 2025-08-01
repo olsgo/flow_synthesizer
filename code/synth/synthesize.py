@@ -5,6 +5,9 @@ import numpy as np
 import json, ast
 import librosa
 import scipy
+import os
+from plugin_config import PluginConfig
+from render_engine_wrapper import create_render_engine, create_patch_generator
 
 def resample(y, orig_sr, target_sr):
     if orig_sr == target_sr:
@@ -36,19 +39,38 @@ def midiname2num(patch, rev_diva_midi_desc):
     """
     return [(rev_diva_midi_desc[k], float(v)) for k,v in patch.items()]
 
-def create_synth(dataset, path='synth/diva.64.so'):
-    with open("synth/diva_params.txt") as f:
-        diva_midi_desc = ast.literal_eval(f.read())
-    rev_idx = {diva_midi_desc[key]: key for key in diva_midi_desc}
-    if dataset == "toy":
-        with open("synth/param_nomod.json") as f:
+def create_synth(dataset, config_file=None, plugin_path=None):
+    """Create synthesizer with configurable plugin support"""
+    config = PluginConfig(config_file)
+    
+    # Override plugin path if provided
+    if plugin_path:
+        config.config['plugin_path'] = plugin_path
+    
+    # Load parameters
+    params_file = config.get_params_file()
+    if not os.path.exists(params_file):
+        print(f"Parameters file not found: {params_file}")
+        print("Run extract_plugin_params.py first to generate parameter mappings")
+        raise FileNotFoundError(f"Parameters file not found: {params_file}")
+    
+    with open(params_file) as f:
+        plugin_midi_desc = ast.literal_eval(f.read())
+    rev_idx = {plugin_midi_desc[key]: key for key in plugin_midi_desc}
+    
+    # Load parameter defaults
+    defaults_file = config.get_param_defaults_file(dataset)
+    if os.path.exists(defaults_file):
+        with open(defaults_file) as f:
             param_defaults = json.load(f)
     else:
-        with open("synth/param_default_32.json") as f:
-            param_defaults = json.load(f)
-    engine = rm.RenderEngine(44100, 512, 512)
-    engine.load_plugin(path)
-    generator = rm.PatchGenerator(engine)
+        print(f"Defaults file not found: {defaults_file}, using empty defaults")
+        param_defaults = {}
+    
+    # Use the wrapper functions instead of direct instantiation
+    engine = create_render_engine(44100, 512, 512)
+    engine.load_plugin(config.get_plugin_path(), 0)
+    generator = create_patch_generator(engine)
     return engine, generator, param_defaults, rev_idx
 
 def synthesize_audio(params, engine, generator, params_default):

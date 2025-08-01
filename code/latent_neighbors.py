@@ -98,6 +98,6 @@ ref_split = args.path + '/reference_split_' + args.dataset+ "_" +args.data + '.n
 data = np.load(ref_split)['arr_0']
 train_loader, valid_loader, test_loader = data[0], data[1], data[2]
 # Load model
-model = torch.load(args.ref_model)
+model = torch.load(args.ref_model, weights_only=False)
 model = model.to(args.device)
 evaluate_neighborhood(model, test_loader, args, train=False, name=args.output + '/neighbors_32')

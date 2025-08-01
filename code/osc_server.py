@@ -322,7 +322,7 @@ class FlowServer(OSCServer):
         if len(args) == 1:
             if type(args[0]) == str:
                 self.print('loading model %s...'%args[0])
-                self._model = torch.load(args[0], map_location='cpu')
+                self._model = torch.load(args[0], map_location='cpu', weights_only=False)
         elif issubclass(type(args[0]), RegressionAE):
             self._model = args[0]
         self.print('model loaded')
@@ -345,7 +345,7 @@ class FlowServer(OSCServer):
         self.analysis = np.load(analysis_file + '.npy', allow_pickle=True).item()
         self.pca = self.analysis['pca']
         self.print('Loading model.')
-        self._model = torch.load(m_path, map_location='cpu')
+        self._model = torch.load(m_path, map_location='cpu', weights_only=False)
         self.prev_z = None
         self.resend_state()
     
@@ -360,7 +360,7 @@ class FlowServer(OSCServer):
         train_loader, valid_loader, test_loader = data[0], data[1], data[2]
         self.dataset = [train_loader, valid_loader, test_loader]
         m_path = self.args.model_path + self.args.dataset + '/' + self.args.model_name
-        self._model = torch.load(m_path, map_location='cpu')
+        self._model = torch.load(m_path, map_location='cpu', weights_only=False)
         self.send_params_nb()
         self.get_state()
 

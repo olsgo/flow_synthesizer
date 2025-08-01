@@ -1,0 +1,29 @@
+{
+  "discovery_mode": true,
+  "auto_select_params": true,
+  "max_params": 16,
+  "selection_strategy": "importance_heuristic",
+  "fallback_strategy": "first_n_params",
+  "param_filters": {
+    "exclude_keywords": ["bypass", "enable", "on_off", "switch"],
+    "prefer_keywords": [
+      "macro",
+      "volume",
+      "level",
+      "cutoff",
+      "frequency",
+      "resonance",
+      "attack",
+      "decay",
+      "sustain",
+      "release",
+      "filter",
+      "osc",
+      "envelope",
+      "lfo",
+      "tune",
+      "pitch",
+      "mix"
+    ]
+  }
+}

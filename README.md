@@ -66,9 +66,20 @@ $ pip install -r requirements.txt
 As our experiments are coded in PyTorch, no additional library is required to run them on GPU (provided you already have CUDA installed). On Apple Silicon Macs, PyTorch will automatically utilize optimized Metal Performance Shaders (MPS) when available for improved performance.
 
 
-#### RenderMan
+#### Audio Rendering
 
-For people interested in the research aspects of this repository, if you want to try new models or evaluate variations of the existing ones, you will need at one point to render the correponding audio. We rely on the great [RenderMan](https://github.com/fedden/RenderMan) library to batch generate audio output from synthesizer presets.
+For people interested in the research aspects of this repository, if you want to try new models or evaluate variations of the existing ones, you will need at one point to render the corresponding audio. We now use [DawDreamer](https://github.com/DBraun/DawDreamer) for batch audio generation from synthesizer presets, which provides modern VST3 support and cross-platform compatibility.
+
+To render a dataset with VST3 synthesizers like Massive X:
+
+```bash
+python code/render_dataset_dd.py \
+  "/Library/Audio/Plug-Ins/VST3/Massive X.vst3" \
+  "/path/to/presets" \
+  "/path/to/output"
+```
+
+See [`docs/dawdreamer_migration.md`](docs/dawdreamer_migration.md) for detailed information about the migration from RenderMan to DawDreamer.
 
 ### Usage
 

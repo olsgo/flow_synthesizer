@@ -1,4 +1,10 @@
 #%%
+# NOTE: This file uses the legacy RenderMan implementation.
+# For new projects, consider using the DawDreamer implementation:
+# - dd_renderer.py: Modern VST3 support with DawDreamer
+# - render_dataset_dd.py: Batch rendering CLI script
+# See docs/dawdreamer_migration.md for details.
+
 import argparse
 import librenderman as rm
 import numpy as np

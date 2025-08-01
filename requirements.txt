@@ -10,6 +10,8 @@ scipy
 torch
 torchvision
 scikit_learn
+dawdreamer
+soundfile
 
 # Note for Apple Silicon users:
 # - All dependencies have native Apple Silicon support

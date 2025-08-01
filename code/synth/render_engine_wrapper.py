@@ -1,9 +1,29 @@
-import librenderman as rm
+import os
+import sys
+
+# Setup macOS library paths before importing librenderman
+if sys.platform == 'darwin':
+    try:
+        from macos_compat import setup_macos_library_paths
+        setup_macos_library_paths()
+    except ImportError:
+        # Fallback for when macos_compat is not in path
+        pass
+
+try:
+    import librenderman as rm
+except ImportError:
+    print("Warning: librenderman not available - some functionality will be limited")
+    rm = None
+
 import warnings
 import gc
 
 def create_render_engine(sample_rate=44100, buffer_size=512, max_buffer_size=512):
     """Create RenderEngine with enhanced memory safety"""
+    if rm is None:
+        raise ImportError("librenderman is not available")
+        
     try:
         # Force garbage collection before creating objects
         gc.collect()
@@ -31,6 +51,9 @@ def create_render_engine(sample_rate=44100, buffer_size=512, max_buffer_size=512
 
 def create_patch_generator(engine):
     """Create PatchGenerator with enhanced memory safety"""
+    if rm is None:
+        raise ImportError("librenderman is not available")
+        
     if engine is None:
         raise ValueError("Cannot create PatchGenerator with None engine")
         

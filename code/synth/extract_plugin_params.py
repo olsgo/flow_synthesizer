@@ -1,6 +1,22 @@
-import librenderman as rm
-import json
 import os
+import sys
+
+# Setup macOS library paths before importing librenderman
+if sys.platform == 'darwin':
+    try:
+        from macos_compat import setup_macos_library_paths
+        setup_macos_library_paths()
+    except ImportError:
+        # Fallback for when macos_compat is not in path
+        pass
+
+try:
+    import librenderman as rm
+except ImportError:
+    print("Warning: librenderman not available - some functionality will be limited")
+    rm = None
+
+import json
 from typing import Dict, List, Tuple, Optional
 from render_engine_wrapper import create_render_engine, create_patch_generator
 

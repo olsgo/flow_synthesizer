@@ -65,18 +65,19 @@ class PolyphonicPipeline:
     def infer_parameters(self, audio_path: str, events: List[NoteEvent]) -> List[tuple]:
         """
         Infer synth parameters from audio using Flow Synth models.
-        
-        For now, this is a stub that returns default parameters.
-        In a full implementation, this would:
-        1. Load the trained Flow Synth model
-        2. Extract spectrogram features from the audio
-        3. Run parameter inference
-        4. Return parameter vector
         """
-        print("Warning: Parameter inference not implemented, using default parameters")
-        
-        # Return empty parameter list (plugin defaults will be used)
-        return []
+        try:
+            from code.polyphonic.parameter_inference import infer_parameters_from_audio
+            
+            # Use the parameter inference module
+            parameters = infer_parameters_from_audio(audio_path, mode='global')
+            print(f"Inferred {len(parameters)} parameters from audio")
+            return parameters
+            
+        except Exception as e:
+            print(f"Error during parameter inference: {e}")
+            print("Using default parameters")
+            return []
     
     def render_polyphonic(self, events: List[NoteEvent], 
                          duration_beats: float, bpm: float = 120.0,

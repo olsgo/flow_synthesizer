@@ -146,6 +146,23 @@ def save_events_to_json(events: List[NoteEvent], output_path: str, bpm: float = 
     with open(output_path, 'w') as f:
         json.dump(events_data, f, indent=2)
 
+def load_events_from_json(json_path: str) -> List[NoteEvent]:
+    """Load note events from JSON file."""
+    try:
+        with open(json_path, 'r') as f:
+            data = json.load(f)
+        
+        events = []
+        for event_data in data['events']:
+            event = NoteEvent.from_dict(event_data)
+            events.append(event)
+        
+        return events
+    
+    except Exception as e:
+        print(f"Error loading JSON file: {e}")
+        return []
+
 def main():
     """CLI interface for polyphonic transcription."""
     parser = argparse.ArgumentParser(description='Polyphonic audio transcription')

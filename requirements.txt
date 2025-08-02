@@ -13,6 +13,11 @@ scikit_learn
 dawdreamer
 soundfile
 
+# Polyphonic transcription dependencies
+omnizart
+mido
+pretty_midi
+
 # Note for Apple Silicon users:
 # - All dependencies have native Apple Silicon support
 # - PyTorch will automatically use optimized implementations

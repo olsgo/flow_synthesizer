@@ -85,6 +85,58 @@ See [`docs/dawdreamer_migration.md`](docs/dawdreamer_migration.md) for detailed 
 
 The code is mostly divided into two scripts `train.py` and `evaluate.py`. The first script `train.py` allows to train a model from scratch as described in the paper. The second script `evaluate.py` allows to generate the figures of the papers, and also all the supporting additional materials visible on the [supporting page](https://acids-ircam.github.io/flow_synthesizer)) of this repository.
 
+### Polyphonic Material Support
+
+Flow Synth now supports polyphonic audio analysis and reconstruction through chord transcription and multi-note synthesis:
+
+#### Transcribe Polyphonic Audio
+```bash
+# Generate note events from audio using test backend
+python -m code.polyphonic.transcribe input.wav --backend test --out events.json
+
+# Specify BPM for accurate beat-based timing
+python -m code.polyphonic.transcribe input.wav --bpm 140 --out events.json
+```
+
+#### Render Polyphonic Events
+```bash
+# Single-instance polyphonic rendering (recommended)
+python -m code.polyphonic.schedule events.json \
+  --plugin "/Library/Audio/Plug-Ins/VST3/Massive X.vst3" \
+  --mode single_instance --out rendered.wav
+
+# Multi-instance rendering with voice separation
+python -m code.polyphonic.schedule events.json \
+  --plugin "/path/to/synth.vst3" \
+  --mode multi_instance --max_voices 4 --out rendered.wav
+```
+
+#### End-to-End Polyphonic Reconstruction
+```bash
+# Complete audio → transcription → parameter inference → synthesis
+python code/pipeline_poly.py input.wav \
+  --plugin "/Library/Audio/Plug-Ins/VST3/Polymax.vst3" \
+  --mode global-params --backend test --out reconstruction.wav
+
+# With specific rendering options
+python code/pipeline_poly.py input.wav \
+  --plugin "/path/to/synth.vst3" \
+  --bpm 120 --renderer multi_instance --out reconstruction.wav
+```
+
+#### Evaluate Reconstruction Quality
+```bash
+# Generate detailed evaluation report
+python -m code.polyphonic.evaluate original.wav reconstruction.wav \
+  --events events.json --output report.html
+
+# JSON output for programmatic analysis
+python -m code.polyphonic.evaluate original.wav reconstruction.wav \
+  --events events.json --format json --output metrics.json
+```
+
+See [`docs/polyphonic_design.md`](docs/polyphonic_design.md) for detailed documentation on the polyphonic features.
+
 #### train.py arguments
 ```
 

@@ -1,0 +1,27 @@
+{
+  "spectral_convergence": 0.0,
+  "log_magnitude_mse": 0.0,
+  "original_duration": 4.0,
+  "reconstructed_duration": 4.0,
+  "duration_ratio": 1.0,
+  "note_diagnostics": {
+    "note_count": 16,
+    "polyphony_histogram": {
+      "4": 35,
+      "3": 25,
+      "0": 1
+    },
+    "pitch_range": [
+      60,
+      77
+    ],
+    "duration_stats": {
+      "mean": 1.34375,
+      "std": 0.7441175562369161,
+      "min": 0.5,
+      "max": 2.0
+    },
+    "velocity_stats": {
+      "mean": 84.375,
+      "std": 5.829611908180509,
+      "min": 

@@ -1,0 +1,117 @@
+{
+  "bpm": 140.0,
+  "events": [
+    {
+      "pitch": 60,
+      "onset_beats": 0.0,
+      "duration_beats": 2.0,
+      "velocity": 80,
+      "channel": 0
+    },
+    {
+      "pitch": 64,
+      "onset_beats": 0.0,
+      "duration_beats": 2.0,
+      "velocity": 80,
+      "channel": 0
+    },
+    {
+      "pitch": 67,
+      "onset_beats": 0.0,
+      "duration_beats": 2.0,
+      "velocity": 80,
+      "channel": 0
+    },
+    {
+      "pitch": 65,
+      "onset_beats": 2.0,
+      "duration_beats": 2.0,
+      "velocity": 75,
+      "channel": 0
+    },
+    {
+      "pitch": 69,
+      "onset_beats": 2.0,
+      "duration_beats": 2.0,
+      "velocity": 75,
+      "channel": 0
+    },
+    {
+      "pitch": 72,
+      "onset_beats": 2.0,
+      "duration_beats": 2.0,
+      "velocity": 75,
+      "channel": 0
+    },
+    {
+      "pitch": 67,
+      "onset_beats": 4.0,
+      "duration_beats": 2.0,
+      "velocity": 85,
+      "channel": 0
+    },
+    {
+      "pitch": 71,
+      "onset_beats": 4.0,
+      "duration_beats": 2.0,
+      "velocity": 85,
+      "channel": 0
+    },
+    {
+      "pitch": 74,
+      "onset_beats": 4.0,
+      "duration_beats": 2.0,
+      "velocity": 85,
+      "channel": 0
+    },
+    {
+      "pitch": 72,
+      "onset_beats": 0.0,
+      "duration_beats": 0.5,
+      "velocity": 90,
+      "channel": 0
+    },
+    {
+      "pitch": 74,
+      "onset_beats": 0.5,
+      "duration_beats": 0.5,
+      "velocity": 90,
+      "channel": 0
+    },
+    {
+      "pitch": 76,
+      "onset_beats": 1.0,
+      "duration_beats": 0.5,
+      "velocity": 90,
+      "channel": 0
+    },
+    {
+      "pitch": 77,
+      "onset_beats": 1.5,
+      "duration_beats": 0.5,
+      "velocity": 90,
+      "channel": 0
+    },
+    {
+      "pitch": 76,
+      "onset_beats": 2.0,
+      "duration_beats": 0.5,
+      "velocity": 90,
+      "channel": 0
+    },
+    {
+      "pitch": 74,
+      "onset_beats": 2.5,
+      "duration_beats": 0.5,
+      "velocity": 90,
+      "channel": 0
+    },
+    {
+      "pitch": 72,
+      "onset_beats": 3.0,
+      "duration_beats": 0.5,
+      "velocity": 90,
+      "channel": 0
+    }
+  ]
+}

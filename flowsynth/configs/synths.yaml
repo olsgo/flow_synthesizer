@@ -1,0 +1,76 @@
+# Flow Synthesizer Plugin Configuration
+# Maps plugin names to their file paths and available presets
+
+plugins:
+  # U-he Diva (VST and VST3)
+  diva:
+    path: "/Library/Audio/Plug-Ins/VST/u-he/Diva.vst"
+    type: "VST"
+    description: "U-he Diva analog modeling synthesizer"
+    
+  diva_vst3:
+    path: "/Library/Audio/Plug-Ins/VST3/Diva.vst3"
+    type: "VST3"
+    description: "U-he Diva analog modeling synthesizer (VST3)"
+    
+  # Native Instruments
+  massive_x:
+    path: "/Library/Audio/Plug-Ins/VST3/Massive X.vst3"
+    type: "VST3"
+    description: "Native Instruments Massive X wavetable synthesizer"
+    
+  fm8:
+    path: "/Library/Audio/Plug-Ins/Components/FM8.component"
+    type: "AudioUnit"
+    description: "Native Instruments FM8 FM synthesizer"
+    
+  # PolyMAX
+  polymax:
+    path: "/Library/Audio/Plug-Ins/VST3/PolyMAX.vst3"
+    type: "VST3"
+    description: "PolyMAX synthesizer"
+
+# Default presets for each plugin
+presets:
+  diva:
+    init: "/Library/Application Support/u-he/Diva/Presets/Diva/Templates/Init.h2p"
+    brass: "/Library/Application Support/u-he/Diva/Presets/Diva/Brass/Vintage Brass.h2p"
+    pad: "/Library/Application Support/u-he/Diva/Presets/Diva/Pad/Warm Strings.h2p"
+    
+  massive_x:
+    init: "/Users/Shared/NI Resources/Massive X/Presets/Factory/Init.nmsv"
+    
+  fm8:
+    init: "/Library/Application Support/Native Instruments/FM8/Presets/Init.nfm8"
+
+# Rendering defaults
+defaults:
+  sample_rate: 22050
+  block_size: 512
+  bpm: 120
+  max_channels: 8
+  
+# Pitch bend settings
+pitch_bend:
+  default_range: 2  # semitones
+  modes:
+    - "none"      # Strip all pitch bends
+    - "global"    # Keep bends but warn about cross-talk
+    - "per_voice" # Separate voices into channels
+    
+# MIDI processing defaults
+midi_processing:
+  quantize_time: 0.010        # 10ms quantization
+  min_note_duration: 0.050    # 50ms minimum note length
+  merge_gap_threshold: 0.030  # 30ms gap merging
+  velocity_smoothing: 0.1     # velocity smoothing factor
+  
+# Basic Pitch transcription defaults
+transcription:
+  min_freq: 80.0              # Hz (roughly E2)
+  max_freq: 2000.0            # Hz (roughly B6)
+  onset_threshold: 0.5
+  frame_threshold: 0.3
+  minimum_note_length: 0.127  # seconds
+  multiple_pitch_bends: false
+  melodia_trick: true

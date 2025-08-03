@@ -12,6 +12,7 @@ torchvision
 scikit_learn
 dawdreamer
 soundfile
+pedalboard>=0.9.0
 
 # Note for Apple Silicon users:
 # - All dependencies have native Apple Silicon support

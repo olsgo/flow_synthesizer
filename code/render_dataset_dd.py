@@ -16,7 +16,7 @@ def main(plugin_path, preset_dir, out_dir):
     plugin_path = str(Path(plugin_path.strip()).expanduser().resolve())
     preset_dir  = str(Path(preset_dir.strip()).expanduser().resolve())
     out_dir     = str(Path(out_dir.strip()).expanduser())
-    print(f"[debug] plugin_path = '{plugin_path}'")  # <-- add this line
+    print(f"[debug] plugin_path = '{plugin_path}'")
     out = Path(out_dir); out.mkdir(parents=True, exist_ok=True)
     R = DDRenderer(sample_rate=SR, block_size=512)
     R.load_plugin(plugin_path)
@@ -29,10 +29,16 @@ def main(plugin_path, preset_dir, out_dir):
     rows = []
     for f in sorted(Path(preset_dir).rglob("*")):
         if f.suffix.lower() == ".vstpreset":
-            R.load_vst3_preset(str(f))
-        elif f.suffix.lower() in (".state", ".bin", ".json"):
-            R.load_state(str(f))
+            ok = R.load_vst3_preset(str(f))
+        elif f.suffix.lower() == ".fxp":
+            ok = R.load_preset(str(f))  # Use the DDRenderer wrapper instead
+        elif f.suffix.lower() in (".state", ".bin"):
+            ok = R.load_state(str(f))
         else:
+            continue
+        
+        if not ok:
+            print(f"[warn] failed to load {f}")
             continue
 
         audio = R.render_patch(midi_note=60, note_len_sec=NOTE_SEC, render_len_sec=RENDER_SEC)

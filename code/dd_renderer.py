@@ -46,6 +46,11 @@ class DDRenderer:
         return self.engine.get_audio()  # (channels, samples)
 
     # optional helpers for presets/state
+    def load_preset(self, preset_path: str):
+        if self.inst is None:
+            raise RuntimeError("No plugin loaded. Call load_plugin() first.")
+        return self.inst.load_preset(preset_path)
+
     def load_vst3_preset(self, preset_path: str):
         if self.inst is None:
             raise RuntimeError("No plugin loaded. Call load_plugin() first.")

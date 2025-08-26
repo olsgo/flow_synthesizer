@@ -1,0 +1,2951 @@
+{
+  "metadata": {
+    "fileType": "SerumPreset",
+    "hash": "a8cbf7ecbe9f76068bb8bb3b69ff0a33",
+    "presetAuthor": "Electric Himalaya",
+    "presetDescription": "Aggresive hybrid Pop brass",
+    "presetName": "BR - Brass Hype",
+    "product": "Serum2",
+    "productVersion": "2.0.11",
+    "tags": [
+      "Wavetable",
+      "Multisample",
+      "Poly",
+      "Preview"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 4.0
+  },
+  "data": {
+    "Arp0": {
+      "plainParams": {
+        "kParamKeyZoneMax": 126.0
+      }
+    },
+    "ArpClip0": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ClipPlayer": {
+      "kUIParamPreviewClip": 0.08333333333333333,
+      "kUIParamSelectedClip": 0.0
+    },
+    "ClipPlayer0": {
+      "plainParams": "default"
+    },
+    "Env0": {
+      "plainParams": {
+        "kParamAttack": 0.019749022709728385,
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 60.194557905197144,
+        "kParamDecay": 1.429426009418841,
+        "kParamRelease": 0.39063430884318046,
+        "kParamSustain": 0.5584675669670105
+      }
+    },
+    "Env1": {
+      "plainParams": {
+        "kParamAttack": 0.09174071231479852,
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001,
+        "kParamDecay": 0.676247939310189,
+        "kParamRelease": 0.19205422657905957,
+        "kParamSustain": 0.4124067723751068
+      }
+    },
+    "Env2": {
+      "plainParams": {
+        "kParamAttack": 0.11447129606524563,
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001,
+        "kParamDecay": 0.9161700193102583,
+        "kParamRelease": 0.09959037172901077,
+        "kParamSustain": 0.4202801585197449
+      }
+    },
+    "Env3": {
+      "plainParams": {
+        "kParamAttack": 0.002099495383411109,
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001,
+        "kParamDecay": 0.3415411006678381,
+        "kParamRelease": 0.08091924082810674,
+        "kParamSustain": 0.0
+      }
+    },
+    "FXRack0": {
+      "FX": [
+        {
+          "FXEQ": {
+            "plainParams": {
+              "kParamFreq1": 1222.447852620025,
+              "kParamFreq2": 3546.137527398361,
+              "kParamGain1": -4.777981281280518,
+              "kParamGain2": 5.092803955078125,
+              "kParamReso1": 51.10461115837097,
+              "kParamType1": 1.0
+            }
+          },
+          "type": 7
+        },
+        {
+          "FXEQ": {
+            "plainParams": {
+              "kParamFreq1": 173.3761855454189,
+              "kParamFreq2": 3354.5378823502638,
+              "kParamGain1": 3.758199691772461,
+              "kParamGain2": -0.5692591667175293,
+              "kParamReso1": 48.49381148815155,
+              "kParamReso2": 51.986658573150635,
+              "kParamType1": 1.0,
+              "kParamType2": 1.0
+            }
+          },
+          "type": 7
+        },
+        {
+          "FXHyperD": {
+            "lfo": [
+              [
+                0.7755441069602966,
+                0.5549497008323669,
+                0.27738893032073975,
+                0.7724153399467468,
+                0.4081590175628662,
+                0.08164992928504944,
+                0.32304492592811584,
+                0.5990612506866455
+              ],
+              [
+                0.8282003402709961,
+                0.8002829551696777,
+                0.1372309923171997,
+                0.8186681866645813,
+                0.5762820243835449,
+                0.8012346029281616,
+                0.6506404876708984,
+                0.050961706787347794
+              ]
+            ],
+            "plainParams": {
+              "kParamDetune": 39.52833414077759,
+              "kParamRate": 65.81118702888489,
+              "kParamUnison": 5.0000001192092896,
+              "kParamWet": 0.0
+            }
+          },
+          "kUIParamMixOrGainDimE": 0.0,
+          "kUIParamMixOrGainHyper": 0.0,
+          "type": 9
+        },
+        {
+          "FXFilter": {
+            "plainParams": {
+              "kParamDrive": 24.855636060237885,
+              "kParamFreq": 0.5957671403884888,
+              "kParamReso": 42.88247227668762,
+              "kParamType": "CombP",
+              "kParamWet": 0.0
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 8
+        },
+        {
+          "FXReverb": {
+            "plainParams": {
+              "kParamDelay": 4.381510221387385,
+              "kParamFeedback": 25.132188200950623,
+              "kParamFreq": 42.47634708881378,
+              "kParamFreqB": 42.6140159368515,
+              "kParamFreqC": 47.41591811180115,
+              "kParamMode": 32.968154549598694,
+              "kParamPreDelay": 0.027711827390356613,
+              "kParamPreDelayBeatSync": 1.0,
+              "kParamSize": 33.46914052963257,
+              "kParamType": "kVintage",
+              "kParamVintageScale": 43.96688640117645,
+              "kParamVintageScaleB": 59.893208742141724,
+              "kParamWet": 0.0,
+              "kParamWidth": 19.671419262886047
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 6
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack1": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack2": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "Filter": {
+      "kUIParamMixOrGain": 0.0
+    },
+    "Global0": {
+      "plainParams": {
+        "kParamMasterVolume": 0.15742756843337702,
+        "kParamProgram": 6.0
+      }
+    },
+    "GranularOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      }
+    ],
+    "LFO0": {
+      "curveData": {
+        "curveVals": [
+          0.735032135443854,
+          0.5751211806167592,
+          0.5
+        ],
+        "numPoints": 2,
+        "xVals": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "yVals": [
+          1.0,
+          0.0,
+          1.0
+        ]
+      },
+      "curveDisplayName": "Custom",
+      "pathData": {},
+      "plainParams": {
+        "kParamBeatSync": 0.0,
+        "kParamRate": 58.70083184399595
+      }
+    },
+    "LFO1": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO2": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO3": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO4": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO5": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO6": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO7": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO8": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO9": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFOPointModBus0": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus1": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus10": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus11": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus12": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus13": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus14": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus15": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus2": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus3": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus4": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus5": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus6": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus7": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus8": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus9": {
+      "plainParams": "default"
+    },
+    "Macro0": {
+      "name": "SLUGGISH ATTACK",
+      "plainParams": "default"
+    },
+    "Macro1": {
+      "name": "TIGHT DECAY",
+      "plainParams": "default"
+    },
+    "Macro2": {
+      "name": "BRIGHTNESS",
+      "plainParams": "default"
+    },
+    "Macro3": {
+      "name": "SYN BRASS SOLO",
+      "plainParams": "default"
+    },
+    "Macro4": {
+      "name": "SHARP TONE",
+      "plainParams": "default"
+    },
+    "Macro5": {
+      "name": "OVERBLOWING",
+      "plainParams": "default"
+    },
+    "Macro6": {
+      "name": "BRASS TIMBRE",
+      "plainParams": "default"
+    },
+    "Macro7": {
+      "name": "TIGHT VERB",
+      "plainParams": {
+        "kParamValue": 45.74287235736847
+      }
+    },
+    "MidiClip0": {
+      "clip": {
+        "notes": [
+          {
+            "attributes": [
+              0.9133858267716535,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.6364583333333333,
+            "noteNum": 63,
+            "timeStamp": 0.036458333333333336
+          },
+          {
+            "attributes": [
+              0.6692913385826772,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.6052083333333333,
+            "noteNum": 56,
+            "timeStamp": 0.04583333333333333
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7795275590551181
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.246875,
+            "noteNum": 72,
+            "timeStamp": 0.057291666666666664
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7086614173228346
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.8666666666666667,
+            "noteNum": 67,
+            "timeStamp": 0.058333333333333334
+          },
+          {
+            "attributes": [
+              0.6771653543307087,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.28346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.1895833333333332,
+            "noteNum": 60,
+            "timeStamp": 0.659375
+          },
+          {
+            "attributes": [
+              0.8582677165354331,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7401574803149606
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.8916666666666666,
+            "noteNum": 63,
+            "timeStamp": 1.0
+          },
+          {
+            "attributes": [
+              0.7244094488188977,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6299212598425197
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.3614583333333333,
+            "noteNum": 67,
+            "timeStamp": 1.29375
+          },
+          {
+            "attributes": [
+              0.6771653543307087,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9763779527559056
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.21041666666666667,
+            "noteNum": 72,
+            "timeStamp": 1.5989583333333333
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.3854166666666667,
+            "noteNum": 71,
+            "timeStamp": 1.9749999999999999
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7559055118110236
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.36354166666666665,
+            "noteNum": 72,
+            "timeStamp": 1.984375
+          },
+          {
+            "attributes": [
+              0.7007874015748031,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9606299212598425
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.359375,
+            "noteNum": 55,
+            "timeStamp": 1.9958333333333333
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.3229166666666667,
+            "noteNum": 65,
+            "timeStamp": 2.00625
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7244094488188977
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.5760416666666667,
+            "noteNum": 72,
+            "timeStamp": 2.7802083333333334
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8503937007874016
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.584375,
+            "noteNum": 55,
+            "timeStamp": 2.790625
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6220472440944882
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.5791666666666666,
+            "noteNum": 71,
+            "timeStamp": 2.7916666666666665
+          },
+          {
+            "attributes": [
+              0.905511811023622,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.889763779527559
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.571875,
+            "noteNum": 74,
+            "timeStamp": 2.8010416666666664
+          },
+          {
+            "attributes": [
+              0.7559055118110236,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5511811023622047
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.60625,
+            "noteNum": 65,
+            "timeStamp": 2.8125
+          },
+          {
+            "attributes": [
+              0.6771653543307087,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.21875,
+            "noteNum": 60,
+            "timeStamp": 3.784375
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.3895833333333334,
+            "noteNum": 72,
+            "timeStamp": 3.7979166666666666
+          },
+          {
+            "attributes": [
+              0.6692913385826772,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5511811023622047
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.4229166666666666,
+            "noteNum": 75,
+            "timeStamp": 3.8093749999999997
+          },
+          {
+            "attributes": [
+              0.9448818897637795,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5275590551181102
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.8989583333333333,
+            "noteNum": 67,
+            "timeStamp": 3.8249999999999997
+          },
+          {
+            "attributes": [
+              0.952755905511811,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.905511811023622
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.1854166666666666,
+            "noteNum": 63,
+            "timeStamp": 4.860416666666667
+          },
+          {
+            "attributes": [
+              0.7559055118110236,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.3543307086614173
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.38229166666666664,
+            "noteNum": 67,
+            "timeStamp": 5.175
+          },
+          {
+            "attributes": [
+              0.6771653543307087,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.889763779527559
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.390625,
+            "noteNum": 72,
+            "timeStamp": 5.480208333333334
+          },
+          {
+            "attributes": [
+              0.8582677165354331,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9606299212598425
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.23645833333333333,
+            "noteNum": 75,
+            "timeStamp": 5.761458333333334
+          },
+          {
+            "attributes": [
+              0.7952755905511811,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7952755905511811
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.5166666666666666,
+            "noteNum": 75,
+            "timeStamp": 6.161458333333333
+          },
+          {
+            "attributes": [
+              0.905511811023622,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7401574803149606
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.4614583333333333,
+            "noteNum": 79,
+            "timeStamp": 6.171875
+          },
+          {
+            "attributes": [
+              0.7559055118110236,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7795275590551181
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.4864583333333333,
+            "noteNum": 72,
+            "timeStamp": 6.172916666666667
+          },
+          {
+            "attributes": [
+              0.9133858267716535,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6929133858267716
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.46249999999999997,
+            "noteNum": 58,
+            "timeStamp": 6.201041666666667
+          },
+          {
+            "attributes": [
+              0.7322834645669292,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9606299212598425
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.425,
+            "noteNum": 58,
+            "timeStamp": 6.913541666666666
+          },
+          {
+            "attributes": [
+              0.5826771653543307,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7401574803149606
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.38958333333333334,
+            "noteNum": 68,
+            "timeStamp": 6.923958333333333
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.3697916666666667,
+            "noteNum": 77,
+            "timeStamp": 6.932291666666667
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7952755905511811
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.3614583333333333,
+            "noteNum": 72,
+            "timeStamp": 6.942708333333333
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8503937007874016
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.3572916666666667,
+            "noteNum": 74,
+            "timeStamp": 6.94375
+          },
+          {
+            "attributes": [
+              0.7322834645669292,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6771653543307087
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.8729166666666666,
+            "noteNum": 56,
+            "timeStamp": 7.834375
+          },
+          {
+            "attributes": [
+              0.7952755905511811,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.889763779527559
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.14375,
+            "noteNum": 63,
+            "timeStamp": 7.844791666666667
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7401574803149606
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.8635416666666667,
+            "noteNum": 67,
+            "timeStamp": 7.845833333333333
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7401574803149606
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.2572916666666667,
+            "noteNum": 72,
+            "timeStamp": 7.855208333333334
+          },
+          {
+            "attributes": [
+              0.952755905511811,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5905511811023622
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.5989583333333334,
+            "noteNum": 68,
+            "timeStamp": 8.75
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.905511811023622
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.7677083333333333,
+            "noteNum": 67,
+            "timeStamp": 9.060416666666667
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.889763779527559
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.490625,
+            "noteNum": 72,
+            "timeStamp": 9.367708333333333
+          },
+          {
+            "attributes": [
+              0.8582677165354331,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.20208333333333334,
+            "noteNum": 75,
+            "timeStamp": 9.683333333333334
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8503937007874016
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.4708333333333333,
+            "noteNum": 71,
+            "timeStamp": 10.019791666666666
+          },
+          {
+            "attributes": [
+              0.7007874015748031,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.4041666666666667,
+            "noteNum": 55,
+            "timeStamp": 10.030208333333333
+          },
+          {
+            "attributes": [
+              0.6535433070866141,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6220472440944882
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.41770833333333335,
+            "noteNum": 65,
+            "timeStamp": 10.03125
+          },
+          {
+            "attributes": [
+              0.905511811023622,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6771653543307087
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.40208333333333335,
+            "noteNum": 74,
+            "timeStamp": 10.041666666666666
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9606299212598425
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.5614583333333333,
+            "noteNum": 55,
+            "timeStamp": 10.817708333333334
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5905511811023622
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.2739583333333333,
+            "noteNum": 71,
+            "timeStamp": 10.81875
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6771653543307087
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.43854166666666666,
+            "noteNum": 67,
+            "timeStamp": 10.828125
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8110236220472441
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.440625,
+            "noteNum": 65,
+            "timeStamp": 10.838541666666666
+          },
+          {
+            "attributes": [
+              0.7007874015748031,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.40625,
+            "noteNum": 60,
+            "timeStamp": 11.864583333333334
+          },
+          {
+            "attributes": [
+              0.7007874015748031,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9448818897637795
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.39375,
+            "noteNum": 69,
+            "timeStamp": 11.873958333333333
+          },
+          {
+            "attributes": [
+              0.7007874015748031,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.359375,
+            "noteNum": 67,
+            "timeStamp": 11.875
+          },
+          {
+            "attributes": [
+              0.7244094488188977,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8740157480314961
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.403125,
+            "noteNum": 72,
+            "timeStamp": 11.885416666666666
+          },
+          {
+            "attributes": [
+              0.8582677165354331,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.3625,
+            "noteNum": 63,
+            "timeStamp": 11.895833333333334
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8740157480314961
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.3489583333333333,
+            "noteNum": 48,
+            "timeStamp": 11.90625
+          },
+          {
+            "attributes": [
+              0.8582677165354331,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.73125,
+            "noteNum": 75,
+            "timeStamp": 13.560416666666667
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.7635416666666667,
+            "noteNum": 84,
+            "timeStamp": 13.569791666666667
+          },
+          {
+            "attributes": [
+              0.7559055118110236,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6456692913385826
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.603125,
+            "noteNum": 48,
+            "timeStamp": 13.570833333333333
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6771653543307087
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.6166666666666667,
+            "noteNum": 81,
+            "timeStamp": 13.581249999999999
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6299212598425197
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.5989583333333334,
+            "noteNum": 79,
+            "timeStamp": 13.591666666666667
+          },
+          {
+            "attributes": [
+              0.7007874015748031,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.5427083333333333,
+            "noteNum": 60,
+            "timeStamp": 13.602083333333333
+          },
+          {
+            "attributes": [
+              0.4094488188976378,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9921259842519685
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.12395833333333334,
+            "noteNum": 83,
+            "timeStamp": 14.282291666666666
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.04375,
+            "noteNum": 81,
+            "timeStamp": 14.440624999999999
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.036458333333333336,
+            "noteNum": 79,
+            "timeStamp": 14.523958333333333
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.036458333333333336,
+            "noteNum": 77,
+            "timeStamp": 14.612499999999999
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.040625,
+            "noteNum": 76,
+            "timeStamp": 14.692708333333334
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.03125,
+            "noteNum": 74,
+            "timeStamp": 14.771875
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.034375,
+            "noteNum": 72,
+            "timeStamp": 14.847916666666666
+          },
+          {
+            "attributes": [
+              0.7244094488188977,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.04583333333333333,
+            "noteNum": 71,
+            "timeStamp": 14.930208333333333
+          },
+          {
+            "attributes": [
+              0.5826771653543307,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9448818897637795
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.030208333333333334,
+            "noteNum": 69,
+            "timeStamp": 15.00625
+          }
+        ],
+        "regionEndBeats": 16.0
+      },
+      "displayLength_Beats": 16.0,
+      "gridWidth_Beats": 16.0,
+      "laneTabs": [
+        {
+          "subType": 0,
+          "type": "Attribute"
+        },
+        {
+          "subType": 7,
+          "type": "Attribute"
+        }
+      ],
+      "name": "BR Brass Hype",
+      "plainParams": "default"
+    },
+    "MidiClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ModSlot0": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "flex": [
+        {},
+        {
+          "curveVals": [
+            0.5,
+            0.5
+          ],
+          "numPoints": 1,
+          "xVals": [
+            0.0,
+            1.0
+          ],
+          "yVals": [
+            0.7591526121020417,
+            0.0
+          ]
+        }
+      ],
+      "plainParams": {
+        "kParamAmount": 69.81358528137207,
+        "kParamAuxCurveData": 1.0
+      },
+      "source": [
+        3,
+        16
+      ]
+    },
+    "ModSlot1": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 26.468849182128906
+      },
+      "source": [
+        4,
+        0
+      ]
+    },
+    "ModSlot10": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 57.0963978767395
+      },
+      "source": [
+        16,
+        0
+      ]
+    },
+    "ModSlot11": {
+      "destModuleID": 0,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamAttack",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 24.501407146453857
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot12": {
+      "destModuleID": 1,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamAttack",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 21.558725833892822
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot13": {
+      "destModuleID": 2,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamAttack",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 24.613380432128906
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot14": {
+      "destModuleID": 4,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": -31.043922901153564
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot15": {
+      "destModuleID": 0,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamDecay",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -9.772461652755737
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot16": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamSustain",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -100.0
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot17": {
+      "destModuleID": 1,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamDecay",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -16.66240096092224
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot18": {
+      "destModuleID": 2,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamDecay",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -17.680150270462036
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot19": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 19.06050443649292
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot2": {
+      "destModuleID": 0,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 16.949033737182617
+      },
+      "source": [
+        5,
+        0
+      ]
+    },
+    "ModSlot20": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": -22.0706045627594
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot21": {
+      "destModuleID": 1,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "MultiSampleOsc",
+      "plainParams": {
+        "kParamAmount": 43.12492609024048
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot22": {
+      "destModuleID": 3,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXFilter",
+      "plainParams": {
+        "kParamAmount": 27.440309524536133
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot23": {
+      "destModuleID": 1,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamGain2",
+      "destModuleTypeString": "FXEQ",
+      "plainParams": {
+        "kParamAmount": -15.253114700317383
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot24": {
+      "destModuleID": 4,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXReverb",
+      "plainParams": {
+        "kParamAmount": 61.87138557434082
+      },
+      "source": [
+        32,
+        0
+      ]
+    },
+    "ModSlot25": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": -100.0
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot26": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 17.62293577194214
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot27": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 22.346782684326172
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot28": {
+      "plainParams": "default"
+    },
+    "ModSlot29": {
+      "plainParams": "default"
+    },
+    "ModSlot3": {
+      "destModuleID": 4,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 25.09894371032715
+      },
+      "source": [
+        5,
+        0
+      ]
+    },
+    "ModSlot30": {
+      "plainParams": "default"
+    },
+    "ModSlot31": {
+      "plainParams": "default"
+    },
+    "ModSlot32": {
+      "plainParams": "default"
+    },
+    "ModSlot33": {
+      "plainParams": "default"
+    },
+    "ModSlot34": {
+      "plainParams": "default"
+    },
+    "ModSlot35": {
+      "plainParams": "default"
+    },
+    "ModSlot36": {
+      "plainParams": "default"
+    },
+    "ModSlot37": {
+      "plainParams": "default"
+    },
+    "ModSlot38": {
+      "plainParams": "default"
+    },
+    "ModSlot39": {
+      "plainParams": "default"
+    },
+    "ModSlot4": {
+      "destModuleID": 4,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamCoarsePit",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 18.75
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot40": {
+      "plainParams": "default"
+    },
+    "ModSlot41": {
+      "plainParams": "default"
+    },
+    "ModSlot42": {
+      "plainParams": "default"
+    },
+    "ModSlot43": {
+      "plainParams": "default"
+    },
+    "ModSlot44": {
+      "plainParams": "default"
+    },
+    "ModSlot45": {
+      "plainParams": "default"
+    },
+    "ModSlot46": {
+      "plainParams": "default"
+    },
+    "ModSlot47": {
+      "plainParams": "default"
+    },
+    "ModSlot48": {
+      "plainParams": "default"
+    },
+    "ModSlot49": {
+      "plainParams": "default"
+    },
+    "ModSlot5": {
+      "destModuleID": 2,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamWarp2",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot50": {
+      "plainParams": "default"
+    },
+    "ModSlot51": {
+      "plainParams": "default"
+    },
+    "ModSlot52": {
+      "plainParams": "default"
+    },
+    "ModSlot53": {
+      "plainParams": "default"
+    },
+    "ModSlot54": {
+      "plainParams": "default"
+    },
+    "ModSlot55": {
+      "plainParams": "default"
+    },
+    "ModSlot56": {
+      "plainParams": "default"
+    },
+    "ModSlot57": {
+      "plainParams": "default"
+    },
+    "ModSlot58": {
+      "plainParams": "default"
+    },
+    "ModSlot59": {
+      "plainParams": "default"
+    },
+    "ModSlot6": {
+      "destModuleID": 2,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXHyperD",
+      "plainParams": {
+        "kParamAmount": 81.0380220413208
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot60": {
+      "plainParams": "default"
+    },
+    "ModSlot61": {
+      "plainParams": "default"
+    },
+    "ModSlot62": {
+      "plainParams": "default"
+    },
+    "ModSlot63": {
+      "plainParams": "default"
+    },
+    "ModSlot7": {
+      "destModuleID": 2,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamLevelOut",
+      "destModuleTypeString": "FXHyperD",
+      "plainParams": {
+        "kParamAmount": -6.21916651725769
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot8": {
+      "destModuleID": 3,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "FXFilter",
+      "plainParams": {
+        "kParamAmount": -10.096532106399536
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot9": {
+      "destModuleID": 0,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 56.507694721221924
+      },
+      "source": [
+        16,
+        0
+      ]
+    },
+    "MultiSampleOsc": [
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      }
+    ],
+    "Osc": [
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      }
+    ],
+    "Oscillator0": {
+      "GranularOsc0": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc0": {
+        "plainParams": "default"
+      },
+      "SampleOsc0": {
+        "plainParams": "default"
+      },
+      "SpectralOsc0": {
+        "plainParams": "default"
+      },
+      "WTOsc0": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 8192,
+        "plainParams": {
+          "kParamWarp": 0.2210206687450409,
+          "kParamWarpMenu": "kFM_SUB"
+        },
+        "relativePathToWT": "S2 Tables/Analog/DM - OSCAR.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamDetune": 0.043673061427825566,
+        "kParamDetuneWid": 61.35088801383972,
+        "kParamUnison": 4.0,
+        "kParamVolume": 0.16984467492486832
+      }
+    },
+    "Oscillator1": {
+      "GranularOsc1": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc1": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> lovel=1 ampeg_attack=0.001000 ampeg_release=1.200000\n<region> hikey=44 pitch_keycenter=43 sample=Trombones Cimbasso Samples/XFtrombones cimbasso 02 G1.flac\n<region> lokey=45 hikey=46 pitch_keycenter=45 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-02 02 A1.flac\n<region> lokey=47 hikey=48 pitch_keycenter=47 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-03 02 B1.flac\n<region> lokey=49 hikey=50 pitch_keycenter=49 sample=Trombones Cimbasso Samples/XFtrombones cimbasso 02 C#2.flac\n<region> lokey=51 hikey=52 pitch_keycenter=51 sample=Trombones Cimbasso Samples/XFtrombones cimbasso 02 D#2.flac\n<region> lokey=53 hikey=54 pitch_keycenter=53 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-04 02 F2.flac\n<region> lokey=55 hikey=56 pitch_keycenter=55 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-03 02 G2.flac\n<region> lokey=57 hikey=58 pitch_keycenter=57 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-04 02 A2.flac\n<region> lokey=59 hikey=60 pitch_keycenter=59 sample=Trombones Cimbasso Samples/XFtrombones cimbasso 02 B2.flac\n<region> lokey=61 hikey=62 pitch_keycenter=61 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-03 02 C#3.flac\n<region> lokey=63 hikey=64 pitch_keycenter=63 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-04 02 D#3.flac\n<region> lokey=65 hikey=66 pitch_keycenter=65 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-04 02 F3.flac\n<region> lokey=67 hikey=68 pitch_keycenter=67 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-02 02 G3.flac\n<region> lokey=69 hikey=70 pitch_keycenter=69 sample=Trombones Cimbasso Samples/XFtrombones cimbasso-04 02 A3.flac\n<region> lokey=71 pitch_keycenter=71 sample=Trombones Cimbasso Samples/XFtrombones cimbasso 02 B3.flac\n",
+        "files": {
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso 02 B2.flac": {
+            "numChannels": 2,
+            "numFrames": 117023,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso 02 B3.flac": {
+            "numChannels": 2,
+            "numFrames": 120170,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso 02 C#2.flac": {
+            "numChannels": 2,
+            "numFrames": 105752,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso 02 D#2.flac": {
+            "numChannels": 2,
+            "numFrames": 108824,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso 02 G1.flac": {
+            "numChannels": 2,
+            "numFrames": 90714,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-02 02 A1.flac": {
+            "numChannels": 2,
+            "numFrames": 97363,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-02 02 G3.flac": {
+            "numChannels": 2,
+            "numFrames": 117247,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-03 02 B1.flac": {
+            "numChannels": 2,
+            "numFrames": 103204,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-03 02 C#3.flac": {
+            "numChannels": 2,
+            "numFrames": 112058,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-03 02 G2.flac": {
+            "numChannels": 2,
+            "numFrames": 96247,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-04 02 A2.flac": {
+            "numChannels": 2,
+            "numFrames": 111924,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-04 02 A3.flac": {
+            "numChannels": 2,
+            "numFrames": 125226,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-04 02 D#3.flac": {
+            "numChannels": 2,
+            "numFrames": 110868,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-04 02 F2.flac": {
+            "numChannels": 2,
+            "numFrames": 110821,
+            "sampleRate": 48000
+          },
+          "Trombones Cimbasso Samples\\XFtrombones cimbasso-04 02 F3.flac": {
+            "numChannels": 2,
+            "numFrames": 126066,
+            "sampleRate": 48000
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.0010000000474974472,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvRelease": 1.200000047683715,
+          "kParamWarpMenu": "kPD_SUB"
+        },
+        "sfzPathRelative": "Factory/Winds/Trombones Cimbasso LE.sfz"
+      },
+      "SampleOsc1": {
+        "plainParams": "default"
+      },
+      "SpectralOsc1": {
+        "plainParams": "default"
+      },
+      "WTOsc1": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamType": "kOsc_MultiSample",
+        "kParamVolume": 0.1631315486830056
+      }
+    },
+    "Oscillator2": {
+      "GranularOsc2": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc2": {
+        "plainParams": "default"
+      },
+      "SampleOsc2": {
+        "plainParams": "default"
+      },
+      "SpectralOsc2": {
+        "plainParams": "default"
+      },
+      "WTOsc2": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 430080,
+        "plainParams": {
+          "kParamTablePos": 153.96860456466675,
+          "kParamWarp": 0.4797120988368988,
+          "kParamWarpMenu": "kFM_SUB",
+          "kParamWarpMenu2": "kRM_SUB"
+        },
+        "relativePathToWT": "S2 Tables/Analog/Saw Phasey.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamDetune": 0.1027985605887558,
+        "kParamEnable": 1.0,
+        "kParamOctave": -1.0,
+        "kParamUnison": 3.0,
+        "kParamVolume": 0.5690281955691177
+      }
+    },
+    "Oscillator3": {
+      "NoiseOsc3": {
+        "detuneFactor": 0.4758218478413068,
+        "numChannels": 1,
+        "numFrames": 78241,
+        "plainParams": "default",
+        "relativePathToNoiseSample": "Organics/AC hum1.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": "default"
+    },
+    "Oscillator4": {
+      "SubOsc4": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamKeyZoneMax": 126.0,
+        "kParamVolume": 0.0380316574268571
+      }
+    },
+    "PitchQuantizer0": {
+      "plainParams": "default",
+      "scale": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "scaleName": "Major"
+    },
+    "RetriggerState0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot1": {
+      "plainParams": "default"
+    },
+    "RoutingSlot2": {
+      "plainParams": {
+        "kParamFilterBalance": 100.0,
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot3": {
+      "plainParams": "default"
+    },
+    "RoutingSlot4": {
+      "plainParams": "default"
+    },
+    "RoutingSlot5": {
+      "plainParams": "default"
+    },
+    "RoutingSlot6": {
+      "plainParams": "default"
+    },
+    "SerumGUI": {
+      "kUIParamShowKeyboard": 1.0
+    },
+    "SpectralOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      }
+    ],
+    "VoiceFilter0": {
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.40341296792030334,
+        "kParamType": "LadderMg"
+      }
+    },
+    "VoiceFilter1": {
+      "plainParams": {
+        "kParamDrive": 26.585805416107178,
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.41880640387535095,
+        "kParamReso": 37.05085813999176,
+        "kParamType": "LBH24",
+        "kParamVar": 22.716951370239258
+      }
+    },
+    "VoicePanel0": {
+      "plainParams": "default"
+    },
+    "WTOsc": [
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      }
+    ],
+    "arpBankDisplayName": "",
+    "clipBankDisplayName": "",
+    "fileType": "SerumPreset",
+    "lockOversampling": false,
+    "lockTuning": false,
+    "mpeConfig": 0,
+    "mpeEnabled": true,
+    "mpePitchBendRange": 48,
+    "presetAuthor": "Electric Himalaya",
+    "presetDescription": "Aggresive hybrid Pop brass",
+    "presetName": "BR - Brass Hype",
+    "product": "Serum2",
+    "productVersion": "2.0.11",
+    "scalars": {
+      "note": {},
+      "velo": {}
+    },
+    "tags": [
+      "Wavetable",
+      "Multisample",
+      "Poly",
+      "Preview"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 4.0
+  }
+}

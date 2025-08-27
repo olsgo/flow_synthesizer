@@ -1,0 +1,278 @@
+{
+  "ClipPlayer.kUIParamPreviewClip": {
+    "match": "Clip Player Rate",
+    "value": 0.08333333333333333,
+    "index": 521,
+    "type": "fuzzy"
+  },
+  "ClipPlayer.kUIParamSelectedClip": {
+    "match": "Clip Player Rate",
+    "value": 0.0,
+    "index": 521,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve1": {
+    "match": "Env 1 Atk Curve",
+    "value": 50.0,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve2": {
+    "match": "Env 1 Atk Curve",
+    "value": 58.51176381111145,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve3": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamDecay": {
+    "match": "Env 1 Decay",
+    "value": 1.2596716356910478,
+    "index": 226,
+    "type": "fuzzy"
+  },
+  "Env0.kParamRelease": {
+    "match": "Env 1 Release",
+    "value": 0.3070229237520983,
+    "index": 228,
+    "type": "fuzzy"
+  },
+  "Env0.kParamSustain": {
+    "match": "Env 1 Sustain",
+    "value": 0.9485294222831726,
+    "index": 227,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve1": {
+    "match": "Env 1 Atk Curve",
+    "value": 50.0,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve2": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve3": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env1.kParamDecay": {
+    "match": "Env 1 Decay",
+    "value": 0.4753265643917887,
+    "index": 226,
+    "type": "fuzzy"
+  },
+  "Env1.kParamRelease": {
+    "match": "Env 1 Release",
+    "value": 0.3244591206906763,
+    "index": 228,
+    "type": "fuzzy"
+  },
+  "Env1.kParamSustain": {
+    "match": "Env 1 Sustain",
+    "value": 0.7352941036224365,
+    "index": 227,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve1": {
+    "match": "Env 2 Atk Curve",
+    "value": 50.0,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve2": {
+    "match": "Env 2 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve3": {
+    "match": "Env 2 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve1": {
+    "match": "Env 3 Atk Curve",
+    "value": 50.0,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve2": {
+    "match": "Env 3 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve3": {
+    "match": "Env 3 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "Macro1.kParamValue": {
+    "match": "Macro 1",
+    "value": 14.035093784332275,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "Macro2.kParamValue": {
+    "match": "Macro 1",
+    "value": 29.385963082313538,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "Macro3.kParamValue": {
+    "match": "Macro 1",
+    "value": 22.807016968727112,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "Macro4.kParamValue": {
+    "match": "Macro 1",
+    "value": 70.17543911933899,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "Macro5.kParamValue": {
+    "match": "Macro 1",
+    "value": 47.36841917037964,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "Macro6.kParamValue": {
+    "match": "Macro 1",
+    "value": 100.0,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "Macro7.kParamValue": {
+    "match": "Macro 1",
+    "value": 71.9298243522644,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "ModSlot0.kParamAmount": {
+    "match": "Mod 10 Amount",
+    "value": 100.0,
+    "index": 330,
+    "type": "fuzzy"
+  },
+  "ModSlot1.kParamAmount": {
+    "match": "Mod 1 Amount",
+    "value": 6.140351295471191,
+    "index": 312,
+    "type": "fuzzy"
+  },
+  "ModSlot10.kParamAmount": {
+    "match": "Mod 10 Amount",
+    "value": 100.0,
+    "index": 330,
+    "type": "fuzzy"
+  },
+  "ModSlot11.kParamAmount": {
+    "match": "Mod 11 Amount",
+    "value": 100.0,
+    "index": 332,
+    "type": "fuzzy"
+  },
+  "ModSlot12.kParamAmount": {
+    "match": "Mod 12 Amount",
+    "value": 48.50877523422241,
+    "index": 334,
+    "type": "fuzzy"
+  },
+  "ModSlot2.kParamAmount": {
+    "match": "Mod 2 Amount",
+    "value": 100.0,
+    "index": 314,
+    "type": "fuzzy"
+  },
+  "ModSlot3.kParamAmount": {
+    "match": "Mod 3 Amount",
+    "value": -19.298243522644043,
+    "index": 316,
+    "type": "fuzzy"
+  },
+  "ModSlot4.kParamAmount": {
+    "match": "Mod 4 Amount",
+    "value": 54.385972023010254,
+    "index": 318,
+    "type": "fuzzy"
+  },
+  "ModSlot5.kParamAmount": {
+    "match": "Mod 5 Amount",
+    "value": 40.78947305679321,
+    "index": 320,
+    "type": "fuzzy"
+  },
+  "ModSlot6.kParamAmount": {
+    "match": "Mod 6 Amount",
+    "value": 56.14035129547119,
+    "index": 322,
+    "type": "fuzzy"
+  },
+  "ModSlot7.kParamAmount": {
+    "match": "Mod 7 Amount",
+    "value": 61.403512954711914,
+    "index": 324,
+    "type": "fuzzy"
+  },
+  "ModSlot8.kParamAmount": {
+    "match": "Mod 8 Amount",
+    "value": 48.27895164489746,
+    "index": 326,
+    "type": "fuzzy"
+  },
+  "Oscillator0.kParamDetune": {
+    "match": "Osc Detune Rnd",
+    "value": 0.0,
+    "index": 467,
+    "type": "fuzzy"
+  },
+  "Oscillator0.kParamDetuneWid": {
+    "match": "Osc Detune Rnd",
+    "value": 0.0,
+    "index": 467,
+    "type": "fuzzy"
+  },
+  "Oscillator0.kParamUnison": {
+    "match": "A Unison",
+    "value": 5.0,
+    "index": 44,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamFreq": {
+    "match": "Filter 1 Freq",
+    "value": 0.40789473056793213,
+    "index": 205,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamWet": {
+    "match": "Filter 1 Wet",
+    "value": 0.0,
+    "index": 209,
+    "type": "fuzzy"
+  },
+  "mpeEnabled": {
+    "match": "Arp Enable",
+    "value": 1.0,
+    "index": 523,
+    "type": "fuzzy"
+  },
+  "mpePitchBendRange": {
+    "match": "Pitch Bend",
+    "value": 48.0,
+    "index": 2622,
+    "type": "fuzzy"
+  }
+}

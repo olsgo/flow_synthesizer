@@ -1,0 +1,470 @@
+{
+  "ClipPlayer.kUIParamPreviewClip": {
+    "match": "Clip Player Rate",
+    "value": 0.08333333333333333,
+    "index": 521,
+    "type": "fuzzy"
+  },
+  "ClipPlayer.kUIParamSelectedClip": {
+    "match": "Clip Player Rate",
+    "value": 0.0,
+    "index": 521,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve1": {
+    "match": "Env 1 Atk Curve",
+    "value": 50.0,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve2": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve3": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamDecay": {
+    "match": "Env 1 Decay",
+    "value": 2.1313028984416,
+    "index": 226,
+    "type": "fuzzy"
+  },
+  "Env0.kParamRelease": {
+    "match": "Env 1 Release",
+    "value": 0.06372534428183196,
+    "index": 228,
+    "type": "fuzzy"
+  },
+  "Env0.kParamSustain": {
+    "match": "Env 1 Sustain",
+    "value": 0.0,
+    "index": 227,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve1": {
+    "match": "Env 1 Atk Curve",
+    "value": 50.0,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve2": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve3": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env1.kParamDecay": {
+    "match": "Env 1 Decay",
+    "value": 1.3678050412084473,
+    "index": 226,
+    "type": "fuzzy"
+  },
+  "Env1.kParamSustain": {
+    "match": "Env 1 Sustain",
+    "value": 0.0,
+    "index": 227,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve1": {
+    "match": "Env 2 Atk Curve",
+    "value": 50.0,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve2": {
+    "match": "Env 2 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve3": {
+    "match": "Env 2 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env2.kParamDecay": {
+    "match": "Env 2 Decay",
+    "value": 0.81713232972553,
+    "index": 234,
+    "type": "fuzzy"
+  },
+  "Env2.kParamSustain": {
+    "match": "Env 2 Sustain",
+    "value": 0.0,
+    "index": 235,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve1": {
+    "match": "Env 3 Atk Curve",
+    "value": 50.0,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve2": {
+    "match": "Env 3 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve3": {
+    "match": "Env 3 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "Env3.kParamDecay": {
+    "match": "Env 3 Decay",
+    "value": 1.3073592030723749,
+    "index": 244,
+    "type": "fuzzy"
+  },
+  "Env3.kParamSustain": {
+    "match": "Env 3 Sustain",
+    "value": 0.5592619180679321,
+    "index": 245,
+    "type": "fuzzy"
+  },
+  "Global0.kParamMonoToggle": {
+    "match": "Mono Toggle",
+    "value": 1.0,
+    "index": 9,
+    "type": "fuzzy"
+  },
+  "Macro3.kParamValue": {
+    "match": "Macro 1",
+    "value": 0.78125,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "Macro6.kParamValue": {
+    "match": "Macro 1",
+    "value": 2.34375,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "ModSlot0.kParamAmount": {
+    "match": "Mod 10 Amount",
+    "value": -28.955096006393433,
+    "index": 330,
+    "type": "fuzzy"
+  },
+  "ModSlot1.kParamAmount": {
+    "match": "Mod 1 Amount",
+    "value": -13.198792934417725,
+    "index": 312,
+    "type": "fuzzy"
+  },
+  "ModSlot10.kParamAmount": {
+    "match": "Mod 10 Amount",
+    "value": 22.236239910125732,
+    "index": 330,
+    "type": "fuzzy"
+  },
+  "ModSlot11.kParamAmount": {
+    "match": "Mod 11 Amount",
+    "value": 21.124589443206787,
+    "index": 332,
+    "type": "fuzzy"
+  },
+  "ModSlot12.kParamAmount": {
+    "match": "Mod 12 Amount",
+    "value": 100.0,
+    "index": 334,
+    "type": "fuzzy"
+  },
+  "ModSlot13.kParamAmount": {
+    "match": "Mod 13 Amount",
+    "value": 100.0,
+    "index": 336,
+    "type": "fuzzy"
+  },
+  "ModSlot14.kParamAmount": {
+    "match": "Mod 14 Amount",
+    "value": 6.316828727722168,
+    "index": 338,
+    "type": "fuzzy"
+  },
+  "ModSlot15.kParamAmount": {
+    "match": "Mod 15 Amount",
+    "value": 66.3867175579071,
+    "index": 340,
+    "type": "fuzzy"
+  },
+  "ModSlot16.kParamAmount": {
+    "match": "Mod 16 Amount",
+    "value": 61.328125,
+    "index": 342,
+    "type": "fuzzy"
+  },
+  "ModSlot17.kParamAmount": {
+    "match": "Mod 17 Amount",
+    "value": 4.649806022644043,
+    "index": 344,
+    "type": "fuzzy"
+  },
+  "ModSlot18.kParamAmount": {
+    "match": "Mod 18 Amount",
+    "value": 7.449281215667725,
+    "index": 346,
+    "type": "fuzzy"
+  },
+  "ModSlot19.kParamAmount": {
+    "match": "Mod 19 Amount",
+    "value": 13.986027240753174,
+    "index": 348,
+    "type": "fuzzy"
+  },
+  "ModSlot2.kParamAmount": {
+    "match": "Mod 2 Amount",
+    "value": 20.93106508255005,
+    "index": 314,
+    "type": "fuzzy"
+  },
+  "ModSlot20.kParamAmount": {
+    "match": "Mod 20 Amount",
+    "value": 5.134022235870361,
+    "index": 350,
+    "type": "fuzzy"
+  },
+  "ModSlot21.kParamAmount": {
+    "match": "Mod 21 Amount",
+    "value": 100.0,
+    "index": 352,
+    "type": "fuzzy"
+  },
+  "ModSlot22.kParamAmount": {
+    "match": "Mod 22 Amount",
+    "value": 16.408491134643555,
+    "index": 354,
+    "type": "fuzzy"
+  },
+  "ModSlot23.kParamAmount": {
+    "match": "Mod 23 Amount",
+    "value": -22.9803204536438,
+    "index": 356,
+    "type": "fuzzy"
+  },
+  "ModSlot24.kParamAmount": {
+    "match": "Mod 24 Amount",
+    "value": -23.488211631774902,
+    "index": 358,
+    "type": "fuzzy"
+  },
+  "ModSlot25.kParamAmount": {
+    "match": "Mod 25 Amount",
+    "value": -65.1230126619339,
+    "index": 360,
+    "type": "fuzzy"
+  },
+  "ModSlot26.kParamAmount": {
+    "match": "Mod 26 Amount",
+    "value": -31.86677098274231,
+    "index": 362,
+    "type": "fuzzy"
+  },
+  "ModSlot27.kParamAmount": {
+    "match": "Mod 27 Amount",
+    "value": 25.126779079437256,
+    "index": 364,
+    "type": "fuzzy"
+  },
+  "ModSlot28.kParamAmount": {
+    "match": "Mod 28 Amount",
+    "value": 23.584842681884766,
+    "index": 366,
+    "type": "fuzzy"
+  },
+  "ModSlot29.kParamAmount": {
+    "match": "Mod 29 Amount",
+    "value": 18.402206897735596,
+    "index": 368,
+    "type": "fuzzy"
+  },
+  "ModSlot3.kParamAmount": {
+    "match": "Mod 3 Amount",
+    "value": 36.01522445678711,
+    "index": 316,
+    "type": "fuzzy"
+  },
+  "ModSlot30.kParamAmount": {
+    "match": "Mod 30 Amount",
+    "value": 45.257675647735596,
+    "index": 370,
+    "type": "fuzzy"
+  },
+  "ModSlot31.kParamAmount": {
+    "match": "Mod 31 Amount",
+    "value": 28.577303886413574,
+    "index": 372,
+    "type": "fuzzy"
+  },
+  "ModSlot32.kParamAmount": {
+    "match": "Mod 32 Amount",
+    "value": 10.718202590942383,
+    "index": 374,
+    "type": "fuzzy"
+  },
+  "ModSlot33.kParamAmount": {
+    "match": "Mod 33 Amount",
+    "value": -64.32086229324341,
+    "index": 376,
+    "type": "fuzzy"
+  },
+  "ModSlot34.kParamAmount": {
+    "match": "Mod 34 Amount",
+    "value": 41.68379306793213,
+    "index": 378,
+    "type": "fuzzy"
+  },
+  "ModSlot4.kParamAmount": {
+    "match": "Mod 4 Amount",
+    "value": 53.90199422836304,
+    "index": 318,
+    "type": "fuzzy"
+  },
+  "ModSlot5.kParamAmount": {
+    "match": "Mod 5 Amount",
+    "value": 55.94421625137329,
+    "index": 320,
+    "type": "fuzzy"
+  },
+  "ModSlot6.kParamAmount": {
+    "match": "Mod 6 Amount",
+    "value": 55.125272274017334,
+    "index": 322,
+    "type": "fuzzy"
+  },
+  "ModSlot7.kParamAmount": {
+    "match": "Mod 7 Amount",
+    "value": -20.341050624847412,
+    "index": 324,
+    "type": "fuzzy"
+  },
+  "ModSlot8.kParamAmount": {
+    "match": "Mod 8 Amount",
+    "value": -19.587308168411255,
+    "index": 326,
+    "type": "fuzzy"
+  },
+  "ModSlot9.kParamAmount": {
+    "match": "Mod 9 Amount",
+    "value": 25.860071182250977,
+    "index": 328,
+    "type": "fuzzy"
+  },
+  "Oscillator0.kParamOctave": {
+    "match": "A Octave",
+    "value": -1.0,
+    "index": 23,
+    "type": "fuzzy"
+  },
+  "Oscillator1.kParamEnable": {
+    "match": "Clip Player Enable",
+    "value": 1.0,
+    "index": 519,
+    "type": "fuzzy"
+  },
+  "Oscillator2.kParamEnable": {
+    "match": "Clip Player Enable",
+    "value": 1.0,
+    "index": 519,
+    "type": "fuzzy"
+  },
+  "Oscillator4.kParamEnable": {
+    "match": "Clip Player Enable",
+    "value": 1.0,
+    "index": 519,
+    "type": "fuzzy"
+  },
+  "Oscillator4.kParamOctave": {
+    "match": "A Octave",
+    "value": -3.0,
+    "index": 23,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamDrive": {
+    "match": "Filter 1 Drive",
+    "value": 89.38459157943726,
+    "index": 207,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamEnable": {
+    "match": "Noise Enable",
+    "value": 1.0,
+    "index": 185,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamFreq": {
+    "match": "Filter 1 Freq",
+    "value": 0.49533993005752563,
+    "index": 205,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamReso": {
+    "match": "Filter 1 Res",
+    "value": 71.45490646362305,
+    "index": 206,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamVar": {
+    "match": "Filter 1 Var",
+    "value": 41.58443212509155,
+    "index": 208,
+    "type": "fuzzy"
+  },
+  "VoiceFilter1.kParamDrive": {
+    "match": "Filter 1 Drive",
+    "value": 14.943119883537292,
+    "index": 207,
+    "type": "fuzzy"
+  },
+  "VoiceFilter1.kParamEnable": {
+    "match": "Noise Enable",
+    "value": 1.0,
+    "index": 185,
+    "type": "fuzzy"
+  },
+  "VoiceFilter1.kParamFreq": {
+    "match": "Filter 1 Freq",
+    "value": 0.0,
+    "index": 205,
+    "type": "fuzzy"
+  },
+  "VoiceFilter1.kParamReso": {
+    "match": "Filter 1 Res",
+    "value": 11.716694384813309,
+    "index": 206,
+    "type": "fuzzy"
+  },
+  "VoiceFilter1.kParamVar": {
+    "match": "Filter 1 Var",
+    "value": 33.857592940330505,
+    "index": 208,
+    "type": "fuzzy"
+  },
+  "mpeEnabled": {
+    "match": "Arp Enable",
+    "value": 1.0,
+    "index": 523,
+    "type": "fuzzy"
+  },
+  "mpePitchBendRange": {
+    "match": "Pitch Bend",
+    "value": 48.0,
+    "index": 2622,
+    "type": "fuzzy"
+  }
+}

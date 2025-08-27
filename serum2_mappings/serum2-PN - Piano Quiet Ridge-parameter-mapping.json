@@ -1,0 +1,284 @@
+{
+  "ClipPlayer.kUIParamPreviewClip": {
+    "match": "Clip Player Rate",
+    "value": 0.08333333333333333,
+    "index": 521,
+    "type": "fuzzy"
+  },
+  "ClipPlayer.kUIParamSelectedClip": {
+    "match": "Clip Player Rate",
+    "value": 0.0,
+    "index": 521,
+    "type": "fuzzy"
+  },
+  "Env0.kParamAttack": {
+    "match": "Env 1 Attack",
+    "value": 0.0030043103899267736,
+    "index": 224,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve1": {
+    "match": "Env 1 Atk Curve",
+    "value": 50.0,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve2": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamCurve3": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env0.kParamDecay": {
+    "match": "Env 1 Decay",
+    "value": 0.565019872051756,
+    "index": 226,
+    "type": "fuzzy"
+  },
+  "Env0.kParamRelease": {
+    "match": "Env 1 Release",
+    "value": 1.2804351457968257,
+    "index": 228,
+    "type": "fuzzy"
+  },
+  "Env0.kParamSustain": {
+    "match": "Env 1 Sustain",
+    "value": 0.9441303014755249,
+    "index": 227,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve1": {
+    "match": "Env 1 Atk Curve",
+    "value": 50.0,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve2": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env1.kParamCurve3": {
+    "match": "Env 1 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 229,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve1": {
+    "match": "Env 2 Atk Curve",
+    "value": 50.0,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve2": {
+    "match": "Env 2 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env2.kParamCurve3": {
+    "match": "Env 2 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 237,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve1": {
+    "match": "Env 3 Atk Curve",
+    "value": 50.0,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve2": {
+    "match": "Env 3 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "Env3.kParamCurve3": {
+    "match": "Env 3 Atk Curve",
+    "value": 66.60000000000001,
+    "index": 247,
+    "type": "fuzzy"
+  },
+  "LFO0.kParamBeatSync": {
+    "match": "LFO 10 Delay",
+    "value": 0.0,
+    "index": 310,
+    "type": "fuzzy"
+  },
+  "LFO0.kParamRate": {
+    "match": "LFO 10 Rate",
+    "value": 5.554625767999109,
+    "index": 307,
+    "type": "fuzzy"
+  },
+  "LFO0.kParamRise": {
+    "match": "LFO 10 Rise",
+    "value": 4.0,
+    "index": 309,
+    "type": "fuzzy"
+  },
+  "Macro5.kParamValue": {
+    "match": "Macro 1",
+    "value": 100.0,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "Macro7.kParamValue": {
+    "match": "Macro 1",
+    "value": 49.824562668800354,
+    "index": 440,
+    "type": "fuzzy"
+  },
+  "ModSlot0.kParamAmount": {
+    "match": "Mod 10 Amount",
+    "value": -56.9271981716156,
+    "index": 330,
+    "type": "fuzzy"
+  },
+  "ModSlot1.kParamAmount": {
+    "match": "Mod 1 Amount",
+    "value": 49.68304634094238,
+    "index": 312,
+    "type": "fuzzy"
+  },
+  "ModSlot2.kParamAmount": {
+    "match": "Mod 2 Amount",
+    "value": 100.0,
+    "index": 314,
+    "type": "fuzzy"
+  },
+  "ModSlot3.kParamAmount": {
+    "match": "Mod 3 Amount",
+    "value": 100.0,
+    "index": 316,
+    "type": "fuzzy"
+  },
+  "ModSlot4.kParamAmount": {
+    "match": "Mod 4 Amount",
+    "value": 9.769535064697266,
+    "index": 318,
+    "type": "fuzzy"
+  },
+  "ModSlot5.kParamAmount": {
+    "match": "Mod 5 Amount",
+    "value": 52.693939208984375,
+    "index": 320,
+    "type": "fuzzy"
+  },
+  "ModSlot6.kParamAmount": {
+    "match": "Mod 6 Amount",
+    "value": 100.0,
+    "index": 322,
+    "type": "fuzzy"
+  },
+  "ModSlot7.kParamAmount": {
+    "match": "Mod 7 Amount",
+    "value": 100.0,
+    "index": 324,
+    "type": "fuzzy"
+  },
+  "ModSlot8.kParamAmount": {
+    "match": "Mod 8 Amount",
+    "value": 100.0,
+    "index": 326,
+    "type": "fuzzy"
+  },
+  "Oscillator0.kParamDetune": {
+    "match": "Osc Detune Rnd",
+    "value": 1.0,
+    "index": 467,
+    "type": "fuzzy"
+  },
+  "Oscillator0.kParamEnable": {
+    "match": "Clip Player Enable",
+    "value": 0.0,
+    "index": 519,
+    "type": "fuzzy"
+  },
+  "Oscillator1.kParamDetune": {
+    "match": "Osc Detune Rnd",
+    "value": 0.2540160081710816,
+    "index": 467,
+    "type": "fuzzy"
+  },
+  "Oscillator2.kParamDetune": {
+    "match": "Osc Detune Rnd",
+    "value": 0.008323185705841674,
+    "index": 467,
+    "type": "fuzzy"
+  },
+  "Oscillator2.kParamDetuneWid": {
+    "match": "Osc Detune Rnd",
+    "value": 75.79998970031738,
+    "index": 467,
+    "type": "fuzzy"
+  },
+  "Oscillator2.kParamEnable": {
+    "match": "Clip Player Enable",
+    "value": 1.0,
+    "index": 519,
+    "type": "fuzzy"
+  },
+  "Oscillator2.kParamUnison": {
+    "match": "A Unison",
+    "value": 2.0,
+    "index": 44,
+    "type": "fuzzy"
+  },
+  "Oscillator3.NoiseOsc3.kParamRandomPhase": {
+    "match": "Noise Rand Phase",
+    "value": 100.0,
+    "index": 192,
+    "type": "fuzzy"
+  },
+  "Oscillator3.kParamEnable": {
+    "match": "Clip Player Enable",
+    "value": 1.0,
+    "index": 519,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamEnable": {
+    "match": "Noise Enable",
+    "value": 1.0,
+    "index": 185,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamFreq": {
+    "match": "Filter 1 Freq",
+    "value": 1.0,
+    "index": 205,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamReso": {
+    "match": "Filter 1 Res",
+    "value": 20.05893886089325,
+    "index": 206,
+    "type": "fuzzy"
+  },
+  "VoiceFilter0.kParamVar": {
+    "match": "Filter 1 Var",
+    "value": 65.37829041481018,
+    "index": 208,
+    "type": "fuzzy"
+  },
+  "mpeEnabled": {
+    "match": "Arp Enable",
+    "value": 1.0,
+    "index": 523,
+    "type": "fuzzy"
+  },
+  "mpePitchBendRange": {
+    "match": "Pitch Bend",
+    "value": 48.0,
+    "index": 2622,
+    "type": "fuzzy"
+  }
+}

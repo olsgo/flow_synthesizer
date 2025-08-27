@@ -1,0 +1,1523 @@
+{
+  "fileType": "SerumPreset",
+  "hash": "9d4e15ef72f13998c1bed051b9c4c867",
+  "presetAuthor": "Steve Duda",
+  "presetDescription": "Distorted Bass Power Chord",
+  "presetName": "HIT - Gnarly Bass Stack",
+  "product": "Serum2",
+  "productVersion": "2.0.11",
+  "tags": [
+    "Wavetable",
+    "Poly",
+    "Preview",
+    "KB-Span"
+  ],
+  "url": "https://xferrecords.com/",
+  "vendor": "Xfer Records",
+  "version": 4.0,
+  "data": {
+    "Arp0": {
+      "plainParams": "default"
+    },
+    "ArpClip0": {
+      "clip": {},
+      "name": "Pattern 1",
+      "plainParams": {
+        "kParamGate": 69.00585293769836,
+        "kParamRate": 0.5146198868751526,
+        "kParamShape": "Rand",
+        "kParamTransposeRange": 3.0,
+        "kParamTransposeShape": "Converge",
+        "kParamTransposeShift": 12.0
+      }
+    },
+    "ArpClip1": {
+      "clip": {},
+      "name": "Pattern 2",
+      "plainParams": "default"
+    },
+    "ArpClip10": {
+      "clip": {},
+      "name": "Pattern 11",
+      "plainParams": "default"
+    },
+    "ArpClip11": {
+      "clip": {},
+      "name": "Pattern 12",
+      "plainParams": "default"
+    },
+    "ArpClip2": {
+      "clip": {},
+      "name": "Pattern 3",
+      "plainParams": "default"
+    },
+    "ArpClip3": {
+      "clip": {},
+      "name": "Pattern 4",
+      "plainParams": "default"
+    },
+    "ArpClip4": {
+      "clip": {},
+      "name": "Pattern 5",
+      "plainParams": "default"
+    },
+    "ArpClip5": {
+      "clip": {},
+      "name": "Pattern 6",
+      "plainParams": "default"
+    },
+    "ArpClip6": {
+      "clip": {},
+      "name": "Pattern 7",
+      "plainParams": "default"
+    },
+    "ArpClip7": {
+      "clip": {},
+      "name": "Pattern 8",
+      "plainParams": "default"
+    },
+    "ArpClip8": {
+      "clip": {},
+      "name": "Pattern 9",
+      "plainParams": "default"
+    },
+    "ArpClip9": {
+      "clip": {},
+      "name": "Pattern 10",
+      "plainParams": "default"
+    },
+    "ClipPlayer": {
+      "kUIParamPreviewClip": 0.08333333333333333,
+      "kUIParamSelectedClip": 0.0
+    },
+    "ClipPlayer0": {
+      "plainParams": "default"
+    },
+    "Env0": {
+      "plainParams": {
+        "kParamAttack": 1.5536774425046236e-07,
+        "kParamBeatSync": 1.0,
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 62.67843246459961,
+        "kParamCurve3": 36.69804036617279,
+        "kParamDecay": 2.5148366608085975,
+        "kParamRelease": 0.16291488779517402,
+        "kParamSustain": 0.43163955211639404
+      }
+    },
+    "Env1": {
+      "plainParams": {
+        "kParamAttack": 0.0,
+        "kParamBeatSync": 1.0,
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 64.63921666145325,
+        "kParamCurve3": 46.99215590953827,
+        "kParamDecay": 1.3080388356102093,
+        "kParamRelease": 0.17996141125868353,
+        "kParamSustain": 0.29532164335250854
+      }
+    },
+    "Env2": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env3": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "FXRack0": {
+      "FX": [
+        {
+          "FXUtils": {
+            "plainParams": {
+              "kParamHPF": 14.37636660205281,
+              "kParamLFMono": 1.0,
+              "kParamLFXover": 149.72157761630683,
+              "kParamLevelOut": 0.40789473056793213,
+              "kParamWidth": 218.12003203140912
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 12
+        },
+        {
+          "FXDistortion": {
+            "plainParams": {
+              "kParamBW": 0.075,
+              "kParamDrive": 0.0,
+              "kParamFreq": 0.34046682715415955,
+              "kParamLevelOut": 0.31338366866111755,
+              "kParamMode": "kOverdrive",
+              "kParamNumStages": 3.0,
+              "kParamPrePost": 1.0,
+              "kParamWet": 0.0
+            }
+          },
+          "flex": [
+            {},
+            {}
+          ],
+          "kUIParamMixOrGain": 0.0,
+          "type": 0
+        },
+        {
+          "FXConv": {
+            "numChannels": 2,
+            "numFrames": 6539,
+            "plainParams": {
+              "kParamDamping": 83.41687321662903,
+              "kParamDecay": 0.012908153235912323,
+              "kParamIpTrim": -5.695621013641357,
+              "kParamLevelOut": 0.537002682685852,
+              "kParamPredelay": 8.309903350667513e-09,
+              "kParamSize": 74.55754479690216,
+              "kParamTone": 78.6182165145874,
+              "kParamWet": 71.92605137825012
+            },
+            "relativePathToIR": "Factory/Short/Hyper1.flac",
+            "sampleRate": 48000
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 11
+        },
+        {
+          "FXUtils": {
+            "plainParams": {
+              "kParamHPF": 97.98087917021294,
+              "kParamLFMono": 1.0,
+              "kParamLFXover": 123.04289576056323
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 12
+        },
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamAttack": 95.43059414188573,
+              "kParamGain0": 5.779987335205078,
+              "kParamGain1": 7.948124885559082,
+              "kParamGain2": -3.0,
+              "kParamLevelOut": 0.3252928555011749,
+              "kParamMakeup": 4.043980246590756,
+              "kParamMultiband": 1.0,
+              "kParamRatio": 2.378535845908492,
+              "kParamRatioBelow": 0.6236979365348816,
+              "kParamRatioBelow0": 0.03603583574295044,
+              "kParamRatioBelow1": 0.0,
+              "kParamRelease": 461.33128362958604,
+              "kParamThresh": 0.5110580921173096,
+              "kParamThreshUD0": 143.43934059143066,
+              "kParamThreshUD1": 27.99999713897705,
+              "kParamThreshUD2": 154.29648160934448,
+              "kParamXoverHi": 2809.0234979708594,
+              "kParamXoverLow": 212.67506868403618
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 5
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack1": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack2": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "Filter": {
+      "kUIParamMixOrGain": 0.0
+    },
+    "Global0": {
+      "plainParams": {
+        "kParamMasterVolume": 0.31667721109647573
+      }
+    },
+    "GranularOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      }
+    ],
+    "LFO0": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": {
+        "kParamDefaultMode": 0.0,
+        "kParamMode": "Free",
+        "kParamRate": 0.36392570581308215
+      }
+    },
+    "LFO1": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO2": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO3": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO4": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO5": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO6": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO7": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO8": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO9": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFOPointModBus0": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus1": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus10": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus11": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus12": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus13": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus14": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus15": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus2": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus3": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus4": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus5": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus6": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus7": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus8": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus9": {
+      "plainParams": "default"
+    },
+    "Macro0": {
+      "name": "ENV SCALE",
+      "plainParams": {
+        "kParamValue": 84.45106148719788
+      }
+    },
+    "Macro1": {
+      "name": "DIST MIX",
+      "plainParams": {
+        "kParamValue": 87.77050375938416
+      }
+    },
+    "Macro2": {
+      "name": "DIST DRIVE",
+      "plainParams": {
+        "kParamValue": 62.08854913711548
+      }
+    },
+    "Macro3": {
+      "name": "DIST TONE",
+      "plainParams": {
+        "kParamValue": 63.835614919662476
+      }
+    },
+    "Macro4": {
+      "name": "SUSTAIN",
+      "plainParams": {
+        "kParamValue": 17.12130457162857
+      }
+    },
+    "Macro5": {
+      "name": "SHAKE",
+      "plainParams": {
+        "kParamValue": 47.69504964351654
+      }
+    },
+    "Macro6": {
+      "plainParams": "default"
+    },
+    "Macro7": {
+      "plainParams": "default"
+    },
+    "MidiClip0": {
+      "clip": {
+        "notes": [
+          {
+            "attributes": [
+              0.787401556968689,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.0,
+            "noteNum": 60,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.787401556968689,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.0,
+            "noteNum": 67,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.787401556968689,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.0,
+            "noteNum": 72,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.787401556968689,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.0,
+            "noteNum": 79,
+            "timeStamp": 0.0
+          }
+        ]
+      },
+      "gridYOffset_Rows": 52.143884892086334,
+      "plainParams": {
+        "kParamLaunchQuantize": 0.0,
+        "kParamNoteGate": 1.0,
+        "kParamPlaybackMode": "Static",
+        "kParamSpanKeyboardMode": "Mono"
+      }
+    },
+    "MidiClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ModSlot0": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 72.51460552215576,
+        "kParamBipolar": 1.0
+      },
+      "source": [
+        3,
+        0
+      ]
+    },
+    "ModSlot1": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 34.7953200340271
+      },
+      "source": [
+        6,
+        0
+      ]
+    },
+    "ModSlot10": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamSustain",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 56.836044788360596
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot11": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamSustain",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 70.46782970428467
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot12": {
+      "destModuleID": 1,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 67.76094436645508
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot13": {
+      "destModuleID": 2,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 22.453951835632324
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot14": {
+      "destModuleID": 0,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 93.0117130279541
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot15": {
+      "plainParams": "default"
+    },
+    "ModSlot16": {
+      "plainParams": "default"
+    },
+    "ModSlot17": {
+      "plainParams": "default"
+    },
+    "ModSlot18": {
+      "plainParams": "default"
+    },
+    "ModSlot19": {
+      "plainParams": "default"
+    },
+    "ModSlot2": {
+      "destModuleID": 0,
+      "destModuleParamID": 58,
+      "destModuleParamName": "kParamGlobalScalingEnvTime",
+      "destModuleTypeString": "VoicePanel",
+      "plainParams": {
+        "kParamAmount": 50.0,
+        "kParamBipolar": 1.0
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot20": {
+      "plainParams": "default"
+    },
+    "ModSlot21": {
+      "plainParams": "default"
+    },
+    "ModSlot22": {
+      "plainParams": "default"
+    },
+    "ModSlot23": {
+      "plainParams": "default"
+    },
+    "ModSlot24": {
+      "plainParams": "default"
+    },
+    "ModSlot25": {
+      "plainParams": "default"
+    },
+    "ModSlot26": {
+      "plainParams": "default"
+    },
+    "ModSlot27": {
+      "plainParams": "default"
+    },
+    "ModSlot28": {
+      "plainParams": "default"
+    },
+    "ModSlot29": {
+      "plainParams": "default"
+    },
+    "ModSlot3": {
+      "destModuleID": 2,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": -62.0877206325531
+      },
+      "source": [
+        17,
+        0
+      ]
+    },
+    "ModSlot30": {
+      "plainParams": "default"
+    },
+    "ModSlot31": {
+      "plainParams": "default"
+    },
+    "ModSlot32": {
+      "plainParams": "default"
+    },
+    "ModSlot33": {
+      "plainParams": "default"
+    },
+    "ModSlot34": {
+      "plainParams": "default"
+    },
+    "ModSlot35": {
+      "plainParams": "default"
+    },
+    "ModSlot36": {
+      "plainParams": "default"
+    },
+    "ModSlot37": {
+      "plainParams": "default"
+    },
+    "ModSlot38": {
+      "plainParams": "default"
+    },
+    "ModSlot39": {
+      "plainParams": "default"
+    },
+    "ModSlot4": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 34.73098278045654
+      },
+      "source": [
+        17,
+        0
+      ]
+    },
+    "ModSlot40": {
+      "plainParams": "default"
+    },
+    "ModSlot41": {
+      "plainParams": "default"
+    },
+    "ModSlot42": {
+      "plainParams": "default"
+    },
+    "ModSlot43": {
+      "plainParams": "default"
+    },
+    "ModSlot44": {
+      "plainParams": "default"
+    },
+    "ModSlot45": {
+      "plainParams": "default"
+    },
+    "ModSlot46": {
+      "plainParams": "default"
+    },
+    "ModSlot47": {
+      "plainParams": "default"
+    },
+    "ModSlot48": {
+      "plainParams": "default"
+    },
+    "ModSlot49": {
+      "plainParams": "default"
+    },
+    "ModSlot5": {
+      "destModuleID": 0,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamVar",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 45.66082954406738
+      },
+      "source": [
+        17,
+        0
+      ]
+    },
+    "ModSlot50": {
+      "plainParams": "default"
+    },
+    "ModSlot51": {
+      "plainParams": "default"
+    },
+    "ModSlot52": {
+      "plainParams": "default"
+    },
+    "ModSlot53": {
+      "plainParams": "default"
+    },
+    "ModSlot54": {
+      "plainParams": "default"
+    },
+    "ModSlot55": {
+      "plainParams": "default"
+    },
+    "ModSlot56": {
+      "plainParams": "default"
+    },
+    "ModSlot57": {
+      "plainParams": "default"
+    },
+    "ModSlot58": {
+      "plainParams": "default"
+    },
+    "ModSlot59": {
+      "plainParams": "default"
+    },
+    "ModSlot6": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXDistortion",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot60": {
+      "plainParams": "default"
+    },
+    "ModSlot61": {
+      "plainParams": "default"
+    },
+    "ModSlot62": {
+      "plainParams": "default"
+    },
+    "ModSlot63": {
+      "plainParams": "default"
+    },
+    "ModSlot7": {
+      "destModuleID": 1,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamDrive",
+      "destModuleTypeString": "FXDistortion",
+      "plainParams": {
+        "kParamAmount": 71.66787385940552
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot8": {
+      "destModuleID": 1,
+      "destModuleParamID": 5,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "FXDistortion",
+      "plainParams": {
+        "kParamAmount": 37.81468868255615
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot9": {
+      "destModuleID": 0,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamLFXover",
+      "destModuleTypeString": "FXUtils",
+      "plainParams": {
+        "kParamAmount": 32.93949365615845
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "MultiSampleOsc": [
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      }
+    ],
+    "Osc": [
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      }
+    ],
+    "Oscillator0": {
+      "GranularOsc0": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc0": {
+        "plainParams": "default"
+      },
+      "SampleOsc0": {
+        "plainParams": "default"
+      },
+      "SpectralOsc0": {
+        "plainParams": "default"
+      },
+      "WTOsc0": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 18432,
+        "plainParams": {
+          "kParamWarpMenu": "kFM_NOISE"
+        },
+        "relativePathToWT": "S2 Tables/Default Shapes.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": "default"
+    },
+    "Oscillator1": {
+      "GranularOsc1": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc1": {
+        "plainParams": "default"
+      },
+      "SampleOsc1": {
+        "plainParams": "default"
+      },
+      "SpectralOsc1": {
+        "plainParams": "default"
+      },
+      "WTOsc1": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 18432,
+        "plainParams": {
+          "kParamPhaseMemory": "kContiguous",
+          "kParamRandomPhase": 0.0,
+          "kParamWarp": 0.18961304426193237,
+          "kParamWarpMenu": "kFM_NOISE"
+        },
+        "relativePathToWT": "S2 Tables/Default Shapes.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamDetune": 0.11111111773384952,
+        "kParamDetuneWid": 49.56140220165253,
+        "kParamEnable": 1.0,
+        "kParamPan": -2.9239773750305176,
+        "kParamUnison": 3.0,
+        "kParamVolume": 0.038954290532999813
+      }
+    },
+    "Oscillator2": {
+      "GranularOsc2": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc2": {
+        "plainParams": "default"
+      },
+      "SampleOsc2": {
+        "plainParams": "default"
+      },
+      "SpectralOsc2": {
+        "plainParams": "default"
+      },
+      "WTOsc2": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 18432,
+        "plainParams": {
+          "kParamPhaseMemory": "kContiguous",
+          "kParamTablePos": 169.5087674856186,
+          "kParamWarp": 0.13952651619911194,
+          "kParamWarpMenu": "kFM_NOISE"
+        },
+        "relativePathToWT": "S2 Tables/Default Shapes.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamDetune": 0.03501931712938977,
+        "kParamEnable": 1.0,
+        "kParamOctave": -2.0,
+        "kParamPan": -1.1695891618728638,
+        "kParamUnison": 2.0,
+        "kParamVolume": 0.64187268672109
+      }
+    },
+    "Oscillator3": {
+      "NoiseOsc3": {
+        "detuneFactor": 0.4758218478413068,
+        "numChannels": 1,
+        "numFrames": 78241,
+        "plainParams": {
+          "kParamColor": 0.0,
+          "kParamInitialPhase": 13.28125,
+          "kParamNoiseType": "White"
+        },
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator4": {
+      "SubOsc4": {
+        "plainParams": "default"
+      },
+      "plainParams": "default"
+    },
+    "PitchQuantizer0": {
+      "plainParams": "default",
+      "scale": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "scaleName": "Major"
+    },
+    "RetriggerState0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot1": {
+      "plainParams": {
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot2": {
+      "plainParams": {
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot3": {
+      "plainParams": "default"
+    },
+    "RoutingSlot4": {
+      "plainParams": "default"
+    },
+    "RoutingSlot5": {
+      "plainParams": "default"
+    },
+    "RoutingSlot6": {
+      "plainParams": "default"
+    },
+    "SerumGUI": {
+      "kUIParamShowKeyboard": 1.0
+    },
+    "SpectralOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      }
+    ],
+    "VoiceFilter0": {
+      "plainParams": {
+        "kParamDrive": 28.654971718788147,
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.39990487694740295,
+        "kParamLevelOut": 0.6257309913635254,
+        "kParamPad": 1.0,
+        "kParamReso": 55.90642690658569,
+        "kParamType": "DistComb2LP",
+        "kParamVar": 1.6060348600149155
+      }
+    },
+    "VoiceFilter1": {
+      "plainParams": "default"
+    },
+    "VoicePanel0": {
+      "plainParams": "default"
+    },
+    "WTOsc": [
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 1.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      }
+    ],
+    "arpBankDisplayName": "",
+    "clipBankDisplayName": "",
+    "fileType": "SerumPreset",
+    "lockOversampling": false,
+    "lockTuning": false,
+    "mpeConfig": 0,
+    "mpeEnabled": true,
+    "mpePitchBendRange": 48,
+    "presetAuthor": "Steve Duda",
+    "presetDescription": "Distorted Bass Power Chord",
+    "presetName": "HIT - Gnarly Bass Stack",
+    "product": "Serum2",
+    "productVersion": "2.0.11",
+    "scalars": {
+      "note": {
+        "curveVals": [
+          0.5,
+          0.5441176470588235,
+          0.4656862745098042,
+          0.5,
+          0.5
+        ],
+        "legato": true,
+        "numPoints": 4,
+        "xVals": [
+          0.0,
+          0.03153153153153051,
+          0.2972972972972973,
+          0.9054054054054054,
+          1.0
+        ],
+        "yVals": [
+          1.0,
+          0.42401960784313697,
+          0.25245098039215674,
+          1.0,
+          0.0024509803921567235
+        ]
+      },
+      "velo": {}
+    },
+    "tags": [
+      "Wavetable",
+      "Poly",
+      "Preview",
+      "KB-Span"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 4.0
+  },
+  "dawdreamer_params": {
+    ".ArpClip0.kParamGate": 69.00585293769836,
+    ".ArpClip0.kParamRate": 0.5146198868751526,
+    ".ArpClip0.kParamTransposeRange": 3.0,
+    ".ArpClip0.kParamTransposeShift": 12.0,
+    ".ClipPlayer.kUIParamPreviewClip": 0.08333333333333333,
+    ".ClipPlayer.kUIParamSelectedClip": 0.0,
+    ".Env0.kParamAttack": 1.5536774425046236e-07,
+    ".Env0.kParamBeatSync": 1.0,
+    ".Env0.kParamCurve1": 50.0,
+    ".Env0.kParamCurve2": 62.67843246459961,
+    ".Env0.kParamCurve3": 36.69804036617279,
+    ".Env0.kParamDecay": 2.5148366608085975,
+    ".Env0.kParamRelease": 0.16291488779517402,
+    ".Env0.kParamSustain": 0.43163955211639404,
+    ".Env1.kParamAttack": 0.0,
+    ".Env1.kParamBeatSync": 1.0,
+    ".Env1.kParamCurve1": 50.0,
+    ".Env1.kParamCurve2": 64.63921666145325,
+    ".Env1.kParamCurve3": 46.99215590953827,
+    ".Env1.kParamDecay": 1.3080388356102093,
+    ".Env1.kParamRelease": 0.17996141125868353,
+    ".Env1.kParamSustain": 0.29532164335250854,
+    ".Env2.kParamCurve1": 50.0,
+    ".Env2.kParamCurve2": 66.60000000000001,
+    ".Env2.kParamCurve3": 66.60000000000001,
+    ".Env3.kParamCurve1": 50.0,
+    ".Env3.kParamCurve2": 66.60000000000001,
+    ".Env3.kParamCurve3": 66.60000000000001,
+    ".FXRack0.FX[0].FXUtils.kParamHPF": 14.37636660205281,
+    ".FXRack0.FX[0].FXUtils.kParamLFMono": 1.0,
+    ".FXRack0.FX[0].FXUtils.kParamLFXover": 149.72157761630683,
+    ".FXRack0.FX[0].FXUtils.kParamLevelOut": 0.40789473056793213,
+    ".FXRack0.FX[0].FXUtils.kParamWidth": 218.12003203140912,
+    ".FXRack0.FX[0].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[0].type": 12.0,
+    ".FXRack0.FX[1].FXDistortion.kParamBW": 0.075,
+    ".FXRack0.FX[1].FXDistortion.kParamDrive": 0.0,
+    ".FXRack0.FX[1].FXDistortion.kParamFreq": 0.34046682715415955,
+    ".FXRack0.FX[1].FXDistortion.kParamLevelOut": 0.31338366866111755,
+    ".FXRack0.FX[1].FXDistortion.kParamNumStages": 3.0,
+    ".FXRack0.FX[1].FXDistortion.kParamPrePost": 1.0,
+    ".FXRack0.FX[1].FXDistortion.kParamWet": 0.0,
+    ".FXRack0.FX[1].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[1].type": 0.0,
+    ".FXRack0.FX[2].FXConv.numChannels": 2.0,
+    ".FXRack0.FX[2].FXConv.numFrames": 6539.0,
+    ".FXRack0.FX[2].FXConv.kParamDamping": 83.41687321662903,
+    ".FXRack0.FX[2].FXConv.kParamDecay": 0.012908153235912323,
+    ".FXRack0.FX[2].FXConv.kParamIpTrim": -5.695621013641357,
+    ".FXRack0.FX[2].FXConv.kParamLevelOut": 0.537002682685852,
+    ".FXRack0.FX[2].FXConv.kParamPredelay": 8.309903350667513e-09,
+    ".FXRack0.FX[2].FXConv.kParamSize": 74.55754479690216,
+    ".FXRack0.FX[2].FXConv.kParamTone": 78.6182165145874,
+    ".FXRack0.FX[2].FXConv.kParamWet": 71.92605137825012,
+    ".FXRack0.FX[2].FXConv.sampleRate": 48000.0,
+    ".FXRack0.FX[2].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[2].type": 11.0,
+    ".FXRack0.FX[3].FXUtils.kParamHPF": 97.98087917021294,
+    ".FXRack0.FX[3].FXUtils.kParamLFMono": 1.0,
+    ".FXRack0.FX[3].FXUtils.kParamLFXover": 123.04289576056323,
+    ".FXRack0.FX[3].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[3].type": 12.0,
+    ".FXRack0.FX[4].FXComp.kParamAttack": 95.43059414188573,
+    ".FXRack0.FX[4].FXComp.kParamGain0": 5.779987335205078,
+    ".FXRack0.FX[4].FXComp.kParamGain1": 7.948124885559082,
+    ".FXRack0.FX[4].FXComp.kParamGain2": -3.0,
+    ".FXRack0.FX[4].FXComp.kParamLevelOut": 0.3252928555011749,
+    ".FXRack0.FX[4].FXComp.kParamMakeup": 4.043980246590756,
+    ".FXRack0.FX[4].FXComp.kParamMultiband": 1.0,
+    ".FXRack0.FX[4].FXComp.kParamRatio": 2.378535845908492,
+    ".FXRack0.FX[4].FXComp.kParamRatioBelow": 0.6236979365348816,
+    ".FXRack0.FX[4].FXComp.kParamRatioBelow0": 0.03603583574295044,
+    ".FXRack0.FX[4].FXComp.kParamRatioBelow1": 0.0,
+    ".FXRack0.FX[4].FXComp.kParamRelease": 461.33128362958604,
+    ".FXRack0.FX[4].FXComp.kParamThresh": 0.5110580921173096,
+    ".FXRack0.FX[4].FXComp.kParamThreshUD0": 143.43934059143066,
+    ".FXRack0.FX[4].FXComp.kParamThreshUD1": 27.99999713897705,
+    ".FXRack0.FX[4].FXComp.kParamThreshUD2": 154.29648160934448,
+    ".FXRack0.FX[4].FXComp.kParamXoverHi": 2809.0234979708594,
+    ".FXRack0.FX[4].FXComp.kParamXoverLow": 212.67506868403618,
+    ".FXRack0.FX[4].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[4].type": 5.0,
+    ".Filter.kUIParamMixOrGain": 0.0,
+    ".Global0.kParamMasterVolume": 0.31667721109647573,
+    ".GranularOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".LFO0.kParamDefaultMode": 0.0,
+    ".LFO0.kParamRate": 0.36392570581308215,
+    ".Macro0.kParamValue": 84.45106148719788,
+    ".Macro1.kParamValue": 87.77050375938416,
+    ".Macro2.kParamValue": 62.08854913711548,
+    ".Macro3.kParamValue": 63.835614919662476,
+    ".Macro4.kParamValue": 17.12130457162857,
+    ".Macro5.kParamValue": 47.69504964351654,
+    ".MidiClip0.clip.notes[0].attributes[0]": 0.787401556968689,
+    ".MidiClip0.clip.notes[0].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[0].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[0].channel": 0.0,
+    ".MidiClip0.clip.notes[0].length": 4.0,
+    ".MidiClip0.clip.notes[0].noteNum": 60.0,
+    ".MidiClip0.clip.notes[0].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[0]": 0.787401556968689,
+    ".MidiClip0.clip.notes[1].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[1].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[1].channel": 0.0,
+    ".MidiClip0.clip.notes[1].length": 4.0,
+    ".MidiClip0.clip.notes[1].noteNum": 67.0,
+    ".MidiClip0.clip.notes[1].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[0]": 0.787401556968689,
+    ".MidiClip0.clip.notes[2].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[2].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[2].channel": 0.0,
+    ".MidiClip0.clip.notes[2].length": 4.0,
+    ".MidiClip0.clip.notes[2].noteNum": 72.0,
+    ".MidiClip0.clip.notes[2].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[0]": 0.787401556968689,
+    ".MidiClip0.clip.notes[3].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[3].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[3].channel": 0.0,
+    ".MidiClip0.clip.notes[3].length": 4.0,
+    ".MidiClip0.clip.notes[3].noteNum": 79.0,
+    ".MidiClip0.clip.notes[3].timeStamp": 0.0,
+    ".MidiClip0.gridYOffset_Rows": 52.143884892086334,
+    ".MidiClip0.kParamLaunchQuantize": 0.0,
+    ".MidiClip0.kParamNoteGate": 1.0,
+    ".ModSlot0.destModuleID": 0.0,
+    ".ModSlot0.destModuleParamID": 3.0,
+    ".ModSlot0.kParamAmount": 72.51460552215576,
+    ".ModSlot0.kParamBipolar": 1.0,
+    ".ModSlot0.source[0]": 3.0,
+    ".ModSlot0.source[1]": 0.0,
+    ".ModSlot1.destModuleID": 0.0,
+    ".ModSlot1.destModuleParamID": 3.0,
+    ".ModSlot1.kParamAmount": 34.7953200340271,
+    ".ModSlot1.source[0]": 6.0,
+    ".ModSlot1.source[1]": 0.0,
+    ".ModSlot10.destModuleID": 0.0,
+    ".ModSlot10.destModuleParamID": 3.0,
+    ".ModSlot10.kParamAmount": 56.836044788360596,
+    ".ModSlot10.source[0]": 29.0,
+    ".ModSlot10.source[1]": 0.0,
+    ".ModSlot11.destModuleID": 1.0,
+    ".ModSlot11.destModuleParamID": 3.0,
+    ".ModSlot11.kParamAmount": 70.46782970428467,
+    ".ModSlot11.source[0]": 29.0,
+    ".ModSlot11.source[1]": 0.0,
+    ".ModSlot12.destModuleID": 1.0,
+    ".ModSlot12.destModuleParamID": 0.0,
+    ".ModSlot12.kParamAmount": 67.76094436645508,
+    ".ModSlot12.source[0]": 30.0,
+    ".ModSlot12.source[1]": 0.0,
+    ".ModSlot13.destModuleID": 2.0,
+    ".ModSlot13.destModuleParamID": 0.0,
+    ".ModSlot13.kParamAmount": 22.453951835632324,
+    ".ModSlot13.source[0]": 30.0,
+    ".ModSlot13.source[1]": 0.0,
+    ".ModSlot14.destModuleID": 0.0,
+    ".ModSlot14.destModuleParamID": 0.0,
+    ".ModSlot14.kParamAmount": 93.0117130279541,
+    ".ModSlot14.source[0]": 30.0,
+    ".ModSlot14.source[1]": 0.0,
+    ".ModSlot2.destModuleID": 0.0,
+    ".ModSlot2.destModuleParamID": 58.0,
+    ".ModSlot2.kParamAmount": 50.0,
+    ".ModSlot2.kParamBipolar": 1.0,
+    ".ModSlot2.source[0]": 25.0,
+    ".ModSlot2.source[1]": 0.0,
+    ".ModSlot3.destModuleID": 2.0,
+    ".ModSlot3.destModuleParamID": 1.0,
+    ".ModSlot3.kParamAmount": -62.0877206325531,
+    ".ModSlot3.source[0]": 17.0,
+    ".ModSlot3.source[1]": 0.0,
+    ".ModSlot4.destModuleID": 1.0,
+    ".ModSlot4.destModuleParamID": 1.0,
+    ".ModSlot4.kParamAmount": 34.73098278045654,
+    ".ModSlot4.source[0]": 17.0,
+    ".ModSlot4.source[1]": 0.0,
+    ".ModSlot5.destModuleID": 0.0,
+    ".ModSlot5.destModuleParamID": 6.0,
+    ".ModSlot5.kParamAmount": 45.66082954406738,
+    ".ModSlot5.source[0]": 17.0,
+    ".ModSlot5.source[1]": 0.0,
+    ".ModSlot6.destModuleID": 1.0,
+    ".ModSlot6.destModuleParamID": 1.0,
+    ".ModSlot6.kParamAmount": 100.0,
+    ".ModSlot6.source[0]": 26.0,
+    ".ModSlot6.source[1]": 0.0,
+    ".ModSlot7.destModuleID": 1.0,
+    ".ModSlot7.destModuleParamID": 2.0,
+    ".ModSlot7.kParamAmount": 71.66787385940552,
+    ".ModSlot7.source[0]": 27.0,
+    ".ModSlot7.source[1]": 0.0,
+    ".ModSlot8.destModuleID": 1.0,
+    ".ModSlot8.destModuleParamID": 5.0,
+    ".ModSlot8.kParamAmount": 37.81468868255615,
+    ".ModSlot8.source[0]": 28.0,
+    ".ModSlot8.source[1]": 0.0,
+    ".ModSlot9.destModuleID": 0.0,
+    ".ModSlot9.destModuleParamID": 6.0,
+    ".ModSlot9.kParamAmount": 32.93949365615845,
+    ".ModSlot9.source[0]": 28.0,
+    ".ModSlot9.source[1]": 0.0,
+    ".MultiSampleOsc[0].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[1].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[2].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".Osc[0].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[0].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[0].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[1].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[1].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[1].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[2].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[2].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[2].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[3].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[3].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[3].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[4].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[4].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[4].kUIParamZoomToStartEnd": 0.0,
+    ".Oscillator0.WTOsc0.numChannels": 1.0,
+    ".Oscillator0.WTOsc0.numFrames": 18432.0,
+    ".Oscillator0.WTOsc0.sampleRate": 44100.0,
+    ".Oscillator1.WTOsc1.numChannels": 1.0,
+    ".Oscillator1.WTOsc1.numFrames": 18432.0,
+    ".Oscillator1.WTOsc1.kParamRandomPhase": 0.0,
+    ".Oscillator1.WTOsc1.kParamWarp": 0.18961304426193237,
+    ".Oscillator1.WTOsc1.sampleRate": 44100.0,
+    ".Oscillator1.kParamDetune": 0.11111111773384952,
+    ".Oscillator1.kParamDetuneWid": 49.56140220165253,
+    ".Oscillator1.kParamEnable": 1.0,
+    ".Oscillator1.kParamPan": -2.9239773750305176,
+    ".Oscillator1.kParamUnison": 3.0,
+    ".Oscillator1.kParamVolume": 0.038954290532999813,
+    ".Oscillator2.WTOsc2.numChannels": 1.0,
+    ".Oscillator2.WTOsc2.numFrames": 18432.0,
+    ".Oscillator2.WTOsc2.kParamTablePos": 169.5087674856186,
+    ".Oscillator2.WTOsc2.kParamWarp": 0.13952651619911194,
+    ".Oscillator2.WTOsc2.sampleRate": 44100.0,
+    ".Oscillator2.kParamDetune": 0.03501931712938977,
+    ".Oscillator2.kParamEnable": 1.0,
+    ".Oscillator2.kParamOctave": -2.0,
+    ".Oscillator2.kParamPan": -1.1695891618728638,
+    ".Oscillator2.kParamUnison": 2.0,
+    ".Oscillator2.kParamVolume": 0.64187268672109,
+    ".Oscillator3.NoiseOsc3.detuneFactor": 0.4758218478413068,
+    ".Oscillator3.NoiseOsc3.numChannels": 1.0,
+    ".Oscillator3.NoiseOsc3.numFrames": 78241.0,
+    ".Oscillator3.NoiseOsc3.kParamColor": 0.0,
+    ".Oscillator3.NoiseOsc3.kParamInitialPhase": 13.28125,
+    ".Oscillator3.NoiseOsc3.sampleRate": 44100.0,
+    ".Oscillator3.kParamEnable": 1.0,
+    ".Oscillator3.kParamVolume": 0.0,
+    ".PitchQuantizer0.scale[0]": 0.0,
+    ".PitchQuantizer0.scale[1]": 2.0,
+    ".PitchQuantizer0.scale[2]": 0.0,
+    ".PitchQuantizer0.scale[3]": 2.0,
+    ".PitchQuantizer0.scale[4]": 0.0,
+    ".PitchQuantizer0.scale[5]": 0.0,
+    ".PitchQuantizer0.scale[6]": 2.0,
+    ".PitchQuantizer0.scale[7]": 0.0,
+    ".PitchQuantizer0.scale[8]": 2.0,
+    ".PitchQuantizer0.scale[9]": 0.0,
+    ".PitchQuantizer0.scale[10]": 2.0,
+    ".PitchQuantizer0.scale[11]": 0.0,
+    ".SerumGUI.kUIParamShowKeyboard": 1.0,
+    ".SpectralOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[0].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[1].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[2].kUIParamShowWaveformDisplay": 0.0,
+    ".VoiceFilter0.kParamDrive": 28.654971718788147,
+    ".VoiceFilter0.kParamEnable": 1.0,
+    ".VoiceFilter0.kParamFreq": 0.39990487694740295,
+    ".VoiceFilter0.kParamLevelOut": 0.6257309913635254,
+    ".VoiceFilter0.kParamPad": 1.0,
+    ".VoiceFilter0.kParamReso": 55.90642690658569,
+    ".VoiceFilter0.kParamVar": 1.6060348600149155,
+    ".WTOsc[0].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[1].kUIParamWTOverviewMouseTag": 1.0,
+    ".WTOsc[2].kUIParamWTOverviewMouseTag": 0.0,
+    ".lockOversampling": 0.0,
+    ".lockTuning": 0.0,
+    ".mpeConfig": 0.0,
+    ".mpeEnabled": 1.0,
+    ".mpePitchBendRange": 48.0,
+    ".scalars.note.curveVals[0]": 0.5,
+    ".scalars.note.curveVals[1]": 0.5441176470588235,
+    ".scalars.note.curveVals[2]": 0.4656862745098042,
+    ".scalars.note.curveVals[3]": 0.5,
+    ".scalars.note.curveVals[4]": 0.5,
+    ".scalars.note.legato": 1.0,
+    ".scalars.note.numPoints": 4.0,
+    ".scalars.note.xVals[0]": 0.0,
+    ".scalars.note.xVals[1]": 0.03153153153153051,
+    ".scalars.note.xVals[2]": 0.2972972972972973,
+    ".scalars.note.xVals[3]": 0.9054054054054054,
+    ".scalars.note.xVals[4]": 1.0,
+    ".scalars.note.yVals[0]": 1.0,
+    ".scalars.note.yVals[1]": 0.42401960784313697,
+    ".scalars.note.yVals[2]": 0.25245098039215674,
+    ".scalars.note.yVals[3]": 1.0,
+    ".scalars.note.yVals[4]": 0.0024509803921567235,
+    ".version": 4.0
+  }
+}

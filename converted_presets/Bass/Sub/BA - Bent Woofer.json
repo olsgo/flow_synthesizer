@@ -1,0 +1,2617 @@
+{
+  "fileType": "SerumPreset",
+  "hash": "1e5cfb0ff5f05e2cf42dbdfbf871da21",
+  "presetAuthor": "Electric Himalaya",
+  "presetDescription": "fat and filthy FM bass",
+  "presetName": "BA - Bent Woofer",
+  "product": "Serum2",
+  "productVersion": "2.0.11",
+  "tags": [
+    "Wavetable",
+    "Mono",
+    "Preview"
+  ],
+  "url": "https://xferrecords.com/",
+  "vendor": "Xfer Records",
+  "version": 4.0,
+  "data": {
+    "Arp0": {
+      "plainParams": {
+        "kParamKeyZoneMax": 126.0
+      }
+    },
+    "ArpClip0": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ClipPlayer": {
+      "kUIParamPreviewClip": 0.08333333333333333,
+      "kUIParamSelectedClip": 0.0
+    },
+    "ClipPlayer0": {
+      "plainParams": "default"
+    },
+    "Env0": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001,
+        "kParamDecay": 2.1313028984416,
+        "kParamRelease": 0.06372534428183196,
+        "kParamSustain": 0.0
+      }
+    },
+    "Env1": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001,
+        "kParamDecay": 1.3678050412084473,
+        "kParamSustain": 0.0
+      }
+    },
+    "Env2": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001,
+        "kParamDecay": 0.81713232972553,
+        "kParamSustain": 0.0
+      }
+    },
+    "Env3": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001,
+        "kParamDecay": 1.3073592030723749,
+        "kParamSustain": 0.5592619180679321
+      }
+    },
+    "FXRack0": {
+      "FX": [
+        {
+          "FXDistortion": {
+            "plainParams": {
+              "kParamBW": 1.201361149678512,
+              "kParamDrive": 53.616708517074585,
+              "kParamFreq": 0.7308433055877686,
+              "kParamMode": "kDiode1",
+              "kParamPrePost": 1.0,
+              "kParamWet": 0.0
+            }
+          },
+          "flex": [
+            {},
+            {}
+          ],
+          "kUIParamMixOrGain": 0.0,
+          "type": 0
+        },
+        {
+          "FXEQ": {
+            "plainParams": {
+              "kParamFreq1": 119.72021380167985,
+              "kParamFreq2": 5938.6185446173395,
+              "kParamGain1": 4.964638710021973,
+              "kParamGain2": 4.598685264587402,
+              "kParamReso2": 48.675304651260376,
+              "kParamType2": 1.0
+            }
+          },
+          "type": 7
+        },
+        {
+          "FXBode": {
+            "plainParams": {
+              "kParamBlur": 74.38322305679321,
+              "kParamFeedback": 42.295435070991516,
+              "kParamRange": 18.580595307876834,
+              "kParamShift": 0.017130374908447266,
+              "kParamWet": 0.0
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 10
+        },
+        {
+          "FXDelay": {
+            "plainParams": {
+              "kParamBW": 3.7171429842710495,
+              "kParamFeedback": 16.917148232460022,
+              "kParamFreq": 997.4361297240381,
+              "kParamLink": 1.0,
+              "kParamMode": 1.0,
+              "kParamTimeL": 0.02962832771955013,
+              "kParamTimeR": 0.02962832771955013,
+              "kParamWet": 0.0
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 4
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack1": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack2": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "Filter": {
+      "kUIParamMixOrGain": 0.0
+    },
+    "Global0": {
+      "plainParams": {
+        "kParamMasterVolume": 0.12910114977560117,
+        "kParamMonoToggle": 1.0
+      }
+    },
+    "GranularOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      }
+    ],
+    "LFO0": {
+      "curveData": {
+        "curveVals": [
+          0.4487879136029412,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "numPoints": 4,
+        "xVals": [
+          0.0,
+          0.125,
+          0.25,
+          0.875,
+          1.0
+        ],
+        "yVals": [
+          1.0,
+          0.25,
+          0.875,
+          0.0,
+          1.0
+        ]
+      },
+      "curveDisplayName": "Custom",
+      "pathData": {},
+      "plainParams": {
+        "kParamDefaultMode": 0.0,
+        "kParamMode": "Envelope"
+      }
+    },
+    "LFO1": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO2": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO3": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO4": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO5": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO6": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO7": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO8": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO9": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFOPointModBus0": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus1": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus10": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus11": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus12": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus13": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus14": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus15": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus2": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus3": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus4": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus5": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus6": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus7": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus8": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus9": {
+      "plainParams": "default"
+    },
+    "Macro0": {
+      "name": "SUB ATTACK",
+      "plainParams": "default"
+    },
+    "Macro1": {
+      "name": "SNAP",
+      "plainParams": "default"
+    },
+    "Macro2": {
+      "name": "NASTY EDGE",
+      "plainParams": "default"
+    },
+    "Macro3": {
+      "name": "FATTY SLIDE",
+      "plainParams": {
+        "kParamValue": 0.78125
+      }
+    },
+    "Macro4": {
+      "name": "FILTHY",
+      "plainParams": "default"
+    },
+    "Macro5": {
+      "name": "DRIVE",
+      "plainParams": "default"
+    },
+    "Macro6": {
+      "name": "LUSH STEREO",
+      "plainParams": {
+        "kParamValue": 2.34375
+      }
+    },
+    "Macro7": {
+      "name": "DELAY MIX",
+      "plainParams": "default"
+    },
+    "MidiClip0": {
+      "clip": {
+        "automation": [
+          {
+            "dest": "kAutoDest_Macro3",
+            "timeStamps": [
+              7.12503200948413,
+              7.32330864983669,
+              7.503036537695152,
+              7.682991182919068,
+              7.881086417379265,
+              8.205077341139258,
+              9.213013830580167,
+              9.393013827277173,
+              9.753059172144276,
+              9.95097300071211,
+              11.40893215763208,
+              11.660859590650944,
+              11.84085958734795,
+              12.020904935518047,
+              12.200904932215053
+            ],
+            "values": [
+              0.0078125,
+              0.1484375,
+              0.3671875,
+              0.4921875,
+              0.5793650793650793,
+              0.6666666666666666,
+              0.7619047619047619,
+              0.8571428571428571,
+              0.9523809523809523,
+              1.0,
+              0.8888888888888888,
+              0.8015873015873016,
+              0.6904761904761905,
+              0.484375,
+              0.2421875
+            ]
+          },
+          {
+            "dest": "kAutoDest_Macro6",
+            "timeStamps": [
+              7.233104569859279,
+              7.4311544528463855,
+              7.610973043651029,
+              7.808977575165045,
+              8.096959429291019,
+              8.979000229432131,
+              9.339090925772325,
+              9.662945795113046,
+              9.96897753552912,
+              11.39092762281507,
+              11.714918546575063,
+              11.984850514410937,
+              12.164850511107943,
+              12.34489585927804
+            ],
+            "values": [
+              0.0234375,
+              0.1484375,
+              0.2890625,
+              0.3828125,
+              0.4765625,
+              0.5555555555555556,
+              0.6428571428571428,
+              0.7380952380952381,
+              0.7936507936507936,
+              0.7063492063492063,
+              0.6190476190476191,
+              0.5079365079365079,
+              0.3515625,
+              0.125
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9921259842519685
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.5895833333333333,
+            "noteNum": 55,
+            "timeStamp": 0.03958333333333333
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8740157480314961
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.8208333333333333,
+            "noteNum": 55,
+            "timeStamp": 0.7510416666666666
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.905511811023622
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.21041666666666667,
+            "noteNum": 67,
+            "timeStamp": 1.5739583333333333
+          },
+          {
+            "attributes": [
+              0.6771653543307087,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.21562499999999998,
+            "noteNum": 67,
+            "timeStamp": 1.9395833333333332
+          },
+          {
+            "attributes": [
+              0.7244094488188977,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9606299212598425
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.20520833333333333,
+            "noteNum": 67,
+            "timeStamp": 2.314583333333333
+          },
+          {
+            "attributes": [
+              0.7244094488188977,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.225,
+            "noteNum": 67,
+            "timeStamp": 2.7020833333333334
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8503937007874016
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.60625,
+            "noteNum": 62,
+            "timeStamp": 3.142708333333333
+          },
+          {
+            "attributes": [
+              0.7874015748031495,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8110236220472441
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.9083333333333333,
+            "noteNum": 62,
+            "timeStamp": 3.9114583333333335
+          },
+          {
+            "attributes": [
+              0.7952755905511811,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.17708333333333334,
+            "noteNum": 63,
+            "timeStamp": 4.767708333333333
+          },
+          {
+            "attributes": [
+              0.7322834645669292,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9763779527559056
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.17395833333333333,
+            "noteNum": 63,
+            "timeStamp": 5.1125
+          },
+          {
+            "attributes": [
+              0.6692913385826772,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9921259842519685
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.13229166666666667,
+            "noteNum": 63,
+            "timeStamp": 5.528125
+          },
+          {
+            "attributes": [
+              0.7952755905511811,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.23229166666666667,
+            "noteNum": 63,
+            "timeStamp": 5.882291666666666
+          },
+          {
+            "attributes": [
+              0.8661417322834646,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.6770833333333334,
+            "noteNum": 55,
+            "timeStamp": 6.327083333333333
+          },
+          {
+            "attributes": [
+              0.7559055118110236,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8740157480314961
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.834375,
+            "noteNum": 55,
+            "timeStamp": 7.13125
+          },
+          {
+            "attributes": [
+              0.8267716535433071,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.1875,
+            "noteNum": 67,
+            "timeStamp": 7.989583333333333
+          },
+          {
+            "attributes": [
+              0.6535433070866141,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.889763779527559
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.15520833333333334,
+            "noteNum": 67,
+            "timeStamp": 8.366666666666667
+          },
+          {
+            "attributes": [
+              0.7244094488188977,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.15625,
+            "noteNum": 67,
+            "timeStamp": 8.732291666666667
+          },
+          {
+            "attributes": [
+              0.6771653543307087,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9448818897637795
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.19583333333333333,
+            "noteNum": 67,
+            "timeStamp": 9.113541666666666
+          },
+          {
+            "attributes": [
+              0.7559055118110236,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7795275590551181
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.7072916666666667,
+            "noteNum": 62,
+            "timeStamp": 9.555208333333333
+          },
+          {
+            "attributes": [
+              0.7244094488188977,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.9364583333333333,
+            "noteNum": 62,
+            "timeStamp": 10.397916666666667
+          },
+          {
+            "attributes": [
+              0.6141732283464567,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.17916666666666667,
+            "noteNum": 63,
+            "timeStamp": 11.227083333333333
+          },
+          {
+            "attributes": [
+              0.7322834645669292,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.171875,
+            "noteNum": 63,
+            "timeStamp": 11.621875
+          },
+          {
+            "attributes": [
+              0.7952755905511811,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9606299212598425
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.15416666666666667,
+            "noteNum": 63,
+            "timeStamp": 12.048958333333333
+          },
+          {
+            "attributes": [
+              0.7952755905511811,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9448818897637795
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.22604166666666667,
+            "noteNum": 63,
+            "timeStamp": 12.425
+          }
+        ],
+        "regionEndBeats": 12.75
+      },
+      "displayLength_Beats": 13.0,
+      "gridWidth_Beats": 13.0,
+      "gridYOffset_Rows": 32.0,
+      "laneTabs": [
+        {
+          "subType": 0,
+          "type": "Attribute"
+        },
+        {
+          "subType": 7,
+          "type": "Attribute"
+        },
+        {
+          "subType": 133,
+          "type": "Automation"
+        },
+        {
+          "subType": 136,
+          "type": "Automation"
+        }
+      ],
+      "name": "BA Bent Woofer",
+      "plainParams": "default"
+    },
+    "MidiClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ModSlot0": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "flex": [
+        {},
+        {
+          "curveVals": [
+            0.45938404922779924,
+            0.5
+          ],
+          "numPoints": 1,
+          "xVals": [
+            0.0,
+            1.0
+          ],
+          "yVals": [
+            0.7310117036679536,
+            0.0
+          ]
+        }
+      ],
+      "plainParams": {
+        "kParamAmount": -28.955096006393433,
+        "kParamAuxCurveData": 1.0
+      },
+      "source": [
+        3,
+        16
+      ]
+    },
+    "ModSlot1": {
+      "destModuleID": 1,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": -13.198792934417725
+      },
+      "source": [
+        3,
+        16
+      ]
+    },
+    "ModSlot10": {
+      "destModuleID": 0,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 22.236239910125732
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot11": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamWarp2",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 21.124589443206787
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot12": {
+      "destModuleID": 0,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXDistortion",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot13": {
+      "destModuleID": 2,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXBode",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot14": {
+      "destModuleID": 2,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamShift",
+      "destModuleTypeString": "FXBode",
+      "plainParams": {
+        "kParamAmount": 6.316828727722168
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot15": {
+      "destModuleID": 3,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXDelay",
+      "plainParams": {
+        "kParamAmount": 66.3867175579071
+      },
+      "source": [
+        32,
+        0
+      ]
+    },
+    "ModSlot16": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamWarp2",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 61.328125
+      },
+      "source": [
+        3,
+        0
+      ]
+    },
+    "ModSlot17": {
+      "destModuleID": 1,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 4.649806022644043
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot18": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamWarp2",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 7.449281215667725
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot19": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamWarp2",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 13.986027240753174
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot2": {
+      "destModuleID": 2,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamWarp2",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 20.93106508255005
+      },
+      "source": [
+        4,
+        0
+      ]
+    },
+    "ModSlot20": {
+      "destModuleID": 1,
+      "destModuleParamID": 7,
+      "destModuleParamName": "kParamPitchRatio",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 5.134022235870361
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot21": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        6,
+        0
+      ]
+    },
+    "ModSlot22": {
+      "destModuleID": 0,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamAttack",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 16.408491134643555
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot23": {
+      "destModuleID": 0,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": -22.9803204536438
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot24": {
+      "destModuleID": 1,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamDecay",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -23.488211631774902
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot25": {
+      "destModuleID": 3,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamSustain",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -65.1230126619339
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot26": {
+      "destModuleID": 3,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamDecay",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -31.86677098274231
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot27": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 25.126779079437256
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot28": {
+      "destModuleID": 0,
+      "destModuleParamID": 4,
+      "destModuleParamName": "kParamPhase",
+      "destModuleTypeString": "LFO",
+      "plainParams": {
+        "kParamAmount": 23.584842681884766
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot29": {
+      "destModuleID": 0,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamVar",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 18.402206897735596
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot3": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamWarp2",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 36.01522445678711
+      },
+      "source": [
+        5,
+        0
+      ]
+    },
+    "ModSlot30": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 45.257675647735596
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot31": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 28.577303886413574
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot32": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 10.718202590942383
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot33": {
+      "destModuleID": 0,
+      "destModuleParamID": 4,
+      "destModuleParamName": "kParamReso",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": -64.32086229324341
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot34": {
+      "destModuleID": 0,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamVar",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 41.68379306793213
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot35": {
+      "plainParams": "default"
+    },
+    "ModSlot36": {
+      "plainParams": "default"
+    },
+    "ModSlot37": {
+      "plainParams": "default"
+    },
+    "ModSlot38": {
+      "plainParams": "default"
+    },
+    "ModSlot39": {
+      "plainParams": "default"
+    },
+    "ModSlot4": {
+      "destModuleID": 1,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamAttack",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 53.90199422836304
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot40": {
+      "plainParams": "default"
+    },
+    "ModSlot41": {
+      "plainParams": "default"
+    },
+    "ModSlot42": {
+      "plainParams": "default"
+    },
+    "ModSlot43": {
+      "plainParams": "default"
+    },
+    "ModSlot44": {
+      "plainParams": "default"
+    },
+    "ModSlot45": {
+      "plainParams": "default"
+    },
+    "ModSlot46": {
+      "plainParams": "default"
+    },
+    "ModSlot47": {
+      "plainParams": "default"
+    },
+    "ModSlot48": {
+      "plainParams": "default"
+    },
+    "ModSlot49": {
+      "plainParams": "default"
+    },
+    "ModSlot5": {
+      "destModuleID": 2,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamAttack",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 55.94421625137329
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot50": {
+      "plainParams": "default"
+    },
+    "ModSlot51": {
+      "plainParams": "default"
+    },
+    "ModSlot52": {
+      "plainParams": "default"
+    },
+    "ModSlot53": {
+      "plainParams": "default"
+    },
+    "ModSlot54": {
+      "plainParams": "default"
+    },
+    "ModSlot55": {
+      "plainParams": "default"
+    },
+    "ModSlot56": {
+      "plainParams": "default"
+    },
+    "ModSlot57": {
+      "plainParams": "default"
+    },
+    "ModSlot58": {
+      "plainParams": "default"
+    },
+    "ModSlot59": {
+      "plainParams": "default"
+    },
+    "ModSlot6": {
+      "destModuleID": 3,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamAttack",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 55.125272274017334
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot60": {
+      "plainParams": "default"
+    },
+    "ModSlot61": {
+      "plainParams": "default"
+    },
+    "ModSlot62": {
+      "plainParams": "default"
+    },
+    "ModSlot63": {
+      "plainParams": "default"
+    },
+    "ModSlot7": {
+      "destModuleID": 0,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamDecay",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -20.341050624847412
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot8": {
+      "destModuleID": 2,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamDecay",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": -19.587308168411255
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot9": {
+      "destModuleID": 2,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamWarp",
+      "destModuleTypeString": "WTOsc",
+      "plainParams": {
+        "kParamAmount": 25.860071182250977
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "MultiSampleOsc": [
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      }
+    ],
+    "Osc": [
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      }
+    ],
+    "Oscillator0": {
+      "GranularOsc0": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc0": {
+        "plainParams": "default"
+      },
+      "SampleOsc0": {
+        "plainParams": "default"
+      },
+      "SpectralOsc0": {
+        "plainParams": "default"
+      },
+      "WTOsc0": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 18432,
+        "plainParams": {
+          "kParamTablePos": 47.868801638484,
+          "kParamWarp": 0.32872718572616577,
+          "kParamWarp2": 0.2486916184425354,
+          "kParamWarpMenu": "kPD_OSC",
+          "kParamWarpMenu2": "kPD_OSC2"
+        },
+        "relativePathToWT": "S2 Tables/Default Shapes.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamOctave": -1.0,
+        "kParamPitchMode": "Ratio",
+        "kParamPitchRatio": -1.0,
+        "kParamVolume": 0.5608007647156796
+      }
+    },
+    "Oscillator1": {
+      "GranularOsc1": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc1": {
+        "plainParams": "default"
+      },
+      "SampleOsc1": {
+        "plainParams": "default"
+      },
+      "SpectralOsc1": {
+        "plainParams": "default"
+      },
+      "WTOsc1": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 18432,
+        "plainParams": {
+          "kParamTablePos": 50.872821643948555,
+          "kParamWarpMenu": "kPD_OSC",
+          "kParamWarpMenu2": "kPD_OSC2"
+        },
+        "relativePathToWT": "S2 Tables/Default Shapes.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamPitchMode": "Ratio",
+        "kParamPitchRatio": 9.313225746154785e-10,
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator2": {
+      "GranularOsc2": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc2": {
+        "plainParams": "default"
+      },
+      "SampleOsc2": {
+        "plainParams": "default"
+      },
+      "SpectralOsc2": {
+        "plainParams": "default"
+      },
+      "WTOsc2": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 8192,
+        "plainParams": {
+          "kParamTablePos": 131.06481677293777,
+          "kParamWarpMenu": "kPD_OSC",
+          "kParamWarpMenu2": "kPD_OSC2"
+        },
+        "relativePathToWT": "S2 Tables/Analog/DM - OSCAR.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamPitchMode": "Ratio",
+        "kParamPitchRatio": 9.313225746154785e-10,
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator3": {
+      "NoiseOsc3": {
+        "detuneFactor": 0.4758218478413068,
+        "numChannels": 1,
+        "numFrames": 78241,
+        "plainParams": "default",
+        "relativePathToNoiseSample": "Organics/AC hum1.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": "default"
+    },
+    "Oscillator4": {
+      "SubOsc4": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamKeyZoneMax": 126.0,
+        "kParamOctave": -3.0,
+        "kParamVolume": 0.689371024843414
+      }
+    },
+    "PitchQuantizer0": {
+      "plainParams": "default",
+      "scale": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "scaleName": "Major"
+    },
+    "RetriggerState0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot1": {
+      "plainParams": "default"
+    },
+    "RoutingSlot2": {
+      "plainParams": "default"
+    },
+    "RoutingSlot3": {
+      "plainParams": "default"
+    },
+    "RoutingSlot4": {
+      "plainParams": "default"
+    },
+    "RoutingSlot5": {
+      "plainParams": {
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot6": {
+      "plainParams": "default"
+    },
+    "SerumGUI": {
+      "kUIParamShowKeyboard": 1.0
+    },
+    "SpectralOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      }
+    ],
+    "VoiceFilter0": {
+      "plainParams": {
+        "kParamDrive": 89.38459157943726,
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.49533993005752563,
+        "kParamReso": 71.45490646362305,
+        "kParamType": "Wsp",
+        "kParamVar": 41.58443212509155
+      }
+    },
+    "VoiceFilter1": {
+      "plainParams": {
+        "kParamDrive": 14.943119883537292,
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.0,
+        "kParamReso": 11.716694384813309,
+        "kParamVar": 33.857592940330505
+      }
+    },
+    "VoicePanel0": {
+      "plainParams": "default"
+    },
+    "WTOsc": [
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      }
+    ],
+    "arpBankDisplayName": "",
+    "clipBankDisplayName": "",
+    "fileType": "SerumPreset",
+    "lockOversampling": false,
+    "lockTuning": false,
+    "mpeConfig": 0,
+    "mpeEnabled": true,
+    "mpePitchBendRange": 48,
+    "presetAuthor": "Electric Himalaya",
+    "presetDescription": "fat and filthy FM bass",
+    "presetName": "BA - Bent Woofer",
+    "product": "Serum2",
+    "productVersion": "2.0.11",
+    "scalars": {
+      "note": {},
+      "velo": {}
+    },
+    "tags": [
+      "Wavetable",
+      "Mono",
+      "Preview"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 4.0
+  },
+  "dawdreamer_params": {
+    ".Arp0.kParamKeyZoneMax": 126.0,
+    ".ClipPlayer.kUIParamPreviewClip": 0.08333333333333333,
+    ".ClipPlayer.kUIParamSelectedClip": 0.0,
+    ".Env0.kParamCurve1": 50.0,
+    ".Env0.kParamCurve2": 66.60000000000001,
+    ".Env0.kParamCurve3": 66.60000000000001,
+    ".Env0.kParamDecay": 2.1313028984416,
+    ".Env0.kParamRelease": 0.06372534428183196,
+    ".Env0.kParamSustain": 0.0,
+    ".Env1.kParamCurve1": 50.0,
+    ".Env1.kParamCurve2": 66.60000000000001,
+    ".Env1.kParamCurve3": 66.60000000000001,
+    ".Env1.kParamDecay": 1.3678050412084473,
+    ".Env1.kParamSustain": 0.0,
+    ".Env2.kParamCurve1": 50.0,
+    ".Env2.kParamCurve2": 66.60000000000001,
+    ".Env2.kParamCurve3": 66.60000000000001,
+    ".Env2.kParamDecay": 0.81713232972553,
+    ".Env2.kParamSustain": 0.0,
+    ".Env3.kParamCurve1": 50.0,
+    ".Env3.kParamCurve2": 66.60000000000001,
+    ".Env3.kParamCurve3": 66.60000000000001,
+    ".Env3.kParamDecay": 1.3073592030723749,
+    ".Env3.kParamSustain": 0.5592619180679321,
+    ".FXRack0.FX[0].FXDistortion.kParamBW": 1.201361149678512,
+    ".FXRack0.FX[0].FXDistortion.kParamDrive": 53.616708517074585,
+    ".FXRack0.FX[0].FXDistortion.kParamFreq": 0.7308433055877686,
+    ".FXRack0.FX[0].FXDistortion.kParamPrePost": 1.0,
+    ".FXRack0.FX[0].FXDistortion.kParamWet": 0.0,
+    ".FXRack0.FX[0].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[0].type": 0.0,
+    ".FXRack0.FX[1].FXEQ.kParamFreq1": 119.72021380167985,
+    ".FXRack0.FX[1].FXEQ.kParamFreq2": 5938.6185446173395,
+    ".FXRack0.FX[1].FXEQ.kParamGain1": 4.964638710021973,
+    ".FXRack0.FX[1].FXEQ.kParamGain2": 4.598685264587402,
+    ".FXRack0.FX[1].FXEQ.kParamReso2": 48.675304651260376,
+    ".FXRack0.FX[1].FXEQ.kParamType2": 1.0,
+    ".FXRack0.FX[1].type": 7.0,
+    ".FXRack0.FX[2].FXBode.kParamBlur": 74.38322305679321,
+    ".FXRack0.FX[2].FXBode.kParamFeedback": 42.295435070991516,
+    ".FXRack0.FX[2].FXBode.kParamRange": 18.580595307876834,
+    ".FXRack0.FX[2].FXBode.kParamShift": 0.017130374908447266,
+    ".FXRack0.FX[2].FXBode.kParamWet": 0.0,
+    ".FXRack0.FX[2].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[2].type": 10.0,
+    ".FXRack0.FX[3].FXDelay.kParamBW": 3.7171429842710495,
+    ".FXRack0.FX[3].FXDelay.kParamFeedback": 16.917148232460022,
+    ".FXRack0.FX[3].FXDelay.kParamFreq": 997.4361297240381,
+    ".FXRack0.FX[3].FXDelay.kParamLink": 1.0,
+    ".FXRack0.FX[3].FXDelay.kParamMode": 1.0,
+    ".FXRack0.FX[3].FXDelay.kParamTimeL": 0.02962832771955013,
+    ".FXRack0.FX[3].FXDelay.kParamTimeR": 0.02962832771955013,
+    ".FXRack0.FX[3].FXDelay.kParamWet": 0.0,
+    ".FXRack0.FX[3].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[3].type": 4.0,
+    ".Filter.kUIParamMixOrGain": 0.0,
+    ".Global0.kParamMasterVolume": 0.12910114977560117,
+    ".Global0.kParamMonoToggle": 1.0,
+    ".GranularOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".LFO0.curveData.curveVals[0]": 0.4487879136029412,
+    ".LFO0.curveData.curveVals[1]": 0.5,
+    ".LFO0.curveData.curveVals[2]": 0.5,
+    ".LFO0.curveData.curveVals[3]": 0.5,
+    ".LFO0.curveData.curveVals[4]": 0.5,
+    ".LFO0.curveData.numPoints": 4.0,
+    ".LFO0.curveData.xVals[0]": 0.0,
+    ".LFO0.curveData.xVals[1]": 0.125,
+    ".LFO0.curveData.xVals[2]": 0.25,
+    ".LFO0.curveData.xVals[3]": 0.875,
+    ".LFO0.curveData.xVals[4]": 1.0,
+    ".LFO0.curveData.yVals[0]": 1.0,
+    ".LFO0.curveData.yVals[1]": 0.25,
+    ".LFO0.curveData.yVals[2]": 0.875,
+    ".LFO0.curveData.yVals[3]": 0.0,
+    ".LFO0.curveData.yVals[4]": 1.0,
+    ".LFO0.kParamDefaultMode": 0.0,
+    ".Macro3.kParamValue": 0.78125,
+    ".Macro6.kParamValue": 2.34375,
+    ".MidiClip0.clip.automation[0].timeStamps[0]": 7.12503200948413,
+    ".MidiClip0.clip.automation[0].timeStamps[1]": 7.32330864983669,
+    ".MidiClip0.clip.automation[0].timeStamps[2]": 7.503036537695152,
+    ".MidiClip0.clip.automation[0].timeStamps[3]": 7.682991182919068,
+    ".MidiClip0.clip.automation[0].timeStamps[4]": 7.881086417379265,
+    ".MidiClip0.clip.automation[0].timeStamps[5]": 8.205077341139258,
+    ".MidiClip0.clip.automation[0].timeStamps[6]": 9.213013830580167,
+    ".MidiClip0.clip.automation[0].timeStamps[7]": 9.393013827277173,
+    ".MidiClip0.clip.automation[0].timeStamps[8]": 9.753059172144276,
+    ".MidiClip0.clip.automation[0].timeStamps[9]": 9.95097300071211,
+    ".MidiClip0.clip.automation[0].timeStamps[10]": 11.40893215763208,
+    ".MidiClip0.clip.automation[0].timeStamps[11]": 11.660859590650944,
+    ".MidiClip0.clip.automation[0].timeStamps[12]": 11.84085958734795,
+    ".MidiClip0.clip.automation[0].timeStamps[13]": 12.020904935518047,
+    ".MidiClip0.clip.automation[0].timeStamps[14]": 12.200904932215053,
+    ".MidiClip0.clip.automation[0].values[0]": 0.0078125,
+    ".MidiClip0.clip.automation[0].values[1]": 0.1484375,
+    ".MidiClip0.clip.automation[0].values[2]": 0.3671875,
+    ".MidiClip0.clip.automation[0].values[3]": 0.4921875,
+    ".MidiClip0.clip.automation[0].values[4]": 0.5793650793650793,
+    ".MidiClip0.clip.automation[0].values[5]": 0.6666666666666666,
+    ".MidiClip0.clip.automation[0].values[6]": 0.7619047619047619,
+    ".MidiClip0.clip.automation[0].values[7]": 0.8571428571428571,
+    ".MidiClip0.clip.automation[0].values[8]": 0.9523809523809523,
+    ".MidiClip0.clip.automation[0].values[9]": 1.0,
+    ".MidiClip0.clip.automation[0].values[10]": 0.8888888888888888,
+    ".MidiClip0.clip.automation[0].values[11]": 0.8015873015873016,
+    ".MidiClip0.clip.automation[0].values[12]": 0.6904761904761905,
+    ".MidiClip0.clip.automation[0].values[13]": 0.484375,
+    ".MidiClip0.clip.automation[0].values[14]": 0.2421875,
+    ".MidiClip0.clip.automation[1].timeStamps[0]": 7.233104569859279,
+    ".MidiClip0.clip.automation[1].timeStamps[1]": 7.4311544528463855,
+    ".MidiClip0.clip.automation[1].timeStamps[2]": 7.610973043651029,
+    ".MidiClip0.clip.automation[1].timeStamps[3]": 7.808977575165045,
+    ".MidiClip0.clip.automation[1].timeStamps[4]": 8.096959429291019,
+    ".MidiClip0.clip.automation[1].timeStamps[5]": 8.979000229432131,
+    ".MidiClip0.clip.automation[1].timeStamps[6]": 9.339090925772325,
+    ".MidiClip0.clip.automation[1].timeStamps[7]": 9.662945795113046,
+    ".MidiClip0.clip.automation[1].timeStamps[8]": 9.96897753552912,
+    ".MidiClip0.clip.automation[1].timeStamps[9]": 11.39092762281507,
+    ".MidiClip0.clip.automation[1].timeStamps[10]": 11.714918546575063,
+    ".MidiClip0.clip.automation[1].timeStamps[11]": 11.984850514410937,
+    ".MidiClip0.clip.automation[1].timeStamps[12]": 12.164850511107943,
+    ".MidiClip0.clip.automation[1].timeStamps[13]": 12.34489585927804,
+    ".MidiClip0.clip.automation[1].values[0]": 0.0234375,
+    ".MidiClip0.clip.automation[1].values[1]": 0.1484375,
+    ".MidiClip0.clip.automation[1].values[2]": 0.2890625,
+    ".MidiClip0.clip.automation[1].values[3]": 0.3828125,
+    ".MidiClip0.clip.automation[1].values[4]": 0.4765625,
+    ".MidiClip0.clip.automation[1].values[5]": 0.5555555555555556,
+    ".MidiClip0.clip.automation[1].values[6]": 0.6428571428571428,
+    ".MidiClip0.clip.automation[1].values[7]": 0.7380952380952381,
+    ".MidiClip0.clip.automation[1].values[8]": 0.7936507936507936,
+    ".MidiClip0.clip.automation[1].values[9]": 0.7063492063492063,
+    ".MidiClip0.clip.automation[1].values[10]": 0.6190476190476191,
+    ".MidiClip0.clip.automation[1].values[11]": 0.5079365079365079,
+    ".MidiClip0.clip.automation[1].values[12]": 0.3515625,
+    ".MidiClip0.clip.automation[1].values[13]": 0.125,
+    ".MidiClip0.clip.notes[0].attributes[0]": 0.8661417322834646,
+    ".MidiClip0.clip.notes[0].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[0].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[7]": 0.9921259842519685,
+    ".MidiClip0.clip.notes[0].channel": 0.0,
+    ".MidiClip0.clip.notes[0].length": 0.5895833333333333,
+    ".MidiClip0.clip.notes[0].noteNum": 55.0,
+    ".MidiClip0.clip.notes[0].timeStamp": 0.03958333333333333,
+    ".MidiClip0.clip.notes[1].attributes[0]": 0.7874015748031495,
+    ".MidiClip0.clip.notes[1].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[1].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[7]": 0.8740157480314961,
+    ".MidiClip0.clip.notes[1].channel": 0.0,
+    ".MidiClip0.clip.notes[1].length": 0.8208333333333333,
+    ".MidiClip0.clip.notes[1].noteNum": 55.0,
+    ".MidiClip0.clip.notes[1].timeStamp": 0.7510416666666666,
+    ".MidiClip0.clip.notes[2].attributes[0]": 0.7874015748031495,
+    ".MidiClip0.clip.notes[2].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[2].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[7]": 0.905511811023622,
+    ".MidiClip0.clip.notes[2].channel": 0.0,
+    ".MidiClip0.clip.notes[2].length": 0.21041666666666667,
+    ".MidiClip0.clip.notes[2].noteNum": 67.0,
+    ".MidiClip0.clip.notes[2].timeStamp": 1.5739583333333333,
+    ".MidiClip0.clip.notes[3].attributes[0]": 0.6771653543307087,
+    ".MidiClip0.clip.notes[3].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[3].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[7]": 0.9291338582677166,
+    ".MidiClip0.clip.notes[3].channel": 0.0,
+    ".MidiClip0.clip.notes[3].length": 0.21562499999999998,
+    ".MidiClip0.clip.notes[3].noteNum": 67.0,
+    ".MidiClip0.clip.notes[3].timeStamp": 1.9395833333333332,
+    ".MidiClip0.clip.notes[4].attributes[0]": 0.7244094488188977,
+    ".MidiClip0.clip.notes[4].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[4].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[7]": 0.9606299212598425,
+    ".MidiClip0.clip.notes[4].channel": 0.0,
+    ".MidiClip0.clip.notes[4].length": 0.20520833333333333,
+    ".MidiClip0.clip.notes[4].noteNum": 67.0,
+    ".MidiClip0.clip.notes[4].timeStamp": 2.314583333333333,
+    ".MidiClip0.clip.notes[5].attributes[0]": 0.7244094488188977,
+    ".MidiClip0.clip.notes[5].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[5].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[7]": 0.9291338582677166,
+    ".MidiClip0.clip.notes[5].channel": 0.0,
+    ".MidiClip0.clip.notes[5].length": 0.225,
+    ".MidiClip0.clip.notes[5].noteNum": 67.0,
+    ".MidiClip0.clip.notes[5].timeStamp": 2.7020833333333334,
+    ".MidiClip0.clip.notes[6].attributes[0]": 0.8267716535433071,
+    ".MidiClip0.clip.notes[6].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[6].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[7]": 0.8503937007874016,
+    ".MidiClip0.clip.notes[6].channel": 0.0,
+    ".MidiClip0.clip.notes[6].length": 0.60625,
+    ".MidiClip0.clip.notes[6].noteNum": 62.0,
+    ".MidiClip0.clip.notes[6].timeStamp": 3.142708333333333,
+    ".MidiClip0.clip.notes[7].attributes[0]": 0.7874015748031495,
+    ".MidiClip0.clip.notes[7].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[7].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[7].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[7].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[7]": 0.8110236220472441,
+    ".MidiClip0.clip.notes[7].channel": 0.0,
+    ".MidiClip0.clip.notes[7].length": 0.9083333333333333,
+    ".MidiClip0.clip.notes[7].noteNum": 62.0,
+    ".MidiClip0.clip.notes[7].timeStamp": 3.9114583333333335,
+    ".MidiClip0.clip.notes[8].attributes[0]": 0.7952755905511811,
+    ".MidiClip0.clip.notes[8].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[8].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[8].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[8].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[7]": 1.0,
+    ".MidiClip0.clip.notes[8].channel": 0.0,
+    ".MidiClip0.clip.notes[8].length": 0.17708333333333334,
+    ".MidiClip0.clip.notes[8].noteNum": 63.0,
+    ".MidiClip0.clip.notes[8].timeStamp": 4.767708333333333,
+    ".MidiClip0.clip.notes[9].attributes[0]": 0.7322834645669292,
+    ".MidiClip0.clip.notes[9].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[9].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[9].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[9].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[7]": 0.9763779527559056,
+    ".MidiClip0.clip.notes[9].channel": 0.0,
+    ".MidiClip0.clip.notes[9].length": 0.17395833333333333,
+    ".MidiClip0.clip.notes[9].noteNum": 63.0,
+    ".MidiClip0.clip.notes[9].timeStamp": 5.1125,
+    ".MidiClip0.clip.notes[10].attributes[0]": 0.6692913385826772,
+    ".MidiClip0.clip.notes[10].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[10].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[10].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[10].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[7]": 0.9921259842519685,
+    ".MidiClip0.clip.notes[10].channel": 0.0,
+    ".MidiClip0.clip.notes[10].length": 0.13229166666666667,
+    ".MidiClip0.clip.notes[10].noteNum": 63.0,
+    ".MidiClip0.clip.notes[10].timeStamp": 5.528125,
+    ".MidiClip0.clip.notes[11].attributes[0]": 0.7952755905511811,
+    ".MidiClip0.clip.notes[11].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[11].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[11].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[11].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[7]": 0.9291338582677166,
+    ".MidiClip0.clip.notes[11].channel": 0.0,
+    ".MidiClip0.clip.notes[11].length": 0.23229166666666667,
+    ".MidiClip0.clip.notes[11].noteNum": 63.0,
+    ".MidiClip0.clip.notes[11].timeStamp": 5.882291666666666,
+    ".MidiClip0.clip.notes[12].attributes[0]": 0.8661417322834646,
+    ".MidiClip0.clip.notes[12].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[12].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[12].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[12].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[7]": 0.9291338582677166,
+    ".MidiClip0.clip.notes[12].channel": 0.0,
+    ".MidiClip0.clip.notes[12].length": 0.6770833333333334,
+    ".MidiClip0.clip.notes[12].noteNum": 55.0,
+    ".MidiClip0.clip.notes[12].timeStamp": 6.327083333333333,
+    ".MidiClip0.clip.notes[13].attributes[0]": 0.7559055118110236,
+    ".MidiClip0.clip.notes[13].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[13].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[13].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[13].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[7]": 0.8740157480314961,
+    ".MidiClip0.clip.notes[13].channel": 0.0,
+    ".MidiClip0.clip.notes[13].length": 0.834375,
+    ".MidiClip0.clip.notes[13].noteNum": 55.0,
+    ".MidiClip0.clip.notes[13].timeStamp": 7.13125,
+    ".MidiClip0.clip.notes[14].attributes[0]": 0.8267716535433071,
+    ".MidiClip0.clip.notes[14].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[14].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[14].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[14].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[7]": 0.9291338582677166,
+    ".MidiClip0.clip.notes[14].channel": 0.0,
+    ".MidiClip0.clip.notes[14].length": 0.1875,
+    ".MidiClip0.clip.notes[14].noteNum": 67.0,
+    ".MidiClip0.clip.notes[14].timeStamp": 7.989583333333333,
+    ".MidiClip0.clip.notes[15].attributes[0]": 0.6535433070866141,
+    ".MidiClip0.clip.notes[15].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[15].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[15].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[15].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[7]": 0.889763779527559,
+    ".MidiClip0.clip.notes[15].channel": 0.0,
+    ".MidiClip0.clip.notes[15].length": 0.15520833333333334,
+    ".MidiClip0.clip.notes[15].noteNum": 67.0,
+    ".MidiClip0.clip.notes[15].timeStamp": 8.366666666666667,
+    ".MidiClip0.clip.notes[16].attributes[0]": 0.7244094488188977,
+    ".MidiClip0.clip.notes[16].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[16].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[16].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[16].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[7]": 0.9291338582677166,
+    ".MidiClip0.clip.notes[16].channel": 0.0,
+    ".MidiClip0.clip.notes[16].length": 0.15625,
+    ".MidiClip0.clip.notes[16].noteNum": 67.0,
+    ".MidiClip0.clip.notes[16].timeStamp": 8.732291666666667,
+    ".MidiClip0.clip.notes[17].attributes[0]": 0.6771653543307087,
+    ".MidiClip0.clip.notes[17].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[17].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[17].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[17].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[7]": 0.9448818897637795,
+    ".MidiClip0.clip.notes[17].channel": 0.0,
+    ".MidiClip0.clip.notes[17].length": 0.19583333333333333,
+    ".MidiClip0.clip.notes[17].noteNum": 67.0,
+    ".MidiClip0.clip.notes[17].timeStamp": 9.113541666666666,
+    ".MidiClip0.clip.notes[18].attributes[0]": 0.7559055118110236,
+    ".MidiClip0.clip.notes[18].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[18].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[18].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[18].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[7]": 0.7795275590551181,
+    ".MidiClip0.clip.notes[18].channel": 0.0,
+    ".MidiClip0.clip.notes[18].length": 0.7072916666666667,
+    ".MidiClip0.clip.notes[18].noteNum": 62.0,
+    ".MidiClip0.clip.notes[18].timeStamp": 9.555208333333333,
+    ".MidiClip0.clip.notes[19].attributes[0]": 0.7244094488188977,
+    ".MidiClip0.clip.notes[19].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[19].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[19].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[19].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[7]": 0.8346456692913385,
+    ".MidiClip0.clip.notes[19].channel": 0.0,
+    ".MidiClip0.clip.notes[19].length": 0.9364583333333333,
+    ".MidiClip0.clip.notes[19].noteNum": 62.0,
+    ".MidiClip0.clip.notes[19].timeStamp": 10.397916666666667,
+    ".MidiClip0.clip.notes[20].attributes[0]": 0.6141732283464567,
+    ".MidiClip0.clip.notes[20].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[20].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[20].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[20].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[7]": 1.0,
+    ".MidiClip0.clip.notes[20].channel": 0.0,
+    ".MidiClip0.clip.notes[20].length": 0.17916666666666667,
+    ".MidiClip0.clip.notes[20].noteNum": 63.0,
+    ".MidiClip0.clip.notes[20].timeStamp": 11.227083333333333,
+    ".MidiClip0.clip.notes[21].attributes[0]": 0.7322834645669292,
+    ".MidiClip0.clip.notes[21].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[21].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[21].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[21].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[7]": 1.0,
+    ".MidiClip0.clip.notes[21].channel": 0.0,
+    ".MidiClip0.clip.notes[21].length": 0.171875,
+    ".MidiClip0.clip.notes[21].noteNum": 63.0,
+    ".MidiClip0.clip.notes[21].timeStamp": 11.621875,
+    ".MidiClip0.clip.notes[22].attributes[0]": 0.7952755905511811,
+    ".MidiClip0.clip.notes[22].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[22].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[22].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[22].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[7]": 0.9606299212598425,
+    ".MidiClip0.clip.notes[22].channel": 0.0,
+    ".MidiClip0.clip.notes[22].length": 0.15416666666666667,
+    ".MidiClip0.clip.notes[22].noteNum": 63.0,
+    ".MidiClip0.clip.notes[22].timeStamp": 12.048958333333333,
+    ".MidiClip0.clip.notes[23].attributes[0]": 0.7952755905511811,
+    ".MidiClip0.clip.notes[23].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[23].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[23].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[23].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[7]": 0.9448818897637795,
+    ".MidiClip0.clip.notes[23].channel": 0.0,
+    ".MidiClip0.clip.notes[23].length": 0.22604166666666667,
+    ".MidiClip0.clip.notes[23].noteNum": 63.0,
+    ".MidiClip0.clip.notes[23].timeStamp": 12.425,
+    ".MidiClip0.clip.regionEndBeats": 12.75,
+    ".MidiClip0.displayLength_Beats": 13.0,
+    ".MidiClip0.gridWidth_Beats": 13.0,
+    ".MidiClip0.gridYOffset_Rows": 32.0,
+    ".MidiClip0.laneTabs[0].subType": 0.0,
+    ".MidiClip0.laneTabs[1].subType": 7.0,
+    ".MidiClip0.laneTabs[2].subType": 133.0,
+    ".MidiClip0.laneTabs[3].subType": 136.0,
+    ".ModSlot0.destModuleID": 1.0,
+    ".ModSlot0.destModuleParamID": 1.0,
+    ".ModSlot0.flex[1].curveVals[0]": 0.45938404922779924,
+    ".ModSlot0.flex[1].curveVals[1]": 0.5,
+    ".ModSlot0.flex[1].numPoints": 1.0,
+    ".ModSlot0.flex[1].xVals[0]": 0.0,
+    ".ModSlot0.flex[1].xVals[1]": 1.0,
+    ".ModSlot0.flex[1].yVals[0]": 0.7310117036679536,
+    ".ModSlot0.flex[1].yVals[1]": 0.0,
+    ".ModSlot0.kParamAmount": -28.955096006393433,
+    ".ModSlot0.kParamAuxCurveData": 1.0,
+    ".ModSlot0.source[0]": 3.0,
+    ".ModSlot0.source[1]": 16.0,
+    ".ModSlot1.destModuleID": 1.0,
+    ".ModSlot1.destModuleParamID": 0.0,
+    ".ModSlot1.kParamAmount": -13.198792934417725,
+    ".ModSlot1.source[0]": 3.0,
+    ".ModSlot1.source[1]": 16.0,
+    ".ModSlot10.destModuleID": 0.0,
+    ".ModSlot10.destModuleParamID": 0.0,
+    ".ModSlot10.kParamAmount": 22.236239910125732,
+    ".ModSlot10.source[0]": 28.0,
+    ".ModSlot10.source[1]": 0.0,
+    ".ModSlot11.destModuleID": 1.0,
+    ".ModSlot11.destModuleParamID": 3.0,
+    ".ModSlot11.kParamAmount": 21.124589443206787,
+    ".ModSlot11.source[0]": 29.0,
+    ".ModSlot11.source[1]": 0.0,
+    ".ModSlot12.destModuleID": 0.0,
+    ".ModSlot12.destModuleParamID": 1.0,
+    ".ModSlot12.kParamAmount": 100.0,
+    ".ModSlot12.source[0]": 30.0,
+    ".ModSlot12.source[1]": 0.0,
+    ".ModSlot13.destModuleID": 2.0,
+    ".ModSlot13.destModuleParamID": 1.0,
+    ".ModSlot13.kParamAmount": 100.0,
+    ".ModSlot13.source[0]": 31.0,
+    ".ModSlot13.source[1]": 0.0,
+    ".ModSlot14.destModuleID": 2.0,
+    ".ModSlot14.destModuleParamID": 3.0,
+    ".ModSlot14.kParamAmount": 6.316828727722168,
+    ".ModSlot14.source[0]": 31.0,
+    ".ModSlot14.source[1]": 0.0,
+    ".ModSlot15.destModuleID": 3.0,
+    ".ModSlot15.destModuleParamID": 1.0,
+    ".ModSlot15.kParamAmount": 66.3867175579071,
+    ".ModSlot15.source[0]": 32.0,
+    ".ModSlot15.source[1]": 0.0,
+    ".ModSlot16.destModuleID": 1.0,
+    ".ModSlot16.destModuleParamID": 3.0,
+    ".ModSlot16.kParamAmount": 61.328125,
+    ".ModSlot16.source[0]": 3.0,
+    ".ModSlot16.source[1]": 0.0,
+    ".ModSlot17.destModuleID": 1.0,
+    ".ModSlot17.destModuleParamID": 0.0,
+    ".ModSlot17.kParamAmount": 4.649806022644043,
+    ".ModSlot17.source[0]": 1.0,
+    ".ModSlot17.source[1]": 0.0,
+    ".ModSlot18.destModuleID": 1.0,
+    ".ModSlot18.destModuleParamID": 3.0,
+    ".ModSlot18.kParamAmount": 7.449281215667725,
+    ".ModSlot18.source[0]": 1.0,
+    ".ModSlot18.source[1]": 0.0,
+    ".ModSlot19.destModuleID": 0.0,
+    ".ModSlot19.destModuleParamID": 3.0,
+    ".ModSlot19.kParamAmount": 13.986027240753174,
+    ".ModSlot19.source[0]": 1.0,
+    ".ModSlot19.source[1]": 0.0,
+    ".ModSlot2.destModuleID": 2.0,
+    ".ModSlot2.destModuleParamID": 3.0,
+    ".ModSlot2.kParamAmount": 20.93106508255005,
+    ".ModSlot2.source[0]": 4.0,
+    ".ModSlot2.source[1]": 0.0,
+    ".ModSlot20.destModuleID": 1.0,
+    ".ModSlot20.destModuleParamID": 7.0,
+    ".ModSlot20.kParamAmount": 5.134022235870361,
+    ".ModSlot20.source[0]": 1.0,
+    ".ModSlot20.source[1]": 0.0,
+    ".ModSlot21.destModuleID": 1.0,
+    ".ModSlot21.destModuleParamID": 3.0,
+    ".ModSlot21.kParamAmount": 100.0,
+    ".ModSlot21.source[0]": 6.0,
+    ".ModSlot21.source[1]": 0.0,
+    ".ModSlot22.destModuleID": 0.0,
+    ".ModSlot22.destModuleParamID": 0.0,
+    ".ModSlot22.kParamAmount": 16.408491134643555,
+    ".ModSlot22.source[0]": 25.0,
+    ".ModSlot22.source[1]": 0.0,
+    ".ModSlot23.destModuleID": 0.0,
+    ".ModSlot23.destModuleParamID": 0.0,
+    ".ModSlot23.kParamAmount": -22.9803204536438,
+    ".ModSlot23.source[0]": 25.0,
+    ".ModSlot23.source[1]": 0.0,
+    ".ModSlot24.destModuleID": 1.0,
+    ".ModSlot24.destModuleParamID": 2.0,
+    ".ModSlot24.kParamAmount": -23.488211631774902,
+    ".ModSlot24.source[0]": 26.0,
+    ".ModSlot24.source[1]": 0.0,
+    ".ModSlot25.destModuleID": 3.0,
+    ".ModSlot25.destModuleParamID": 3.0,
+    ".ModSlot25.kParamAmount": -65.1230126619339,
+    ".ModSlot25.source[0]": 26.0,
+    ".ModSlot25.source[1]": 0.0,
+    ".ModSlot26.destModuleID": 3.0,
+    ".ModSlot26.destModuleParamID": 2.0,
+    ".ModSlot26.kParamAmount": -31.86677098274231,
+    ".ModSlot26.source[0]": 26.0,
+    ".ModSlot26.source[1]": 0.0,
+    ".ModSlot27.destModuleID": 1.0,
+    ".ModSlot27.destModuleParamID": 3.0,
+    ".ModSlot27.kParamAmount": 25.126779079437256,
+    ".ModSlot27.source[0]": 27.0,
+    ".ModSlot27.source[1]": 0.0,
+    ".ModSlot28.destModuleID": 0.0,
+    ".ModSlot28.destModuleParamID": 4.0,
+    ".ModSlot28.kParamAmount": 23.584842681884766,
+    ".ModSlot28.source[0]": 28.0,
+    ".ModSlot28.source[1]": 0.0,
+    ".ModSlot29.destModuleID": 0.0,
+    ".ModSlot29.destModuleParamID": 6.0,
+    ".ModSlot29.kParamAmount": 18.402206897735596,
+    ".ModSlot29.source[0]": 28.0,
+    ".ModSlot29.source[1]": 0.0,
+    ".ModSlot3.destModuleID": 0.0,
+    ".ModSlot3.destModuleParamID": 3.0,
+    ".ModSlot3.kParamAmount": 36.01522445678711,
+    ".ModSlot3.source[0]": 5.0,
+    ".ModSlot3.source[1]": 0.0,
+    ".ModSlot30.destModuleID": 1.0,
+    ".ModSlot30.destModuleParamID": 3.0,
+    ".ModSlot30.kParamAmount": 45.257675647735596,
+    ".ModSlot30.source[0]": 29.0,
+    ".ModSlot30.source[1]": 0.0,
+    ".ModSlot31.destModuleID": 1.0,
+    ".ModSlot31.destModuleParamID": 3.0,
+    ".ModSlot31.kParamAmount": 28.577303886413574,
+    ".ModSlot31.source[0]": 1.0,
+    ".ModSlot31.source[1]": 0.0,
+    ".ModSlot32.destModuleID": 0.0,
+    ".ModSlot32.destModuleParamID": 3.0,
+    ".ModSlot32.kParamAmount": 10.718202590942383,
+    ".ModSlot32.source[0]": 1.0,
+    ".ModSlot32.source[1]": 0.0,
+    ".ModSlot33.destModuleID": 0.0,
+    ".ModSlot33.destModuleParamID": 4.0,
+    ".ModSlot33.kParamAmount": -64.32086229324341,
+    ".ModSlot33.source[0]": 1.0,
+    ".ModSlot33.source[1]": 0.0,
+    ".ModSlot34.destModuleID": 0.0,
+    ".ModSlot34.destModuleParamID": 6.0,
+    ".ModSlot34.kParamAmount": 41.68379306793213,
+    ".ModSlot34.source[0]": 1.0,
+    ".ModSlot34.source[1]": 0.0,
+    ".ModSlot4.destModuleID": 1.0,
+    ".ModSlot4.destModuleParamID": 0.0,
+    ".ModSlot4.kParamAmount": 53.90199422836304,
+    ".ModSlot4.source[0]": 25.0,
+    ".ModSlot4.source[1]": 0.0,
+    ".ModSlot5.destModuleID": 2.0,
+    ".ModSlot5.destModuleParamID": 0.0,
+    ".ModSlot5.kParamAmount": 55.94421625137329,
+    ".ModSlot5.source[0]": 25.0,
+    ".ModSlot5.source[1]": 0.0,
+    ".ModSlot6.destModuleID": 3.0,
+    ".ModSlot6.destModuleParamID": 0.0,
+    ".ModSlot6.kParamAmount": 55.125272274017334,
+    ".ModSlot6.source[0]": 25.0,
+    ".ModSlot6.source[1]": 0.0,
+    ".ModSlot7.destModuleID": 0.0,
+    ".ModSlot7.destModuleParamID": 2.0,
+    ".ModSlot7.kParamAmount": -20.341050624847412,
+    ".ModSlot7.source[0]": 26.0,
+    ".ModSlot7.source[1]": 0.0,
+    ".ModSlot8.destModuleID": 2.0,
+    ".ModSlot8.destModuleParamID": 2.0,
+    ".ModSlot8.kParamAmount": -19.587308168411255,
+    ".ModSlot8.source[0]": 26.0,
+    ".ModSlot8.source[1]": 0.0,
+    ".ModSlot9.destModuleID": 2.0,
+    ".ModSlot9.destModuleParamID": 0.0,
+    ".ModSlot9.kParamAmount": 25.860071182250977,
+    ".ModSlot9.source[0]": 27.0,
+    ".ModSlot9.source[1]": 0.0,
+    ".MultiSampleOsc[0].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[1].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[2].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".Osc[0].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[0].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[0].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[1].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[1].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[1].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[2].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[2].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[2].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[3].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[3].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[3].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[4].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[4].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[4].kUIParamZoomToStartEnd": 0.0,
+    ".Oscillator0.WTOsc0.numChannels": 1.0,
+    ".Oscillator0.WTOsc0.numFrames": 18432.0,
+    ".Oscillator0.WTOsc0.kParamTablePos": 47.868801638484,
+    ".Oscillator0.WTOsc0.kParamWarp": 0.32872718572616577,
+    ".Oscillator0.WTOsc0.kParamWarp2": 0.2486916184425354,
+    ".Oscillator0.WTOsc0.sampleRate": 44100.0,
+    ".Oscillator0.kParamOctave": -1.0,
+    ".Oscillator0.kParamPitchRatio": -1.0,
+    ".Oscillator0.kParamVolume": 0.5608007647156796,
+    ".Oscillator1.WTOsc1.numChannels": 1.0,
+    ".Oscillator1.WTOsc1.numFrames": 18432.0,
+    ".Oscillator1.WTOsc1.kParamTablePos": 50.872821643948555,
+    ".Oscillator1.WTOsc1.sampleRate": 44100.0,
+    ".Oscillator1.kParamEnable": 1.0,
+    ".Oscillator1.kParamPitchRatio": 9.313225746154785e-10,
+    ".Oscillator1.kParamVolume": 0.0,
+    ".Oscillator2.WTOsc2.numChannels": 1.0,
+    ".Oscillator2.WTOsc2.numFrames": 8192.0,
+    ".Oscillator2.WTOsc2.kParamTablePos": 131.06481677293777,
+    ".Oscillator2.WTOsc2.sampleRate": 44100.0,
+    ".Oscillator2.kParamEnable": 1.0,
+    ".Oscillator2.kParamPitchRatio": 9.313225746154785e-10,
+    ".Oscillator2.kParamVolume": 0.0,
+    ".Oscillator3.NoiseOsc3.detuneFactor": 0.4758218478413068,
+    ".Oscillator3.NoiseOsc3.numChannels": 1.0,
+    ".Oscillator3.NoiseOsc3.numFrames": 78241.0,
+    ".Oscillator3.NoiseOsc3.sampleRate": 44100.0,
+    ".Oscillator4.kParamEnable": 1.0,
+    ".Oscillator4.kParamKeyZoneMax": 126.0,
+    ".Oscillator4.kParamOctave": -3.0,
+    ".Oscillator4.kParamVolume": 0.689371024843414,
+    ".PitchQuantizer0.scale[0]": 0.0,
+    ".PitchQuantizer0.scale[1]": 2.0,
+    ".PitchQuantizer0.scale[2]": 0.0,
+    ".PitchQuantizer0.scale[3]": 2.0,
+    ".PitchQuantizer0.scale[4]": 0.0,
+    ".PitchQuantizer0.scale[5]": 0.0,
+    ".PitchQuantizer0.scale[6]": 2.0,
+    ".PitchQuantizer0.scale[7]": 0.0,
+    ".PitchQuantizer0.scale[8]": 2.0,
+    ".PitchQuantizer0.scale[9]": 0.0,
+    ".PitchQuantizer0.scale[10]": 2.0,
+    ".PitchQuantizer0.scale[11]": 0.0,
+    ".SerumGUI.kUIParamShowKeyboard": 1.0,
+    ".SpectralOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[0].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[1].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[2].kUIParamShowWaveformDisplay": 0.0,
+    ".VoiceFilter0.kParamDrive": 89.38459157943726,
+    ".VoiceFilter0.kParamEnable": 1.0,
+    ".VoiceFilter0.kParamFreq": 0.49533993005752563,
+    ".VoiceFilter0.kParamReso": 71.45490646362305,
+    ".VoiceFilter0.kParamVar": 41.58443212509155,
+    ".VoiceFilter1.kParamDrive": 14.943119883537292,
+    ".VoiceFilter1.kParamEnable": 1.0,
+    ".VoiceFilter1.kParamFreq": 0.0,
+    ".VoiceFilter1.kParamReso": 11.716694384813309,
+    ".VoiceFilter1.kParamVar": 33.857592940330505,
+    ".WTOsc[0].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[1].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[2].kUIParamWTOverviewMouseTag": 0.0,
+    ".lockOversampling": 0.0,
+    ".lockTuning": 0.0,
+    ".mpeConfig": 0.0,
+    ".mpeEnabled": 1.0,
+    ".mpePitchBendRange": 48.0,
+    ".version": 4.0
+  }
+}

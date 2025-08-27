@@ -1,0 +1,62 @@
+[
+  {
+    "preset_name": "PN - Piano Upright",
+    "preset_path": "converted_presets/Piano/PN - Piano Upright.json",
+    "mapping_file": "serum2_mappings/serum2-PN - Piano Upright-parameter-mapping.json",
+    "applied_parameters": 6,
+    "audio_max_amplitude": 0.2049744874238968,
+    "audio_shape": [
+      176400
+    ],
+    "sample_rate": 44100,
+    "audio_file": "PN - Piano Upright_001.wav"
+  },
+  {
+    "preset_name": "PN - Piano Concert Hall",
+    "preset_path": "converted_presets/Piano/PN - Piano Concert Hall.json",
+    "mapping_file": "serum2_mappings/serum2-PN - Piano Concert Hall-parameter-mapping.json",
+    "applied_parameters": 10,
+    "audio_max_amplitude": 0.2758701741695404,
+    "audio_shape": [
+      176400
+    ],
+    "sample_rate": 44100,
+    "audio_file": "PN - Piano Concert Hall_002.wav"
+  },
+  {
+    "preset_name": "PN - Ambient Piano",
+    "preset_path": "converted_presets/Piano/PN - Ambient Piano.json",
+    "mapping_file": "serum2_mappings/serum2-PN - Ambient Piano-parameter-mapping.json",
+    "applied_parameters": 14,
+    "audio_max_amplitude": 0.2801341712474823,
+    "audio_shape": [
+      176400
+    ],
+    "sample_rate": 44100,
+    "audio_file": "PN - Ambient Piano_003.wav"
+  },
+  {
+    "preset_name": "PN - Piano and Strings",
+    "preset_path": "converted_presets/Piano/PN - Piano and Strings.json",
+    "mapping_file": "serum2_mappings/serum2-PN - Piano and Strings-parameter-mapping.json",
+    "applied_parameters": 17,
+    "audio_max_amplitude": 0.2764763832092285,
+    "audio_shape": [
+      176400
+    ],
+    "sample_rate": 44100,
+    "audio_file": "PN - Piano and Strings_004.wav"
+  },
+  {
+    "preset_name": "PN - Piano Space",
+    "preset_path": "converted_presets/Piano/PN - Piano Space.json",
+    "mapping_file": "serum2_mappings/serum2-PN - Piano Space-parameter-mapping.json",
+    "applied_parameters": 12,
+    "audio_max_amplitude": 0.2745843231678009,
+    "audio_shape": [
+      176400
+    ],
+    "sample_rate": 44100,
+    "audio_file": "PN - Piano Space_005.wav"
+  }
+]

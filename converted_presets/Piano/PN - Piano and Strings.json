@@ -1,0 +1,3556 @@
+{
+  "fileType": "SerumPreset",
+  "hash": "1dba42ba7a9be854f7e40a00d7b3582d",
+  "presetAuthor": "Electric Himalaya",
+  "presetDescription": "",
+  "presetName": "PN - Piano and Strings",
+  "product": "Serum2",
+  "productVersion": "2.0.11",
+  "tags": [
+    "Multisample",
+    "Poly",
+    "Preview"
+  ],
+  "url": "https://xferrecords.com/",
+  "vendor": "Xfer Records",
+  "version": 4.0,
+  "data": {
+    "Arp0": {
+      "plainParams": {
+        "kParamKeyZoneMax": 126.0
+      }
+    },
+    "ArpClip0": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ClipPlayer": {
+      "kUIParamPreviewClip": 0.08333333333333333,
+      "kUIParamSelectedClip": 0.0
+    },
+    "ClipPlayer0": {
+      "plainParams": "default"
+    },
+    "Env0": {
+      "plainParams": {
+        "kParamAttack": 0.0004069583268487571,
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 59.46534872055054,
+        "kParamRelease": 0.49571722712010147
+      }
+    },
+    "Env1": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env2": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 59.31599140167236,
+        "kParamRelease": 0.4272072400480449
+      }
+    },
+    "Env3": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "FXRack0": {
+      "FX": [
+        {
+          "FXFilter": {
+            "plainParams": {
+              "kParamFreq": 1.0
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 8
+        },
+        {
+          "FXHyperD": {
+            "lfo": [
+              [
+                0.8380632400512695,
+                0.37743306159973145,
+                0.7455171942710876,
+                0.949630618095398,
+                0.1761358380317688,
+                0.8040082454681396,
+                0.11417543143033981,
+                0.5593302845954895
+              ],
+              [
+                0.02808223105967045,
+                0.8893740773200989,
+                0.7414167523384094,
+                0.12558308243751526,
+                0.3088158667087555,
+                0.38021549582481384,
+                0.06336671113967896,
+                0.4988109767436981
+              ]
+            ],
+            "plainParams": {
+              "kParamDetune": 26.401743292808533,
+              "kParamRate": 29.595449566841125,
+              "kParamWet": 0.0
+            }
+          },
+          "kUIParamMixOrGainDimE": 0.0,
+          "kUIParamMixOrGainHyper": 0.0,
+          "type": 9
+        },
+        {
+          "FXDelay": {
+            "plainParams": {
+              "kParamBW": 4.564082890748978,
+              "kParamFreq": 637.6104080397976,
+              "kParamMode": 1.0,
+              "kParamTimeL": 0.05676512281640068,
+              "kParamWet": 0.0
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 4
+        },
+        {
+          "FXReverb": {
+            "plainParams": {
+              "kParamDelay": 97.87500966141138,
+              "kParamSize": 65.84396362304688,
+              "kParamType": "kHall",
+              "kParamWet": 0.0
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 6
+        },
+        {
+          "FXReverb": {
+            "plainParams": {
+              "kParamDelay": 27.248635317405956,
+              "kParamFreq": 22.23968505859375,
+              "kParamPreDelay": 2.0399861745828815e-06,
+              "kParamPreDelayBeatSync": 1.0,
+              "kParamSize": 37.55276799201965,
+              "kParamType": "kHall",
+              "kParamWet": 28.625959157943726
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 6
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack1": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack2": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "Filter": {
+      "kUIParamMixOrGain": 0.0
+    },
+    "Global0": {
+      "plainParams": {
+        "kParamMasterVolume": 0.49615207395744676,
+        "kParamPolyCount": 12.0,
+        "kParamProgram": 6.0
+      }
+    },
+    "GranularOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      }
+    ],
+    "LFO0": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO1": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO2": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO3": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO4": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO5": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO6": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO7": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO8": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO9": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFOPointModBus0": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus1": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus10": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus11": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus12": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus13": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus14": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus15": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus2": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus3": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus4": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus5": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus6": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus7": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus8": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus9": {
+      "plainParams": "default"
+    },
+    "Macro0": {
+      "name": "PIANO OCTAVE",
+      "plainParams": "default"
+    },
+    "Macro1": {
+      "name": "BOWED ATTACK",
+      "plainParams": "default"
+    },
+    "Macro2": {
+      "name": "BIGGER HALL",
+      "plainParams": {
+        "kParamValue": 32.63157606124878
+      }
+    },
+    "Macro3": {
+      "name": "DREAMLAND",
+      "plainParams": "default"
+    },
+    "Macro4": {
+      "name": "PIANO",
+      "plainParams": {
+        "kParamValue": 77.19298005104065
+      }
+    },
+    "Macro5": {
+      "name": "CELLO",
+      "plainParams": {
+        "kParamValue": 27.719298005104065
+      }
+    },
+    "Macro6": {
+      "name": "VIOLINS",
+      "plainParams": {
+        "kParamValue": 27.719298005104065
+      }
+    },
+    "Macro7": {
+      "name": "CRACKLE",
+      "plainParams": "default"
+    },
+    "MidiClip0": {
+      "clip": {
+        "notes": [
+          {
+            "attributes": [
+              0.7559055118110236,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8503937007874016
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.703125,
+            "noteNum": 71,
+            "timeStamp": 0.035416666666666666
+          },
+          {
+            "attributes": [
+              0.6299212598425197,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.905511811023622
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.575,
+            "noteNum": 69,
+            "timeStamp": 0.6541666666666667
+          },
+          {
+            "attributes": [
+              0.4881889763779528,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9921259842519685
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.6322916666666667,
+            "noteNum": 67,
+            "timeStamp": 1.1729166666666666
+          },
+          {
+            "attributes": [
+              0.5826771653543307,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9291338582677166
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.575,
+            "noteNum": 66,
+            "timeStamp": 1.73125
+          },
+          {
+            "attributes": [
+              0.6299212598425197,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6771653543307087
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.946875,
+            "noteNum": 64,
+            "timeStamp": 2.294791666666667
+          },
+          {
+            "attributes": [
+              0.49606299212598426,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8503937007874016
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.40625,
+            "noteNum": 55,
+            "timeStamp": 2.8989583333333333
+          },
+          {
+            "attributes": [
+              0.5196850393700787,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.39370078740157477
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.355208333333333,
+            "noteNum": 60,
+            "timeStamp": 2.90625
+          },
+          {
+            "attributes": [
+              0.5118110236220472,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.49606299212598426
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.173958333333333,
+            "noteNum": 48,
+            "timeStamp": 2.9270833333333335
+          },
+          {
+            "attributes": [
+              0.5196850393700787,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7559055118110236
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.7885416666666667,
+            "noteNum": 67,
+            "timeStamp": 3.935416666666667
+          },
+          {
+            "attributes": [
+              0.5826771653543307,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8740157480314961
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.3135416666666666,
+            "noteNum": 66,
+            "timeStamp": 4.584375
+          },
+          {
+            "attributes": [
+              0.5354330708661417,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6220472440944882
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.6875,
+            "noteNum": 50,
+            "timeStamp": 5.1375
+          },
+          {
+            "attributes": [
+              0.5669291338582677,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8503937007874016
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.7104166666666667,
+            "noteNum": 57,
+            "timeStamp": 5.185416666666667
+          },
+          {
+            "attributes": [
+              0.5984251968503937,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9448818897637795
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.6260416666666666,
+            "noteNum": 67,
+            "timeStamp": 6.845833333333333
+          },
+          {
+            "attributes": [
+              0.4330708661417323,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6220472440944882
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.6604166666666664,
+            "noteNum": 59,
+            "timeStamp": 6.863541666666666
+          },
+          {
+            "attributes": [
+              0.5354330708661417,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6062992125984252
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.215625,
+            "noteNum": 62,
+            "timeStamp": 6.873958333333333
+          },
+          {
+            "attributes": [
+              0.5354330708661417,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6929133858267716
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.495833333333333,
+            "noteNum": 52,
+            "timeStamp": 6.885416666666667
+          },
+          {
+            "attributes": [
+              0.6771653543307087,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7952755905511811
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.1302083333333333,
+            "noteNum": 69,
+            "timeStamp": 9.39375
+          },
+          {
+            "attributes": [
+              0.48031496062992124,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8503937007874016
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.0729166666666667,
+            "noteNum": 54,
+            "timeStamp": 9.430208333333333
+          },
+          {
+            "attributes": [
+              0.4094488188976378,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.41732283464566927
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.080208333333333,
+            "noteNum": 62,
+            "timeStamp": 9.440625
+          },
+          {
+            "attributes": [
+              0.5669291338582677,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9606299212598425
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.9375,
+            "noteNum": 55,
+            "timeStamp": 10.45
+          },
+          {
+            "attributes": [
+              0.6535433070866141,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.14960629921259844
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.6104166666666666,
+            "noteNum": 71,
+            "timeStamp": 10.473958333333334
+          },
+          {
+            "attributes": [
+              0.5984251968503937,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8740157480314961
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.466666666666667,
+            "noteNum": 67,
+            "timeStamp": 11.014583333333333
+          },
+          {
+            "attributes": [
+              0.5826771653543307,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5196850393700787
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.7947916666666666,
+            "noteNum": 48,
+            "timeStamp": 11.597916666666666
+          },
+          {
+            "attributes": [
+              0.6299212598425197,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              1.0
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.4208333333333334,
+            "noteNum": 64,
+            "timeStamp": 11.626041666666666
+          },
+          {
+            "attributes": [
+              0.5826771653543307,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5511811023622047
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.684375,
+            "noteNum": 62,
+            "timeStamp": 13.352083333333333
+          },
+          {
+            "attributes": [
+              0.5590551181102362,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9763779527559056
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.1875,
+            "noteNum": 66,
+            "timeStamp": 13.359375
+          },
+          {
+            "attributes": [
+              0.6299212598425197,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.8346456692913385
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.80625,
+            "noteNum": 57,
+            "timeStamp": 13.360416666666666
+          },
+          {
+            "attributes": [
+              0.5826771653543307,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.9606299212598425
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.230208333333333,
+            "noteNum": 50,
+            "timeStamp": 13.378124999999999
+          },
+          {
+            "attributes": [
+              0.6299212598425197,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6456692913385826
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.2385416666666664,
+            "noteNum": 67,
+            "timeStamp": 15.596874999999999
+          },
+          {
+            "attributes": [
+              0.6141732283464567,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6220472440944882
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.167708333333333,
+            "noteNum": 59,
+            "timeStamp": 15.610416666666666
+          },
+          {
+            "attributes": [
+              0.6535433070866141,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.7952755905511811
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.138541666666667,
+            "noteNum": 52,
+            "timeStamp": 15.611458333333333
+          },
+          {
+            "attributes": [
+              0.1732283464566929,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6299212598425197
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.60625,
+            "noteNum": 62,
+            "timeStamp": 16.207291666666666
+          }
+        ],
+        "regionEndBeats": 19.0
+      },
+      "displayLength_Beats": 19.0,
+      "gridWidth_Beats": 19.0,
+      "gridYOffset_Rows": 35.50659980148566,
+      "laneTabs": [
+        {
+          "subType": 0,
+          "type": "Attribute"
+        },
+        {
+          "subType": 7,
+          "type": "Attribute"
+        }
+      ],
+      "name": "Piano and Strings M",
+      "plainParams": "default"
+    },
+    "MidiClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ModSlot0": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 41.49705171585083
+      },
+      "source": [
+        16,
+        0
+      ]
+    },
+    "ModSlot1": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 16.334283351898193
+      },
+      "source": [
+        16,
+        0
+      ]
+    },
+    "ModSlot10": {
+      "destModuleID": 2,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXDelay",
+      "plainParams": {
+        "kParamAmount": 61.602580547332764
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot11": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXHyperD",
+      "plainParams": {
+        "kParamAmount": 75.97010135650635
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot12": {
+      "destModuleID": 3,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXReverb",
+      "plainParams": {
+        "kParamAmount": 63.495850563049316
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot13": {
+      "destModuleID": 3,
+      "destModuleParamID": 10,
+      "destModuleParamName": "kParamLevelOut",
+      "destModuleTypeString": "FXReverb",
+      "plainParams": {
+        "kParamAmount": 20.21874189376831
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot14": {
+      "destModuleID": 0,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot15": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot16": {
+      "destModuleID": 2,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot17": {
+      "destModuleID": 3,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 55.08772134780884
+      },
+      "source": [
+        32,
+        0
+      ]
+    },
+    "ModSlot18": {
+      "plainParams": "default"
+    },
+    "ModSlot19": {
+      "plainParams": "default"
+    },
+    "ModSlot2": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 38.63075375556946
+      },
+      "source": [
+        18,
+        0
+      ]
+    },
+    "ModSlot20": {
+      "plainParams": "default"
+    },
+    "ModSlot21": {
+      "plainParams": "default"
+    },
+    "ModSlot22": {
+      "plainParams": "default"
+    },
+    "ModSlot23": {
+      "plainParams": "default"
+    },
+    "ModSlot24": {
+      "plainParams": "default"
+    },
+    "ModSlot25": {
+      "plainParams": "default"
+    },
+    "ModSlot26": {
+      "plainParams": "default"
+    },
+    "ModSlot27": {
+      "plainParams": "default"
+    },
+    "ModSlot28": {
+      "plainParams": "default"
+    },
+    "ModSlot29": {
+      "plainParams": "default"
+    },
+    "ModSlot3": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamOctave",
+      "destModuleTypeString": "Oscillator",
+      "flex": [
+        {
+          "curveVals": [
+            0.48061452685175715,
+            0.5
+          ],
+          "numPoints": 1,
+          "xVals": [
+            0.0,
+            1.0
+          ],
+          "yVals": [
+            0.0,
+            1.0
+          ]
+        },
+        {}
+      ],
+      "plainParams": {
+        "kParamAmount": -11.0321044921875,
+        "kParamAuxInverted": 1.0,
+        "kParamCurveIn": 7.065439224243164,
+        "kParamMainCurveData": 1.0
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot30": {
+      "plainParams": "default"
+    },
+    "ModSlot31": {
+      "plainParams": "default"
+    },
+    "ModSlot32": {
+      "plainParams": "default"
+    },
+    "ModSlot33": {
+      "plainParams": "default"
+    },
+    "ModSlot34": {
+      "plainParams": "default"
+    },
+    "ModSlot35": {
+      "plainParams": "default"
+    },
+    "ModSlot36": {
+      "plainParams": "default"
+    },
+    "ModSlot37": {
+      "plainParams": "default"
+    },
+    "ModSlot38": {
+      "plainParams": "default"
+    },
+    "ModSlot39": {
+      "plainParams": "default"
+    },
+    "ModSlot4": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 33.00199508666992
+      },
+      "source": [
+        18,
+        0
+      ]
+    },
+    "ModSlot40": {
+      "plainParams": "default"
+    },
+    "ModSlot41": {
+      "plainParams": "default"
+    },
+    "ModSlot42": {
+      "plainParams": "default"
+    },
+    "ModSlot43": {
+      "plainParams": "default"
+    },
+    "ModSlot44": {
+      "plainParams": "default"
+    },
+    "ModSlot45": {
+      "plainParams": "default"
+    },
+    "ModSlot46": {
+      "plainParams": "default"
+    },
+    "ModSlot47": {
+      "plainParams": "default"
+    },
+    "ModSlot48": {
+      "plainParams": "default"
+    },
+    "ModSlot49": {
+      "plainParams": "default"
+    },
+    "ModSlot5": {
+      "destModuleID": 2,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 53.56966257095337
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot50": {
+      "plainParams": "default"
+    },
+    "ModSlot51": {
+      "plainParams": "default"
+    },
+    "ModSlot52": {
+      "plainParams": "default"
+    },
+    "ModSlot53": {
+      "plainParams": "default"
+    },
+    "ModSlot54": {
+      "plainParams": "default"
+    },
+    "ModSlot55": {
+      "plainParams": "default"
+    },
+    "ModSlot56": {
+      "plainParams": "default"
+    },
+    "ModSlot57": {
+      "plainParams": "default"
+    },
+    "ModSlot58": {
+      "plainParams": "default"
+    },
+    "ModSlot59": {
+      "plainParams": "default"
+    },
+    "ModSlot6": {
+      "destModuleID": 0,
+      "destModuleParamID": 0,
+      "destModuleParamName": "kParamAttack",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 25.09448528289795
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot60": {
+      "plainParams": "default"
+    },
+    "ModSlot61": {
+      "plainParams": "default"
+    },
+    "ModSlot62": {
+      "plainParams": "default"
+    },
+    "ModSlot63": {
+      "plainParams": "default"
+    },
+    "ModSlot7": {
+      "destModuleID": 4,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXReverb",
+      "plainParams": {
+        "kParamAmount": 35.51727533340454
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot8": {
+      "destModuleID": 4,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamDelay",
+      "destModuleTypeString": "FXReverb",
+      "plainParams": {
+        "kParamAmount": 15.242993831634521
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot9": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "FXFilter",
+      "plainParams": {
+        "kParamAmount": -46.77031636238098
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "MultiSampleOsc": [
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      }
+    ],
+    "Osc": [
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      }
+    ],
+    "Oscillator0": {
+      "GranularOsc0": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc0": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> amp_veltrack=0.000000 ampeg_release=0.850000\n<region> hikey=23 pitch_keycenter=21 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 A-1.flac\n<region> hikey=23 pitch_keycenter=21 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 A-1.flac\n<region> hikey=25 pitch_keycenter=21 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 A-1.flac\n<region> hikey=23 pitch_keycenter=21 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 A-1.flac\n<region> lokey=24 hikey=26 pitch_keycenter=24 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 C0.flac\n<region> lokey=24 hikey=26 pitch_keycenter=24 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 C0.flac\n<region> lokey=24 hikey=26 pitch_keycenter=24 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 C0.flac\n<region> lokey=27 hikey=29 pitch_keycenter=27 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 D#0.flac\n<region> lokey=27 hikey=29 pitch_keycenter=27 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 D#0.flac\n<region> lokey=27 hikey=29 pitch_keycenter=27 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 D#0.flac\n<region> lokey=30 hikey=32 pitch_keycenter=31 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 G0.flac\n<region> lokey=30 hikey=32 pitch_keycenter=31 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 G0.flac\n<region> lokey=26 hikey=32 pitch_keycenter=31 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 G0.flac\n<region> lokey=30 hikey=32 pitch_keycenter=31 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 G0.flac\n<region> lokey=33 hikey=35 pitch_keycenter=33 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 A0.flac\n<region> lokey=33 hikey=35 pitch_keycenter=33 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 A0.flac\n<region> lokey=33 hikey=35 pitch_keycenter=33 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 A0.flac\n<region> lokey=33 hikey=35 pitch_keycenter=33 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 A0.flac\n<region> lokey=36 hikey=38 pitch_keycenter=36 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 C1.flac\n<region> lokey=36 hikey=38 pitch_keycenter=36 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 C1.flac\n<region> lokey=36 hikey=38 pitch_keycenter=36 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 C1.flac\n<region> lokey=36 hikey=38 pitch_keycenter=36 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 C1.flac\n<region> lokey=39 hikey=41 pitch_keycenter=39 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 D#1.flac\n<region> lokey=39 hikey=41 pitch_keycenter=39 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 D#1.flac\n<region> lokey=39 hikey=41 pitch_keycenter=39 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 D#1.flac\n<region> lokey=39 hikey=41 pitch_keycenter=39 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 D#1.flac\n<region> lokey=42 hikey=44 pitch_keycenter=42 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 F#1.flac\n<region> lokey=42 hikey=44 pitch_keycenter=42 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 F#1.flac\n<region> lokey=42 hikey=44 pitch_keycenter=42 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 F#1.flac\n<region> lokey=42 hikey=44 pitch_keycenter=42 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 F#1.flac\n<region> lokey=45 hikey=47 pitch_keycenter=45 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 A1.flac\n<region> lokey=45 hikey=47 pitch_keycenter=45 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 A1.flac\n<region> lokey=45 hikey=47 pitch_keycenter=45 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 A1.flac\n<region> lokey=45 hikey=47 pitch_keycenter=45 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 A1.flac\n<region> lokey=48 hikey=50 pitch_keycenter=48 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 C2.flac\n<region> lokey=48 hikey=50 pitch_keycenter=48 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 C2.flac\n<region> lokey=48 hikey=50 pitch_keycenter=48 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 C2.flac\n<region> lokey=48 hikey=50 pitch_keycenter=48 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 C2.flac\n<region> lokey=51 hikey=53 pitch_keycenter=51 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 D#2.flac\n<region> lokey=51 hikey=53 pitch_keycenter=51 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 D#2.flac\n<region> lokey=51 hikey=53 pitch_keycenter=51 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 D#2.flac\n<region> lokey=51 hikey=53 pitch_keycenter=51 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 D#2.flac\n<region> lokey=54 hikey=56 pitch_keycenter=54 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 F#2.flac\n<region> lokey=54 hikey=56 pitch_keycenter=54 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 F#2.flac\n<region> lokey=54 hikey=56 pitch_keycenter=54 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 F#2.flac\n<region> lokey=54 hikey=56 pitch_keycenter=54 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 F#2.flac\n<region> lokey=57 hikey=59 pitch_keycenter=57 hivel=41 tune=4 sample=Baby Grand Samples/XFBabyGrand 04 A2.flac\n<region> lokey=57 hikey=59 pitch_keycenter=57 lovel=42 hivel=69 tune=4 sample=Baby Grand Samples/XFBabyGrand 05 A2.flac\n<region> lokey=57 hikey=59 pitch_keycenter=57 lovel=70 hivel=100 tune=4 sample=Baby Grand Samples/XFBabyGrand 06 A2.flac\n<region> lokey=57 hikey=59 pitch_keycenter=57 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 A2.flac\n<region> lokey=60 hikey=62 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 C3.flac\n<region> lokey=60 hikey=62 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 C3.flac\n<region> lokey=60 hikey=62 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 C3.flac\n<region> lokey=60 hikey=62 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 C3.flac\n<region> lokey=63 hikey=65 pitch_keycenter=63 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 D#3.flac\n<region> lokey=63 hikey=65 pitch_keycenter=63 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 D#3.flac\n<region> lokey=63 hikey=65 pitch_keycenter=63 lovel=70 hivel=100 volume=-3.000000 sample=Baby Grand Samples/XFBabyGrand 06 D#3.flac\n<region> lokey=63 hikey=65 pitch_keycenter=63 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 D#3.flac\n<region> lokey=66 hikey=68 pitch_keycenter=66 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 F#3.flac\n<region> lokey=66 hikey=68 pitch_keycenter=66 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 F#3.flac\n<region> lokey=66 hikey=68 pitch_keycenter=66 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 F#3.flac\n<region> lokey=66 hikey=68 pitch_keycenter=66 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 F#3.flac\n<region> lokey=69 hikey=71 pitch_keycenter=69 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 A3.flac\n<region> lokey=69 hikey=71 pitch_keycenter=69 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 A3.flac\n<region> lokey=69 hikey=71 pitch_keycenter=69 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 A3.flac\n<region> lokey=69 hikey=71 pitch_keycenter=69 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 A3.flac\n<region> lokey=72 hikey=74 pitch_keycenter=72 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 C4.flac\n<region> lokey=72 hikey=74 pitch_keycenter=72 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 C4.flac\n<region> lokey=72 hikey=74 pitch_keycenter=72 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 C4.flac\n<region> lokey=72 hikey=74 pitch_keycenter=72 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 C4.flac\n<region> lokey=75 hikey=77 pitch_keycenter=75 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 D#4.flac\n<region> lokey=75 hikey=77 pitch_keycenter=75 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 D#4.flac\n<region> lokey=75 hikey=77 pitch_keycenter=75 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 D#4.flac\n<region> lokey=75 hikey=77 pitch_keycenter=75 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 D#4.flac\n<region> lokey=78 hikey=80 pitch_keycenter=78 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 F#4.flac\n<region> lokey=78 hikey=80 pitch_keycenter=78 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 F#4.flac\n<region> lokey=78 hikey=80 pitch_keycenter=78 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 F#4.flac\n<region> lokey=78 hikey=80 pitch_keycenter=78 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 F#4.flac\n<region> lokey=81 hikey=83 pitch_keycenter=81 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 A4.flac\n<region> lokey=81 hikey=83 pitch_keycenter=81 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 A4.flac\n<region> lokey=81 hikey=83 pitch_keycenter=81 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 A4.flac\n<region> lokey=81 hikey=83 pitch_keycenter=81 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 A4.flac\n<region> lokey=84 hikey=88 pitch_keycenter=84 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 C5.flac\n<region> lokey=84 hikey=88 pitch_keycenter=84 lovel=42 hivel=69 volume=-3.000000 sample=Baby Grand Samples/XFBabyGrand 05 C5.flac\n<region> lokey=84 hikey=88 pitch_keycenter=84 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 C5.flac\n<region> lokey=84 hikey=88 pitch_keycenter=84 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 C5.flac\n<region> lokey=89 hikey=92 pitch_keycenter=90 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 F#5.flac\n<region> lokey=89 hikey=92 pitch_keycenter=90 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 F#5.flac\n<region> lokey=89 hikey=92 pitch_keycenter=90 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 F#5.flac\n<region> lokey=89 hikey=92 pitch_keycenter=90 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 F#5.flac\n<region> lokey=93 hikey=95 pitch_keycenter=93 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 A5.flac\n<region> lokey=93 hikey=95 pitch_keycenter=93 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 A5.flac\n<region> lokey=93 hikey=95 pitch_keycenter=93 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 A5.flac\n<region> lokey=93 hikey=95 pitch_keycenter=93 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 A5.flac\n<region> lokey=96 hikey=98 pitch_keycenter=96 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 C6.flac\n<region> lokey=96 hikey=98 pitch_keycenter=96 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 C6.flac\n<region> lokey=96 hikey=98 pitch_keycenter=96 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 C6.flac\n<region> lokey=96 hikey=98 pitch_keycenter=96 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 C6.flac\n<region> lokey=99 hikey=101 pitch_keycenter=99 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 D#6.flac\n<region> lokey=99 hikey=101 pitch_keycenter=99 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 D#6.flac\n<region> lokey=99 hikey=101 pitch_keycenter=99 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 D#6.flac\n<region> lokey=99 hikey=101 pitch_keycenter=99 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 D#6.flac\n<region> lokey=102 hikey=106 pitch_keycenter=102 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 F#6.flac\n<region> lokey=102 hikey=106 pitch_keycenter=102 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 F#6.flac\n<region> lokey=102 hikey=106 pitch_keycenter=102 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 F#6.flac\n<region> lokey=102 hikey=106 pitch_keycenter=102 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 F#6.flac\n<region> lokey=107 pitch_keycenter=108 hivel=41 sample=Baby Grand Samples/XFBabyGrand 04 C7.flac\n<region> lokey=107 pitch_keycenter=108 lovel=42 hivel=69 sample=Baby Grand Samples/XFBabyGrand 05 C7.flac\n<region> lokey=107 pitch_keycenter=108 lovel=70 hivel=100 sample=Baby Grand Samples/XFBabyGrand 06 C7.flac\n<region> lokey=107 pitch_keycenter=108 lovel=101 sample=Baby Grand Samples/XFBabyGrand 07 C7.flac\n",
+        "files": {
+          "Baby Grand Samples\\XFBabyGrand 04 A-1.flac": {
+            "numChannels": 2,
+            "numFrames": 440901,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 A0.flac": {
+            "numChannels": 2,
+            "numFrames": 434935,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 A1.flac": {
+            "numChannels": 2,
+            "numFrames": 437875,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 A2.flac": {
+            "numChannels": 2,
+            "numFrames": 440120,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 A3.flac": {
+            "numChannels": 2,
+            "numFrames": 443617,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 A4.flac": {
+            "numChannels": 2,
+            "numFrames": 404476,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 A5.flac": {
+            "numChannels": 2,
+            "numFrames": 201915,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 C0.flac": {
+            "numChannels": 2,
+            "numFrames": 441605,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 C1.flac": {
+            "numChannels": 2,
+            "numFrames": 442627,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 C2.flac": {
+            "numChannels": 2,
+            "numFrames": 440868,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 C3.flac": {
+            "numChannels": 2,
+            "numFrames": 440808,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 C4.flac": {
+            "numChannels": 2,
+            "numFrames": 443805,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 C5.flac": {
+            "numChannels": 2,
+            "numFrames": 352220,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 C6.flac": {
+            "numChannels": 2,
+            "numFrames": 311500,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 C7.flac": {
+            "numChannels": 2,
+            "numFrames": 77255,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 D#0.flac": {
+            "numChannels": 2,
+            "numFrames": 440891,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 D#1.flac": {
+            "numChannels": 2,
+            "numFrames": 442379,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 D#2.flac": {
+            "numChannels": 2,
+            "numFrames": 441634,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 D#3.flac": {
+            "numChannels": 2,
+            "numFrames": 440873,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 D#4.flac": {
+            "numChannels": 2,
+            "numFrames": 311534,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 D#6.flac": {
+            "numChannels": 2,
+            "numFrames": 128286,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 F#1.flac": {
+            "numChannels": 2,
+            "numFrames": 441601,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 F#2.flac": {
+            "numChannels": 2,
+            "numFrames": 440929,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 F#3.flac": {
+            "numChannels": 2,
+            "numFrames": 440864,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 F#4.flac": {
+            "numChannels": 2,
+            "numFrames": 520000,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 F#5.flac": {
+            "numChannels": 2,
+            "numFrames": 363436,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 F#6.flac": {
+            "numChannels": 2,
+            "numFrames": 124783,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 04 G0.flac": {
+            "numChannels": 2,
+            "numFrames": 443501,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 A-1.flac": {
+            "numChannels": 2,
+            "numFrames": 440388,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 A0.flac": {
+            "numChannels": 2,
+            "numFrames": 428951,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 A1.flac": {
+            "numChannels": 2,
+            "numFrames": 437760,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 A2.flac": {
+            "numChannels": 2,
+            "numFrames": 440888,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 A3.flac": {
+            "numChannels": 2,
+            "numFrames": 446708,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 A4.flac": {
+            "numChannels": 2,
+            "numFrames": 432026,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 A5.flac": {
+            "numChannels": 2,
+            "numFrames": 157275,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 C0.flac": {
+            "numChannels": 2,
+            "numFrames": 440976,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 C1.flac": {
+            "numChannels": 2,
+            "numFrames": 441347,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 C2.flac": {
+            "numChannels": 2,
+            "numFrames": 440381,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 C3.flac": {
+            "numChannels": 2,
+            "numFrames": 441624,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 C4.flac": {
+            "numChannels": 2,
+            "numFrames": 440827,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 C5.flac": {
+            "numChannels": 2,
+            "numFrames": 437370,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 C6.flac": {
+            "numChannels": 2,
+            "numFrames": 244028,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 C7.flac": {
+            "numChannels": 2,
+            "numFrames": 130796,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 D#0.flac": {
+            "numChannels": 2,
+            "numFrames": 440592,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 D#1.flac": {
+            "numChannels": 2,
+            "numFrames": 442325,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 D#2.flac": {
+            "numChannels": 2,
+            "numFrames": 443076,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 D#3.flac": {
+            "numChannels": 2,
+            "numFrames": 435015,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 D#4.flac": {
+            "numChannels": 2,
+            "numFrames": 434961,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 D#6.flac": {
+            "numChannels": 2,
+            "numFrames": 239141,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 F#1.flac": {
+            "numChannels": 2,
+            "numFrames": 440886,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 F#2.flac": {
+            "numChannels": 2,
+            "numFrames": 440822,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 F#3.flac": {
+            "numChannels": 2,
+            "numFrames": 437920,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 F#4.flac": {
+            "numChannels": 2,
+            "numFrames": 573109,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 F#5.flac": {
+            "numChannels": 2,
+            "numFrames": 438566,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 F#6.flac": {
+            "numChannels": 2,
+            "numFrames": 163129,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 05 G0.flac": {
+            "numChannels": 2,
+            "numFrames": 441097,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 A-1.flac": {
+            "numChannels": 2,
+            "numFrames": 440524,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 A0.flac": {
+            "numChannels": 2,
+            "numFrames": 437837,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 A1.flac": {
+            "numChannels": 2,
+            "numFrames": 440629,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 A2.flac": {
+            "numChannels": 2,
+            "numFrames": 440048,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 A3.flac": {
+            "numChannels": 2,
+            "numFrames": 440825,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 A4.flac": {
+            "numChannels": 2,
+            "numFrames": 432063,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 A5.flac": {
+            "numChannels": 2,
+            "numFrames": 232234,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 C1.flac": {
+            "numChannels": 2,
+            "numFrames": 443009,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 C2.flac": {
+            "numChannels": 2,
+            "numFrames": 441538,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 C3.flac": {
+            "numChannels": 2,
+            "numFrames": 440122,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 C4.flac": {
+            "numChannels": 2,
+            "numFrames": 437997,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 C5.flac": {
+            "numChannels": 2,
+            "numFrames": 441906,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 C6.flac": {
+            "numChannels": 2,
+            "numFrames": 342420,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 C7.flac": {
+            "numChannels": 2,
+            "numFrames": 123478,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 D#1.flac": {
+            "numChannels": 2,
+            "numFrames": 441455,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 D#2.flac": {
+            "numChannels": 2,
+            "numFrames": 442299,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 D#3.flac": {
+            "numChannels": 2,
+            "numFrames": 443796,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 D#4.flac": {
+            "numChannels": 2,
+            "numFrames": 440909,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 D#6.flac": {
+            "numChannels": 2,
+            "numFrames": 152093,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 F#1.flac": {
+            "numChannels": 2,
+            "numFrames": 449061,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 F#2.flac": {
+            "numChannels": 2,
+            "numFrames": 440866,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 F#3.flac": {
+            "numChannels": 2,
+            "numFrames": 429121,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 F#4.flac": {
+            "numChannels": 2,
+            "numFrames": 434925,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 F#5.flac": {
+            "numChannels": 2,
+            "numFrames": 435774,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 F#6.flac": {
+            "numChannels": 2,
+            "numFrames": 187850,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 06 G0.flac": {
+            "numChannels": 2,
+            "numFrames": 441264,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 A-1.flac": {
+            "numChannels": 2,
+            "numFrames": 440109,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 A0.flac": {
+            "numChannels": 2,
+            "numFrames": 443736,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 A1.flac": {
+            "numChannels": 2,
+            "numFrames": 443520,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 A2.flac": {
+            "numChannels": 2,
+            "numFrames": 440091,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 A3.flac": {
+            "numChannels": 2,
+            "numFrames": 443765,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 A4.flac": {
+            "numChannels": 2,
+            "numFrames": 440809,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 A5.flac": {
+            "numChannels": 2,
+            "numFrames": 290338,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 C0.flac": {
+            "numChannels": 2,
+            "numFrames": 442028,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 C1.flac": {
+            "numChannels": 2,
+            "numFrames": 442259,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 C2.flac": {
+            "numChannels": 2,
+            "numFrames": 440794,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 C3.flac": {
+            "numChannels": 2,
+            "numFrames": 439361,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 C4.flac": {
+            "numChannels": 2,
+            "numFrames": 440808,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 C5.flac": {
+            "numChannels": 2,
+            "numFrames": 452158,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 C6.flac": {
+            "numChannels": 2,
+            "numFrames": 286617,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 C7.flac": {
+            "numChannels": 2,
+            "numFrames": 97411,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 D#0.flac": {
+            "numChannels": 2,
+            "numFrames": 439126,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 D#1.flac": {
+            "numChannels": 2,
+            "numFrames": 440656,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 D#2.flac": {
+            "numChannels": 2,
+            "numFrames": 441531,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 D#3.flac": {
+            "numChannels": 2,
+            "numFrames": 437879,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 D#4.flac": {
+            "numChannels": 2,
+            "numFrames": 437862,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 D#6.flac": {
+            "numChannels": 2,
+            "numFrames": 214583,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 F#1.flac": {
+            "numChannels": 2,
+            "numFrames": 442280,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 F#2.flac": {
+            "numChannels": 2,
+            "numFrames": 440819,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 F#3.flac": {
+            "numChannels": 2,
+            "numFrames": 440820,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 F#4.flac": {
+            "numChannels": 2,
+            "numFrames": 440823,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 F#5.flac": {
+            "numChannels": 2,
+            "numFrames": 429985,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 F#6.flac": {
+            "numChannels": 2,
+            "numFrames": 139771,
+            "sampleRate": 44100
+          },
+          "Baby Grand Samples\\XFBabyGrand 07 G0.flac": {
+            "numChannels": 2,
+            "numFrames": 441168,
+            "sampleRate": 44100
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.0,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvRelease": 0.8500000238418577
+        },
+        "sfzPathRelative": "Factory/Keys/Baby Grand Piano.sfz"
+      },
+      "SampleOsc0": {
+        "plainParams": "default"
+      },
+      "SpectralOsc0": {
+        "plainParams": "default"
+      },
+      "WTOsc0": {
+        "plainParams": {
+          "kParamRandomPhase": 88.47082853317261
+        }
+      },
+      "plainParams": {
+        "kParamDetune": 0.004215017643005581,
+        "kParamFine": -8.055520057678223,
+        "kParamType": "kOsc_MultiSample",
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator1": {
+      "GranularOsc1": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc1": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> amp_veltrack=35.000000 ampeg_attack=0.001000 ampeg_release=1.000000\n<region> hikey=37 pitch_keycenter=36 tune=-2 sample=Cello Long Samples/XFcello long-04 01 C1.flac\n<region> lokey=38 hikey=39 pitch_keycenter=38 tune=20 sample=Cello Long Samples/XFcello long-02 01 D1.flac\n<region> lokey=40 hikey=41 pitch_keycenter=40 tune=24 sample=Cello Long Samples/XFcello long-02 01 E1.flac\n<region> lokey=42 hikey=43 pitch_keycenter=42 tune=28 sample=Cello Long Samples/XFcello long 01 F#1.flac\n<region> lokey=44 hikey=46 pitch_keycenter=44 tune=-2 sample=Cello Long Samples/XFcello long-02 01 G#1.flac\n<region> lokey=47 hikey=50 pitch_keycenter=48 tune=14 sample=Cello Long Samples/XFcello long-02 01 C2.flac\n<region> lokey=51 hikey=55 pitch_keycenter=54 tune=14 sample=Cello Long Samples/XFcello long-02 01 F#2.flac\n<region> lokey=56 hikey=57 pitch_keycenter=56 tune=8 sample=Cello Long Samples/XFcello long-02 01 G#2.flac\n<region> lokey=58 hikey=61 pitch_keycenter=58 sample=Cello Long Samples/XFcello long 01 A#2.flac\n<region> lokey=62 hikey=65 pitch_keycenter=64 tune=-8 sample=Cello Long Samples/XFcello long 01 E3.flac\n<region> lokey=66 hikey=68 pitch_keycenter=66 tune=6 sample=Cello Long Samples/XFcello long 01 F#3.flac\n<region> lokey=69 hikey=71 pitch_keycenter=70 tune=50 sample=Cello Long Samples/XFcello long 01 A#3.flac\n<region> lokey=72 hikey=73 pitch_keycenter=72 tune=20 sample=Cello Long Samples/XFcello long-02 01 C4.flac\n<region> lokey=74 pitch_keycenter=74 tune=25 sample=Cello Long Samples/XFcello long-02 01 D4.flac\n",
+        "files": {
+          "Cello Long Samples\\XFcello long 01 A#2.flac": {
+            "numChannels": 2,
+            "numFrames": 192864,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long 01 A#3.flac": {
+            "numChannels": 2,
+            "numFrames": 235872,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long 01 E3.flac": {
+            "numChannels": 2,
+            "numFrames": 204640,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long 01 F#1.flac": {
+            "numChannels": 2,
+            "numFrames": 203616,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long 01 F#3.flac": {
+            "numChannels": 2,
+            "numFrames": 233312,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-02 01 C2.flac": {
+            "numChannels": 2,
+            "numFrames": 256864,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-02 01 C4.flac": {
+            "numChannels": 2,
+            "numFrames": 228704,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-02 01 D1.flac": {
+            "numChannels": 2,
+            "numFrames": 294240,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-02 01 D4.flac": {
+            "numChannels": 2,
+            "numFrames": 258912,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-02 01 E1.flac": {
+            "numChannels": 2,
+            "numFrames": 236896,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-02 01 F#2.flac": {
+            "numChannels": 2,
+            "numFrames": 246624,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-02 01 G#1.flac": {
+            "numChannels": 2,
+            "numFrames": 260960,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-02 01 G#2.flac": {
+            "numChannels": 2,
+            "numFrames": 235360,
+            "sampleRate": 48000
+          },
+          "Cello Long Samples\\XFcello long-04 01 C1.flac": {
+            "numChannels": 2,
+            "numFrames": 303968,
+            "sampleRate": 48000
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.0010000000474974472,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvRelease": 1.0
+        },
+        "sfzPathRelative": "Factory/Strings/Cello LE.sfz"
+      },
+      "SampleOsc1": {
+        "plainParams": "default"
+      },
+      "SpectralOsc1": {
+        "plainParams": "default"
+      },
+      "WTOsc1": {
+        "plainParams": {
+          "kParamInitialPhase": 197.42101192474365
+        }
+      },
+      "plainParams": {
+        "kParamDetune": 0.011850483589349814,
+        "kParamEnable": 1.0,
+        "kParamFine": 5.556321144104004,
+        "kParamType": "kOsc_MultiSample",
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator2": {
+      "GranularOsc2": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc2": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> loop_crossfade=0.010000 loop_mode=loop_continuous amp_veltrack=35.000000 ampeg_attack=0.010000 ampeg_release=0.700000\n<region> hikey=58 pitch_keycenter=57 loop_start=96208 loop_end=272212 tune=-4 sample=Violins Long Samples/XFviolins long 03 A2.flac\n<region> lokey=59 hikey=60 pitch_keycenter=59 loop_start=106245 loop_end=303490 sample=Violins Long Samples/XFviolins long 03 B2.flac\n<region> lokey=61 hikey=62 pitch_keycenter=61 loop_start=154108 loop_end=317805 sample=Violins Long Samples/XFviolins long-02 03 C#3.flac\n<region> lokey=63 hikey=64 pitch_keycenter=63 loop_start=102305 loop_end=356050 tune=-4 sample=Violins Long Samples/XFviolins long-02 03 D#3.flac\n<region> lokey=65 hikey=66 pitch_keycenter=65 loop_start=160204 loop_end=370366 tune=-3 sample=Violins Long Samples/XFviolins long-02 03 F3.flac\n<region> lokey=67 hikey=68 pitch_keycenter=67 loop_start=67472 loop_end=297630 tune=-4 sample=Violins Long Samples/XFviolins long-02 03 G3.flac\n<region> lokey=69 hikey=70 pitch_keycenter=69 loop_start=122184 loop_end=325081 tune=-10 sample=Violins Long Samples/XFviolins long-02 03 A3.flac\n<region> lokey=71 hikey=72 pitch_keycenter=71 loop_start=167234 loop_end=356333 tune=-8 sample=Violins Long Samples/XFviolins long-02 03 B3.flac\n<region> lokey=73 hikey=74 pitch_keycenter=73 loop_start=116122 loop_end=342005 tune=-5 sample=Violins Long Samples/XFviolins long-02 03 C#4.flac\n<region> lokey=75 pitch_keycenter=75 loop_start=6688 loop_end=241265 tune=4 sample=Violins Long Samples/XFviolins long 03 D#4.flac\n",
+        "files": {
+          "Violins Long Samples\\XFviolins long 03 A2.flac": {
+            "numChannels": 2,
+            "numFrames": 272740,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long 03 B2.flac": {
+            "numChannels": 2,
+            "numFrames": 304018,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long 03 D#4.flac": {
+            "numChannels": 2,
+            "numFrames": 241793,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long-02 03 A3.flac": {
+            "numChannels": 2,
+            "numFrames": 325609,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long-02 03 B3.flac": {
+            "numChannels": 2,
+            "numFrames": 356861,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long-02 03 C#3.flac": {
+            "numChannels": 2,
+            "numFrames": 318333,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long-02 03 C#4.flac": {
+            "numChannels": 2,
+            "numFrames": 342533,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long-02 03 D#3.flac": {
+            "numChannels": 2,
+            "numFrames": 356578,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long-02 03 F3.flac": {
+            "numChannels": 2,
+            "numFrames": 370894,
+            "sampleRate": 48000
+          },
+          "Violins Long Samples\\XFviolins long-02 03 G3.flac": {
+            "numChannels": 2,
+            "numFrames": 298158,
+            "sampleRate": 48000
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.009999999776482542,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvRelease": 0.6999999880790709
+        },
+        "sfzPathRelative": "Factory/Strings/Violins LE.sfz"
+      },
+      "SampleOsc2": {
+        "plainParams": "default"
+      },
+      "SpectralOsc2": {
+        "plainParams": "default"
+      },
+      "WTOsc2": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamType": "kOsc_MultiSample",
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator3": {
+      "NoiseOsc3": {
+        "detuneFactor": 0.4758218478413068,
+        "numChannels": 1,
+        "numFrames": 1354752,
+        "plainParams": {
+          "kParamColor": 0.44736844301223755,
+          "kParamInitialPhase": 0.9375002235174179,
+          "kParamRandomPhase": 41.56250059604645
+        },
+        "relativePathToNoiseSample": "S2 Noises/Crackle.flac",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator4": {
+      "SubOsc4": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamKeyZoneMax": 126.0
+      }
+    },
+    "PitchQuantizer0": {
+      "plainParams": "default",
+      "scale": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "scaleName": "Major"
+    },
+    "RetriggerState0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot1": {
+      "plainParams": {
+        "kParamFilterBalance": 100.0,
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot2": {
+      "plainParams": {
+        "kParamFilterBalance": 100.0,
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot3": {
+      "plainParams": "default"
+    },
+    "RoutingSlot4": {
+      "plainParams": "default"
+    },
+    "RoutingSlot5": {
+      "plainParams": {
+        "kParamViaEnv1": 0.0
+      }
+    },
+    "RoutingSlot6": {
+      "plainParams": {
+        "kParamViaEnv1": 0.0
+      }
+    },
+    "SerumGUI": {
+      "kUIParamShowKeyboard": 1.0
+    },
+    "SpectralOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      }
+    ],
+    "VoiceFilter0": {
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.5850294828414917,
+        "kParamReso": 0.0,
+        "kParamType": "MgL6"
+      }
+    },
+    "VoiceFilter1": {
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.6136924624443054,
+        "kParamReso": 0.0,
+        "kParamType": "MgL6"
+      }
+    },
+    "VoicePanel0": {
+      "plainParams": "default"
+    },
+    "WTOsc": [
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      }
+    ],
+    "arpBankDisplayName": "",
+    "clipBankDisplayName": "",
+    "fileType": "SerumPreset",
+    "lockOversampling": false,
+    "lockTuning": false,
+    "mpeConfig": 0,
+    "mpeEnabled": true,
+    "mpePitchBendRange": 48,
+    "presetAuthor": "Electric Himalaya",
+    "presetDescription": "",
+    "presetName": "PN - Piano and Strings",
+    "product": "Serum2",
+    "productVersion": "2.0.11",
+    "scalars": {
+      "note": {},
+      "velo": {}
+    },
+    "tags": [
+      "Multisample",
+      "Poly",
+      "Preview"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 4.0
+  },
+  "dawdreamer_params": {
+    ".Arp0.kParamKeyZoneMax": 126.0,
+    ".ClipPlayer.kUIParamPreviewClip": 0.08333333333333333,
+    ".ClipPlayer.kUIParamSelectedClip": 0.0,
+    ".Env0.kParamAttack": 0.0004069583268487571,
+    ".Env0.kParamCurve1": 50.0,
+    ".Env0.kParamCurve2": 66.60000000000001,
+    ".Env0.kParamCurve3": 59.46534872055054,
+    ".Env0.kParamRelease": 0.49571722712010147,
+    ".Env1.kParamCurve1": 50.0,
+    ".Env1.kParamCurve2": 66.60000000000001,
+    ".Env1.kParamCurve3": 66.60000000000001,
+    ".Env2.kParamCurve1": 50.0,
+    ".Env2.kParamCurve2": 66.60000000000001,
+    ".Env2.kParamCurve3": 59.31599140167236,
+    ".Env2.kParamRelease": 0.4272072400480449,
+    ".Env3.kParamCurve1": 50.0,
+    ".Env3.kParamCurve2": 66.60000000000001,
+    ".Env3.kParamCurve3": 66.60000000000001,
+    ".FXRack0.FX[0].FXFilter.kParamFreq": 1.0,
+    ".FXRack0.FX[0].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[0].type": 8.0,
+    ".FXRack0.FX[1].FXHyperD.kParamDetune": 26.401743292808533,
+    ".FXRack0.FX[1].FXHyperD.kParamRate": 29.595449566841125,
+    ".FXRack0.FX[1].FXHyperD.kParamWet": 0.0,
+    ".FXRack0.FX[1].kUIParamMixOrGainDimE": 0.0,
+    ".FXRack0.FX[1].kUIParamMixOrGainHyper": 0.0,
+    ".FXRack0.FX[1].type": 9.0,
+    ".FXRack0.FX[2].FXDelay.kParamBW": 4.564082890748978,
+    ".FXRack0.FX[2].FXDelay.kParamFreq": 637.6104080397976,
+    ".FXRack0.FX[2].FXDelay.kParamMode": 1.0,
+    ".FXRack0.FX[2].FXDelay.kParamTimeL": 0.05676512281640068,
+    ".FXRack0.FX[2].FXDelay.kParamWet": 0.0,
+    ".FXRack0.FX[2].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[2].type": 4.0,
+    ".FXRack0.FX[3].FXReverb.kParamDelay": 97.87500966141138,
+    ".FXRack0.FX[3].FXReverb.kParamSize": 65.84396362304688,
+    ".FXRack0.FX[3].FXReverb.kParamWet": 0.0,
+    ".FXRack0.FX[3].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[3].type": 6.0,
+    ".FXRack0.FX[4].FXReverb.kParamDelay": 27.248635317405956,
+    ".FXRack0.FX[4].FXReverb.kParamFreq": 22.23968505859375,
+    ".FXRack0.FX[4].FXReverb.kParamPreDelay": 2.0399861745828815e-06,
+    ".FXRack0.FX[4].FXReverb.kParamPreDelayBeatSync": 1.0,
+    ".FXRack0.FX[4].FXReverb.kParamSize": 37.55276799201965,
+    ".FXRack0.FX[4].FXReverb.kParamWet": 28.625959157943726,
+    ".FXRack0.FX[4].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[4].type": 6.0,
+    ".Filter.kUIParamMixOrGain": 0.0,
+    ".Global0.kParamMasterVolume": 0.49615207395744676,
+    ".Global0.kParamPolyCount": 12.0,
+    ".Global0.kParamProgram": 6.0,
+    ".GranularOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".Macro2.kParamValue": 32.63157606124878,
+    ".Macro4.kParamValue": 77.19298005104065,
+    ".Macro5.kParamValue": 27.719298005104065,
+    ".Macro6.kParamValue": 27.719298005104065,
+    ".MidiClip0.clip.notes[0].attributes[0]": 0.7559055118110236,
+    ".MidiClip0.clip.notes[0].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[0].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[7]": 0.8503937007874016,
+    ".MidiClip0.clip.notes[0].channel": 0.0,
+    ".MidiClip0.clip.notes[0].length": 0.703125,
+    ".MidiClip0.clip.notes[0].noteNum": 71.0,
+    ".MidiClip0.clip.notes[0].timeStamp": 0.035416666666666666,
+    ".MidiClip0.clip.notes[1].attributes[0]": 0.6299212598425197,
+    ".MidiClip0.clip.notes[1].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[1].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[7]": 0.905511811023622,
+    ".MidiClip0.clip.notes[1].channel": 0.0,
+    ".MidiClip0.clip.notes[1].length": 0.575,
+    ".MidiClip0.clip.notes[1].noteNum": 69.0,
+    ".MidiClip0.clip.notes[1].timeStamp": 0.6541666666666667,
+    ".MidiClip0.clip.notes[2].attributes[0]": 0.4881889763779528,
+    ".MidiClip0.clip.notes[2].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[2].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[7]": 0.9921259842519685,
+    ".MidiClip0.clip.notes[2].channel": 0.0,
+    ".MidiClip0.clip.notes[2].length": 0.6322916666666667,
+    ".MidiClip0.clip.notes[2].noteNum": 67.0,
+    ".MidiClip0.clip.notes[2].timeStamp": 1.1729166666666666,
+    ".MidiClip0.clip.notes[3].attributes[0]": 0.5826771653543307,
+    ".MidiClip0.clip.notes[3].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[3].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[7]": 0.9291338582677166,
+    ".MidiClip0.clip.notes[3].channel": 0.0,
+    ".MidiClip0.clip.notes[3].length": 0.575,
+    ".MidiClip0.clip.notes[3].noteNum": 66.0,
+    ".MidiClip0.clip.notes[3].timeStamp": 1.73125,
+    ".MidiClip0.clip.notes[4].attributes[0]": 0.6299212598425197,
+    ".MidiClip0.clip.notes[4].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[4].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[7]": 0.6771653543307087,
+    ".MidiClip0.clip.notes[4].channel": 0.0,
+    ".MidiClip0.clip.notes[4].length": 1.946875,
+    ".MidiClip0.clip.notes[4].noteNum": 64.0,
+    ".MidiClip0.clip.notes[4].timeStamp": 2.294791666666667,
+    ".MidiClip0.clip.notes[5].attributes[0]": 0.49606299212598426,
+    ".MidiClip0.clip.notes[5].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[5].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[7]": 0.8503937007874016,
+    ".MidiClip0.clip.notes[5].channel": 0.0,
+    ".MidiClip0.clip.notes[5].length": 1.40625,
+    ".MidiClip0.clip.notes[5].noteNum": 55.0,
+    ".MidiClip0.clip.notes[5].timeStamp": 2.8989583333333333,
+    ".MidiClip0.clip.notes[6].attributes[0]": 0.5196850393700787,
+    ".MidiClip0.clip.notes[6].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[6].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[7]": 0.39370078740157477,
+    ".MidiClip0.clip.notes[6].channel": 0.0,
+    ".MidiClip0.clip.notes[6].length": 2.355208333333333,
+    ".MidiClip0.clip.notes[6].noteNum": 60.0,
+    ".MidiClip0.clip.notes[6].timeStamp": 2.90625,
+    ".MidiClip0.clip.notes[7].attributes[0]": 0.5118110236220472,
+    ".MidiClip0.clip.notes[7].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[7].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[7].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[7].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[7]": 0.49606299212598426,
+    ".MidiClip0.clip.notes[7].channel": 0.0,
+    ".MidiClip0.clip.notes[7].length": 2.173958333333333,
+    ".MidiClip0.clip.notes[7].noteNum": 48.0,
+    ".MidiClip0.clip.notes[7].timeStamp": 2.9270833333333335,
+    ".MidiClip0.clip.notes[8].attributes[0]": 0.5196850393700787,
+    ".MidiClip0.clip.notes[8].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[8].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[8].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[8].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[7]": 0.7559055118110236,
+    ".MidiClip0.clip.notes[8].channel": 0.0,
+    ".MidiClip0.clip.notes[8].length": 0.7885416666666667,
+    ".MidiClip0.clip.notes[8].noteNum": 67.0,
+    ".MidiClip0.clip.notes[8].timeStamp": 3.935416666666667,
+    ".MidiClip0.clip.notes[9].attributes[0]": 0.5826771653543307,
+    ".MidiClip0.clip.notes[9].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[9].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[9].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[9].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[7]": 0.8740157480314961,
+    ".MidiClip0.clip.notes[9].channel": 0.0,
+    ".MidiClip0.clip.notes[9].length": 2.3135416666666666,
+    ".MidiClip0.clip.notes[9].noteNum": 66.0,
+    ".MidiClip0.clip.notes[9].timeStamp": 4.584375,
+    ".MidiClip0.clip.notes[10].attributes[0]": 0.5354330708661417,
+    ".MidiClip0.clip.notes[10].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[10].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[10].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[10].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[7]": 0.6220472440944882,
+    ".MidiClip0.clip.notes[10].channel": 0.0,
+    ".MidiClip0.clip.notes[10].length": 1.6875,
+    ".MidiClip0.clip.notes[10].noteNum": 50.0,
+    ".MidiClip0.clip.notes[10].timeStamp": 5.1375,
+    ".MidiClip0.clip.notes[11].attributes[0]": 0.5669291338582677,
+    ".MidiClip0.clip.notes[11].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[11].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[11].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[11].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[7]": 0.8503937007874016,
+    ".MidiClip0.clip.notes[11].channel": 0.0,
+    ".MidiClip0.clip.notes[11].length": 1.7104166666666667,
+    ".MidiClip0.clip.notes[11].noteNum": 57.0,
+    ".MidiClip0.clip.notes[11].timeStamp": 5.185416666666667,
+    ".MidiClip0.clip.notes[12].attributes[0]": 0.5984251968503937,
+    ".MidiClip0.clip.notes[12].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[12].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[12].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[12].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[7]": 0.9448818897637795,
+    ".MidiClip0.clip.notes[12].channel": 0.0,
+    ".MidiClip0.clip.notes[12].length": 2.6260416666666666,
+    ".MidiClip0.clip.notes[12].noteNum": 67.0,
+    ".MidiClip0.clip.notes[12].timeStamp": 6.845833333333333,
+    ".MidiClip0.clip.notes[13].attributes[0]": 0.4330708661417323,
+    ".MidiClip0.clip.notes[13].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[13].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[13].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[13].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[7]": 0.6220472440944882,
+    ".MidiClip0.clip.notes[13].channel": 0.0,
+    ".MidiClip0.clip.notes[13].length": 2.6604166666666664,
+    ".MidiClip0.clip.notes[13].noteNum": 59.0,
+    ".MidiClip0.clip.notes[13].timeStamp": 6.863541666666666,
+    ".MidiClip0.clip.notes[14].attributes[0]": 0.5354330708661417,
+    ".MidiClip0.clip.notes[14].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[14].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[14].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[14].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[7]": 0.6062992125984252,
+    ".MidiClip0.clip.notes[14].channel": 0.0,
+    ".MidiClip0.clip.notes[14].length": 2.215625,
+    ".MidiClip0.clip.notes[14].noteNum": 62.0,
+    ".MidiClip0.clip.notes[14].timeStamp": 6.873958333333333,
+    ".MidiClip0.clip.notes[15].attributes[0]": 0.5354330708661417,
+    ".MidiClip0.clip.notes[15].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[15].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[15].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[15].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[7]": 0.6929133858267716,
+    ".MidiClip0.clip.notes[15].channel": 0.0,
+    ".MidiClip0.clip.notes[15].length": 2.495833333333333,
+    ".MidiClip0.clip.notes[15].noteNum": 52.0,
+    ".MidiClip0.clip.notes[15].timeStamp": 6.885416666666667,
+    ".MidiClip0.clip.notes[16].attributes[0]": 0.6771653543307087,
+    ".MidiClip0.clip.notes[16].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[16].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[16].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[16].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[7]": 0.7952755905511811,
+    ".MidiClip0.clip.notes[16].channel": 0.0,
+    ".MidiClip0.clip.notes[16].length": 1.1302083333333333,
+    ".MidiClip0.clip.notes[16].noteNum": 69.0,
+    ".MidiClip0.clip.notes[16].timeStamp": 9.39375,
+    ".MidiClip0.clip.notes[17].attributes[0]": 0.48031496062992124,
+    ".MidiClip0.clip.notes[17].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[17].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[17].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[17].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[7]": 0.8503937007874016,
+    ".MidiClip0.clip.notes[17].channel": 0.0,
+    ".MidiClip0.clip.notes[17].length": 1.0729166666666667,
+    ".MidiClip0.clip.notes[17].noteNum": 54.0,
+    ".MidiClip0.clip.notes[17].timeStamp": 9.430208333333333,
+    ".MidiClip0.clip.notes[18].attributes[0]": 0.4094488188976378,
+    ".MidiClip0.clip.notes[18].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[18].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[18].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[18].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[7]": 0.41732283464566927,
+    ".MidiClip0.clip.notes[18].channel": 0.0,
+    ".MidiClip0.clip.notes[18].length": 2.080208333333333,
+    ".MidiClip0.clip.notes[18].noteNum": 62.0,
+    ".MidiClip0.clip.notes[18].timeStamp": 9.440625,
+    ".MidiClip0.clip.notes[19].attributes[0]": 0.5669291338582677,
+    ".MidiClip0.clip.notes[19].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[19].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[19].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[19].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[7]": 0.9606299212598425,
+    ".MidiClip0.clip.notes[19].channel": 0.0,
+    ".MidiClip0.clip.notes[19].length": 2.9375,
+    ".MidiClip0.clip.notes[19].noteNum": 55.0,
+    ".MidiClip0.clip.notes[19].timeStamp": 10.45,
+    ".MidiClip0.clip.notes[20].attributes[0]": 0.6535433070866141,
+    ".MidiClip0.clip.notes[20].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[20].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[20].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[20].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[7]": 0.14960629921259844,
+    ".MidiClip0.clip.notes[20].channel": 0.0,
+    ".MidiClip0.clip.notes[20].length": 1.6104166666666666,
+    ".MidiClip0.clip.notes[20].noteNum": 71.0,
+    ".MidiClip0.clip.notes[20].timeStamp": 10.473958333333334,
+    ".MidiClip0.clip.notes[21].attributes[0]": 0.5984251968503937,
+    ".MidiClip0.clip.notes[21].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[21].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[21].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[21].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[7]": 0.8740157480314961,
+    ".MidiClip0.clip.notes[21].channel": 0.0,
+    ".MidiClip0.clip.notes[21].length": 2.466666666666667,
+    ".MidiClip0.clip.notes[21].noteNum": 67.0,
+    ".MidiClip0.clip.notes[21].timeStamp": 11.014583333333333,
+    ".MidiClip0.clip.notes[22].attributes[0]": 0.5826771653543307,
+    ".MidiClip0.clip.notes[22].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[22].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[22].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[22].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[7]": 0.5196850393700787,
+    ".MidiClip0.clip.notes[22].channel": 0.0,
+    ".MidiClip0.clip.notes[22].length": 1.7947916666666666,
+    ".MidiClip0.clip.notes[22].noteNum": 48.0,
+    ".MidiClip0.clip.notes[22].timeStamp": 11.597916666666666,
+    ".MidiClip0.clip.notes[23].attributes[0]": 0.6299212598425197,
+    ".MidiClip0.clip.notes[23].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[23].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[23].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[23].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[7]": 1.0,
+    ".MidiClip0.clip.notes[23].channel": 0.0,
+    ".MidiClip0.clip.notes[23].length": 1.4208333333333334,
+    ".MidiClip0.clip.notes[23].noteNum": 64.0,
+    ".MidiClip0.clip.notes[23].timeStamp": 11.626041666666666,
+    ".MidiClip0.clip.notes[24].attributes[0]": 0.5826771653543307,
+    ".MidiClip0.clip.notes[24].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[24].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[24].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[24].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[24].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[24].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[24].attributes[7]": 0.5511811023622047,
+    ".MidiClip0.clip.notes[24].channel": 0.0,
+    ".MidiClip0.clip.notes[24].length": 2.684375,
+    ".MidiClip0.clip.notes[24].noteNum": 62.0,
+    ".MidiClip0.clip.notes[24].timeStamp": 13.352083333333333,
+    ".MidiClip0.clip.notes[25].attributes[0]": 0.5590551181102362,
+    ".MidiClip0.clip.notes[25].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[25].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[25].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[25].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[25].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[25].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[25].attributes[7]": 0.9763779527559056,
+    ".MidiClip0.clip.notes[25].channel": 0.0,
+    ".MidiClip0.clip.notes[25].length": 2.1875,
+    ".MidiClip0.clip.notes[25].noteNum": 66.0,
+    ".MidiClip0.clip.notes[25].timeStamp": 13.359375,
+    ".MidiClip0.clip.notes[26].attributes[0]": 0.6299212598425197,
+    ".MidiClip0.clip.notes[26].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[26].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[26].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[26].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[26].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[26].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[26].attributes[7]": 0.8346456692913385,
+    ".MidiClip0.clip.notes[26].channel": 0.0,
+    ".MidiClip0.clip.notes[26].length": 1.80625,
+    ".MidiClip0.clip.notes[26].noteNum": 57.0,
+    ".MidiClip0.clip.notes[26].timeStamp": 13.360416666666666,
+    ".MidiClip0.clip.notes[27].attributes[0]": 0.5826771653543307,
+    ".MidiClip0.clip.notes[27].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[27].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[27].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[27].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[27].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[27].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[27].attributes[7]": 0.9606299212598425,
+    ".MidiClip0.clip.notes[27].channel": 0.0,
+    ".MidiClip0.clip.notes[27].length": 2.230208333333333,
+    ".MidiClip0.clip.notes[27].noteNum": 50.0,
+    ".MidiClip0.clip.notes[27].timeStamp": 13.378124999999999,
+    ".MidiClip0.clip.notes[28].attributes[0]": 0.6299212598425197,
+    ".MidiClip0.clip.notes[28].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[28].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[28].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[28].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[28].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[28].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[28].attributes[7]": 0.6456692913385826,
+    ".MidiClip0.clip.notes[28].channel": 0.0,
+    ".MidiClip0.clip.notes[28].length": 2.2385416666666664,
+    ".MidiClip0.clip.notes[28].noteNum": 67.0,
+    ".MidiClip0.clip.notes[28].timeStamp": 15.596874999999999,
+    ".MidiClip0.clip.notes[29].attributes[0]": 0.6141732283464567,
+    ".MidiClip0.clip.notes[29].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[29].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[29].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[29].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[29].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[29].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[29].attributes[7]": 0.6220472440944882,
+    ".MidiClip0.clip.notes[29].channel": 0.0,
+    ".MidiClip0.clip.notes[29].length": 3.167708333333333,
+    ".MidiClip0.clip.notes[29].noteNum": 59.0,
+    ".MidiClip0.clip.notes[29].timeStamp": 15.610416666666666,
+    ".MidiClip0.clip.notes[30].attributes[0]": 0.6535433070866141,
+    ".MidiClip0.clip.notes[30].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[30].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[30].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[30].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[30].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[30].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[30].attributes[7]": 0.7952755905511811,
+    ".MidiClip0.clip.notes[30].channel": 0.0,
+    ".MidiClip0.clip.notes[30].length": 3.138541666666667,
+    ".MidiClip0.clip.notes[30].noteNum": 52.0,
+    ".MidiClip0.clip.notes[30].timeStamp": 15.611458333333333,
+    ".MidiClip0.clip.notes[31].attributes[0]": 0.1732283464566929,
+    ".MidiClip0.clip.notes[31].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[31].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[31].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[31].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[31].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[31].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[31].attributes[7]": 0.6299212598425197,
+    ".MidiClip0.clip.notes[31].channel": 0.0,
+    ".MidiClip0.clip.notes[31].length": 1.60625,
+    ".MidiClip0.clip.notes[31].noteNum": 62.0,
+    ".MidiClip0.clip.notes[31].timeStamp": 16.207291666666666,
+    ".MidiClip0.clip.regionEndBeats": 19.0,
+    ".MidiClip0.displayLength_Beats": 19.0,
+    ".MidiClip0.gridWidth_Beats": 19.0,
+    ".MidiClip0.gridYOffset_Rows": 35.50659980148566,
+    ".MidiClip0.laneTabs[0].subType": 0.0,
+    ".MidiClip0.laneTabs[1].subType": 7.0,
+    ".ModSlot0.destModuleID": 0.0,
+    ".ModSlot0.destModuleParamID": 3.0,
+    ".ModSlot0.kParamAmount": 41.49705171585083,
+    ".ModSlot0.source[0]": 16.0,
+    ".ModSlot0.source[1]": 0.0,
+    ".ModSlot1.destModuleID": 1.0,
+    ".ModSlot1.destModuleParamID": 3.0,
+    ".ModSlot1.kParamAmount": 16.334283351898193,
+    ".ModSlot1.source[0]": 16.0,
+    ".ModSlot1.source[1]": 0.0,
+    ".ModSlot10.destModuleID": 2.0,
+    ".ModSlot10.destModuleParamID": 1.0,
+    ".ModSlot10.kParamAmount": 61.602580547332764,
+    ".ModSlot10.source[0]": 28.0,
+    ".ModSlot10.source[1]": 0.0,
+    ".ModSlot11.destModuleID": 1.0,
+    ".ModSlot11.destModuleParamID": 1.0,
+    ".ModSlot11.kParamAmount": 75.97010135650635,
+    ".ModSlot11.source[0]": 28.0,
+    ".ModSlot11.source[1]": 0.0,
+    ".ModSlot12.destModuleID": 3.0,
+    ".ModSlot12.destModuleParamID": 1.0,
+    ".ModSlot12.kParamAmount": 63.495850563049316,
+    ".ModSlot12.source[0]": 28.0,
+    ".ModSlot12.source[1]": 0.0,
+    ".ModSlot13.destModuleID": 3.0,
+    ".ModSlot13.destModuleParamID": 10.0,
+    ".ModSlot13.kParamAmount": 20.21874189376831,
+    ".ModSlot13.source[0]": 28.0,
+    ".ModSlot13.source[1]": 0.0,
+    ".ModSlot14.destModuleID": 0.0,
+    ".ModSlot14.destModuleParamID": 1.0,
+    ".ModSlot14.kParamAmount": 100.0,
+    ".ModSlot14.source[0]": 29.0,
+    ".ModSlot14.source[1]": 0.0,
+    ".ModSlot15.destModuleID": 1.0,
+    ".ModSlot15.destModuleParamID": 1.0,
+    ".ModSlot15.kParamAmount": 100.0,
+    ".ModSlot15.source[0]": 30.0,
+    ".ModSlot15.source[1]": 0.0,
+    ".ModSlot16.destModuleID": 2.0,
+    ".ModSlot16.destModuleParamID": 1.0,
+    ".ModSlot16.kParamAmount": 100.0,
+    ".ModSlot16.source[0]": 31.0,
+    ".ModSlot16.source[1]": 0.0,
+    ".ModSlot17.destModuleID": 3.0,
+    ".ModSlot17.destModuleParamID": 1.0,
+    ".ModSlot17.kParamAmount": 55.08772134780884,
+    ".ModSlot17.source[0]": 32.0,
+    ".ModSlot17.source[1]": 0.0,
+    ".ModSlot2.destModuleID": 1.0,
+    ".ModSlot2.destModuleParamID": 3.0,
+    ".ModSlot2.kParamAmount": 38.63075375556946,
+    ".ModSlot2.source[0]": 18.0,
+    ".ModSlot2.source[1]": 0.0,
+    ".ModSlot3.destModuleID": 0.0,
+    ".ModSlot3.destModuleParamID": 3.0,
+    ".ModSlot3.flex[0].curveVals[0]": 0.48061452685175715,
+    ".ModSlot3.flex[0].curveVals[1]": 0.5,
+    ".ModSlot3.flex[0].numPoints": 1.0,
+    ".ModSlot3.flex[0].xVals[0]": 0.0,
+    ".ModSlot3.flex[0].xVals[1]": 1.0,
+    ".ModSlot3.flex[0].yVals[0]": 0.0,
+    ".ModSlot3.flex[0].yVals[1]": 1.0,
+    ".ModSlot3.kParamAmount": -11.0321044921875,
+    ".ModSlot3.kParamAuxInverted": 1.0,
+    ".ModSlot3.kParamCurveIn": 7.065439224243164,
+    ".ModSlot3.kParamMainCurveData": 1.0,
+    ".ModSlot3.source[0]": 25.0,
+    ".ModSlot3.source[1]": 0.0,
+    ".ModSlot4.destModuleID": 1.0,
+    ".ModSlot4.destModuleParamID": 1.0,
+    ".ModSlot4.kParamAmount": 33.00199508666992,
+    ".ModSlot4.source[0]": 18.0,
+    ".ModSlot4.source[1]": 0.0,
+    ".ModSlot5.destModuleID": 2.0,
+    ".ModSlot5.destModuleParamID": 1.0,
+    ".ModSlot5.kParamAmount": 53.56966257095337,
+    ".ModSlot5.source[0]": 1.0,
+    ".ModSlot5.source[1]": 0.0,
+    ".ModSlot6.destModuleID": 0.0,
+    ".ModSlot6.destModuleParamID": 0.0,
+    ".ModSlot6.kParamAmount": 25.09448528289795,
+    ".ModSlot6.source[0]": 26.0,
+    ".ModSlot6.source[1]": 0.0,
+    ".ModSlot7.destModuleID": 4.0,
+    ".ModSlot7.destModuleParamID": 1.0,
+    ".ModSlot7.kParamAmount": 35.51727533340454,
+    ".ModSlot7.source[0]": 27.0,
+    ".ModSlot7.source[1]": 0.0,
+    ".ModSlot8.destModuleID": 4.0,
+    ".ModSlot8.destModuleParamID": 3.0,
+    ".ModSlot8.kParamAmount": 15.242993831634521,
+    ".ModSlot8.source[0]": 27.0,
+    ".ModSlot8.source[1]": 0.0,
+    ".ModSlot9.destModuleID": 0.0,
+    ".ModSlot9.destModuleParamID": 3.0,
+    ".ModSlot9.kParamAmount": -46.77031636238098,
+    ".ModSlot9.source[0]": 28.0,
+    ".ModSlot9.source[1]": 0.0,
+    ".MultiSampleOsc[0].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[1].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[2].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".Osc[0].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[0].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[0].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[1].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[1].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[1].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[2].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[2].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[2].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[3].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[3].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[3].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[4].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[4].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[4].kUIParamZoomToStartEnd": 0.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A-1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A-1.flac.numFrames": 440901.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A-1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A0.flac.numFrames": 434935.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A1.flac.numFrames": 437875.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A2.flac.numFrames": 440120.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A3.flac.numFrames": 443617.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A4.flac.numFrames": 404476.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A5.flac.numFrames": 201915.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 A5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C0.flac.numFrames": 441605.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C1.flac.numFrames": 442627.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C2.flac.numFrames": 440868.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C3.flac.numFrames": 440808.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C4.flac.numFrames": 443805.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C5.flac.numFrames": 352220.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C6.flac.numFrames": 311500.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C7.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C7.flac.numFrames": 77255.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 C7.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#0.flac.numFrames": 440891.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#1.flac.numFrames": 442379.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#2.flac.numFrames": 441634.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#3.flac.numFrames": 440873.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#4.flac.numFrames": 311534.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#6.flac.numFrames": 128286.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 D#6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#1.flac.numFrames": 441601.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#2.flac.numFrames": 440929.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#3.flac.numFrames": 440864.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#4.flac.numFrames": 520000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#5.flac.numFrames": 363436.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#6.flac.numFrames": 124783.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 F#6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 G0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 G0.flac.numFrames": 443501.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 04 G0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A-1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A-1.flac.numFrames": 440388.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A-1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A0.flac.numFrames": 428951.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A1.flac.numFrames": 437760.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A2.flac.numFrames": 440888.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A3.flac.numFrames": 446708.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A4.flac.numFrames": 432026.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A5.flac.numFrames": 157275.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 A5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C0.flac.numFrames": 440976.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C1.flac.numFrames": 441347.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C2.flac.numFrames": 440381.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C3.flac.numFrames": 441624.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C4.flac.numFrames": 440827.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C5.flac.numFrames": 437370.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C6.flac.numFrames": 244028.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C7.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C7.flac.numFrames": 130796.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 C7.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#0.flac.numFrames": 440592.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#1.flac.numFrames": 442325.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#2.flac.numFrames": 443076.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#3.flac.numFrames": 435015.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#4.flac.numFrames": 434961.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#6.flac.numFrames": 239141.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 D#6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#1.flac.numFrames": 440886.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#2.flac.numFrames": 440822.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#3.flac.numFrames": 437920.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#4.flac.numFrames": 573109.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#5.flac.numFrames": 438566.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#6.flac.numFrames": 163129.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 F#6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 G0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 G0.flac.numFrames": 441097.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 05 G0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A-1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A-1.flac.numFrames": 440524.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A-1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A0.flac.numFrames": 437837.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A1.flac.numFrames": 440629.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A2.flac.numFrames": 440048.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A3.flac.numFrames": 440825.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A4.flac.numFrames": 432063.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A5.flac.numFrames": 232234.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 A5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C1.flac.numFrames": 443009.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C2.flac.numFrames": 441538.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C3.flac.numFrames": 440122.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C4.flac.numFrames": 437997.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C5.flac.numFrames": 441906.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C6.flac.numFrames": 342420.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C7.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C7.flac.numFrames": 123478.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 C7.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#1.flac.numFrames": 441455.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#2.flac.numFrames": 442299.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#3.flac.numFrames": 443796.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#4.flac.numFrames": 440909.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#6.flac.numFrames": 152093.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 D#6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#1.flac.numFrames": 449061.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#2.flac.numFrames": 440866.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#3.flac.numFrames": 429121.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#4.flac.numFrames": 434925.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#5.flac.numFrames": 435774.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#6.flac.numFrames": 187850.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 F#6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 G0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 G0.flac.numFrames": 441264.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 06 G0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A-1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A-1.flac.numFrames": 440109.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A-1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A0.flac.numFrames": 443736.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A1.flac.numFrames": 443520.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A2.flac.numFrames": 440091.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A3.flac.numFrames": 443765.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A4.flac.numFrames": 440809.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A5.flac.numFrames": 290338.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 A5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C0.flac.numFrames": 442028.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C1.flac.numFrames": 442259.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C2.flac.numFrames": 440794.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C3.flac.numFrames": 439361.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C4.flac.numFrames": 440808.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C5.flac.numFrames": 452158.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C6.flac.numFrames": 286617.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C7.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C7.flac.numFrames": 97411.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 C7.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#0.flac.numFrames": 439126.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#1.flac.numFrames": 440656.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#2.flac.numFrames": 441531.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#3.flac.numFrames": 437879.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#4.flac.numFrames": 437862.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#6.flac.numFrames": 214583.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 D#6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#1.flac.numFrames": 442280.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#1.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#2.flac.numFrames": 440819.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#2.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#3.flac.numFrames": 440820.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#3.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#4.flac.numFrames": 440823.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#4.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#5.flac.numFrames": 429985.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#5.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#6.flac.numFrames": 139771.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 F#6.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 G0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 G0.flac.numFrames": 441168.0,
+    ".Oscillator0.MultiSampleOsc0.files.Baby Grand Samples\\XFBabyGrand 07 G0.flac.sampleRate": 44100.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvAttack": 0.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvDecay": 0.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvRelease": 0.8500000238418577,
+    ".Oscillator0.WTOsc0.kParamRandomPhase": 88.47082853317261,
+    ".Oscillator0.kParamDetune": 0.004215017643005581,
+    ".Oscillator0.kParamFine": -8.055520057678223,
+    ".Oscillator0.kParamVolume": 0.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 A#2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 A#2.flac.numFrames": 192864.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 A#2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 A#3.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 A#3.flac.numFrames": 235872.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 A#3.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 E3.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 E3.flac.numFrames": 204640.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 E3.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 F#1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 F#1.flac.numFrames": 203616.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 F#1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 F#3.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 F#3.flac.numFrames": 233312.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long 01 F#3.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 C2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 C2.flac.numFrames": 256864.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 C2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 C4.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 C4.flac.numFrames": 228704.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 C4.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 D1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 D1.flac.numFrames": 294240.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 D1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 D4.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 D4.flac.numFrames": 258912.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 D4.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 E1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 E1.flac.numFrames": 236896.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 E1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 F#2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 F#2.flac.numFrames": 246624.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 F#2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 G#1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 G#1.flac.numFrames": 260960.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 G#1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 G#2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 G#2.flac.numFrames": 235360.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-02 01 G#2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-04 01 C1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-04 01 C1.flac.numFrames": 303968.0,
+    ".Oscillator1.MultiSampleOsc1.files.Cello Long Samples\\XFcello long-04 01 C1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvAttack": 0.0010000000474974472,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvDecay": 0.0,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvRelease": 1.0,
+    ".Oscillator1.WTOsc1.kParamInitialPhase": 197.42101192474365,
+    ".Oscillator1.kParamDetune": 0.011850483589349814,
+    ".Oscillator1.kParamEnable": 1.0,
+    ".Oscillator1.kParamFine": 5.556321144104004,
+    ".Oscillator1.kParamVolume": 0.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 A2.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 A2.flac.numFrames": 272740.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 A2.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 B2.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 B2.flac.numFrames": 304018.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 B2.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 D#4.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 D#4.flac.numFrames": 241793.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long 03 D#4.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 A3.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 A3.flac.numFrames": 325609.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 A3.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 B3.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 B3.flac.numFrames": 356861.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 B3.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 C#3.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 C#3.flac.numFrames": 318333.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 C#3.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 C#4.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 C#4.flac.numFrames": 342533.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 C#4.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 D#3.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 D#3.flac.numFrames": 356578.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 D#3.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 F3.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 F3.flac.numFrames": 370894.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 F3.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 G3.flac.numChannels": 2.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 G3.flac.numFrames": 298158.0,
+    ".Oscillator2.MultiSampleOsc2.files.Violins Long Samples\\XFviolins long-02 03 G3.flac.sampleRate": 48000.0,
+    ".Oscillator2.MultiSampleOsc2.kParamEnvAttack": 0.009999999776482542,
+    ".Oscillator2.MultiSampleOsc2.kParamEnvDecay": 0.0,
+    ".Oscillator2.MultiSampleOsc2.kParamEnvRelease": 0.6999999880790709,
+    ".Oscillator2.kParamEnable": 1.0,
+    ".Oscillator2.kParamVolume": 0.0,
+    ".Oscillator3.NoiseOsc3.detuneFactor": 0.4758218478413068,
+    ".Oscillator3.NoiseOsc3.numChannels": 1.0,
+    ".Oscillator3.NoiseOsc3.numFrames": 1354752.0,
+    ".Oscillator3.NoiseOsc3.kParamColor": 0.44736844301223755,
+    ".Oscillator3.NoiseOsc3.kParamInitialPhase": 0.9375002235174179,
+    ".Oscillator3.NoiseOsc3.kParamRandomPhase": 41.56250059604645,
+    ".Oscillator3.NoiseOsc3.sampleRate": 44100.0,
+    ".Oscillator3.kParamEnable": 1.0,
+    ".Oscillator3.kParamVolume": 0.0,
+    ".Oscillator4.kParamKeyZoneMax": 126.0,
+    ".PitchQuantizer0.scale[0]": 0.0,
+    ".PitchQuantizer0.scale[1]": 2.0,
+    ".PitchQuantizer0.scale[2]": 0.0,
+    ".PitchQuantizer0.scale[3]": 2.0,
+    ".PitchQuantizer0.scale[4]": 0.0,
+    ".PitchQuantizer0.scale[5]": 0.0,
+    ".PitchQuantizer0.scale[6]": 2.0,
+    ".PitchQuantizer0.scale[7]": 0.0,
+    ".PitchQuantizer0.scale[8]": 2.0,
+    ".PitchQuantizer0.scale[9]": 0.0,
+    ".PitchQuantizer0.scale[10]": 2.0,
+    ".PitchQuantizer0.scale[11]": 0.0,
+    ".RoutingSlot1.kParamFilterBalance": 100.0,
+    ".RoutingSlot2.kParamFilterBalance": 100.0,
+    ".RoutingSlot5.kParamViaEnv1": 0.0,
+    ".RoutingSlot6.kParamViaEnv1": 0.0,
+    ".SerumGUI.kUIParamShowKeyboard": 1.0,
+    ".SpectralOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[0].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[1].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[2].kUIParamShowWaveformDisplay": 0.0,
+    ".VoiceFilter0.kParamEnable": 1.0,
+    ".VoiceFilter0.kParamFreq": 0.5850294828414917,
+    ".VoiceFilter0.kParamReso": 0.0,
+    ".VoiceFilter1.kParamEnable": 1.0,
+    ".VoiceFilter1.kParamFreq": 0.6136924624443054,
+    ".VoiceFilter1.kParamReso": 0.0,
+    ".WTOsc[0].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[1].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[2].kUIParamWTOverviewMouseTag": 0.0,
+    ".lockOversampling": 0.0,
+    ".lockTuning": 0.0,
+    ".mpeConfig": 0.0,
+    ".mpeEnabled": 1.0,
+    ".mpePitchBendRange": 48.0,
+    ".version": 4.0
+  }
+}

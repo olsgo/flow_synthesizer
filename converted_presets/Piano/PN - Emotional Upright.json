@@ -1,0 +1,3225 @@
+{
+  "fileType": "SerumPreset",
+  "hash": "c41eac3d670a15a258bc7193e13e1577",
+  "presetAuthor": "Steve Duda",
+  "presetDescription": "dull piano w/ granular piano layers",
+  "presetName": "PN - Emotional Upright",
+  "product": "Serum2",
+  "productVersion": "2.0.12",
+  "tags": [
+    "Multisample",
+    "Granular",
+    "Poly",
+    "Preview"
+  ],
+  "url": "https://xferrecords.com/",
+  "vendor": "Xfer Records",
+  "version": 5.0,
+  "data": {
+    "Arp0": {
+      "plainParams": "default"
+    },
+    "ArpClip0": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ClipPlayer": {
+      "kUIParamPianoRollNotePreview": 1.0,
+      "kUIParamPreviewClip": 0.08333333333333333,
+      "kUIParamSelectedClip": 0.0
+    },
+    "ClipPlayer0": {
+      "plainParams": "default"
+    },
+    "Env0": {
+      "plainParams": {
+        "kParamAttack": 0.6539392911121945,
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 41.51935279369354,
+        "kParamDecay": 1.1123734822892222,
+        "kParamRelease": 0.7202925908570784,
+        "kParamSustain": 0.7235623598098755
+      }
+    },
+    "Env1": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env2": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env3": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 53.506797552108765,
+        "kParamRelease": 0.6127777439598217
+      }
+    },
+    "FXRack0": {
+      "FX": [
+        {
+          "FXUtils": {
+            "plainParams": {
+              "kParamHPF": 114.68219062380679,
+              "kParamLFMono": 1.0,
+              "kParamLFXover": 172.1995891428262,
+              "kParamLevelOut": 0.4066240191459656,
+              "kParamWidth": 179.14793835776618
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 12
+        },
+        {
+          "FXSplit3": {
+            "plainParams": {
+              "kParamFreq": 545.7840424747784,
+              "kParamFreq2": 2304.304878990521,
+              "kParamModuleCount1": 1.0,
+              "kParamModuleCount2": 1.0,
+              "kParamModuleCount3": 1.0
+            }
+          },
+          "type": 14
+        },
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamAttack": 0.6099999614680329,
+              "kParamRatio": 3.9310232193396746,
+              "kParamRelease": 392.9999958329172,
+              "kParamThresh": 0.5983768105506897
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 5
+        },
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamAttack": 0.6099999614680329,
+              "kParamRatio": 3.9310232193396746,
+              "kParamRelease": 392.9999958329172,
+              "kParamThresh": 0.6959713101387024
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 5
+        },
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamAttack": 0.6099999614680329,
+              "kParamLevelOut": 0.39274102449417114,
+              "kParamRatio": 3.9310232193396746,
+              "kParamRelease": 392.9999958329172,
+              "kParamThresh": 0.7472029328346252
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 5
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack1": {
+      "FX": [
+        {
+          "FXUtils": {
+            "plainParams": {
+              "kParamBalance": -24.43055510520935,
+              "kParamLFMono": 1.0,
+              "kParamLFXover": 128.4244584456421,
+              "kParamLevelOut": 0.4642479717731476,
+              "kParamWidth": 184.47089363878922
+            }
+          },
+          "type": 12
+        },
+        {
+          "FXConv": {
+            "numChannels": 2,
+            "numFrames": 230731,
+            "plainParams": {
+              "kParamDecay": 40.0,
+              "kParamIpTrim": 6.0,
+              "kParamTone": 8.342134952545166,
+              "kParamWet": 0.0
+            },
+            "relativePathToIR": "Factory/Long/L90 Hall - Concert Hall.flac",
+            "sampleRate": 44100
+          },
+          "type": 11
+        },
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamLevelOut": 0.39870256185531616,
+              "kParamThresh": 0.38082656264305115
+            }
+          },
+          "type": 5
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack2": {
+      "FX": [
+        {
+          "FXConv": {
+            "numChannels": 2,
+            "numFrames": 275713,
+            "plainParams": {
+              "kParamIpTrim": -34.0,
+              "kParamWet": 100.0
+            },
+            "relativePathToIR": "Factory/Long/L90 Hall - Gothic Hall.flac",
+            "sampleRate": 44100
+          },
+          "type": 11
+        },
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamLevelOut": 0.0,
+              "kParamMakeup": 1.8055372032269403,
+              "kParamThresh": 0.574483335018158
+            }
+          },
+          "type": 5
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "Filter": {
+      "kUIParamMixOrGain": 0.0
+    },
+    "Global0": {
+      "plainParams": {
+        "kParamFXBus1Vol": 0.42553744970638974,
+        "kParamFXBus2Vol": 1.0553998741695807,
+        "kParamMasterVolume": 0.5030825350673354,
+        "kParamModWheel": 95.2755868434906
+      }
+    },
+    "GranularOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      }
+    ],
+    "LFO0": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO1": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO2": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO3": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO4": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO5": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO6": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO7": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO8": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO9": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFOPointModBus0": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus1": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus10": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus11": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus12": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus13": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus14": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus15": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus2": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus3": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus4": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus5": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus6": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus7": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus8": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus9": {
+      "plainParams": "default"
+    },
+    "Macro0": {
+      "name": "HIGH BOOST",
+      "plainParams": {
+        "kParamValue": 19.298245012760162
+      }
+    },
+    "Macro1": {
+      "name": "MID BOOST",
+      "plainParams": {
+        "kParamValue": 30.263158679008484
+      }
+    },
+    "Macro2": {
+      "name": "LOW BOOST",
+      "plainParams": {
+        "kParamValue": 24.60121661424637
+      }
+    },
+    "Macro3": {
+      "name": "WETTER",
+      "plainParams": {
+        "kParamValue": 32.42180049419403
+      }
+    },
+    "Macro4": {
+      "name": "DULLER",
+      "plainParams": {
+        "kParamValue": 23.23010265827179
+      }
+    },
+    "Macro5": {
+      "name": "B OCTAVE",
+      "plainParams": {
+        "kParamValue": 3.0379651114344597
+      }
+    },
+    "Macro6": {
+      "name": "B LPF",
+      "plainParams": {
+        "kParamValue": 52.85277962684631
+      }
+    },
+    "Macro7": {
+      "name": "OSC B+C",
+      "plainParams": {
+        "kParamValue": 55.14832139015198
+      }
+    },
+    "MidiClip0": {
+      "clip": {
+        "notes": [
+          {
+            "attributes": [
+              0.5812579458699088,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.3700787425041199
+            ],
+            "channel": 6,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0219103187448444,
+            "noteNum": 45,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.7246014970432841,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4173228442668915
+            ],
+            "channel": 7,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.823571049178326,
+            "noteNum": 74,
+            "timeStamp": 0.027949794543863204
+          },
+          {
+            "attributes": [
+              0.5812579458699088,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.3700787425041199
+            ],
+            "channel": 6,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.821143233609518,
+            "noteNum": 57,
+            "timeStamp": 0.0636730900596153
+          },
+          {
+            "attributes": [
+              0.6048799818501334,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.35433071851730347
+            ],
+            "channel": 3,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.8493941784101935,
+            "noteNum": 64,
+            "timeStamp": 0.08411278359476104
+          },
+          {
+            "attributes": [
+              0.6238545223046705,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.29921260476112366
+            ],
+            "channel": 4,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.859105440685425,
+            "noteNum": 69,
+            "timeStamp": 0.10318946148227925
+          },
+          {
+            "attributes": [
+              0.5497618978962759,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4488188922405243
+            ],
+            "channel": 14,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.367530235314234,
+            "noteNum": 41,
+            "timeStamp": 3.042197585566144
+          },
+          {
+            "attributes": [
+              0.5497618978962759,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4488188922405243
+            ],
+            "channel": 14,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.367530235314234,
+            "noteNum": 53,
+            "timeStamp": 3.070928621104924
+          },
+          {
+            "attributes": [
+              0.5970059698567252,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.3385826647281647
+            ],
+            "channel": 3,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.381214286702061,
+            "noteNum": 64,
+            "timeStamp": 3.0726298556123077
+          },
+          {
+            "attributes": [
+              0.6206280058369498,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4409448802471161
+            ],
+            "channel": 11,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.398208995683717,
+            "noteNum": 67,
+            "timeStamp": 3.0771745468839464
+          },
+          {
+            "attributes": [
+              0.6889315933617379,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4566929042339325
+            ],
+            "channel": 8,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.388497733408482,
+            "noteNum": 72,
+            "timeStamp": 3.1022710950543897
+          },
+          {
+            "attributes": [
+              0.541887826298223,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6771653294563293
+            ],
+            "channel": 1,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.875941425844985,
+            "noteNum": 55,
+            "timeStamp": 8.062445353219953
+          },
+          {
+            "attributes": [
+              0.541887826298223,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6771653294563293
+            ],
+            "channel": 1,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.875941425844985,
+            "noteNum": 43,
+            "timeStamp": 8.064350524396145
+          },
+          {
+            "attributes": [
+              0.7308642333493094,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4015747904777527
+            ],
+            "channel": 12,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.400274759159629,
+            "noteNum": 62,
+            "timeStamp": 8.081603705271236
+          },
+          {
+            "attributes": [
+              0.7072421973690848,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.6456692814826965
+            ],
+            "channel": 11,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.90419237064566,
+            "noteNum": 67,
+            "timeStamp": 8.09580762935434
+          },
+          {
+            "attributes": [
+              0.6914941733822684,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5984252095222473
+            ],
+            "channel": 8,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.019094044471517,
+            "noteNum": 72,
+            "timeStamp": 8.107063865173359
+          },
+          {
+            "attributes": [
+              0.6363760298237662,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.36220473051071167
+            ],
+            "channel": 9,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.9120649137469847,
+            "noteNum": 71,
+            "timeStamp": 9.105558195472213
+          },
+          {
+            "attributes": [
+              0.6800131708715965,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4488188922405243
+            ],
+            "channel": 11,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 0.9597328105367069,
+            "noteNum": 67,
+            "timeStamp": 10.040267189463293
+          },
+          {
+            "attributes": [
+              0.6048799818501334,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5669291019439697
+            ],
+            "channel": 5,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 6.990427444690113,
+            "noteNum": 38,
+            "timeStamp": 10.97161034823398
+          },
+          {
+            "attributes": [
+              0.5812579458699088,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370059967041
+            ],
+            "channel": 4,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 11.896145398250123,
+            "noteNum": 69,
+            "timeStamp": 10.995943681548624
+          },
+          {
+            "attributes": [
+              0.667872077797399,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4409448802471161
+            ],
+            "channel": 2,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.994345056176144,
+            "noteNum": 65,
+            "timeStamp": 11.005654943823856
+          },
+          {
+            "attributes": [
+              0.6048799818501334,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5669291019439697
+            ],
+            "channel": 5,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 7.990427444690113,
+            "noteNum": 50,
+            "timeStamp": 11.009572555309887
+          },
+          {
+            "attributes": [
+              0.7308642333493094,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.3858267664909363
+            ],
+            "channel": 13,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 11.870322269018256,
+            "noteNum": 60,
+            "timeStamp": 11.021766810780491
+          },
+          {
+            "attributes": [
+              0.5576359098896841,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4330708682537079
+            ],
+            "channel": 3,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 6.870882362793022,
+            "noteNum": 64,
+            "timeStamp": 16.021206717005725
+          },
+          {
+            "attributes": [
+              0.39228153881882233,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5118110179901123
+            ],
+            "channel": 2,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.8916160187000415,
+            "noteNum": 45,
+            "timeStamp": 19.032840878701563
+          },
+          {
+            "attributes": [
+              0.47102171835754914,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4251968562602997
+            ],
+            "channel": 10,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 2.02646560615106,
+            "noteNum": 36,
+            "timeStamp": 21.467060830328364
+          },
+          {
+            "attributes": [
+              0.6768849249918076,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 11.0,
+            "noteNum": 34,
+            "timeStamp": 24.0
+          },
+          {
+            "attributes": [
+              0.54736745171933,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 11.978233189219509,
+            "noteNum": 58,
+            "timeStamp": 24.0
+          },
+          {
+            "attributes": [
+              0.47723994080707144,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 13.978793282994275,
+            "noteNum": 65,
+            "timeStamp": 24.0
+          },
+          {
+            "attributes": [
+              0.6922416507228193,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.4960629940032959
+            ],
+            "channel": 11,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 4.453446712034122,
+            "noteNum": 70,
+            "timeStamp": 24.046553287965878
+          },
+          {
+            "attributes": [
+              0.29921260476112366,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.007874015718698502
+            ],
+            "channel": 7,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 14.89523512138198,
+            "noteNum": 72,
+            "timeStamp": 26.168074074058097
+          },
+          {
+            "attributes": [
+              0.4803149700164795,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.007874015718698502
+            ],
+            "channel": 8,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 15.31410435795619,
+            "noteNum": 74,
+            "timeStamp": 26.749204837483887
+          },
+          {
+            "attributes": [
+              0.4881889820098877,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.30708661675453186
+            ],
+            "channel": 12,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 15.617802783129363,
+            "noteNum": 77,
+            "timeStamp": 27.495868480709646
+          },
+          {
+            "attributes": [
+              0.29921260476112366,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.13385826349258423
+            ],
+            "channel": 13,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 1.7990521542035367,
+            "noteNum": 69,
+            "timeStamp": 28.700947845796463
+          },
+          {
+            "attributes": [
+              0.1670783246454539,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 13.61509770360464,
+            "noteNum": 70,
+            "timeStamp": 30.5
+          }
+        ],
+        "regionEndBeats": 48.0
+      },
+      "displayLength_Beats": 48.0,
+      "gridHeight_Rows": 38.77381225723987,
+      "gridWidth_Beats": 48.0,
+      "gridYOffset_Rows": 41.20252701589714,
+      "laneTabs": [
+        {
+          "subType": 0,
+          "type": "Attribute"
+        },
+        {
+          "subType": 7,
+          "type": "Attribute"
+        }
+      ],
+      "name": "Night Comfort",
+      "plainParams": "default",
+      "snapEnabled": false
+    },
+    "MidiClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ModSlot0": {
+      "destModuleID": 0,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamTimbreShift",
+      "destModuleTypeString": "MultiSampleOsc",
+      "plainParams": {
+        "kParamAmount": -24.017125368118286,
+        "kParamBipolar": 1.0
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot1": {
+      "plainParams": "default"
+    },
+    "ModSlot10": {
+      "destModuleID": 3,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamMakeup",
+      "destModuleTypeString": "FXComp",
+      "plainParams": {
+        "kParamAmount": 63.3139967918396
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot11": {
+      "destModuleID": 4,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamMakeup",
+      "destModuleTypeString": "FXComp",
+      "plainParams": {
+        "kParamAmount": 80.93224763870239
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot12": {
+      "plainParams": "default"
+    },
+    "ModSlot13": {
+      "plainParams": "default"
+    },
+    "ModSlot14": {
+      "plainParams": "default"
+    },
+    "ModSlot15": {
+      "plainParams": "default"
+    },
+    "ModSlot16": {
+      "plainParams": "default"
+    },
+    "ModSlot17": {
+      "plainParams": "default"
+    },
+    "ModSlot18": {
+      "plainParams": "default"
+    },
+    "ModSlot19": {
+      "plainParams": "default"
+    },
+    "ModSlot2": {
+      "plainParams": "default"
+    },
+    "ModSlot20": {
+      "plainParams": "default"
+    },
+    "ModSlot21": {
+      "plainParams": "default"
+    },
+    "ModSlot22": {
+      "plainParams": "default"
+    },
+    "ModSlot23": {
+      "plainParams": "default"
+    },
+    "ModSlot24": {
+      "plainParams": "default"
+    },
+    "ModSlot25": {
+      "plainParams": "default"
+    },
+    "ModSlot26": {
+      "plainParams": "default"
+    },
+    "ModSlot27": {
+      "plainParams": "default"
+    },
+    "ModSlot28": {
+      "plainParams": "default"
+    },
+    "ModSlot29": {
+      "plainParams": "default"
+    },
+    "ModSlot3": {
+      "destModuleID": 101,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXConv",
+      "plainParams": {
+        "kParamAmount": 30.58147430419922
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot30": {
+      "plainParams": "default"
+    },
+    "ModSlot31": {
+      "plainParams": "default"
+    },
+    "ModSlot32": {
+      "plainParams": "default"
+    },
+    "ModSlot33": {
+      "plainParams": "default"
+    },
+    "ModSlot34": {
+      "plainParams": "default"
+    },
+    "ModSlot35": {
+      "plainParams": "default"
+    },
+    "ModSlot36": {
+      "plainParams": "default"
+    },
+    "ModSlot37": {
+      "plainParams": "default"
+    },
+    "ModSlot38": {
+      "plainParams": "default"
+    },
+    "ModSlot39": {
+      "plainParams": "default"
+    },
+    "ModSlot4": {
+      "destModuleID": 100,
+      "destModuleParamID": 8,
+      "destModuleParamName": "kParamLPF",
+      "destModuleTypeString": "FXUtils",
+      "plainParams": {
+        "kParamAmount": -74.78133738040924
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot40": {
+      "plainParams": "default"
+    },
+    "ModSlot41": {
+      "plainParams": "default"
+    },
+    "ModSlot42": {
+      "plainParams": "default"
+    },
+    "ModSlot43": {
+      "plainParams": "default"
+    },
+    "ModSlot44": {
+      "plainParams": "default"
+    },
+    "ModSlot45": {
+      "plainParams": "default"
+    },
+    "ModSlot46": {
+      "plainParams": "default"
+    },
+    "ModSlot47": {
+      "plainParams": "default"
+    },
+    "ModSlot48": {
+      "plainParams": "default"
+    },
+    "ModSlot49": {
+      "plainParams": "default"
+    },
+    "ModSlot5": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamWarp2",
+      "destModuleTypeString": "GranularOsc",
+      "plainParams": {
+        "kParamAmount": -88.08265626430511,
+        "kParamCurveIn": -6.25
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot50": {
+      "plainParams": "default"
+    },
+    "ModSlot51": {
+      "plainParams": "default"
+    },
+    "ModSlot52": {
+      "plainParams": "default"
+    },
+    "ModSlot53": {
+      "plainParams": "default"
+    },
+    "ModSlot54": {
+      "plainParams": "default"
+    },
+    "ModSlot55": {
+      "plainParams": "default"
+    },
+    "ModSlot56": {
+      "plainParams": "default"
+    },
+    "ModSlot57": {
+      "plainParams": "default"
+    },
+    "ModSlot58": {
+      "plainParams": "default"
+    },
+    "ModSlot59": {
+      "plainParams": "default"
+    },
+    "ModSlot6": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamOctave",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 75.0
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot60": {
+      "plainParams": "default"
+    },
+    "ModSlot61": {
+      "plainParams": "default"
+    },
+    "ModSlot62": {
+      "plainParams": "default"
+    },
+    "ModSlot63": {
+      "plainParams": "default"
+    },
+    "ModSlot7": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": -13.731378316879272
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot8": {
+      "destModuleID": 201,
+      "destModuleParamID": 11,
+      "destModuleParamName": "kParamLevelOut",
+      "destModuleTypeString": "FXComp",
+      "plainParams": {
+        "kParamAmount": 70.64601182937622,
+        "kParamCurveIn": 16.13309383392334
+      },
+      "source": [
+        32,
+        0
+      ]
+    },
+    "ModSlot9": {
+      "destModuleID": 2,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamMakeup",
+      "destModuleTypeString": "FXComp",
+      "plainParams": {
+        "kParamAmount": 63.056230545043945
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "MultiSampleOsc": [
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      }
+    ],
+    "Osc": [
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      }
+    ],
+    "Oscillator0": {
+      "GranularOsc0": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc0": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> amp_veltrack=0.000000 ampeg_release=0.700000\n<region> hikey=23 pitch_keycenter=22 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 A#-1.flac\n<region> hikey=23 pitch_keycenter=22 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 A#-1.flac\n<region> hikey=23 pitch_keycenter=22 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 A#-1.flac\n<region> lokey=24 hikey=26 pitch_keycenter=25 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 C#0.flac\n<region> lokey=24 hikey=26 pitch_keycenter=25 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 C#0.flac\n<region> lokey=24 hikey=26 pitch_keycenter=25 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 C#0.flac\n<region> lokey=27 hikey=29 pitch_keycenter=28 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 E0.flac\n<region> lokey=27 hikey=29 pitch_keycenter=28 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 E0.flac\n<region> lokey=27 hikey=29 pitch_keycenter=28 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 E0.flac\n<region> lokey=30 hikey=32 pitch_keycenter=31 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 G0.flac\n<region> lokey=30 hikey=32 pitch_keycenter=31 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 G0.flac\n<region> lokey=30 hikey=32 pitch_keycenter=31 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 G0.flac\n<region> lokey=33 hikey=35 pitch_keycenter=34 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 A#0.flac\n<region> lokey=33 hikey=35 pitch_keycenter=34 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 A#0.flac\n<region> lokey=33 hikey=35 pitch_keycenter=34 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 A#0.flac\n<region> lokey=36 hikey=38 pitch_keycenter=37 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 C#1.flac\n<region> lokey=36 hikey=38 pitch_keycenter=37 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 C#1.flac\n<region> lokey=36 hikey=38 pitch_keycenter=37 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 C#1.flac\n<region> lokey=39 hikey=41 pitch_keycenter=40 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 E1.flac\n<region> lokey=39 hikey=41 pitch_keycenter=40 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 E1.flac\n<region> lokey=39 hikey=41 pitch_keycenter=40 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 E1.flac\n<region> lokey=42 hikey=44 pitch_keycenter=43 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 G1.flac\n<region> lokey=42 hikey=44 pitch_keycenter=43 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 G1.flac\n<region> lokey=42 hikey=44 pitch_keycenter=43 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 G1.flac\n<region> lokey=45 hikey=47 pitch_keycenter=46 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 A#1.flac\n<region> lokey=45 hikey=47 pitch_keycenter=46 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 A#1.flac\n<region> lokey=45 hikey=49 pitch_keycenter=46 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 A#1.flac\n<region> lokey=48 hikey=50 pitch_keycenter=49 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 C#2.flac\n<region> lokey=48 hikey=50 pitch_keycenter=49 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 C#2.flac\n<region> lokey=51 hikey=53 pitch_keycenter=53 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 F2.flac\n<region> lokey=51 hikey=53 pitch_keycenter=53 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 F2.flac\n<region> lokey=50 hikey=53 pitch_keycenter=53 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 F2.flac\n<region> lokey=54 hikey=56 pitch_keycenter=55 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 G2.flac\n<region> lokey=54 hikey=56 pitch_keycenter=55 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 G2.flac\n<region> lokey=54 hikey=56 pitch_keycenter=55 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 G2.flac\n<region> lokey=57 hikey=59 pitch_keycenter=58 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 A#2.flac\n<region> lokey=57 hikey=59 pitch_keycenter=58 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 A#2.flac\n<region> lokey=57 hikey=59 pitch_keycenter=58 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 A#2.flac\n<region> lokey=60 hikey=62 pitch_keycenter=61 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 C#3.flac\n<region> lokey=60 hikey=62 pitch_keycenter=61 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 C#3.flac\n<region> lokey=60 hikey=62 pitch_keycenter=61 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 C#3.flac\n<region> lokey=63 hikey=65 pitch_keycenter=64 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 E3.flac\n<region> lokey=63 hikey=65 pitch_keycenter=64 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 E3.flac\n<region> lokey=63 hikey=65 pitch_keycenter=64 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 E3.flac\n<region> lokey=66 hikey=68 pitch_keycenter=67 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 G3.flac\n<region> lokey=66 hikey=68 pitch_keycenter=67 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 G3.flac\n<region> lokey=66 hikey=68 pitch_keycenter=67 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 G3.flac\n<region> lokey=69 hikey=71 pitch_keycenter=70 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 A#3.flac\n<region> lokey=69 hikey=71 pitch_keycenter=70 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 A#3.flac\n<region> lokey=69 hikey=71 pitch_keycenter=70 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 A#3.flac\n<region> lokey=72 hikey=74 pitch_keycenter=73 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 C#4.flac\n<region> lokey=72 hikey=74 pitch_keycenter=73 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 C#4.flac\n<region> lokey=72 hikey=74 pitch_keycenter=73 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 C#4.flac\n<region> lokey=75 hikey=77 pitch_keycenter=76 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 E4.flac\n<region> lokey=75 hikey=77 pitch_keycenter=76 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 E4.flac\n<region> lokey=75 hikey=77 pitch_keycenter=76 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 E4.flac\n<region> lokey=78 hikey=80 pitch_keycenter=79 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 G4.flac\n<region> lokey=78 hikey=80 pitch_keycenter=79 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 G4.flac\n<region> lokey=78 hikey=80 pitch_keycenter=79 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 G4.flac\n<region> lokey=81 hikey=83 pitch_keycenter=82 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 A#4.flac\n<region> lokey=81 hikey=83 pitch_keycenter=82 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 A#4.flac\n<region> lokey=81 hikey=83 pitch_keycenter=82 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 A#4.flac\n<region> lokey=84 hikey=86 pitch_keycenter=85 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 C#5.flac\n<region> lokey=84 hikey=86 pitch_keycenter=85 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 C#5.flac\n<region> lokey=84 hikey=86 pitch_keycenter=85 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 C#5.flac\n<region> lokey=87 hikey=89 pitch_keycenter=88 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 E5.flac\n<region> lokey=87 hikey=89 pitch_keycenter=88 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 E5.flac\n<region> lokey=87 hikey=89 pitch_keycenter=88 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 E5.flac\n<region> lokey=90 hikey=92 pitch_keycenter=91 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 G5.flac\n<region> lokey=90 hikey=92 pitch_keycenter=91 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 G5.flac\n<region> lokey=90 hikey=92 pitch_keycenter=91 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 G5.flac\n<region> lokey=93 hikey=95 pitch_keycenter=94 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 A#5.flac\n<region> lokey=93 hikey=95 pitch_keycenter=94 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 A#5.flac\n<region> lokey=93 hikey=95 pitch_keycenter=94 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 A#5.flac\n<region> lokey=96 hikey=98 pitch_keycenter=97 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 C#6.flac\n<region> lokey=96 hikey=98 pitch_keycenter=97 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 C#6.flac\n<region> lokey=96 hikey=98 pitch_keycenter=97 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 C#6.flac\n<region> lokey=99 hikey=101 pitch_keycenter=100 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 E6.flac\n<region> lokey=99 hikey=101 pitch_keycenter=100 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 E6.flac\n<region> lokey=99 hikey=101 pitch_keycenter=100 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 E6.flac\n<region> lokey=102 hikey=104 pitch_keycenter=103 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 G6.flac\n<region> lokey=102 hikey=104 pitch_keycenter=103 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 G6.flac\n<region> lokey=102 hikey=104 pitch_keycenter=103 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 G6.flac\n<region> lokey=105 hikey=106 pitch_keycenter=106 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 A#6.flac\n<region> lokey=105 hikey=106 pitch_keycenter=106 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 A#6.flac\n<region> lokey=105 hikey=106 pitch_keycenter=106 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 A#6.flac\n<region> lokey=107 pitch_keycenter=108 hivel=44 sample=Upright Piano Samples//XFUprightPiano 01 C7.flac\n<region> lokey=107 pitch_keycenter=108 lovel=45 hivel=85 sample=Upright Piano Samples//XFUprightPiano 02 C7.flac\n<region> lokey=107 pitch_keycenter=108 lovel=86 sample=Upright Piano Samples//XFUprightPiano 03 C7.flac\n",
+        "files": {
+          "Upright Piano Samples\\\\XFUprightPiano 01 A#-1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 A#0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 A#1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 A#2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 A#3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 A#4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 A#5.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 A#6.flac": {
+            "numChannels": 2,
+            "numFrames": 237746,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 C#0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 C#1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 C#2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 C#3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 C#4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 C#5.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 C#6.flac": {
+            "numChannels": 2,
+            "numFrames": 359316,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 C7.flac": {
+            "numChannels": 2,
+            "numFrames": 349734,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 E0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 E1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 E3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 E4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 E5.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 E6.flac": {
+            "numChannels": 2,
+            "numFrames": 273080,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 F2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 G0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 G1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 G2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 G3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 G4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 G5.flac": {
+            "numChannels": 2,
+            "numFrames": 393810,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 01 G6.flac": {
+            "numChannels": 2,
+            "numFrames": 257749,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 A#-1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 A#0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 A#1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 A#2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 A#3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 A#4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 A#5.flac": {
+            "numChannels": 2,
+            "numFrames": 469027,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 A#6.flac": {
+            "numChannels": 2,
+            "numFrames": 285057,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 C#0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 C#1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 C#2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 C#3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 C#4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 C#5.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 C#6.flac": {
+            "numChannels": 2,
+            "numFrames": 372251,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 C7.flac": {
+            "numChannels": 2,
+            "numFrames": 348297,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 E0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 E1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 E3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 E4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 E5.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 E6.flac": {
+            "numChannels": 2,
+            "numFrames": 326259,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 F2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 G0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 G1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 G2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 G3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 G4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 G5.flac": {
+            "numChannels": 2,
+            "numFrames": 595506,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 02 G6.flac": {
+            "numChannels": 2,
+            "numFrames": 236669,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 A#-1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 A#0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 A#1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 A#2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 A#3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 A#4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 A#5.flac": {
+            "numChannels": 2,
+            "numFrames": 519331,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 A#6.flac": {
+            "numChannels": 2,
+            "numFrames": 295118,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 C#0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 C#1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 C#3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 C#4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 C#5.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 C#6.flac": {
+            "numChannels": 2,
+            "numFrames": 509270,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 C7.flac": {
+            "numChannels": 2,
+            "numFrames": 306616,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 E0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 E1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 E3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 E4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 E5.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 E6.flac": {
+            "numChannels": 2,
+            "numFrames": 321947,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 F2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 G0.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 G1.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 G2.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 G3.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 G4.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 G5.flac": {
+            "numChannels": 2,
+            "numFrames": 882000,
+            "sampleRate": 88200
+          },
+          "Upright Piano Samples\\\\XFUprightPiano 03 G6.flac": {
+            "numChannels": 2,
+            "numFrames": 321468,
+            "sampleRate": 88200
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.0,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvRelease": 0.6999999880790709,
+          "kParamTimbreShift": -14.186248779296875
+        },
+        "sfzPathRelative": "Factory/Keys/Upright Piano.sfz"
+      },
+      "SampleOsc0": {
+        "plainParams": "default"
+      },
+      "SpectralOsc0": {
+        "plainParams": "default"
+      },
+      "WTOsc0": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamType": "kOsc_MultiSample",
+        "kParamVolume": 0.394192249547487
+      }
+    },
+    "Oscillator1": {
+      "GranularOsc1": {
+        "gain": 36.65324401855469,
+        "numChannels": 2,
+        "numFrames": 158034,
+        "plainParams": {
+          "kParamDensity": 7.568047805299319e-06,
+          "kParamGrainLength": 0.9193871705785326,
+          "kParamRandomPan": 97.57952690124512,
+          "kParamRandomPitch": 0.12393508232957273,
+          "kParamUnisonTrigPattern": "kEven",
+          "kParamWarp2": 0.9731859564781189,
+          "kParamWarpMenu2": "kFilterLPF",
+          "kParamWindowParam": 37.98791468143463,
+          "kParamWindowShape": "kWindowTukey"
+        },
+        "samplePathRelative": "Factory/Piano/Piano High Long Tail.flac",
+        "sampleRate": 44100,
+        "trimHead": 53132
+      },
+      "MultiSampleOsc1": {
+        "plainParams": "default"
+      },
+      "SampleOsc1": {
+        "plainParams": "default"
+      },
+      "SpectralOsc1": {
+        "plainParams": "default"
+      },
+      "WTOsc1": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamDetune": 0.0,
+        "kParamEnable": 1.0,
+        "kParamLoopCrossfade": 3.3964429050683975,
+        "kParamLoopEnd": 0.0,
+        "kParamLoopMode": "kForward",
+        "kParamOctave": -2.0,
+        "kParamScanRate": 26.409411430358887,
+        "kParamType": "kOsc_Granular",
+        "kParamUnison": 4.0,
+        "kParamUnisonSpan": 59.43775177001953,
+        "kParamUnisonStack": "kOctaveFifth1",
+        "kParamVolume": 0.08135255485207527
+      }
+    },
+    "Oscillator2": {
+      "GranularOsc2": {
+        "baseNote": 72,
+        "gain": 5.2571797370910645,
+        "numChannels": 2,
+        "numFrames": 172978,
+        "plainParams": {
+          "kParamDensity": 0.00997339829312053,
+          "kParamRandomGrainLength": 70.61026096343994,
+          "kParamRandomPan": 100.0,
+          "kParamWindowParam": 47.195929288864136,
+          "kParamWindowShape": "kWindowTukey"
+        },
+        "samplePathRelative": "Factory/Piano/Sympathy Piano C4.flac",
+        "sampleRate": 44100
+      },
+      "MultiSampleOsc2": {
+        "plainParams": "default"
+      },
+      "SampleOsc2": {
+        "plainParams": "default"
+      },
+      "SpectralOsc2": {
+        "plainParams": "default"
+      },
+      "WTOsc2": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamLoopCrossfade": 4.755020514130592,
+        "kParamLoopEnd": 88.18744688600219,
+        "kParamLoopMode": "kForward",
+        "kParamLoopStart": 51.95025928302607,
+        "kParamScanRate": 32.68170356750488,
+        "kParamType": "kOsc_Granular",
+        "kParamVolume": 0.33629987136254513
+      }
+    },
+    "Oscillator3": {
+      "NoiseOsc3": {
+        "detuneFactor": 0.4758218478413068,
+        "numChannels": 1,
+        "numFrames": 78241,
+        "plainParams": "default",
+        "relativePathToNoiseSample": "Organics/AC hum1.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": "default"
+    },
+    "Oscillator4": {
+      "SubOsc4": {
+        "plainParams": "default"
+      },
+      "plainParams": "default"
+    },
+    "PitchQuantizer0": {
+      "plainParams": "default",
+      "scale": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "scaleName": "Major"
+    },
+    "RetriggerState0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot0": {
+      "plainParams": {
+        "kParamFXBus1Level": 89.87025618553162,
+        "kParamRoutingDest": "kRoutingDestNone",
+        "kParamViaEnv1": 0.0
+      }
+    },
+    "RoutingSlot1": {
+      "plainParams": {
+        "kParamFXBus2Level": 78.54878306388855,
+        "kParamRoutingDest": "kRoutingDestNone"
+      }
+    },
+    "RoutingSlot2": {
+      "plainParams": {
+        "kParamFXBus2Level": 57.6934278011322,
+        "kParamRoutingDest": "kRoutingDestNone"
+      }
+    },
+    "RoutingSlot3": {
+      "plainParams": "default"
+    },
+    "RoutingSlot4": {
+      "plainParams": "default"
+    },
+    "RoutingSlot5": {
+      "plainParams": "default"
+    },
+    "RoutingSlot6": {
+      "plainParams": "default"
+    },
+    "SerumGUI": {
+      "kUIParamShowKeyboard": 1.0,
+      "kUIParamShowMidiOut": 0.0
+    },
+    "SpectralOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      }
+    ],
+    "VoiceFilter0": {
+      "plainParams": "default"
+    },
+    "VoiceFilter1": {
+      "plainParams": "default"
+    },
+    "VoicePanel0": {
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "WTOsc": [
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      }
+    ],
+    "arpBankDisplayName": "",
+    "clipBankDisplayName": "",
+    "fileType": "SerumPreset",
+    "lockOversampling": false,
+    "lockTuning": false,
+    "mpeConfig": 0,
+    "mpeEnabled": true,
+    "mpePitchBendRange": 48,
+    "presetAuthor": "Steve Duda",
+    "presetDescription": "dull piano w/ granular piano layers",
+    "presetName": "PN - Emotional Upright",
+    "product": "Serum2",
+    "productVersion": "2.0.12",
+    "scalars": {
+      "note": {},
+      "velo": {}
+    },
+    "tags": [
+      "Multisample",
+      "Granular",
+      "Poly",
+      "Preview"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 5.0
+  },
+  "dawdreamer_params": {
+    ".ClipPlayer.kUIParamPianoRollNotePreview": 1.0,
+    ".ClipPlayer.kUIParamPreviewClip": 0.08333333333333333,
+    ".ClipPlayer.kUIParamSelectedClip": 0.0,
+    ".Env0.kParamAttack": 0.6539392911121945,
+    ".Env0.kParamCurve1": 50.0,
+    ".Env0.kParamCurve2": 66.60000000000001,
+    ".Env0.kParamCurve3": 41.51935279369354,
+    ".Env0.kParamDecay": 1.1123734822892222,
+    ".Env0.kParamRelease": 0.7202925908570784,
+    ".Env0.kParamSustain": 0.7235623598098755,
+    ".Env1.kParamCurve1": 50.0,
+    ".Env1.kParamCurve2": 66.60000000000001,
+    ".Env1.kParamCurve3": 66.60000000000001,
+    ".Env2.kParamCurve1": 50.0,
+    ".Env2.kParamCurve2": 66.60000000000001,
+    ".Env2.kParamCurve3": 66.60000000000001,
+    ".Env3.kParamCurve1": 50.0,
+    ".Env3.kParamCurve2": 66.60000000000001,
+    ".Env3.kParamCurve3": 53.506797552108765,
+    ".Env3.kParamRelease": 0.6127777439598217,
+    ".FXRack0.FX[0].FXUtils.kParamHPF": 114.68219062380679,
+    ".FXRack0.FX[0].FXUtils.kParamLFMono": 1.0,
+    ".FXRack0.FX[0].FXUtils.kParamLFXover": 172.1995891428262,
+    ".FXRack0.FX[0].FXUtils.kParamLevelOut": 0.4066240191459656,
+    ".FXRack0.FX[0].FXUtils.kParamWidth": 179.14793835776618,
+    ".FXRack0.FX[0].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[0].type": 12.0,
+    ".FXRack0.FX[1].FXSplit3.kParamFreq": 545.7840424747784,
+    ".FXRack0.FX[1].FXSplit3.kParamFreq2": 2304.304878990521,
+    ".FXRack0.FX[1].FXSplit3.kParamModuleCount1": 1.0,
+    ".FXRack0.FX[1].FXSplit3.kParamModuleCount2": 1.0,
+    ".FXRack0.FX[1].FXSplit3.kParamModuleCount3": 1.0,
+    ".FXRack0.FX[1].type": 14.0,
+    ".FXRack0.FX[2].FXComp.kParamAttack": 0.6099999614680329,
+    ".FXRack0.FX[2].FXComp.kParamRatio": 3.9310232193396746,
+    ".FXRack0.FX[2].FXComp.kParamRelease": 392.9999958329172,
+    ".FXRack0.FX[2].FXComp.kParamThresh": 0.5983768105506897,
+    ".FXRack0.FX[2].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[2].type": 5.0,
+    ".FXRack0.FX[3].FXComp.kParamAttack": 0.6099999614680329,
+    ".FXRack0.FX[3].FXComp.kParamRatio": 3.9310232193396746,
+    ".FXRack0.FX[3].FXComp.kParamRelease": 392.9999958329172,
+    ".FXRack0.FX[3].FXComp.kParamThresh": 0.6959713101387024,
+    ".FXRack0.FX[3].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[3].type": 5.0,
+    ".FXRack0.FX[4].FXComp.kParamAttack": 0.6099999614680329,
+    ".FXRack0.FX[4].FXComp.kParamLevelOut": 0.39274102449417114,
+    ".FXRack0.FX[4].FXComp.kParamRatio": 3.9310232193396746,
+    ".FXRack0.FX[4].FXComp.kParamRelease": 392.9999958329172,
+    ".FXRack0.FX[4].FXComp.kParamThresh": 0.7472029328346252,
+    ".FXRack0.FX[4].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[4].type": 5.0,
+    ".FXRack1.FX[0].FXUtils.kParamBalance": -24.43055510520935,
+    ".FXRack1.FX[0].FXUtils.kParamLFMono": 1.0,
+    ".FXRack1.FX[0].FXUtils.kParamLFXover": 128.4244584456421,
+    ".FXRack1.FX[0].FXUtils.kParamLevelOut": 0.4642479717731476,
+    ".FXRack1.FX[0].FXUtils.kParamWidth": 184.47089363878922,
+    ".FXRack1.FX[0].type": 12.0,
+    ".FXRack1.FX[1].FXConv.numChannels": 2.0,
+    ".FXRack1.FX[1].FXConv.numFrames": 230731.0,
+    ".FXRack1.FX[1].FXConv.kParamDecay": 40.0,
+    ".FXRack1.FX[1].FXConv.kParamIpTrim": 6.0,
+    ".FXRack1.FX[1].FXConv.kParamTone": 8.342134952545166,
+    ".FXRack1.FX[1].FXConv.kParamWet": 0.0,
+    ".FXRack1.FX[1].FXConv.sampleRate": 44100.0,
+    ".FXRack1.FX[1].type": 11.0,
+    ".FXRack1.FX[2].FXComp.kParamLevelOut": 0.39870256185531616,
+    ".FXRack1.FX[2].FXComp.kParamThresh": 0.38082656264305115,
+    ".FXRack1.FX[2].type": 5.0,
+    ".FXRack2.FX[0].FXConv.numChannels": 2.0,
+    ".FXRack2.FX[0].FXConv.numFrames": 275713.0,
+    ".FXRack2.FX[0].FXConv.kParamIpTrim": -34.0,
+    ".FXRack2.FX[0].FXConv.kParamWet": 100.0,
+    ".FXRack2.FX[0].FXConv.sampleRate": 44100.0,
+    ".FXRack2.FX[0].type": 11.0,
+    ".FXRack2.FX[1].FXComp.kParamLevelOut": 0.0,
+    ".FXRack2.FX[1].FXComp.kParamMakeup": 1.8055372032269403,
+    ".FXRack2.FX[1].FXComp.kParamThresh": 0.574483335018158,
+    ".FXRack2.FX[1].type": 5.0,
+    ".Filter.kUIParamMixOrGain": 0.0,
+    ".Global0.kParamFXBus1Vol": 0.42553744970638974,
+    ".Global0.kParamFXBus2Vol": 1.0553998741695807,
+    ".Global0.kParamMasterVolume": 0.5030825350673354,
+    ".Global0.kParamModWheel": 95.2755868434906,
+    ".GranularOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".Macro0.kParamValue": 19.298245012760162,
+    ".Macro1.kParamValue": 30.263158679008484,
+    ".Macro2.kParamValue": 24.60121661424637,
+    ".Macro3.kParamValue": 32.42180049419403,
+    ".Macro4.kParamValue": 23.23010265827179,
+    ".Macro5.kParamValue": 3.0379651114344597,
+    ".Macro6.kParamValue": 52.85277962684631,
+    ".Macro7.kParamValue": 55.14832139015198,
+    ".MidiClip0.clip.notes[0].attributes[0]": 0.5812579458699088,
+    ".MidiClip0.clip.notes[0].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[0].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[7]": 0.3700787425041199,
+    ".MidiClip0.clip.notes[0].channel": 6.0,
+    ".MidiClip0.clip.notes[0].length": 3.0219103187448444,
+    ".MidiClip0.clip.notes[0].noteNum": 45.0,
+    ".MidiClip0.clip.notes[0].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[0]": 0.7246014970432841,
+    ".MidiClip0.clip.notes[1].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[1].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[7]": 0.4173228442668915,
+    ".MidiClip0.clip.notes[1].channel": 7.0,
+    ".MidiClip0.clip.notes[1].length": 2.823571049178326,
+    ".MidiClip0.clip.notes[1].noteNum": 74.0,
+    ".MidiClip0.clip.notes[1].timeStamp": 0.027949794543863204,
+    ".MidiClip0.clip.notes[2].attributes[0]": 0.5812579458699088,
+    ".MidiClip0.clip.notes[2].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[2].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[7]": 0.3700787425041199,
+    ".MidiClip0.clip.notes[2].channel": 6.0,
+    ".MidiClip0.clip.notes[2].length": 2.821143233609518,
+    ".MidiClip0.clip.notes[2].noteNum": 57.0,
+    ".MidiClip0.clip.notes[2].timeStamp": 0.0636730900596153,
+    ".MidiClip0.clip.notes[3].attributes[0]": 0.6048799818501334,
+    ".MidiClip0.clip.notes[3].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[3].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[7]": 0.35433071851730347,
+    ".MidiClip0.clip.notes[3].channel": 3.0,
+    ".MidiClip0.clip.notes[3].length": 2.8493941784101935,
+    ".MidiClip0.clip.notes[3].noteNum": 64.0,
+    ".MidiClip0.clip.notes[3].timeStamp": 0.08411278359476104,
+    ".MidiClip0.clip.notes[4].attributes[0]": 0.6238545223046705,
+    ".MidiClip0.clip.notes[4].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[4].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[7]": 0.29921260476112366,
+    ".MidiClip0.clip.notes[4].channel": 4.0,
+    ".MidiClip0.clip.notes[4].length": 2.859105440685425,
+    ".MidiClip0.clip.notes[4].noteNum": 69.0,
+    ".MidiClip0.clip.notes[4].timeStamp": 0.10318946148227925,
+    ".MidiClip0.clip.notes[5].attributes[0]": 0.5497618978962759,
+    ".MidiClip0.clip.notes[5].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[5].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[7]": 0.4488188922405243,
+    ".MidiClip0.clip.notes[5].channel": 14.0,
+    ".MidiClip0.clip.notes[5].length": 4.367530235314234,
+    ".MidiClip0.clip.notes[5].noteNum": 41.0,
+    ".MidiClip0.clip.notes[5].timeStamp": 3.042197585566144,
+    ".MidiClip0.clip.notes[6].attributes[0]": 0.5497618978962759,
+    ".MidiClip0.clip.notes[6].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[6].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[7]": 0.4488188922405243,
+    ".MidiClip0.clip.notes[6].channel": 14.0,
+    ".MidiClip0.clip.notes[6].length": 4.367530235314234,
+    ".MidiClip0.clip.notes[6].noteNum": 53.0,
+    ".MidiClip0.clip.notes[6].timeStamp": 3.070928621104924,
+    ".MidiClip0.clip.notes[7].attributes[0]": 0.5970059698567252,
+    ".MidiClip0.clip.notes[7].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[7].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[7].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[7].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[7].attributes[7]": 0.3385826647281647,
+    ".MidiClip0.clip.notes[7].channel": 3.0,
+    ".MidiClip0.clip.notes[7].length": 4.381214286702061,
+    ".MidiClip0.clip.notes[7].noteNum": 64.0,
+    ".MidiClip0.clip.notes[7].timeStamp": 3.0726298556123077,
+    ".MidiClip0.clip.notes[8].attributes[0]": 0.6206280058369498,
+    ".MidiClip0.clip.notes[8].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[8].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[8].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[8].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[8].attributes[7]": 0.4409448802471161,
+    ".MidiClip0.clip.notes[8].channel": 11.0,
+    ".MidiClip0.clip.notes[8].length": 4.398208995683717,
+    ".MidiClip0.clip.notes[8].noteNum": 67.0,
+    ".MidiClip0.clip.notes[8].timeStamp": 3.0771745468839464,
+    ".MidiClip0.clip.notes[9].attributes[0]": 0.6889315933617379,
+    ".MidiClip0.clip.notes[9].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[9].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[9].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[9].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[9].attributes[7]": 0.4566929042339325,
+    ".MidiClip0.clip.notes[9].channel": 8.0,
+    ".MidiClip0.clip.notes[9].length": 4.388497733408482,
+    ".MidiClip0.clip.notes[9].noteNum": 72.0,
+    ".MidiClip0.clip.notes[9].timeStamp": 3.1022710950543897,
+    ".MidiClip0.clip.notes[10].attributes[0]": 0.541887826298223,
+    ".MidiClip0.clip.notes[10].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[10].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[10].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[10].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[10].attributes[7]": 0.6771653294563293,
+    ".MidiClip0.clip.notes[10].channel": 1.0,
+    ".MidiClip0.clip.notes[10].length": 2.875941425844985,
+    ".MidiClip0.clip.notes[10].noteNum": 55.0,
+    ".MidiClip0.clip.notes[10].timeStamp": 8.062445353219953,
+    ".MidiClip0.clip.notes[11].attributes[0]": 0.541887826298223,
+    ".MidiClip0.clip.notes[11].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[11].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[11].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[11].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[11].attributes[7]": 0.6771653294563293,
+    ".MidiClip0.clip.notes[11].channel": 1.0,
+    ".MidiClip0.clip.notes[11].length": 2.875941425844985,
+    ".MidiClip0.clip.notes[11].noteNum": 43.0,
+    ".MidiClip0.clip.notes[11].timeStamp": 8.064350524396145,
+    ".MidiClip0.clip.notes[12].attributes[0]": 0.7308642333493094,
+    ".MidiClip0.clip.notes[12].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[12].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[12].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[12].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[12].attributes[7]": 0.4015747904777527,
+    ".MidiClip0.clip.notes[12].channel": 12.0,
+    ".MidiClip0.clip.notes[12].length": 2.400274759159629,
+    ".MidiClip0.clip.notes[12].noteNum": 62.0,
+    ".MidiClip0.clip.notes[12].timeStamp": 8.081603705271236,
+    ".MidiClip0.clip.notes[13].attributes[0]": 0.7072421973690848,
+    ".MidiClip0.clip.notes[13].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[13].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[13].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[13].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[13].attributes[7]": 0.6456692814826965,
+    ".MidiClip0.clip.notes[13].channel": 11.0,
+    ".MidiClip0.clip.notes[13].length": 0.90419237064566,
+    ".MidiClip0.clip.notes[13].noteNum": 67.0,
+    ".MidiClip0.clip.notes[13].timeStamp": 8.09580762935434,
+    ".MidiClip0.clip.notes[14].attributes[0]": 0.6914941733822684,
+    ".MidiClip0.clip.notes[14].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[14].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[14].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[14].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[14].attributes[7]": 0.5984252095222473,
+    ".MidiClip0.clip.notes[14].channel": 8.0,
+    ".MidiClip0.clip.notes[14].length": 1.019094044471517,
+    ".MidiClip0.clip.notes[14].noteNum": 72.0,
+    ".MidiClip0.clip.notes[14].timeStamp": 8.107063865173359,
+    ".MidiClip0.clip.notes[15].attributes[0]": 0.6363760298237662,
+    ".MidiClip0.clip.notes[15].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[15].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[15].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[15].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[15].attributes[7]": 0.36220473051071167,
+    ".MidiClip0.clip.notes[15].channel": 9.0,
+    ".MidiClip0.clip.notes[15].length": 0.9120649137469847,
+    ".MidiClip0.clip.notes[15].noteNum": 71.0,
+    ".MidiClip0.clip.notes[15].timeStamp": 9.105558195472213,
+    ".MidiClip0.clip.notes[16].attributes[0]": 0.6800131708715965,
+    ".MidiClip0.clip.notes[16].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[16].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[16].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[16].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[16].attributes[7]": 0.4488188922405243,
+    ".MidiClip0.clip.notes[16].channel": 11.0,
+    ".MidiClip0.clip.notes[16].length": 0.9597328105367069,
+    ".MidiClip0.clip.notes[16].noteNum": 67.0,
+    ".MidiClip0.clip.notes[16].timeStamp": 10.040267189463293,
+    ".MidiClip0.clip.notes[17].attributes[0]": 0.6048799818501334,
+    ".MidiClip0.clip.notes[17].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[17].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[17].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[17].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[17].attributes[7]": 0.5669291019439697,
+    ".MidiClip0.clip.notes[17].channel": 5.0,
+    ".MidiClip0.clip.notes[17].length": 6.990427444690113,
+    ".MidiClip0.clip.notes[17].noteNum": 38.0,
+    ".MidiClip0.clip.notes[17].timeStamp": 10.97161034823398,
+    ".MidiClip0.clip.notes[18].attributes[0]": 0.5812579458699088,
+    ".MidiClip0.clip.notes[18].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[18].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[18].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[18].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[18].attributes[7]": 0.5039370059967041,
+    ".MidiClip0.clip.notes[18].channel": 4.0,
+    ".MidiClip0.clip.notes[18].length": 11.896145398250123,
+    ".MidiClip0.clip.notes[18].noteNum": 69.0,
+    ".MidiClip0.clip.notes[18].timeStamp": 10.995943681548624,
+    ".MidiClip0.clip.notes[19].attributes[0]": 0.667872077797399,
+    ".MidiClip0.clip.notes[19].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[19].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[19].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[19].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[19].attributes[7]": 0.4409448802471161,
+    ".MidiClip0.clip.notes[19].channel": 2.0,
+    ".MidiClip0.clip.notes[19].length": 4.994345056176144,
+    ".MidiClip0.clip.notes[19].noteNum": 65.0,
+    ".MidiClip0.clip.notes[19].timeStamp": 11.005654943823856,
+    ".MidiClip0.clip.notes[20].attributes[0]": 0.6048799818501334,
+    ".MidiClip0.clip.notes[20].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[20].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[20].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[20].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[20].attributes[7]": 0.5669291019439697,
+    ".MidiClip0.clip.notes[20].channel": 5.0,
+    ".MidiClip0.clip.notes[20].length": 7.990427444690113,
+    ".MidiClip0.clip.notes[20].noteNum": 50.0,
+    ".MidiClip0.clip.notes[20].timeStamp": 11.009572555309887,
+    ".MidiClip0.clip.notes[21].attributes[0]": 0.7308642333493094,
+    ".MidiClip0.clip.notes[21].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[21].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[21].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[21].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[21].attributes[7]": 0.3858267664909363,
+    ".MidiClip0.clip.notes[21].channel": 13.0,
+    ".MidiClip0.clip.notes[21].length": 11.870322269018256,
+    ".MidiClip0.clip.notes[21].noteNum": 60.0,
+    ".MidiClip0.clip.notes[21].timeStamp": 11.021766810780491,
+    ".MidiClip0.clip.notes[22].attributes[0]": 0.5576359098896841,
+    ".MidiClip0.clip.notes[22].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[22].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[22].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[22].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[22].attributes[7]": 0.4330708682537079,
+    ".MidiClip0.clip.notes[22].channel": 3.0,
+    ".MidiClip0.clip.notes[22].length": 6.870882362793022,
+    ".MidiClip0.clip.notes[22].noteNum": 64.0,
+    ".MidiClip0.clip.notes[22].timeStamp": 16.021206717005725,
+    ".MidiClip0.clip.notes[23].attributes[0]": 0.39228153881882233,
+    ".MidiClip0.clip.notes[23].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[23].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[23].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[23].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[23].attributes[7]": 0.5118110179901123,
+    ".MidiClip0.clip.notes[23].channel": 2.0,
+    ".MidiClip0.clip.notes[23].length": 3.8916160187000415,
+    ".MidiClip0.clip.notes[23].noteNum": 45.0,
+    ".MidiClip0.clip.notes[23].timeStamp": 19.032840878701563,
+    ".MidiClip0.clip.notes[24].attributes[0]": 0.47102171835754914,
+    ".MidiClip0.clip.notes[24].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[24].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[24].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[24].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[24].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[24].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[24].attributes[7]": 0.4251968562602997,
+    ".MidiClip0.clip.notes[24].channel": 10.0,
+    ".MidiClip0.clip.notes[24].length": 2.02646560615106,
+    ".MidiClip0.clip.notes[24].noteNum": 36.0,
+    ".MidiClip0.clip.notes[24].timeStamp": 21.467060830328364,
+    ".MidiClip0.clip.notes[25].attributes[0]": 0.6768849249918076,
+    ".MidiClip0.clip.notes[25].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[25].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[25].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[25].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[25].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[25].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[25].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[25].channel": 0.0,
+    ".MidiClip0.clip.notes[25].length": 11.0,
+    ".MidiClip0.clip.notes[25].noteNum": 34.0,
+    ".MidiClip0.clip.notes[25].timeStamp": 24.0,
+    ".MidiClip0.clip.notes[26].attributes[0]": 0.54736745171933,
+    ".MidiClip0.clip.notes[26].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[26].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[26].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[26].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[26].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[26].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[26].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[26].channel": 0.0,
+    ".MidiClip0.clip.notes[26].length": 11.978233189219509,
+    ".MidiClip0.clip.notes[26].noteNum": 58.0,
+    ".MidiClip0.clip.notes[26].timeStamp": 24.0,
+    ".MidiClip0.clip.notes[27].attributes[0]": 0.47723994080707144,
+    ".MidiClip0.clip.notes[27].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[27].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[27].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[27].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[27].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[27].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[27].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[27].channel": 0.0,
+    ".MidiClip0.clip.notes[27].length": 13.978793282994275,
+    ".MidiClip0.clip.notes[27].noteNum": 65.0,
+    ".MidiClip0.clip.notes[27].timeStamp": 24.0,
+    ".MidiClip0.clip.notes[28].attributes[0]": 0.6922416507228193,
+    ".MidiClip0.clip.notes[28].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[28].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[28].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[28].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[28].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[28].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[28].attributes[7]": 0.4960629940032959,
+    ".MidiClip0.clip.notes[28].channel": 11.0,
+    ".MidiClip0.clip.notes[28].length": 4.453446712034122,
+    ".MidiClip0.clip.notes[28].noteNum": 70.0,
+    ".MidiClip0.clip.notes[28].timeStamp": 24.046553287965878,
+    ".MidiClip0.clip.notes[29].attributes[0]": 0.29921260476112366,
+    ".MidiClip0.clip.notes[29].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[29].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[29].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[29].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[29].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[29].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[29].attributes[7]": 0.007874015718698502,
+    ".MidiClip0.clip.notes[29].channel": 7.0,
+    ".MidiClip0.clip.notes[29].length": 14.89523512138198,
+    ".MidiClip0.clip.notes[29].noteNum": 72.0,
+    ".MidiClip0.clip.notes[29].timeStamp": 26.168074074058097,
+    ".MidiClip0.clip.notes[30].attributes[0]": 0.4803149700164795,
+    ".MidiClip0.clip.notes[30].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[30].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[30].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[30].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[30].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[30].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[30].attributes[7]": 0.007874015718698502,
+    ".MidiClip0.clip.notes[30].channel": 8.0,
+    ".MidiClip0.clip.notes[30].length": 15.31410435795619,
+    ".MidiClip0.clip.notes[30].noteNum": 74.0,
+    ".MidiClip0.clip.notes[30].timeStamp": 26.749204837483887,
+    ".MidiClip0.clip.notes[31].attributes[0]": 0.4881889820098877,
+    ".MidiClip0.clip.notes[31].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[31].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[31].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[31].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[31].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[31].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[31].attributes[7]": 0.30708661675453186,
+    ".MidiClip0.clip.notes[31].channel": 12.0,
+    ".MidiClip0.clip.notes[31].length": 15.617802783129363,
+    ".MidiClip0.clip.notes[31].noteNum": 77.0,
+    ".MidiClip0.clip.notes[31].timeStamp": 27.495868480709646,
+    ".MidiClip0.clip.notes[32].attributes[0]": 0.29921260476112366,
+    ".MidiClip0.clip.notes[32].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[32].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[32].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[32].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[32].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[32].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[32].attributes[7]": 0.13385826349258423,
+    ".MidiClip0.clip.notes[32].channel": 13.0,
+    ".MidiClip0.clip.notes[32].length": 1.7990521542035367,
+    ".MidiClip0.clip.notes[32].noteNum": 69.0,
+    ".MidiClip0.clip.notes[32].timeStamp": 28.700947845796463,
+    ".MidiClip0.clip.notes[33].attributes[0]": 0.1670783246454539,
+    ".MidiClip0.clip.notes[33].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[33].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[33].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[33].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[33].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[33].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[33].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[33].channel": 0.0,
+    ".MidiClip0.clip.notes[33].length": 13.61509770360464,
+    ".MidiClip0.clip.notes[33].noteNum": 70.0,
+    ".MidiClip0.clip.notes[33].timeStamp": 30.5,
+    ".MidiClip0.clip.regionEndBeats": 48.0,
+    ".MidiClip0.displayLength_Beats": 48.0,
+    ".MidiClip0.gridHeight_Rows": 38.77381225723987,
+    ".MidiClip0.gridWidth_Beats": 48.0,
+    ".MidiClip0.gridYOffset_Rows": 41.20252701589714,
+    ".MidiClip0.laneTabs[0].subType": 0.0,
+    ".MidiClip0.laneTabs[1].subType": 7.0,
+    ".MidiClip0.snapEnabled": 0.0,
+    ".ModSlot0.destModuleID": 0.0,
+    ".ModSlot0.destModuleParamID": 6.0,
+    ".ModSlot0.kParamAmount": -24.017125368118286,
+    ".ModSlot0.kParamBipolar": 1.0,
+    ".ModSlot0.source[0]": 29.0,
+    ".ModSlot0.source[1]": 0.0,
+    ".ModSlot10.destModuleID": 3.0,
+    ".ModSlot10.destModuleParamID": 6.0,
+    ".ModSlot10.kParamAmount": 63.3139967918396,
+    ".ModSlot10.source[0]": 26.0,
+    ".ModSlot10.source[1]": 0.0,
+    ".ModSlot11.destModuleID": 4.0,
+    ".ModSlot11.destModuleParamID": 6.0,
+    ".ModSlot11.kParamAmount": 80.93224763870239,
+    ".ModSlot11.source[0]": 25.0,
+    ".ModSlot11.source[1]": 0.0,
+    ".ModSlot3.destModuleID": 101.0,
+    ".ModSlot3.destModuleParamID": 1.0,
+    ".ModSlot3.kParamAmount": 30.58147430419922,
+    ".ModSlot3.source[0]": 28.0,
+    ".ModSlot3.source[1]": 0.0,
+    ".ModSlot4.destModuleID": 100.0,
+    ".ModSlot4.destModuleParamID": 8.0,
+    ".ModSlot4.kParamAmount": -74.78133738040924,
+    ".ModSlot4.source[0]": 29.0,
+    ".ModSlot4.source[1]": 0.0,
+    ".ModSlot5.destModuleID": 1.0,
+    ".ModSlot5.destModuleParamID": 3.0,
+    ".ModSlot5.kParamAmount": -88.08265626430511,
+    ".ModSlot5.kParamCurveIn": -6.25,
+    ".ModSlot5.source[0]": 31.0,
+    ".ModSlot5.source[1]": 0.0,
+    ".ModSlot6.destModuleID": 1.0,
+    ".ModSlot6.destModuleParamID": 3.0,
+    ".ModSlot6.kParamAmount": 75.0,
+    ".ModSlot6.source[0]": 30.0,
+    ".ModSlot6.source[1]": 0.0,
+    ".ModSlot7.destModuleID": 1.0,
+    ".ModSlot7.destModuleParamID": 1.0,
+    ".ModSlot7.kParamAmount": -13.731378316879272,
+    ".ModSlot7.source[0]": 31.0,
+    ".ModSlot7.source[1]": 0.0,
+    ".ModSlot8.destModuleID": 201.0,
+    ".ModSlot8.destModuleParamID": 11.0,
+    ".ModSlot8.kParamAmount": 70.64601182937622,
+    ".ModSlot8.kParamCurveIn": 16.13309383392334,
+    ".ModSlot8.source[0]": 32.0,
+    ".ModSlot8.source[1]": 0.0,
+    ".ModSlot9.destModuleID": 2.0,
+    ".ModSlot9.destModuleParamID": 6.0,
+    ".ModSlot9.kParamAmount": 63.056230545043945,
+    ".ModSlot9.source[0]": 27.0,
+    ".ModSlot9.source[1]": 0.0,
+    ".MultiSampleOsc[0].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[1].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[2].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".Osc[0].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[0].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[0].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[1].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[1].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[1].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[2].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[2].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[2].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[3].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[3].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[3].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[4].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[4].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[4].kUIParamZoomToStartEnd": 0.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#-1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#-1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#-1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#5.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#6.flac.numFrames": 237746.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 A#6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#5.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#6.flac.numFrames": 359316.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C#6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C7.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C7.flac.numFrames": 349734.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 C7.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E5.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E6.flac.numFrames": 273080.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 E6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 F2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 F2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 F2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G5.flac.numFrames": 393810.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G6.flac.numFrames": 257749.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 01 G6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#-1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#-1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#-1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#5.flac.numFrames": 469027.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#6.flac.numFrames": 285057.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 A#6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#5.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#6.flac.numFrames": 372251.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C#6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C7.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C7.flac.numFrames": 348297.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 C7.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E5.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E6.flac.numFrames": 326259.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 E6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 F2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 F2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 F2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G5.flac.numFrames": 595506.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G6.flac.numFrames": 236669.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 02 G6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#-1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#-1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#-1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#5.flac.numFrames": 519331.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#6.flac.numFrames": 295118.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 A#6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#5.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#6.flac.numFrames": 509270.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C#6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C7.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C7.flac.numFrames": 306616.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 C7.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E5.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E6.flac.numFrames": 321947.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 E6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 F2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 F2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 F2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G0.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G0.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G0.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G1.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G1.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G1.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G2.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G2.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G3.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G3.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G4.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G4.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G5.flac.numFrames": 882000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G5.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G6.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G6.flac.numFrames": 321468.0,
+    ".Oscillator0.MultiSampleOsc0.files.Upright Piano Samples\\\\XFUprightPiano 03 G6.flac.sampleRate": 88200.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvAttack": 0.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvDecay": 0.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvRelease": 0.6999999880790709,
+    ".Oscillator0.MultiSampleOsc0.kParamTimbreShift": -14.186248779296875,
+    ".Oscillator0.kParamVolume": 0.394192249547487,
+    ".Oscillator1.GranularOsc1.gain": 36.65324401855469,
+    ".Oscillator1.GranularOsc1.numChannels": 2.0,
+    ".Oscillator1.GranularOsc1.numFrames": 158034.0,
+    ".Oscillator1.GranularOsc1.kParamDensity": 7.568047805299319e-06,
+    ".Oscillator1.GranularOsc1.kParamGrainLength": 0.9193871705785326,
+    ".Oscillator1.GranularOsc1.kParamRandomPan": 97.57952690124512,
+    ".Oscillator1.GranularOsc1.kParamRandomPitch": 0.12393508232957273,
+    ".Oscillator1.GranularOsc1.kParamWarp2": 0.9731859564781189,
+    ".Oscillator1.GranularOsc1.kParamWindowParam": 37.98791468143463,
+    ".Oscillator1.GranularOsc1.sampleRate": 44100.0,
+    ".Oscillator1.GranularOsc1.trimHead": 53132.0,
+    ".Oscillator1.kParamDetune": 0.0,
+    ".Oscillator1.kParamEnable": 1.0,
+    ".Oscillator1.kParamLoopCrossfade": 3.3964429050683975,
+    ".Oscillator1.kParamLoopEnd": 0.0,
+    ".Oscillator1.kParamOctave": -2.0,
+    ".Oscillator1.kParamScanRate": 26.409411430358887,
+    ".Oscillator1.kParamUnison": 4.0,
+    ".Oscillator1.kParamUnisonSpan": 59.43775177001953,
+    ".Oscillator1.kParamVolume": 0.08135255485207527,
+    ".Oscillator2.GranularOsc2.baseNote": 72.0,
+    ".Oscillator2.GranularOsc2.gain": 5.2571797370910645,
+    ".Oscillator2.GranularOsc2.numChannels": 2.0,
+    ".Oscillator2.GranularOsc2.numFrames": 172978.0,
+    ".Oscillator2.GranularOsc2.kParamDensity": 0.00997339829312053,
+    ".Oscillator2.GranularOsc2.kParamRandomGrainLength": 70.61026096343994,
+    ".Oscillator2.GranularOsc2.kParamRandomPan": 100.0,
+    ".Oscillator2.GranularOsc2.kParamWindowParam": 47.195929288864136,
+    ".Oscillator2.GranularOsc2.sampleRate": 44100.0,
+    ".Oscillator2.kParamEnable": 1.0,
+    ".Oscillator2.kParamLoopCrossfade": 4.755020514130592,
+    ".Oscillator2.kParamLoopEnd": 88.18744688600219,
+    ".Oscillator2.kParamLoopStart": 51.95025928302607,
+    ".Oscillator2.kParamScanRate": 32.68170356750488,
+    ".Oscillator2.kParamVolume": 0.33629987136254513,
+    ".Oscillator3.NoiseOsc3.detuneFactor": 0.4758218478413068,
+    ".Oscillator3.NoiseOsc3.numChannels": 1.0,
+    ".Oscillator3.NoiseOsc3.numFrames": 78241.0,
+    ".Oscillator3.NoiseOsc3.sampleRate": 44100.0,
+    ".PitchQuantizer0.scale[0]": 0.0,
+    ".PitchQuantizer0.scale[1]": 2.0,
+    ".PitchQuantizer0.scale[2]": 0.0,
+    ".PitchQuantizer0.scale[3]": 2.0,
+    ".PitchQuantizer0.scale[4]": 0.0,
+    ".PitchQuantizer0.scale[5]": 0.0,
+    ".PitchQuantizer0.scale[6]": 2.0,
+    ".PitchQuantizer0.scale[7]": 0.0,
+    ".PitchQuantizer0.scale[8]": 2.0,
+    ".PitchQuantizer0.scale[9]": 0.0,
+    ".PitchQuantizer0.scale[10]": 2.0,
+    ".PitchQuantizer0.scale[11]": 0.0,
+    ".RoutingSlot0.kParamFXBus1Level": 89.87025618553162,
+    ".RoutingSlot0.kParamViaEnv1": 0.0,
+    ".RoutingSlot1.kParamFXBus2Level": 78.54878306388855,
+    ".RoutingSlot2.kParamFXBus2Level": 57.6934278011322,
+    ".SerumGUI.kUIParamShowKeyboard": 1.0,
+    ".SerumGUI.kUIParamShowMidiOut": 0.0,
+    ".SpectralOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[0].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[1].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[2].kUIParamShowWaveformDisplay": 0.0,
+    ".WTOsc[0].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[1].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[2].kUIParamWTOverviewMouseTag": 0.0,
+    ".lockOversampling": 0.0,
+    ".lockTuning": 0.0,
+    ".mpeConfig": 0.0,
+    ".mpeEnabled": 1.0,
+    ".mpePitchBendRange": 48.0,
+    ".version": 5.0
+  }
+}

@@ -1,0 +1,1674 @@
+{
+  "fileType": "SerumPreset",
+  "hash": "4fb98c9339e4047da605f07b6138087a",
+  "presetAuthor": "Steve Duda",
+  "presetDescription": "intended for longer notes C2 octave",
+  "presetName": "HIT - Zombie Orch Stab",
+  "product": "Serum2",
+  "productVersion": "2.0.12",
+  "tags": [
+    "Sample",
+    "Multisample",
+    "Poly",
+    "Clip",
+    "Preview",
+    "KB-Span"
+  ],
+  "url": "https://xferrecords.com/",
+  "vendor": "Xfer Records",
+  "version": 5.0,
+  "data": {
+    "Arp0": {
+      "plainParams": "default"
+    },
+    "ArpClip0": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ClipPlayer": {
+      "kUIParamPianoRollNotePreview": 1.0,
+      "kUIParamPreviewClip": 0.08333333333333333,
+      "kUIParamSelectedClip": 0.0
+    },
+    "ClipPlayer0": {
+      "plainParams": {
+        "kParamEnabled": 1.0,
+        "kParamSpanKeyboardClip": 0.0
+      }
+    },
+    "Env0": {
+      "plainParams": {
+        "kParamAttack": 0.010279930301119851,
+        "kParamCurve1": 39.70588147640228,
+        "kParamCurve2": 41.9501394033432,
+        "kParamCurve3": 60.157424211502075,
+        "kParamDecay": 1.5880724723733763,
+        "kParamRelease": 0.19959538892005088,
+        "kParamSustain": 0.8168767690658569
+      }
+    },
+    "Env1": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env2": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env3": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "FXRack0": {
+      "FX": [
+        {
+          "FXDelay": {
+            "plainParams": {
+              "kParamBW": 2.4399844631552696,
+              "kParamBeatSync": 0.0,
+              "kParamFeedback": 0.0,
+              "kParamFreq": 552.1909854664531,
+              "kParamLevelOut": 0.5317460298538208,
+              "kParamTimeL": 0.10424899946850016,
+              "kParamTimeR": 0.10888346384284255,
+              "kParamWet": 18.13700944185257
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 4
+        },
+        {
+          "FXEQ": {
+            "plainParams": {
+              "kParamFreq1": 356.8127209334778,
+              "kParamFreq2": 4779.323930608357,
+              "kParamGain1": -3.0756168365478516,
+              "kParamGain2": -2.9889392852783203,
+              "kParamReso1": 23.84679615497589,
+              "kParamReso2": 32.91274905204773,
+              "kParamType1": 1.0
+            }
+          },
+          "type": 7
+        },
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamAttack": 119.19093485349364,
+              "kParamGain0": 0.02961444854736328,
+              "kParamGain1": -0.08745574951171875,
+              "kParamGain2": 1.5276117324829102,
+              "kParamMultiband": 1.0,
+              "kParamRatio": 2.2963998596741395,
+              "kParamRatio0": 0.8876190185546875,
+              "kParamRelease": 102.52185540636765,
+              "kParamThreshUD0": 111.04761362075806,
+              "kParamThreshUD1": 122.17702865600586,
+              "kParamXoverHi": 4485.458876226724,
+              "kParamXoverLow": 241.6214874185476
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 5
+        },
+        {
+          "FXReverb": {
+            "plainParams": {
+              "kParamFeedback": 8.632315695285797,
+              "kParamFreqB": 48.949167132377625,
+              "kParamFreqC": 28.292685747146606,
+              "kParamLevelOut": 0.5404751896858215,
+              "kParamMode": 84.47368144989014,
+              "kParamPreDelay": 0.2832255056487323,
+              "kParamSize": 40.604257583618164,
+              "kParamType": "kVintage",
+              "kParamVintageScaleB": 74.04751777648926,
+              "kParamWet": 0.0,
+              "kParamWidth": 6.377764046192169
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 6
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack1": {
+      "FX": [
+        {
+          "FXHyperD": {
+            "lfo": [
+              [
+                0.11525840312242508,
+                0.9624568223953247,
+                0.41375476121902466,
+                0.8256896138191223,
+                0.9218528866767883,
+                0.45302724838256836,
+                0.2194880247116089,
+                0.38018518686294556
+              ],
+              [
+                0.21858935058116913,
+                0.041260525584220886,
+                0.12086019665002823,
+                0.3499649167060852,
+                0.8432008624076843,
+                0.8795667886734009,
+                0.5547167062759399,
+                0.9561132788658142
+              ]
+            ],
+            "plainParams": {
+              "kParamDimEWet": 47.36842215061188,
+              "kParamLevelOut": 0.16228070855140686
+            }
+          },
+          "type": 9
+        },
+        {
+          "FXReverb": {
+            "plainParams": {
+              "kParamDelay": 153.74652829361767,
+              "kParamFeedback": 39.84375,
+              "kParamLevelOut": 0.2850877046585083,
+              "kParamSize": 30.17543852329254,
+              "kParamType": "kSpace",
+              "kParamWet": 74.38596487045288,
+              "kParamWidth": 35.234373807907104
+            }
+          },
+          "type": 6
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack2": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "Filter": {
+      "kUIParamMixOrGain": 0.0
+    },
+    "Global0": {
+      "plainParams": {
+        "kParamDirectVol": 0.10403200460236128,
+        "kParamMasterVolume": 0.2668611628542408,
+        "kParamPolyCount": 32.0
+      }
+    },
+    "GranularOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      }
+    ],
+    "LFO0": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": {
+        "kParamRate": 6.074412414526542
+      }
+    },
+    "LFO1": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO2": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO3": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO4": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO5": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO6": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO7": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO8": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO9": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFOPointModBus0": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus1": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus10": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus11": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus12": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus13": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus14": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus15": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus2": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus3": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus4": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus5": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus6": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus7": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus8": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus9": {
+      "plainParams": "default"
+    },
+    "Macro0": {
+      "name": "DETUNES",
+      "plainParams": {
+        "kParamValue": 42.0241504907608
+      }
+    },
+    "Macro1": {
+      "name": "RELEASE",
+      "plainParams": {
+        "kParamValue": 3.091059811413288
+      }
+    },
+    "Macro2": {
+      "name": "WIDTH",
+      "plainParams": {
+        "kParamValue": 56.62516951560974
+      }
+    },
+    "Macro3": {
+      "name": "LAYER SUB",
+      "plainParams": {
+        "kParamValue": 100.0
+      }
+    },
+    "Macro4": {
+      "name": "NOISE + BRIGHT",
+      "plainParams": "default"
+    },
+    "Macro5": {
+      "name": "SID OCTAVE",
+      "plainParams": {
+        "kParamValue": 43.448156118392944
+      }
+    },
+    "Macro6": {
+      "name": "SID LEVEL",
+      "plainParams": {
+        "kParamValue": 59.286242723464966
+      }
+    },
+    "Macro7": {
+      "name": "FINAL VERB",
+      "plainParams": {
+        "kParamValue": 58.80168080329895
+      }
+    },
+    "MidiClip0": {
+      "clip": {
+        "notes": [
+          {
+            "attributes": [
+              1.0,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 36,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.9218553384812946,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 48,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.9218553384812946,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 55,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.9218553384812946,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 60,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.914385683952816,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 67,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.914385683952816,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 72,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.369100903373917,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 87,
+            "timeStamp": 0.0
+          }
+        ]
+      },
+      "gridDivision": 3,
+      "gridHeight_Rows": 102.1142857142858,
+      "gridYOffset_Rows": 18.653110164929263,
+      "plainParams": {
+        "kParamLaunchQuantize": 0.0,
+        "kParamNoteGate": 1.0,
+        "kParamPlaybackMode": "Static",
+        "kParamSpanKeyboardMode": "Poly"
+      }
+    },
+    "MidiClip1": {
+      "clip": {},
+      "displayLength_Beats": 16.0,
+      "gridHeight_Rows": 28.0,
+      "gridWidth_Beats": 16.0,
+      "gridYOffset_Rows": 42.5,
+      "plainParams": "default"
+    },
+    "MidiClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ModSlot0": {
+      "destModuleID": 0,
+      "destModuleParamID": 4,
+      "destModuleParamName": "kParamRelease",
+      "destModuleTypeString": "Env",
+      "plainParams": {
+        "kParamAmount": 19.519221782684326
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot1": {
+      "destModuleID": 1,
+      "destModuleParamID": 26,
+      "destModuleParamName": "kParamDetune",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 41.645777225494385
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot10": {
+      "destModuleID": 1,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamOctave",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 36.71875,
+        "kParamBipolar": 1.0
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot11": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 67.27235317230225,
+        "kParamBipolar": 1.0
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot12": {
+      "destModuleID": 3,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXReverb",
+      "plainParams": {
+        "kParamAmount": 58.070170879364014
+      },
+      "source": [
+        32,
+        0
+      ]
+    },
+    "ModSlot13": {
+      "destModuleID": 1,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamGain2",
+      "destModuleTypeString": "FXEQ",
+      "plainParams": {
+        "kParamAmount": 24.03116226196289
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot14": {
+      "plainParams": "default"
+    },
+    "ModSlot15": {
+      "plainParams": "default"
+    },
+    "ModSlot16": {
+      "plainParams": "default"
+    },
+    "ModSlot17": {
+      "plainParams": "default"
+    },
+    "ModSlot18": {
+      "plainParams": "default"
+    },
+    "ModSlot19": {
+      "plainParams": "default"
+    },
+    "ModSlot2": {
+      "destModuleID": 2,
+      "destModuleParamID": 26,
+      "destModuleParamName": "kParamDetune",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 54.67836856842041
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot20": {
+      "plainParams": "default"
+    },
+    "ModSlot21": {
+      "plainParams": "default"
+    },
+    "ModSlot22": {
+      "plainParams": "default"
+    },
+    "ModSlot23": {
+      "plainParams": "default"
+    },
+    "ModSlot24": {
+      "plainParams": "default"
+    },
+    "ModSlot25": {
+      "plainParams": "default"
+    },
+    "ModSlot26": {
+      "plainParams": "default"
+    },
+    "ModSlot27": {
+      "plainParams": "default"
+    },
+    "ModSlot28": {
+      "plainParams": "default"
+    },
+    "ModSlot29": {
+      "plainParams": "default"
+    },
+    "ModSlot3": {
+      "destModuleID": 0,
+      "destModuleParamID": 26,
+      "destModuleParamName": "kParamDetune",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 68.08689832687378
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot30": {
+      "plainParams": "default"
+    },
+    "ModSlot31": {
+      "plainParams": "default"
+    },
+    "ModSlot32": {
+      "plainParams": "default"
+    },
+    "ModSlot33": {
+      "plainParams": "default"
+    },
+    "ModSlot34": {
+      "plainParams": "default"
+    },
+    "ModSlot35": {
+      "plainParams": "default"
+    },
+    "ModSlot36": {
+      "plainParams": "default"
+    },
+    "ModSlot37": {
+      "plainParams": "default"
+    },
+    "ModSlot38": {
+      "plainParams": "default"
+    },
+    "ModSlot39": {
+      "plainParams": "default"
+    },
+    "ModSlot4": {
+      "destModuleID": 0,
+      "destModuleParamID": 28,
+      "destModuleParamName": "kParamUnisonStereo",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 50.0
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot40": {
+      "plainParams": "default"
+    },
+    "ModSlot41": {
+      "plainParams": "default"
+    },
+    "ModSlot42": {
+      "plainParams": "default"
+    },
+    "ModSlot43": {
+      "plainParams": "default"
+    },
+    "ModSlot44": {
+      "plainParams": "default"
+    },
+    "ModSlot45": {
+      "plainParams": "default"
+    },
+    "ModSlot46": {
+      "plainParams": "default"
+    },
+    "ModSlot47": {
+      "plainParams": "default"
+    },
+    "ModSlot48": {
+      "plainParams": "default"
+    },
+    "ModSlot49": {
+      "plainParams": "default"
+    },
+    "ModSlot5": {
+      "destModuleID": 1,
+      "destModuleParamID": 28,
+      "destModuleParamName": "kParamUnisonStereo",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 50.0
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot50": {
+      "plainParams": "default"
+    },
+    "ModSlot51": {
+      "plainParams": "default"
+    },
+    "ModSlot52": {
+      "plainParams": "default"
+    },
+    "ModSlot53": {
+      "plainParams": "default"
+    },
+    "ModSlot54": {
+      "plainParams": "default"
+    },
+    "ModSlot55": {
+      "plainParams": "default"
+    },
+    "ModSlot56": {
+      "plainParams": "default"
+    },
+    "ModSlot57": {
+      "plainParams": "default"
+    },
+    "ModSlot58": {
+      "plainParams": "default"
+    },
+    "ModSlot59": {
+      "plainParams": "default"
+    },
+    "ModSlot6": {
+      "destModuleID": 2,
+      "destModuleParamID": 28,
+      "destModuleParamName": "kParamUnisonStereo",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 50.199997425079346
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot60": {
+      "plainParams": "default"
+    },
+    "ModSlot61": {
+      "plainParams": "default"
+    },
+    "ModSlot62": {
+      "plainParams": "default"
+    },
+    "ModSlot63": {
+      "plainParams": "default"
+    },
+    "ModSlot7": {
+      "destModuleID": 101,
+      "destModuleParamID": 10,
+      "destModuleParamName": "kParamLevelOut",
+      "destModuleTypeString": "FXReverb",
+      "flex": [
+        {},
+        {}
+      ],
+      "plainParams": {
+        "kParamAmount": 40.99998474121094,
+        "kParamBipolar": 1.0,
+        "kParamMainCurveData": 1.0,
+        "kParamSmoothFall": 83.33333134651184,
+        "kParamSmoothRise": 83.33333134651184
+      },
+      "source": [
+        2,
+        0
+      ]
+    },
+    "ModSlot8": {
+      "destModuleID": 100,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamLevelOut",
+      "destModuleTypeString": "FXHyperD",
+      "flex": [
+        {},
+        {}
+      ],
+      "plainParams": {
+        "kParamAmount": 100.0,
+        "kParamBipolar": 1.0,
+        "kParamMainCurveData": 1.0,
+        "kParamSmoothFall": 75.0,
+        "kParamSmoothRise": 75.0
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot9": {
+      "destModuleID": 3,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 16.526305675506592
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "MultiSampleOsc": [
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 1.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      }
+    ],
+    "Osc": [
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      }
+    ],
+    "Oscillator0": {
+      "GranularOsc0": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc0": {
+        "plainParams": {
+          "kParamEnvAttack": 0.0,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvRelease": 0.49999999999999994
+        }
+      },
+      "SampleOsc0": {
+        "numChannels": 2,
+        "numFrames": 222822,
+        "plainParams": "default",
+        "samplePathRelative": "Factory/Bowed/Strings Crystal Joy.flac",
+        "sampleRate": 44100
+      },
+      "SpectralOsc0": {
+        "plainParams": "default"
+      },
+      "WTOsc0": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamDetune": 0.0,
+        "kParamLoopCrossfade": 0.501253129914403,
+        "kParamLoopEnd": 89.65384364128113,
+        "kParamLoopMode": "kForward",
+        "kParamLoopStart": 12.537674605846405,
+        "kParamScanRate": -200.0,
+        "kParamType": "kOsc_Sample",
+        "kParamUnisonStereo": 0.0,
+        "kParamVolume": 0.07135636034070192
+      }
+    },
+    "Oscillator1": {
+      "GranularOsc1": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc1": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> loop_crossfade=0.012500 loop_mode=loop_continuous ampeg_attack=0.001000 ampeg_release=0.320000\n<region> hikey=31 pitch_keycenter=24 loop_start=25930 loop_end=158639 sample=../../../Samples/Factory/Synth/SID Tarkus C0.flac\n<region> lokey=32 hikey=42 pitch_keycenter=36 loop_start=73901 loop_end=159569 sample=../../../Samples/Factory/Synth/SID Tarkus C1.flac\n<region> lokey=43 hikey=55 pitch_keycenter=48 loop_start=8708 loop_end=115114 sample=../../../Samples/Factory/Synth/SID Tarkus C2.flac\n<region> lokey=56 loop_start=60622 loop_end=168389 sample=../../../Samples/Factory/Synth/SID Tarkus C3.flac\n",
+        "files": {
+          "C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C0.flac": {
+            "numChannels": 1,
+            "numFrames": 174762,
+            "sampleRate": 44100
+          },
+          "C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C1.flac": {
+            "numChannels": 1,
+            "numFrames": 174213,
+            "sampleRate": 44100
+          },
+          "C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C2.flac": {
+            "numChannels": 1,
+            "numFrames": 162578,
+            "sampleRate": 44100
+          },
+          "C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C3.flac": {
+            "numChannels": 1,
+            "numFrames": 175238,
+            "sampleRate": 44100
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.009999999776482521,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvOverride": 1.0,
+          "kParamEnvRelease": 20.974061474492917,
+          "kParamRandomPhase": 12.506535649299622,
+          "kParamTimbreShift": -0.2138671875
+        },
+        "sfzPathRelative": "Factory/Synth/SID Tarkus.sfz"
+      },
+      "SampleOsc1": {
+        "plainParams": "default"
+      },
+      "SpectralOsc1": {
+        "plainParams": "default"
+      },
+      "WTOsc1": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamDetune": 0.0,
+        "kParamEnable": 1.0,
+        "kParamType": "kOsc_MultiSample",
+        "kParamUnison": 3.0,
+        "kParamUnisonStereo": 0.0,
+        "kParamVolume": 0.1189010946087734
+      }
+    },
+    "Oscillator2": {
+      "GranularOsc2": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc2": {
+        "plainParams": {
+          "kParamEnvAttack": 0.0,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvRelease": 0.49999999999999994
+        }
+      },
+      "SampleOsc2": {
+        "baseNote": 68,
+        "numChannels": 2,
+        "numFrames": 228162,
+        "plainParams": "default",
+        "samplePathRelative": "../Multisamples/Factory/Synth/MKS80 Zombie Samples/XFCcwzs G#3.flac",
+        "sampleRate": 48000
+      },
+      "SpectralOsc2": {
+        "plainParams": "default"
+      },
+      "WTOsc2": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamDetune": 0.0,
+        "kParamEnable": 1.0,
+        "kParamLoopEnd": 95.2099859714508,
+        "kParamLoopMode": "kForward",
+        "kParamLoopStart": 17.117026448249817,
+        "kParamOctave": 1.0,
+        "kParamRandomStart": 100.0,
+        "kParamStart": 9.52380895614624,
+        "kParamType": "kOsc_Sample",
+        "kParamUnison": 2.0,
+        "kParamUnisonStereo": 0.0,
+        "kParamVolume": 0.1399209987814629
+      }
+    },
+    "Oscillator3": {
+      "NoiseOsc3": {
+        "detuneFactor": 0.4758218478413068,
+        "numChannels": 2,
+        "numFrames": 151200,
+        "plainParams": {
+          "kParamColor": 0.179824560880661
+        },
+        "relativePathToNoiseSample": "S2 Noises/HP12 White Noise (Stereo).flac",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator4": {
+      "SubOsc4": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamVolume": 0.08068988120477627
+      }
+    },
+    "PitchQuantizer0": {
+      "plainParams": "default",
+      "scale": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "scaleName": "Major"
+    },
+    "RetriggerState0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot1": {
+      "plainParams": "default"
+    },
+    "RoutingSlot2": {
+      "plainParams": "default"
+    },
+    "RoutingSlot3": {
+      "plainParams": {
+        "kParamFXBus1Level": 54.385966062545776,
+        "kParamRoutingDest": "kRoutingDestDirect"
+      }
+    },
+    "RoutingSlot4": {
+      "plainParams": {
+        "kParamFXBus1Level": 100.0,
+        "kParamRoutingDest": "kRoutingDestNone"
+      }
+    },
+    "RoutingSlot5": {
+      "plainParams": "default"
+    },
+    "RoutingSlot6": {
+      "plainParams": "default"
+    },
+    "SerumGUI": {
+      "kUIParamShowKeyboard": 1.0,
+      "kUIParamShowMidiOut": 0.0
+    },
+    "SpectralOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      }
+    ],
+    "VoiceFilter0": {
+      "plainParams": "default"
+    },
+    "VoiceFilter1": {
+      "plainParams": "default"
+    },
+    "VoicePanel0": {
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "WTOsc": [
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      }
+    ],
+    "arpBankDisplayName": "",
+    "clipBankDisplayName": "",
+    "fileType": "SerumPreset",
+    "lockOversampling": false,
+    "lockTuning": false,
+    "mpeConfig": 0,
+    "mpeEnabled": true,
+    "mpePitchBendRange": 48,
+    "presetAuthor": "Steve Duda",
+    "presetDescription": "intended for longer notes C2 octave",
+    "presetName": "HIT - Zombie Orch Stab",
+    "product": "Serum2",
+    "productVersion": "2.0.12",
+    "scalars": {
+      "note": {},
+      "velo": {}
+    },
+    "tags": [
+      "Sample",
+      "Multisample",
+      "Poly",
+      "Clip",
+      "Preview",
+      "KB-Span"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 5.0
+  },
+  "dawdreamer_params": {
+    ".ClipPlayer.kUIParamPianoRollNotePreview": 1.0,
+    ".ClipPlayer.kUIParamPreviewClip": 0.08333333333333333,
+    ".ClipPlayer.kUIParamSelectedClip": 0.0,
+    ".ClipPlayer0.kParamEnabled": 1.0,
+    ".ClipPlayer0.kParamSpanKeyboardClip": 0.0,
+    ".Env0.kParamAttack": 0.010279930301119851,
+    ".Env0.kParamCurve1": 39.70588147640228,
+    ".Env0.kParamCurve2": 41.9501394033432,
+    ".Env0.kParamCurve3": 60.157424211502075,
+    ".Env0.kParamDecay": 1.5880724723733763,
+    ".Env0.kParamRelease": 0.19959538892005088,
+    ".Env0.kParamSustain": 0.8168767690658569,
+    ".Env1.kParamCurve1": 50.0,
+    ".Env1.kParamCurve2": 66.60000000000001,
+    ".Env1.kParamCurve3": 66.60000000000001,
+    ".Env2.kParamCurve1": 50.0,
+    ".Env2.kParamCurve2": 66.60000000000001,
+    ".Env2.kParamCurve3": 66.60000000000001,
+    ".Env3.kParamCurve1": 50.0,
+    ".Env3.kParamCurve2": 66.60000000000001,
+    ".Env3.kParamCurve3": 66.60000000000001,
+    ".FXRack0.FX[0].FXDelay.kParamBW": 2.4399844631552696,
+    ".FXRack0.FX[0].FXDelay.kParamBeatSync": 0.0,
+    ".FXRack0.FX[0].FXDelay.kParamFeedback": 0.0,
+    ".FXRack0.FX[0].FXDelay.kParamFreq": 552.1909854664531,
+    ".FXRack0.FX[0].FXDelay.kParamLevelOut": 0.5317460298538208,
+    ".FXRack0.FX[0].FXDelay.kParamTimeL": 0.10424899946850016,
+    ".FXRack0.FX[0].FXDelay.kParamTimeR": 0.10888346384284255,
+    ".FXRack0.FX[0].FXDelay.kParamWet": 18.13700944185257,
+    ".FXRack0.FX[0].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[0].type": 4.0,
+    ".FXRack0.FX[1].FXEQ.kParamFreq1": 356.8127209334778,
+    ".FXRack0.FX[1].FXEQ.kParamFreq2": 4779.323930608357,
+    ".FXRack0.FX[1].FXEQ.kParamGain1": -3.0756168365478516,
+    ".FXRack0.FX[1].FXEQ.kParamGain2": -2.9889392852783203,
+    ".FXRack0.FX[1].FXEQ.kParamReso1": 23.84679615497589,
+    ".FXRack0.FX[1].FXEQ.kParamReso2": 32.91274905204773,
+    ".FXRack0.FX[1].FXEQ.kParamType1": 1.0,
+    ".FXRack0.FX[1].type": 7.0,
+    ".FXRack0.FX[2].FXComp.kParamAttack": 119.19093485349364,
+    ".FXRack0.FX[2].FXComp.kParamGain0": 0.02961444854736328,
+    ".FXRack0.FX[2].FXComp.kParamGain1": -0.08745574951171875,
+    ".FXRack0.FX[2].FXComp.kParamGain2": 1.5276117324829102,
+    ".FXRack0.FX[2].FXComp.kParamMultiband": 1.0,
+    ".FXRack0.FX[2].FXComp.kParamRatio": 2.2963998596741395,
+    ".FXRack0.FX[2].FXComp.kParamRatio0": 0.8876190185546875,
+    ".FXRack0.FX[2].FXComp.kParamRelease": 102.52185540636765,
+    ".FXRack0.FX[2].FXComp.kParamThreshUD0": 111.04761362075806,
+    ".FXRack0.FX[2].FXComp.kParamThreshUD1": 122.17702865600586,
+    ".FXRack0.FX[2].FXComp.kParamXoverHi": 4485.458876226724,
+    ".FXRack0.FX[2].FXComp.kParamXoverLow": 241.6214874185476,
+    ".FXRack0.FX[2].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[2].type": 5.0,
+    ".FXRack0.FX[3].FXReverb.kParamFeedback": 8.632315695285797,
+    ".FXRack0.FX[3].FXReverb.kParamFreqB": 48.949167132377625,
+    ".FXRack0.FX[3].FXReverb.kParamFreqC": 28.292685747146606,
+    ".FXRack0.FX[3].FXReverb.kParamLevelOut": 0.5404751896858215,
+    ".FXRack0.FX[3].FXReverb.kParamMode": 84.47368144989014,
+    ".FXRack0.FX[3].FXReverb.kParamPreDelay": 0.2832255056487323,
+    ".FXRack0.FX[3].FXReverb.kParamSize": 40.604257583618164,
+    ".FXRack0.FX[3].FXReverb.kParamVintageScaleB": 74.04751777648926,
+    ".FXRack0.FX[3].FXReverb.kParamWet": 0.0,
+    ".FXRack0.FX[3].FXReverb.kParamWidth": 6.377764046192169,
+    ".FXRack0.FX[3].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[3].type": 6.0,
+    ".FXRack1.FX[0].FXHyperD.kParamDimEWet": 47.36842215061188,
+    ".FXRack1.FX[0].FXHyperD.kParamLevelOut": 0.16228070855140686,
+    ".FXRack1.FX[0].type": 9.0,
+    ".FXRack1.FX[1].FXReverb.kParamDelay": 153.74652829361767,
+    ".FXRack1.FX[1].FXReverb.kParamFeedback": 39.84375,
+    ".FXRack1.FX[1].FXReverb.kParamLevelOut": 0.2850877046585083,
+    ".FXRack1.FX[1].FXReverb.kParamSize": 30.17543852329254,
+    ".FXRack1.FX[1].FXReverb.kParamWet": 74.38596487045288,
+    ".FXRack1.FX[1].FXReverb.kParamWidth": 35.234373807907104,
+    ".FXRack1.FX[1].type": 6.0,
+    ".Filter.kUIParamMixOrGain": 0.0,
+    ".Global0.kParamDirectVol": 0.10403200460236128,
+    ".Global0.kParamMasterVolume": 0.2668611628542408,
+    ".Global0.kParamPolyCount": 32.0,
+    ".GranularOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".LFO0.kParamRate": 6.074412414526542,
+    ".Macro0.kParamValue": 42.0241504907608,
+    ".Macro1.kParamValue": 3.091059811413288,
+    ".Macro2.kParamValue": 56.62516951560974,
+    ".Macro3.kParamValue": 100.0,
+    ".Macro5.kParamValue": 43.448156118392944,
+    ".Macro6.kParamValue": 59.286242723464966,
+    ".Macro7.kParamValue": 58.80168080329895,
+    ".MidiClip0.clip.notes[0].attributes[0]": 1.0,
+    ".MidiClip0.clip.notes[0].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[0].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[0].channel": 0.0,
+    ".MidiClip0.clip.notes[0].length": 3.0,
+    ".MidiClip0.clip.notes[0].noteNum": 36.0,
+    ".MidiClip0.clip.notes[0].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[0]": 0.9218553384812946,
+    ".MidiClip0.clip.notes[1].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[1].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[1].channel": 0.0,
+    ".MidiClip0.clip.notes[1].length": 3.0,
+    ".MidiClip0.clip.notes[1].noteNum": 48.0,
+    ".MidiClip0.clip.notes[1].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[0]": 0.9218553384812946,
+    ".MidiClip0.clip.notes[2].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[2].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[2].channel": 0.0,
+    ".MidiClip0.clip.notes[2].length": 3.0,
+    ".MidiClip0.clip.notes[2].noteNum": 55.0,
+    ".MidiClip0.clip.notes[2].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[0]": 0.9218553384812946,
+    ".MidiClip0.clip.notes[3].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[3].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[3].channel": 0.0,
+    ".MidiClip0.clip.notes[3].length": 3.0,
+    ".MidiClip0.clip.notes[3].noteNum": 60.0,
+    ".MidiClip0.clip.notes[3].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[0]": 0.914385683952816,
+    ".MidiClip0.clip.notes[4].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[4].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[4].channel": 0.0,
+    ".MidiClip0.clip.notes[4].length": 3.0,
+    ".MidiClip0.clip.notes[4].noteNum": 67.0,
+    ".MidiClip0.clip.notes[4].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[0]": 0.914385683952816,
+    ".MidiClip0.clip.notes[5].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[5].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[5].channel": 0.0,
+    ".MidiClip0.clip.notes[5].length": 3.0,
+    ".MidiClip0.clip.notes[5].noteNum": 72.0,
+    ".MidiClip0.clip.notes[5].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[0]": 0.369100903373917,
+    ".MidiClip0.clip.notes[6].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[6].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[6].channel": 0.0,
+    ".MidiClip0.clip.notes[6].length": 3.0,
+    ".MidiClip0.clip.notes[6].noteNum": 87.0,
+    ".MidiClip0.clip.notes[6].timeStamp": 0.0,
+    ".MidiClip0.gridDivision": 3.0,
+    ".MidiClip0.gridHeight_Rows": 102.1142857142858,
+    ".MidiClip0.gridYOffset_Rows": 18.653110164929263,
+    ".MidiClip0.kParamLaunchQuantize": 0.0,
+    ".MidiClip0.kParamNoteGate": 1.0,
+    ".MidiClip1.displayLength_Beats": 16.0,
+    ".MidiClip1.gridHeight_Rows": 28.0,
+    ".MidiClip1.gridWidth_Beats": 16.0,
+    ".MidiClip1.gridYOffset_Rows": 42.5,
+    ".ModSlot0.destModuleID": 0.0,
+    ".ModSlot0.destModuleParamID": 4.0,
+    ".ModSlot0.kParamAmount": 19.519221782684326,
+    ".ModSlot0.source[0]": 26.0,
+    ".ModSlot0.source[1]": 0.0,
+    ".ModSlot1.destModuleID": 1.0,
+    ".ModSlot1.destModuleParamID": 26.0,
+    ".ModSlot1.kParamAmount": 41.645777225494385,
+    ".ModSlot1.source[0]": 25.0,
+    ".ModSlot1.source[1]": 0.0,
+    ".ModSlot10.destModuleID": 1.0,
+    ".ModSlot10.destModuleParamID": 3.0,
+    ".ModSlot10.kParamAmount": 36.71875,
+    ".ModSlot10.kParamBipolar": 1.0,
+    ".ModSlot10.source[0]": 30.0,
+    ".ModSlot10.source[1]": 0.0,
+    ".ModSlot11.destModuleID": 1.0,
+    ".ModSlot11.destModuleParamID": 1.0,
+    ".ModSlot11.kParamAmount": 67.27235317230225,
+    ".ModSlot11.kParamBipolar": 1.0,
+    ".ModSlot11.source[0]": 31.0,
+    ".ModSlot11.source[1]": 0.0,
+    ".ModSlot12.destModuleID": 3.0,
+    ".ModSlot12.destModuleParamID": 1.0,
+    ".ModSlot12.kParamAmount": 58.070170879364014,
+    ".ModSlot12.source[0]": 32.0,
+    ".ModSlot12.source[1]": 0.0,
+    ".ModSlot13.destModuleID": 1.0,
+    ".ModSlot13.destModuleParamID": 6.0,
+    ".ModSlot13.kParamAmount": 24.03116226196289,
+    ".ModSlot13.source[0]": 29.0,
+    ".ModSlot13.source[1]": 0.0,
+    ".ModSlot2.destModuleID": 2.0,
+    ".ModSlot2.destModuleParamID": 26.0,
+    ".ModSlot2.kParamAmount": 54.67836856842041,
+    ".ModSlot2.source[0]": 25.0,
+    ".ModSlot2.source[1]": 0.0,
+    ".ModSlot3.destModuleID": 0.0,
+    ".ModSlot3.destModuleParamID": 26.0,
+    ".ModSlot3.kParamAmount": 68.08689832687378,
+    ".ModSlot3.source[0]": 25.0,
+    ".ModSlot3.source[1]": 0.0,
+    ".ModSlot4.destModuleID": 0.0,
+    ".ModSlot4.destModuleParamID": 28.0,
+    ".ModSlot4.kParamAmount": 50.0,
+    ".ModSlot4.source[0]": 27.0,
+    ".ModSlot4.source[1]": 0.0,
+    ".ModSlot5.destModuleID": 1.0,
+    ".ModSlot5.destModuleParamID": 28.0,
+    ".ModSlot5.kParamAmount": 50.0,
+    ".ModSlot5.source[0]": 27.0,
+    ".ModSlot5.source[1]": 0.0,
+    ".ModSlot6.destModuleID": 2.0,
+    ".ModSlot6.destModuleParamID": 28.0,
+    ".ModSlot6.kParamAmount": 50.199997425079346,
+    ".ModSlot6.source[0]": 27.0,
+    ".ModSlot6.source[1]": 0.0,
+    ".ModSlot7.destModuleID": 101.0,
+    ".ModSlot7.destModuleParamID": 10.0,
+    ".ModSlot7.kParamAmount": 40.99998474121094,
+    ".ModSlot7.kParamBipolar": 1.0,
+    ".ModSlot7.kParamMainCurveData": 1.0,
+    ".ModSlot7.kParamSmoothFall": 83.33333134651184,
+    ".ModSlot7.kParamSmoothRise": 83.33333134651184,
+    ".ModSlot7.source[0]": 2.0,
+    ".ModSlot7.source[1]": 0.0,
+    ".ModSlot8.destModuleID": 100.0,
+    ".ModSlot8.destModuleParamID": 6.0,
+    ".ModSlot8.kParamAmount": 100.0,
+    ".ModSlot8.kParamBipolar": 1.0,
+    ".ModSlot8.kParamMainCurveData": 1.0,
+    ".ModSlot8.kParamSmoothFall": 75.0,
+    ".ModSlot8.kParamSmoothRise": 75.0,
+    ".ModSlot8.source[0]": 28.0,
+    ".ModSlot8.source[1]": 0.0,
+    ".ModSlot9.destModuleID": 3.0,
+    ".ModSlot9.destModuleParamID": 1.0,
+    ".ModSlot9.kParamAmount": 16.526305675506592,
+    ".ModSlot9.source[0]": 29.0,
+    ".ModSlot9.source[1]": 0.0,
+    ".MultiSampleOsc[0].kUIParamMultiSampleOverviewMouseTag": 1.0,
+    ".MultiSampleOsc[1].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[2].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".Osc[0].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[0].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[0].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[1].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[1].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[1].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[2].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[2].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[2].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[3].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[3].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[3].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[4].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[4].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[4].kUIParamZoomToStartEnd": 0.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvAttack": 0.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvDecay": 0.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvRelease": 0.49999999999999994,
+    ".Oscillator0.SampleOsc0.numChannels": 2.0,
+    ".Oscillator0.SampleOsc0.numFrames": 222822.0,
+    ".Oscillator0.SampleOsc0.sampleRate": 44100.0,
+    ".Oscillator0.kParamDetune": 0.0,
+    ".Oscillator0.kParamLoopCrossfade": 0.501253129914403,
+    ".Oscillator0.kParamLoopEnd": 89.65384364128113,
+    ".Oscillator0.kParamLoopStart": 12.537674605846405,
+    ".Oscillator0.kParamScanRate": -200.0,
+    ".Oscillator0.kParamUnisonStereo": 0.0,
+    ".Oscillator0.kParamVolume": 0.07135636034070192,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C0.flac.numChannels": 1.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C0.flac.numFrames": 174762.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C0.flac.sampleRate": 44100.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C1.flac.numChannels": 1.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C1.flac.numFrames": 174213.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C1.flac.sampleRate": 44100.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C2.flac.numChannels": 1.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C2.flac.numFrames": 162578.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C2.flac.sampleRate": 44100.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C3.flac.numChannels": 1.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C3.flac.numFrames": 175238.0,
+    ".Oscillator1.MultiSampleOsc1.files.C:\\Users\\brand\\BSOD_XFER Dropbox\\Serum 2 Presets\\Samples\\Factory\\Synth\\SID Tarkus C3.flac.sampleRate": 44100.0,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvAttack": 0.009999999776482521,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvDecay": 0.0,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvOverride": 1.0,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvRelease": 20.974061474492917,
+    ".Oscillator1.MultiSampleOsc1.kParamRandomPhase": 12.506535649299622,
+    ".Oscillator1.MultiSampleOsc1.kParamTimbreShift": -0.2138671875,
+    ".Oscillator1.kParamDetune": 0.0,
+    ".Oscillator1.kParamEnable": 1.0,
+    ".Oscillator1.kParamUnison": 3.0,
+    ".Oscillator1.kParamUnisonStereo": 0.0,
+    ".Oscillator1.kParamVolume": 0.1189010946087734,
+    ".Oscillator2.MultiSampleOsc2.kParamEnvAttack": 0.0,
+    ".Oscillator2.MultiSampleOsc2.kParamEnvDecay": 0.0,
+    ".Oscillator2.MultiSampleOsc2.kParamEnvRelease": 0.49999999999999994,
+    ".Oscillator2.SampleOsc2.baseNote": 68.0,
+    ".Oscillator2.SampleOsc2.numChannels": 2.0,
+    ".Oscillator2.SampleOsc2.numFrames": 228162.0,
+    ".Oscillator2.SampleOsc2.sampleRate": 48000.0,
+    ".Oscillator2.kParamDetune": 0.0,
+    ".Oscillator2.kParamEnable": 1.0,
+    ".Oscillator2.kParamLoopEnd": 95.2099859714508,
+    ".Oscillator2.kParamLoopStart": 17.117026448249817,
+    ".Oscillator2.kParamOctave": 1.0,
+    ".Oscillator2.kParamRandomStart": 100.0,
+    ".Oscillator2.kParamStart": 9.52380895614624,
+    ".Oscillator2.kParamUnison": 2.0,
+    ".Oscillator2.kParamUnisonStereo": 0.0,
+    ".Oscillator2.kParamVolume": 0.1399209987814629,
+    ".Oscillator3.NoiseOsc3.detuneFactor": 0.4758218478413068,
+    ".Oscillator3.NoiseOsc3.numChannels": 2.0,
+    ".Oscillator3.NoiseOsc3.numFrames": 151200.0,
+    ".Oscillator3.NoiseOsc3.kParamColor": 0.179824560880661,
+    ".Oscillator3.NoiseOsc3.sampleRate": 44100.0,
+    ".Oscillator3.kParamEnable": 1.0,
+    ".Oscillator3.kParamVolume": 0.0,
+    ".Oscillator4.kParamEnable": 1.0,
+    ".Oscillator4.kParamVolume": 0.08068988120477627,
+    ".PitchQuantizer0.scale[0]": 0.0,
+    ".PitchQuantizer0.scale[1]": 2.0,
+    ".PitchQuantizer0.scale[2]": 0.0,
+    ".PitchQuantizer0.scale[3]": 2.0,
+    ".PitchQuantizer0.scale[4]": 0.0,
+    ".PitchQuantizer0.scale[5]": 0.0,
+    ".PitchQuantizer0.scale[6]": 2.0,
+    ".PitchQuantizer0.scale[7]": 0.0,
+    ".PitchQuantizer0.scale[8]": 2.0,
+    ".PitchQuantizer0.scale[9]": 0.0,
+    ".PitchQuantizer0.scale[10]": 2.0,
+    ".PitchQuantizer0.scale[11]": 0.0,
+    ".RoutingSlot3.kParamFXBus1Level": 54.385966062545776,
+    ".RoutingSlot4.kParamFXBus1Level": 100.0,
+    ".SerumGUI.kUIParamShowKeyboard": 1.0,
+    ".SerumGUI.kUIParamShowMidiOut": 0.0,
+    ".SpectralOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[0].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[1].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[2].kUIParamShowWaveformDisplay": 0.0,
+    ".WTOsc[0].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[1].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[2].kUIParamWTOverviewMouseTag": 0.0,
+    ".lockOversampling": 0.0,
+    ".lockTuning": 0.0,
+    ".mpeConfig": 0.0,
+    ".mpeEnabled": 1.0,
+    ".mpePitchBendRange": 48.0,
+    ".version": 5.0
+  }
+}

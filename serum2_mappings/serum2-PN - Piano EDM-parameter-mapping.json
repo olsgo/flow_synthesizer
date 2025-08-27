@@ -1,0 +1,350 @@
+{
+  ".ClipPlayer.kUIParamPreviewClip": {
+    "match": "Clip Player Rate",
+    "value": 0.08333333333333333,
+    "index": 521,
+    "original_value": 0.08333333333333333
+  },
+  ".ClipPlayer.kUIParamSelectedClip": {
+    "match": "Clip Player Rate",
+    "value": 0.0,
+    "index": 521,
+    "original_value": 0.0
+  },
+  ".Env0.kParamAttack": {
+    "match": "Env 1 Attack",
+    "value": 0.004707330715592978,
+    "index": 224,
+    "original_value": 0.004707330715592978
+  },
+  ".Env0.kParamCurve1": {
+    "match": "Env 1 Atk Curve",
+    "value": 0.5,
+    "index": 229,
+    "original_value": 50.0
+  },
+  ".Env0.kParamCurve2": {
+    "match": "Env 1 Dec Curve",
+    "value": 0.666,
+    "index": 230,
+    "original_value": 66.60000000000001
+  },
+  ".Env0.kParamCurve3": {
+    "match": "Env 1 Rel Curve",
+    "value": 0.5248235464096069,
+    "index": 231,
+    "original_value": 52.48235464096069
+  },
+  ".Env0.kParamDecay": {
+    "match": "Env 1 Decay",
+    "value": 0.011256452622298043,
+    "index": 226,
+    "original_value": 1.1256452622298043
+  },
+  ".Env0.kParamHold": {
+    "match": "Env 1 Hold",
+    "value": 5.446078723520616e-10,
+    "index": 225,
+    "original_value": 5.446078723520616e-10
+  },
+  ".Env0.kParamRelease": {
+    "match": "Env 1 Release",
+    "value": 0.4845076690098336,
+    "index": 228,
+    "original_value": 0.4845076690098336
+  },
+  ".Env1.kParamCurve1": {
+    "match": "Env 2 Atk Curve",
+    "value": 0.5,
+    "index": 237,
+    "original_value": 50.0
+  },
+  ".Env1.kParamCurve2": {
+    "match": "Env 2 Dec Curve",
+    "value": 0.666,
+    "index": 238,
+    "original_value": 66.60000000000001
+  },
+  ".Env1.kParamCurve3": {
+    "match": "Env 2 Rel Curve",
+    "value": 0.666,
+    "index": 239,
+    "original_value": 66.60000000000001
+  },
+  ".Env2.kParamCurve1": {
+    "match": "Env 3 Atk Curve",
+    "value": 0.5,
+    "index": 247,
+    "original_value": 50.0
+  },
+  ".Env2.kParamCurve2": {
+    "match": "Env 3 Dec Curve",
+    "value": 0.666,
+    "index": 248,
+    "original_value": 66.60000000000001
+  },
+  ".Env2.kParamCurve3": {
+    "match": "Env 3 Rel Curve",
+    "value": 0.666,
+    "index": 249,
+    "original_value": 66.60000000000001
+  },
+  ".Env3.kParamCurve1": {
+    "match": "Env 4 Atk Curve",
+    "value": 0.5,
+    "index": 257,
+    "original_value": 50.0
+  },
+  ".Env3.kParamCurve2": {
+    "match": "Env 4 Dec Curve",
+    "value": 0.666,
+    "index": 258,
+    "original_value": 66.60000000000001
+  },
+  ".Env3.kParamCurve3": {
+    "match": "Env 4 Rel Curve",
+    "value": 0.666,
+    "index": 259,
+    "original_value": 66.60000000000001
+  },
+  ".LFO0.kParamBeatSync": {
+    "match": "LFO 10 Delay",
+    "value": 0.0,
+    "index": 310,
+    "original_value": 0.0
+  },
+  ".LFO0.kParamRate": {
+    "match": "LFO 10 Rate",
+    "value": 0.16448532199671498,
+    "index": 307,
+    "original_value": 16.448532199671497
+  },
+  ".LFO1.kParamBeatSync": {
+    "match": "LFO 1 Delay",
+    "value": 0.0,
+    "index": 265,
+    "original_value": 0.0
+  },
+  ".LFO1.kParamRate": {
+    "match": "LFO 1 Rate",
+    "value": 0.21683085883696931,
+    "index": 262,
+    "original_value": 0.21683085883696931
+  },
+  ".Macro3.kParamValue": {
+    "match": "Macro 3",
+    "value": 0.5,
+    "index": 442,
+    "original_value": 50.0
+  },
+  ".Macro4.kParamValue": {
+    "match": "Macro 4",
+    "value": 0.5,
+    "index": 443,
+    "original_value": 50.0
+  },
+  ".Macro6.kParamValue": {
+    "match": "Macro 6",
+    "value": 0.5754386186599731,
+    "index": 445,
+    "original_value": 57.543861865997314
+  },
+  ".Macro7.kParamValue": {
+    "match": "Macro 7",
+    "value": 0.5298244953155518,
+    "index": 446,
+    "original_value": 52.982449531555176
+  },
+  ".MidiClip0.snapEnabled": {
+    "match": "Clip Player Enable",
+    "value": 0.0,
+    "index": 519,
+    "original_value": 0.0
+  },
+  ".ModSlot0.kParamAmount": {
+    "match": "Mod 10 Amount",
+    "value": 0.8175438642501831,
+    "index": 330,
+    "original_value": 81.75438642501831
+  },
+  ".ModSlot1.kParamAmount": {
+    "match": "Mod 1 Amount",
+    "value": 0.824561357498169,
+    "index": 312,
+    "original_value": 82.4561357498169
+  },
+  ".ModSlot10.kParamAmount": {
+    "match": "Mod 10 Amount",
+    "value": 0.8596490621566772,
+    "index": 330,
+    "original_value": 85.96490621566772
+  },
+  ".ModSlot11.kParamAmount": {
+    "match": "Mod 11 Amount",
+    "value": 0.8596491813659668,
+    "index": 332,
+    "original_value": 85.96491813659668
+  },
+  ".ModSlot12.kParamAmount": {
+    "match": "Mod 12 Amount",
+    "value": 0.43768420815467834,
+    "index": 334,
+    "original_value": -12.463158369064331
+  },
+  ".ModSlot13.kParamAmount": {
+    "match": "Mod 13 Amount",
+    "value": 0.442105233669281,
+    "index": 336,
+    "original_value": -11.578953266143799
+  },
+  ".ModSlot14.kParamAmount": {
+    "match": "Mod 14 Amount",
+    "value": 1.0,
+    "index": 338,
+    "original_value": 100.0
+  },
+  ".ModSlot15.kParamAmount": {
+    "match": "Mod 15 Amount",
+    "value": 0.46399998664855957,
+    "index": 340,
+    "original_value": -7.200002670288086
+  },
+  ".ModSlot16.kParamAmount": {
+    "match": "Mod 16 Amount",
+    "value": 0.2140350341796875,
+    "index": 342,
+    "original_value": 21.40350341796875
+  },
+  ".ModSlot17.kParamAmount": {
+    "match": "Mod 17 Amount",
+    "value": 0.36618420481681824,
+    "index": 344,
+    "original_value": -26.763159036636353
+  },
+  ".ModSlot18.kParamAmount": {
+    "match": "Mod 18 Amount",
+    "value": 0.47894740104675293,
+    "index": 346,
+    "original_value": 47.89474010467529
+  },
+  ".ModSlot19.kParamAmount": {
+    "match": "Mod 19 Amount",
+    "value": 0.7949824333190918,
+    "index": 348,
+    "original_value": 79.49824333190918
+  },
+  ".ModSlot2.kParamAmount": {
+    "match": "Mod 2 Amount",
+    "value": 0.3824561834335327,
+    "index": 314,
+    "original_value": 38.24561834335327
+  },
+  ".ModSlot3.kParamAmount": {
+    "match": "Mod 3 Amount",
+    "value": 0.0,
+    "index": 316,
+    "original_value": -100.0
+  },
+  ".ModSlot4.kParamAmount": {
+    "match": "Mod 4 Amount",
+    "value": 0.0,
+    "index": 318,
+    "original_value": -100.0
+  },
+  ".ModSlot5.kParamAmount": {
+    "match": "Mod 5 Amount",
+    "value": 0.0,
+    "index": 320,
+    "original_value": -100.0
+  },
+  ".ModSlot6.kParamAmount": {
+    "match": "Mod 6 Amount",
+    "value": 0.29736852645874023,
+    "index": 322,
+    "original_value": 29.736852645874023
+  },
+  ".ModSlot7.kParamAmount": {
+    "match": "Mod 7 Amount",
+    "value": 0.10399998724460602,
+    "index": 324,
+    "original_value": -79.2000025510788
+  },
+  ".ModSlot8.kParamAmount": {
+    "match": "Mod 8 Amount",
+    "value": 0.13599999248981476,
+    "index": 326,
+    "original_value": -72.80000150203705
+  },
+  ".ModSlot9.kParamAmount": {
+    "match": "Mod 9 Amount",
+    "value": 0.8596491813659668,
+    "index": 328,
+    "original_value": 85.96491813659668
+  },
+  ".Oscillator1.kParamDetune": {
+    "match": "Osc Detune Rnd",
+    "value": 0.15032621198560836,
+    "index": 467,
+    "original_value": 0.15032621198560836
+  },
+  ".Oscillator1.kParamDetuneWid": {
+    "match": "Osc Detune Rnd",
+    "value": 0.7675438523292542,
+    "index": 467,
+    "original_value": 76.75438523292542
+  },
+  ".Oscillator1.kParamEnable": {
+    "match": "Clip Player Enable",
+    "value": 1.0,
+    "index": 519,
+    "original_value": 1.0
+  },
+  ".Oscillator1.kParamLoopEnd": {
+    "match": "A Loop End",
+    "value": 0.8811702494038459,
+    "index": 38,
+    "original_value": 88.1170249403846
+  },
+  ".Oscillator1.kParamLoopStart": {
+    "match": "A Loop Start",
+    "value": 0.8194797438390143,
+    "index": 37,
+    "original_value": 81.94797438390144
+  },
+  ".Oscillator1.kParamUnison": {
+    "match": "A Unison",
+    "value": 0.05,
+    "index": 44,
+    "original_value": 5.0
+  },
+  ".Oscillator1.kParamVolume": {
+    "match": "A Level",
+    "value": 0.0,
+    "index": 21,
+    "original_value": 0.0
+  },
+  ".Oscillator2.kParamEnable": {
+    "match": "Clip Player Enable",
+    "value": 1.0,
+    "index": 519,
+    "original_value": 1.0
+  },
+  ".Oscillator2.kParamVolume": {
+    "match": "B Level",
+    "value": 0.0,
+    "index": 76,
+    "original_value": 0.0
+  },
+  ".mpeEnabled": {
+    "match": "Arp Enable",
+    "value": 1.0,
+    "index": 523,
+    "original_value": 1.0
+  },
+  ".mpePitchBendRange": {
+    "match": "Pitch Bend Chan 1",
+    "value": 0.48,
+    "index": 541,
+    "original_value": 48.0
+  }
+}

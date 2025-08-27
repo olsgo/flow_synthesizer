@@ -1,0 +1,1868 @@
+{
+  "fileType": "SerumPreset",
+  "hash": "7ac262dd19cf9a72caa7c59c86d58869",
+  "presetAuthor": "Matt Aimonetti",
+  "presetDescription": "",
+  "presetName": "HIT - Nova Surge",
+  "product": "Serum2",
+  "productVersion": "2.0.11",
+  "tags": [
+    "Sample",
+    "Multisample",
+    "Poly",
+    "Preview",
+    "KB-Span"
+  ],
+  "url": "https://xferrecords.com/",
+  "vendor": "Xfer Records",
+  "version": 4.0,
+  "data": {
+    "Arp0": {
+      "plainParams": "default"
+    },
+    "ArpClip0": {
+      "clip": {},
+      "plainParams": {
+        "kParamShape": "Chord"
+      }
+    },
+    "ArpClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ClipPlayer": {
+      "kUIParamPreviewClip": 0.08333333333333333,
+      "kUIParamSelectedClip": 0.0
+    },
+    "ClipPlayer0": {
+      "plainParams": {
+        "kParamSpanKeyboardClip": 0.0
+      }
+    },
+    "Env0": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001,
+        "kParamRelease": 0.21668728415510666
+      }
+    },
+    "Env1": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env2": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env3": {
+      "plainParams": {
+        "kParamCurve1": 50.0,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "FXRack0": {
+      "FX": [
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamAttack": 6.898336634264859,
+              "kParamGain0": -0.75,
+              "kParamGain1": 0.3000011444091797,
+              "kParamGain2": 0.3000011444091797,
+              "kParamLevelOut": 0.5070175528526306,
+              "kParamMakeup": 1.9606648822570452,
+              "kParamMultiband": 1.0,
+              "kParamThresh": 0.429824560880661,
+              "kParamThreshUD1": 98.4000027179718,
+              "kParamThreshUD2": 61.59999966621399
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 5
+        },
+        {
+          "FXConv": {
+            "numChannels": 2,
+            "numFrames": 14833,
+            "plainParams": {
+              "kParamIpTrim": -21.473684549331665,
+              "kParamWet": 0.0
+            },
+            "relativePathToIR": "Factory/Coloration/Suitcase EPiano 2.flac",
+            "sampleRate": 44100
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 11
+        },
+        {
+          "FXHyperD": {
+            "lfo": [
+              [
+                0.004359171725809574,
+                0.00472235819324851,
+                0.003956812899559736,
+                0.005765713285654783,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.004534502048045397,
+                0.004166390281170607,
+                0.004923703148961067,
+                0.003440215950831771,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "plainParams": {
+              "kParamDetune": 12.017544358968735,
+              "kParamDimESize": 68.94736886024475,
+              "kParamLevelOut": 0.39824560284614563,
+              "kParamRate": 20.701754093170166,
+              "kParamRetrig": 1.0,
+              "kParamUnison": 4.000000178813934,
+              "kParamWet": 51.22807025909424
+            }
+          },
+          "kUIParamMixOrGainDimE": 0.0,
+          "kUIParamMixOrGainHyper": 0.0,
+          "type": 9
+        },
+        {
+          "FXEQ": {
+            "plainParams": {
+              "kParamFreq1": 21.53320125,
+              "kParamGain2": -7.7254743576049805,
+              "kParamReso1": 44.9122816324234,
+              "kParamReso2": 41.05263352394104,
+              "kParamType1": 2.0,
+              "kParamType2": 1.0
+            }
+          },
+          "type": 7
+        },
+        {
+          "FXComp": {
+            "plainParams": {
+              "kParamAttack": 12.314846540958778,
+              "kParamLevelOut": 0.4192982316017151,
+              "kParamRatio": 1000000.0,
+              "kParamRelease": 5.7904138402669645,
+              "kParamThresh": 0.12456139922142029
+            }
+          },
+          "kUIParamMixOrGain": 0.0,
+          "type": 5
+        }
+      ],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack1": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack2": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "Filter": {
+      "kUIParamMixOrGain": 0.0
+    },
+    "Global0": {
+      "plainParams": {
+        "kParamMasterVolume": 0.15859956018628996,
+        "kParamPolyCount": 9.0
+      }
+    },
+    "GranularOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0
+      }
+    ],
+    "LFO0": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO1": {
+      "curveData": {
+        "curveVals": [
+          0.0012512588885158849,
+          0.19330423902096622,
+          0.5850093081453902,
+          0.35029145176549575,
+          0.8228400524918363,
+          0.17410809656056397,
+          0.7105014191106906,
+          0.30399487289040805,
+          0.09140293588061159,
+          0.5
+        ],
+        "numPoints": 9,
+        "xVals": [
+          0.0,
+          0.125,
+          0.25,
+          0.38559556786703614,
+          0.5,
+          0.525207756232687,
+          0.75,
+          0.8819944598337953,
+          1.0,
+          1.0
+        ],
+        "yVals": [
+          0.5635853144932401,
+          0.8087405011139256,
+          0.4798730430005799,
+          0.7749999999999998,
+          0.7466048158207953,
+          0.7573529411764706,
+          0.5135349589526047,
+          0.24558823529411788,
+          0.3644520401623585,
+          1.0
+        ]
+      },
+      "curveDisplayName": "Custom",
+      "pathData": {},
+      "plainParams": {
+        "kParamRate": 4.715672457223556
+      }
+    },
+    "LFO2": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO3": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO4": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO5": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO6": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO7": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO8": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO9": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFOPointModBus0": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus1": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus10": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus11": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus12": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus13": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus14": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus15": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus2": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus3": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus4": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus5": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus6": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus7": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus8": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus9": {
+      "plainParams": "default"
+    },
+    "Macro0": {
+      "name": "LO CUT",
+      "plainParams": "default"
+    },
+    "Macro1": {
+      "name": "MID",
+      "plainParams": {
+        "kParamValue": 49.122804403305054
+      }
+    },
+    "Macro2": {
+      "name": "DARKNESS",
+      "plainParams": {
+        "kParamValue": 28.070172667503357
+      }
+    },
+    "Macro3": {
+      "name": "NOISINESS",
+      "plainParams": {
+        "kParamValue": 32.63157904148102
+      }
+    },
+    "Macro4": {
+      "name": "SAW",
+      "plainParams": {
+        "kParamValue": 47.01754450798035
+      }
+    },
+    "Macro5": {
+      "name": "BODY",
+      "plainParams": {
+        "kParamValue": 48.0701744556427
+      }
+    },
+    "Macro6": {
+      "name": "TRUMPETS",
+      "plainParams": {
+        "kParamValue": 76.49123072624207
+      }
+    },
+    "Macro7": {
+      "name": "WIDTH",
+      "plainParams": {
+        "kParamValue": 20.701754093170166
+      }
+    },
+    "MidiClip0": {
+      "clip": {
+        "notes": [
+          {
+            "attributes": [
+              1.0,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 36,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.9218553384812946,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 48,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.9218553384812946,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 55,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.9218553384812946,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 60,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.914385683952816,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 67,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.914385683952816,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 72,
+            "timeStamp": 0.0
+          },
+          {
+            "attributes": [
+              0.369100903373917,
+              1.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.0,
+              0.5039370078740157
+            ],
+            "channel": 0,
+            "expressionEvents": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "length": 3.0,
+            "noteNum": 87,
+            "timeStamp": 0.0
+          }
+        ]
+      },
+      "gridHeight_Rows": 102.1142857142858,
+      "gridYOffset_Rows": 18.653110164929263,
+      "name": "Hit",
+      "plainParams": {
+        "kParamLaunchQuantize": 0.0,
+        "kParamNoteGate": 1.0,
+        "kParamPlaybackMode": "Static",
+        "kParamSpanKeyboardMode": "Poly"
+      }
+    },
+    "MidiClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ModSlot0": {
+      "destModuleID": 0,
+      "destModuleParamID": 3,
+      "destModuleParamName": "kParamFreq",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": -64.21052515506744,
+        "kParamBipolar": 1.0
+      },
+      "source": [
+        1,
+        0
+      ]
+    },
+    "ModSlot1": {
+      "destModuleID": 1,
+      "destModuleParamID": 2,
+      "destModuleParamName": "kParamPan",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 41.05262756347656,
+        "kParamBipolar": 1.0
+      },
+      "source": [
+        6,
+        0
+      ]
+    },
+    "ModSlot10": {
+      "destModuleID": 0,
+      "destModuleParamID": 4,
+      "destModuleParamName": "kParamReso",
+      "destModuleTypeString": "VoiceFilter",
+      "plainParams": {
+        "kParamAmount": 89.99999761581421
+      },
+      "source": [
+        7,
+        0
+      ]
+    },
+    "ModSlot11": {
+      "plainParams": "default"
+    },
+    "ModSlot12": {
+      "plainParams": "default"
+    },
+    "ModSlot13": {
+      "plainParams": "default"
+    },
+    "ModSlot14": {
+      "plainParams": "default"
+    },
+    "ModSlot15": {
+      "plainParams": "default"
+    },
+    "ModSlot16": {
+      "plainParams": "default"
+    },
+    "ModSlot17": {
+      "plainParams": "default"
+    },
+    "ModSlot18": {
+      "plainParams": "default"
+    },
+    "ModSlot19": {
+      "plainParams": "default"
+    },
+    "ModSlot2": {
+      "destModuleID": 3,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        28,
+        0
+      ]
+    },
+    "ModSlot20": {
+      "plainParams": "default"
+    },
+    "ModSlot21": {
+      "plainParams": "default"
+    },
+    "ModSlot22": {
+      "plainParams": "default"
+    },
+    "ModSlot23": {
+      "plainParams": "default"
+    },
+    "ModSlot24": {
+      "plainParams": "default"
+    },
+    "ModSlot25": {
+      "plainParams": "default"
+    },
+    "ModSlot26": {
+      "plainParams": "default"
+    },
+    "ModSlot27": {
+      "plainParams": "default"
+    },
+    "ModSlot28": {
+      "plainParams": "default"
+    },
+    "ModSlot29": {
+      "plainParams": "default"
+    },
+    "ModSlot3": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamWet",
+      "destModuleTypeString": "FXConv",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        27,
+        0
+      ]
+    },
+    "ModSlot30": {
+      "plainParams": "default"
+    },
+    "ModSlot31": {
+      "plainParams": "default"
+    },
+    "ModSlot32": {
+      "plainParams": "default"
+    },
+    "ModSlot33": {
+      "plainParams": "default"
+    },
+    "ModSlot34": {
+      "plainParams": "default"
+    },
+    "ModSlot35": {
+      "plainParams": "default"
+    },
+    "ModSlot36": {
+      "plainParams": "default"
+    },
+    "ModSlot37": {
+      "plainParams": "default"
+    },
+    "ModSlot38": {
+      "plainParams": "default"
+    },
+    "ModSlot39": {
+      "plainParams": "default"
+    },
+    "ModSlot4": {
+      "destModuleID": 3,
+      "destModuleParamID": 6,
+      "destModuleParamName": "kParamGain2",
+      "destModuleTypeString": "FXEQ",
+      "plainParams": {
+        "kParamAmount": 48.694753646850586
+      },
+      "source": [
+        26,
+        0
+      ]
+    },
+    "ModSlot40": {
+      "plainParams": "default"
+    },
+    "ModSlot41": {
+      "plainParams": "default"
+    },
+    "ModSlot42": {
+      "plainParams": "default"
+    },
+    "ModSlot43": {
+      "plainParams": "default"
+    },
+    "ModSlot44": {
+      "plainParams": "default"
+    },
+    "ModSlot45": {
+      "plainParams": "default"
+    },
+    "ModSlot46": {
+      "plainParams": "default"
+    },
+    "ModSlot47": {
+      "plainParams": "default"
+    },
+    "ModSlot48": {
+      "plainParams": "default"
+    },
+    "ModSlot49": {
+      "plainParams": "default"
+    },
+    "ModSlot5": {
+      "destModuleID": 3,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamFreq1",
+      "destModuleTypeString": "FXEQ",
+      "plainParams": {
+        "kParamAmount": 56.00000619888306
+      },
+      "source": [
+        25,
+        0
+      ]
+    },
+    "ModSlot50": {
+      "plainParams": "default"
+    },
+    "ModSlot51": {
+      "plainParams": "default"
+    },
+    "ModSlot52": {
+      "plainParams": "default"
+    },
+    "ModSlot53": {
+      "plainParams": "default"
+    },
+    "ModSlot54": {
+      "plainParams": "default"
+    },
+    "ModSlot55": {
+      "plainParams": "default"
+    },
+    "ModSlot56": {
+      "plainParams": "default"
+    },
+    "ModSlot57": {
+      "plainParams": "default"
+    },
+    "ModSlot58": {
+      "plainParams": "default"
+    },
+    "ModSlot59": {
+      "plainParams": "default"
+    },
+    "ModSlot6": {
+      "destModuleID": 4,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        29,
+        0
+      ]
+    },
+    "ModSlot60": {
+      "plainParams": "default"
+    },
+    "ModSlot61": {
+      "plainParams": "default"
+    },
+    "ModSlot62": {
+      "plainParams": "default"
+    },
+    "ModSlot63": {
+      "plainParams": "default"
+    },
+    "ModSlot7": {
+      "destModuleID": 1,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 50.96491575241089
+      },
+      "source": [
+        30,
+        0
+      ]
+    },
+    "ModSlot8": {
+      "destModuleID": 0,
+      "destModuleParamID": 1,
+      "destModuleParamName": "kParamVolume",
+      "destModuleTypeString": "Oscillator",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        31,
+        0
+      ]
+    },
+    "ModSlot9": {
+      "destModuleID": 2,
+      "destModuleParamID": 8,
+      "destModuleParamName": "kParamDimEWet",
+      "destModuleTypeString": "FXHyperD",
+      "plainParams": {
+        "kParamAmount": 100.0
+      },
+      "source": [
+        32,
+        0
+      ]
+    },
+    "MultiSampleOsc": [
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0.0
+      }
+    ],
+    "Osc": [
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0.0,
+        "kUIParamShowMarkerAnimations": 0.0,
+        "kUIParamZoomToStartEnd": 0.0
+      }
+    ],
+    "Oscillator0": {
+      "GranularOsc0": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc0": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> loop_crossfade=0.010000 loop_mode=loop_continuous amp_veltrack=35.000000 ampeg_attack=0.070000 ampeg_release=0.250000\n<region> hikey=55 pitch_keycenter=54 loop_start=111649 loop_end=423707 tune=8 sample=Trumpets Long Samples//XFtrumpets long-02 03 F#2.flac\n<region> lokey=56 hikey=57 pitch_keycenter=56 loop_start=124928 loop_end=417523 tune=-8 sample=Trumpets Long Samples//XFtrumpets long-02 03 G#2.flac\n<region> lokey=58 hikey=59 pitch_keycenter=58 loop_start=79981 loop_end=374659 tune=-14 sample=Trumpets Long Samples//XFtrumpets long 03 A#2.flac\n<region> lokey=60 hikey=61 loop_start=33600 loop_end=262079 tune=-16 sample=Trumpets Long Samples//XFtrumpets long-02 03 C3.flac\n<region> lokey=62 hikey=63 pitch_keycenter=62 loop_start=72000 loop_end=287999 tune=-12 sample=Trumpets Long Samples//XFtrumpets long-03 03 D3.flac\n<region> lokey=64 hikey=66 pitch_keycenter=64 loop_start=52800 loop_end=377294 tune=-16 sample=Trumpets Long Samples//XFtrumpets long-04 03 E3.flac\n<region> lokey=67 hikey=69 pitch_keycenter=68 loop_start=79686 loop_end=472058 tune=-20 sample=Trumpets Long Samples//XFtrumpets long-02 03 G#3.flac\n<region> lokey=70 hikey=71 pitch_keycenter=70 loop_start=80238 loop_end=243503 tune=-24 sample=Trumpets Long Samples//XFtrumpets long-02 03 A#3.flac\n<region> lokey=72 hikey=73 pitch_keycenter=72 loop_start=86400 loop_end=478079 tune=-18 sample=Trumpets Long Samples//XFtrumpets long 03 C4.flac\n<region> lokey=74 hikey=75 pitch_keycenter=74 loop_start=81600 loop_end=454079 tune=-12 sample=Trumpets Long Samples//XFtrumpets long 03 D4.flac\n<region> lokey=76 hikey=77 pitch_keycenter=76 loop_start=67200 loop_end=353271 tune=-16 sample=Trumpets Long Samples//XFtrumpets long 03 E4.flac\n<region> lokey=78 hikey=79 pitch_keycenter=78 loop_start=66048 loop_end=284158 tune=-22 sample=Trumpets Long Samples//XFtrumpets long 03 F#4.flac\n<region> lokey=80 hikey=81 pitch_keycenter=80 loop_start=101376 loop_end=339967 tune=-22 sample=Trumpets Long Samples//XFtrumpets long-02 03 G#4.flac\n<region> lokey=82 hikey=83 pitch_keycenter=82 loop_start=90158 loop_end=232088 tune=-33 sample=Trumpets Long Samples//XFtrumpets long 03 A#4.flac\n<region> lokey=84 pitch_keycenter=84 loop_start=47294 loop_end=179251 tune=-26 sample=Trumpets Long Samples//XFtrumpets long-08 03 C5.flac\n",
+        "files": {
+          "Trumpets Long Samples\\\\XFtrumpets long 03 A#2.flac": {
+            "numChannels": 2,
+            "numFrames": 375187,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long 03 A#4.flac": {
+            "numChannels": 2,
+            "numFrames": 232616,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long 03 C4.flac": {
+            "numChannels": 2,
+            "numFrames": 478607,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long 03 D4.flac": {
+            "numChannels": 2,
+            "numFrames": 454607,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long 03 E4.flac": {
+            "numChannels": 2,
+            "numFrames": 353799,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long 03 F#4.flac": {
+            "numChannels": 2,
+            "numFrames": 284686,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-02 03 A#3.flac": {
+            "numChannels": 2,
+            "numFrames": 244031,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-02 03 C3.flac": {
+            "numChannels": 2,
+            "numFrames": 262607,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-02 03 F#2.flac": {
+            "numChannels": 2,
+            "numFrames": 424235,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-02 03 G#2.flac": {
+            "numChannels": 2,
+            "numFrames": 418051,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-02 03 G#3.flac": {
+            "numChannels": 2,
+            "numFrames": 472586,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-02 03 G#4.flac": {
+            "numChannels": 2,
+            "numFrames": 340495,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-03 03 D3.flac": {
+            "numChannels": 2,
+            "numFrames": 288527,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-04 03 E3.flac": {
+            "numChannels": 2,
+            "numFrames": 377822,
+            "sampleRate": 48000
+          },
+          "Trumpets Long Samples\\\\XFtrumpets long-08 03 C5.flac": {
+            "numChannels": 2,
+            "numFrames": 179779,
+            "sampleRate": 48000
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.002151295393525102,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvOverride": 1.0,
+          "kParamEnvRelease": 1.0535610739913053
+        },
+        "sfzPathRelative": "Factory/Winds/Trumpets LE.sfz"
+      },
+      "SampleOsc0": {
+        "plainParams": "default"
+      },
+      "SpectralOsc0": {
+        "plainParams": "default"
+      },
+      "WTOsc0": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamType": "kOsc_MultiSample",
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator1": {
+      "GranularOsc1": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc1": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> loop_mode=loop_continuous ampeg_release=0.320000\n<region> hikey=22 pitch_keycenter=20 loop_crossfade=0.015000 loop_start=155080 loop_end=218225 sample=MKS80 Zombie Samples/XFCcwzs C-2.flac\n<region> lokey=23 hikey=25 pitch_keycenter=23 loop_crossfade=0.015000 loop_start=129661 loop_end=197745 sample=MKS80 Zombie Samples/XFCcwzs B-1.flac\n<region> lokey=26 hikey=28 pitch_keycenter=26 loop_crossfade=0.010000 loop_start=165199 loop_end=219944 sample=MKS80 Zombie Samples/XFCcwzs D0.flac\n<region> lokey=29 hikey=31 pitch_keycenter=29 loop_crossfade=0.010000 loop_type=alternate loop_start=65875 loop_end=222876 sample=MKS80 Zombie Samples/XFCcwzs F0.flac\n<region> lokey=32 hikey=34 pitch_keycenter=32 loop_crossfade=0.030000 loop_start=129273 loop_end=213492 sample=MKS80 Zombie Samples/XFCcwzs G#0.flac\n<region> lokey=35 hikey=37 pitch_keycenter=35 loop_crossfade=0.005000 loop_start=170756 loop_end=221234 sample=MKS80 Zombie Samples/XFCcwzs B0.flac\n<region> lokey=38 hikey=40 pitch_keycenter=38 loop_crossfade=0.005000 loop_start=88010 loop_end=217730 sample=MKS80 Zombie Samples/XFCcwzs D1.flac\n<region> lokey=41 hikey=43 pitch_keycenter=41 loop_crossfade=0.020300 loop_start=136006 loop_end=221158 sample=MKS80 Zombie Samples/XFCcwzs F1.flac\n<region> lokey=44 hikey=46 pitch_keycenter=44 loop_crossfade=0.003000 loop_start=107702 loop_end=184603 sample=MKS80 Zombie Samples/XFCcwzs G#1.flac\n<region> lokey=47 hikey=49 pitch_keycenter=47 loop_crossfade=0.003000 loop_start=130068 loop_end=222216 sample=MKS80 Zombie Samples/XFCcwzs B1.flac\n<region> lokey=50 hikey=52 pitch_keycenter=50 loop_crossfade=0.005000 loop_start=90574 loop_end=177877 sample=MKS80 Zombie Samples/XFCcwzs D2.flac\n<region> lokey=53 hikey=55 pitch_keycenter=53 loop_crossfade=0.005000 loop_start=119453 loop_end=213720 sample=MKS80 Zombie Samples/XFCcwzs F2.flac\n<region> lokey=56 hikey=58 pitch_keycenter=56 loop_crossfade=0.005000 loop_start=69875 loop_end=189549 sample=MKS80 Zombie Samples/XFCcwzs G#2.flac\n<region> lokey=59 hikey=61 pitch_keycenter=59 loop_crossfade=0.005000 loop_start=128070 loop_end=217139 sample=MKS80 Zombie Samples/XFCcwzs B2.flac\n<region> lokey=62 hikey=64 pitch_keycenter=62 loop_crossfade=0.005000 loop_start=52118 loop_end=176418 sample=MKS80 Zombie Samples/XFCcwzs D3.flac\n<region> lokey=65 hikey=67 pitch_keycenter=65 loop_crossfade=0.005400 loop_start=153186 loop_end=210765 sample=MKS80 Zombie Samples/XFCcwzs F3.flac\n<region> lokey=68 hikey=70 pitch_keycenter=68 loop_crossfade=0.005000 loop_start=131674 loop_end=222068 sample=MKS80 Zombie Samples/XFCcwzs G#3.flac\n<region> lokey=71 hikey=73 pitch_keycenter=71 loop_crossfade=0.005000 loop_start=141831 loop_end=207873 sample=MKS80 Zombie Samples/XFCcwzs B3.flac\n<region> lokey=74 hikey=76 pitch_keycenter=74 loop_crossfade=0.005000 loop_start=126317 loop_end=212445 sample=MKS80 Zombie Samples/XFCcwzs D4.flac\n<region> lokey=77 hikey=79 pitch_keycenter=77 loop_crossfade=0.005000 loop_start=108825 loop_end=205308 sample=MKS80 Zombie Samples/XFCcwzs F4.flac\n<region> lokey=80 pitch_keycenter=80 loop_crossfade=0.005000 loop_start=62981 loop_end=205218 sample=MKS80 Zombie Samples/XFCcwzs G#4.flac\n",
+        "files": {
+          "MKS80 Zombie Samples\\XFCcwzs B-1.flac": {
+            "numChannels": 2,
+            "numFrames": 229662,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs B0.flac": {
+            "numChannels": 2,
+            "numFrames": 229275,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs B1.flac": {
+            "numChannels": 2,
+            "numFrames": 229358,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs B2.flac": {
+            "numChannels": 2,
+            "numFrames": 229148,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs B3.flac": {
+            "numChannels": 2,
+            "numFrames": 230001,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs C-2.flac": {
+            "numChannels": 2,
+            "numFrames": 230505,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs D0.flac": {
+            "numChannels": 2,
+            "numFrames": 229443,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs D1.flac": {
+            "numChannels": 2,
+            "numFrames": 230036,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs D2.flac": {
+            "numChannels": 2,
+            "numFrames": 228973,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs D3.flac": {
+            "numChannels": 2,
+            "numFrames": 229672,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs D4.flac": {
+            "numChannels": 2,
+            "numFrames": 229269,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs F0.flac": {
+            "numChannels": 2,
+            "numFrames": 228573,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs F1.flac": {
+            "numChannels": 2,
+            "numFrames": 228247,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs F2.flac": {
+            "numChannels": 2,
+            "numFrames": 228796,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs F3.flac": {
+            "numChannels": 2,
+            "numFrames": 230894,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs F4.flac": {
+            "numChannels": 2,
+            "numFrames": 227869,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs G#0.flac": {
+            "numChannels": 2,
+            "numFrames": 231762,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs G#1.flac": {
+            "numChannels": 2,
+            "numFrames": 228058,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs G#2.flac": {
+            "numChannels": 2,
+            "numFrames": 229596,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs G#3.flac": {
+            "numChannels": 2,
+            "numFrames": 228162,
+            "sampleRate": 48000
+          },
+          "MKS80 Zombie Samples\\XFCcwzs G#4.flac": {
+            "numChannels": 2,
+            "numFrames": 229270,
+            "sampleRate": 48000
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.0004712843751085521,
+          "kParamEnvDecay": 0.0,
+          "kParamEnvOverride": 1.0,
+          "kParamEnvRelease": 1.1547580587709474
+        },
+        "sfzPathRelative": "Factory/Synth/MKS80 Zombie.sfz"
+      },
+      "SampleOsc1": {
+        "plainParams": "default"
+      },
+      "SpectralOsc1": {
+        "plainParams": "default"
+      },
+      "WTOsc1": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamType": "kOsc_MultiSample",
+        "kParamVolume": 0.24044397794400485
+      }
+    },
+    "Oscillator2": {
+      "GranularOsc2": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc2": {
+        "plainParams": "default"
+      },
+      "SampleOsc2": {
+        "baseNote": 43,
+        "numChannels": 2,
+        "numFrames": 70709,
+        "plainParams": "default",
+        "samplePathRelative": "Factory/Brass/Tuba short stc G1.flac",
+        "sampleRate": 48000
+      },
+      "SpectralOsc2": {
+        "plainParams": "default"
+      },
+      "WTOsc2": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamLoopStart": 3.8805972784757614,
+        "kParamStart": 3.8805972784757614,
+        "kParamType": "kOsc_Sample",
+        "kParamVolume": 1.0
+      }
+    },
+    "Oscillator3": {
+      "NoiseOsc3": {
+        "detuneFactor": 0.4758218478413068,
+        "numChannels": 2,
+        "numFrames": 151200,
+        "plainParams": "default",
+        "relativePathToNoiseSample": "S2 Noises/HP12 Pink Noise (Stereo).flac",
+        "sampleRate": 44100
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamPitchTrack": 1.0,
+        "kParamVolume": 0.0
+      }
+    },
+    "Oscillator4": {
+      "SubOsc4": {
+        "plainParams": {
+          "kParamShape": "kSaw"
+        }
+      },
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamVolume": 0.0
+      }
+    },
+    "PitchQuantizer0": {
+      "plainParams": "default",
+      "scale": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "scaleName": "Major"
+    },
+    "RetriggerState0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot0": {
+      "plainParams": {
+        "kParamFilterBalance": 0.0,
+        "kParamViaEnv1": 0.0
+      }
+    },
+    "RoutingSlot1": {
+      "plainParams": {
+        "kParamFilterBalance": 0.0,
+        "kParamRoutingDest": "kRoutingDestFilter",
+        "kParamViaEnv1": 0.0
+      }
+    },
+    "RoutingSlot2": {
+      "plainParams": {
+        "kParamFilterBalance": 0.0,
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot3": {
+      "plainParams": {
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot4": {
+      "plainParams": {
+        "kParamFilterBalance": 0.0,
+        "kParamRoutingDest": "kRoutingDestFilter"
+      }
+    },
+    "RoutingSlot5": {
+      "plainParams": "default"
+    },
+    "RoutingSlot6": {
+      "plainParams": "default"
+    },
+    "SerumGUI": {
+      "kUIParamShowKeyboard": 1.0
+    },
+    "SpectralOsc": [
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      },
+      {
+        "kUIParamDisplayXYInput": 0.0,
+        "kUIParamShowWaveformDisplay": 0.0
+      }
+    ],
+    "VoiceFilter0": {
+      "plainParams": {
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.7438596487045288,
+        "kParamReso": 0.0
+      }
+    },
+    "VoiceFilter1": {
+      "plainParams": {
+        "kParamDrive": 4.210526496171951,
+        "kParamEnable": 1.0,
+        "kParamFreq": 0.6438596844673157,
+        "kParamReso": 100.0,
+        "kParamType": "Scream",
+        "kParamVar": 43.85964870452881,
+        "kParamWet": 74.73683953285217
+      }
+    },
+    "VoicePanel0": {
+      "plainParams": "default"
+    },
+    "WTOsc": [
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0.0
+      }
+    ],
+    "arpBankDisplayName": "",
+    "clipBankDisplayName": "",
+    "fileType": "SerumPreset",
+    "lockOversampling": false,
+    "lockTuning": false,
+    "mpeConfig": 0,
+    "mpeEnabled": true,
+    "mpePitchBendRange": 48,
+    "presetAuthor": "Matt Aimonetti",
+    "presetDescription": "",
+    "presetName": "HIT - Nova Surge",
+    "product": "Serum2",
+    "productVersion": "2.0.11",
+    "scalars": {
+      "note": {},
+      "velo": {}
+    },
+    "tags": [
+      "Sample",
+      "Multisample",
+      "Poly",
+      "Preview",
+      "KB-Span"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 4.0
+  },
+  "dawdreamer_params": {
+    ".ClipPlayer.kUIParamPreviewClip": 0.08333333333333333,
+    ".ClipPlayer.kUIParamSelectedClip": 0.0,
+    ".ClipPlayer0.kParamSpanKeyboardClip": 0.0,
+    ".Env0.kParamCurve1": 50.0,
+    ".Env0.kParamCurve2": 66.60000000000001,
+    ".Env0.kParamCurve3": 66.60000000000001,
+    ".Env0.kParamRelease": 0.21668728415510666,
+    ".Env1.kParamCurve1": 50.0,
+    ".Env1.kParamCurve2": 66.60000000000001,
+    ".Env1.kParamCurve3": 66.60000000000001,
+    ".Env2.kParamCurve1": 50.0,
+    ".Env2.kParamCurve2": 66.60000000000001,
+    ".Env2.kParamCurve3": 66.60000000000001,
+    ".Env3.kParamCurve1": 50.0,
+    ".Env3.kParamCurve2": 66.60000000000001,
+    ".Env3.kParamCurve3": 66.60000000000001,
+    ".FXRack0.FX[0].FXComp.kParamAttack": 6.898336634264859,
+    ".FXRack0.FX[0].FXComp.kParamGain0": -0.75,
+    ".FXRack0.FX[0].FXComp.kParamGain1": 0.3000011444091797,
+    ".FXRack0.FX[0].FXComp.kParamGain2": 0.3000011444091797,
+    ".FXRack0.FX[0].FXComp.kParamLevelOut": 0.5070175528526306,
+    ".FXRack0.FX[0].FXComp.kParamMakeup": 1.9606648822570452,
+    ".FXRack0.FX[0].FXComp.kParamMultiband": 1.0,
+    ".FXRack0.FX[0].FXComp.kParamThresh": 0.429824560880661,
+    ".FXRack0.FX[0].FXComp.kParamThreshUD1": 98.4000027179718,
+    ".FXRack0.FX[0].FXComp.kParamThreshUD2": 61.59999966621399,
+    ".FXRack0.FX[0].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[0].type": 5.0,
+    ".FXRack0.FX[1].FXConv.numChannels": 2.0,
+    ".FXRack0.FX[1].FXConv.numFrames": 14833.0,
+    ".FXRack0.FX[1].FXConv.kParamIpTrim": -21.473684549331665,
+    ".FXRack0.FX[1].FXConv.kParamWet": 0.0,
+    ".FXRack0.FX[1].FXConv.sampleRate": 44100.0,
+    ".FXRack0.FX[1].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[1].type": 11.0,
+    ".FXRack0.FX[2].FXHyperD.kParamDetune": 12.017544358968735,
+    ".FXRack0.FX[2].FXHyperD.kParamDimESize": 68.94736886024475,
+    ".FXRack0.FX[2].FXHyperD.kParamLevelOut": 0.39824560284614563,
+    ".FXRack0.FX[2].FXHyperD.kParamRate": 20.701754093170166,
+    ".FXRack0.FX[2].FXHyperD.kParamRetrig": 1.0,
+    ".FXRack0.FX[2].FXHyperD.kParamUnison": 4.000000178813934,
+    ".FXRack0.FX[2].FXHyperD.kParamWet": 51.22807025909424,
+    ".FXRack0.FX[2].kUIParamMixOrGainDimE": 0.0,
+    ".FXRack0.FX[2].kUIParamMixOrGainHyper": 0.0,
+    ".FXRack0.FX[2].type": 9.0,
+    ".FXRack0.FX[3].FXEQ.kParamFreq1": 21.53320125,
+    ".FXRack0.FX[3].FXEQ.kParamGain2": -7.7254743576049805,
+    ".FXRack0.FX[3].FXEQ.kParamReso1": 44.9122816324234,
+    ".FXRack0.FX[3].FXEQ.kParamReso2": 41.05263352394104,
+    ".FXRack0.FX[3].FXEQ.kParamType1": 2.0,
+    ".FXRack0.FX[3].FXEQ.kParamType2": 1.0,
+    ".FXRack0.FX[3].type": 7.0,
+    ".FXRack0.FX[4].FXComp.kParamAttack": 12.314846540958778,
+    ".FXRack0.FX[4].FXComp.kParamLevelOut": 0.4192982316017151,
+    ".FXRack0.FX[4].FXComp.kParamRatio": 1000000.0,
+    ".FXRack0.FX[4].FXComp.kParamRelease": 5.7904138402669645,
+    ".FXRack0.FX[4].FXComp.kParamThresh": 0.12456139922142029,
+    ".FXRack0.FX[4].kUIParamMixOrGain": 0.0,
+    ".FXRack0.FX[4].type": 5.0,
+    ".Filter.kUIParamMixOrGain": 0.0,
+    ".Global0.kParamMasterVolume": 0.15859956018628996,
+    ".Global0.kParamPolyCount": 9.0,
+    ".GranularOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".GranularOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".LFO1.curveData.curveVals[0]": 0.0012512588885158849,
+    ".LFO1.curveData.curveVals[1]": 0.19330423902096622,
+    ".LFO1.curveData.curveVals[2]": 0.5850093081453902,
+    ".LFO1.curveData.curveVals[3]": 0.35029145176549575,
+    ".LFO1.curveData.curveVals[4]": 0.8228400524918363,
+    ".LFO1.curveData.curveVals[5]": 0.17410809656056397,
+    ".LFO1.curveData.curveVals[6]": 0.7105014191106906,
+    ".LFO1.curveData.curveVals[7]": 0.30399487289040805,
+    ".LFO1.curveData.curveVals[8]": 0.09140293588061159,
+    ".LFO1.curveData.curveVals[9]": 0.5,
+    ".LFO1.curveData.numPoints": 9.0,
+    ".LFO1.curveData.xVals[0]": 0.0,
+    ".LFO1.curveData.xVals[1]": 0.125,
+    ".LFO1.curveData.xVals[2]": 0.25,
+    ".LFO1.curveData.xVals[3]": 0.38559556786703614,
+    ".LFO1.curveData.xVals[4]": 0.5,
+    ".LFO1.curveData.xVals[5]": 0.525207756232687,
+    ".LFO1.curveData.xVals[6]": 0.75,
+    ".LFO1.curveData.xVals[7]": 0.8819944598337953,
+    ".LFO1.curveData.xVals[8]": 1.0,
+    ".LFO1.curveData.xVals[9]": 1.0,
+    ".LFO1.curveData.yVals[0]": 0.5635853144932401,
+    ".LFO1.curveData.yVals[1]": 0.8087405011139256,
+    ".LFO1.curveData.yVals[2]": 0.4798730430005799,
+    ".LFO1.curveData.yVals[3]": 0.7749999999999998,
+    ".LFO1.curveData.yVals[4]": 0.7466048158207953,
+    ".LFO1.curveData.yVals[5]": 0.7573529411764706,
+    ".LFO1.curveData.yVals[6]": 0.5135349589526047,
+    ".LFO1.curveData.yVals[7]": 0.24558823529411788,
+    ".LFO1.curveData.yVals[8]": 0.3644520401623585,
+    ".LFO1.curveData.yVals[9]": 1.0,
+    ".LFO1.kParamRate": 4.715672457223556,
+    ".Macro1.kParamValue": 49.122804403305054,
+    ".Macro2.kParamValue": 28.070172667503357,
+    ".Macro3.kParamValue": 32.63157904148102,
+    ".Macro4.kParamValue": 47.01754450798035,
+    ".Macro5.kParamValue": 48.0701744556427,
+    ".Macro6.kParamValue": 76.49123072624207,
+    ".Macro7.kParamValue": 20.701754093170166,
+    ".MidiClip0.clip.notes[0].attributes[0]": 1.0,
+    ".MidiClip0.clip.notes[0].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[0].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[0].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[0].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[0].channel": 0.0,
+    ".MidiClip0.clip.notes[0].length": 3.0,
+    ".MidiClip0.clip.notes[0].noteNum": 36.0,
+    ".MidiClip0.clip.notes[0].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[0]": 0.9218553384812946,
+    ".MidiClip0.clip.notes[1].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[1].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[1].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[1].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[1].channel": 0.0,
+    ".MidiClip0.clip.notes[1].length": 3.0,
+    ".MidiClip0.clip.notes[1].noteNum": 48.0,
+    ".MidiClip0.clip.notes[1].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[0]": 0.9218553384812946,
+    ".MidiClip0.clip.notes[2].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[2].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[2].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[2].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[2].channel": 0.0,
+    ".MidiClip0.clip.notes[2].length": 3.0,
+    ".MidiClip0.clip.notes[2].noteNum": 55.0,
+    ".MidiClip0.clip.notes[2].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[0]": 0.9218553384812946,
+    ".MidiClip0.clip.notes[3].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[3].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[3].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[3].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[3].channel": 0.0,
+    ".MidiClip0.clip.notes[3].length": 3.0,
+    ".MidiClip0.clip.notes[3].noteNum": 60.0,
+    ".MidiClip0.clip.notes[3].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[0]": 0.914385683952816,
+    ".MidiClip0.clip.notes[4].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[4].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[4].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[4].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[4].channel": 0.0,
+    ".MidiClip0.clip.notes[4].length": 3.0,
+    ".MidiClip0.clip.notes[4].noteNum": 67.0,
+    ".MidiClip0.clip.notes[4].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[0]": 0.914385683952816,
+    ".MidiClip0.clip.notes[5].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[5].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[5].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[5].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[5].channel": 0.0,
+    ".MidiClip0.clip.notes[5].length": 3.0,
+    ".MidiClip0.clip.notes[5].noteNum": 72.0,
+    ".MidiClip0.clip.notes[5].timeStamp": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[0]": 0.369100903373917,
+    ".MidiClip0.clip.notes[6].attributes[1]": 1.0,
+    ".MidiClip0.clip.notes[6].attributes[2]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[3]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[4]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[5]": 0.5,
+    ".MidiClip0.clip.notes[6].attributes[6]": 0.0,
+    ".MidiClip0.clip.notes[6].attributes[7]": 0.5039370078740157,
+    ".MidiClip0.clip.notes[6].channel": 0.0,
+    ".MidiClip0.clip.notes[6].length": 3.0,
+    ".MidiClip0.clip.notes[6].noteNum": 87.0,
+    ".MidiClip0.clip.notes[6].timeStamp": 0.0,
+    ".MidiClip0.gridHeight_Rows": 102.1142857142858,
+    ".MidiClip0.gridYOffset_Rows": 18.653110164929263,
+    ".MidiClip0.kParamLaunchQuantize": 0.0,
+    ".MidiClip0.kParamNoteGate": 1.0,
+    ".ModSlot0.destModuleID": 0.0,
+    ".ModSlot0.destModuleParamID": 3.0,
+    ".ModSlot0.kParamAmount": -64.21052515506744,
+    ".ModSlot0.kParamBipolar": 1.0,
+    ".ModSlot0.source[0]": 1.0,
+    ".ModSlot0.source[1]": 0.0,
+    ".ModSlot1.destModuleID": 1.0,
+    ".ModSlot1.destModuleParamID": 2.0,
+    ".ModSlot1.kParamAmount": 41.05262756347656,
+    ".ModSlot1.kParamBipolar": 1.0,
+    ".ModSlot1.source[0]": 6.0,
+    ".ModSlot1.source[1]": 0.0,
+    ".ModSlot10.destModuleID": 0.0,
+    ".ModSlot10.destModuleParamID": 4.0,
+    ".ModSlot10.kParamAmount": 89.99999761581421,
+    ".ModSlot10.source[0]": 7.0,
+    ".ModSlot10.source[1]": 0.0,
+    ".ModSlot2.destModuleID": 3.0,
+    ".ModSlot2.destModuleParamID": 1.0,
+    ".ModSlot2.kParamAmount": 100.0,
+    ".ModSlot2.source[0]": 28.0,
+    ".ModSlot2.source[1]": 0.0,
+    ".ModSlot3.destModuleID": 1.0,
+    ".ModSlot3.destModuleParamID": 1.0,
+    ".ModSlot3.kParamAmount": 100.0,
+    ".ModSlot3.source[0]": 27.0,
+    ".ModSlot3.source[1]": 0.0,
+    ".ModSlot4.destModuleID": 3.0,
+    ".ModSlot4.destModuleParamID": 6.0,
+    ".ModSlot4.kParamAmount": 48.694753646850586,
+    ".ModSlot4.source[0]": 26.0,
+    ".ModSlot4.source[1]": 0.0,
+    ".ModSlot5.destModuleID": 3.0,
+    ".ModSlot5.destModuleParamID": 1.0,
+    ".ModSlot5.kParamAmount": 56.00000619888306,
+    ".ModSlot5.source[0]": 25.0,
+    ".ModSlot5.source[1]": 0.0,
+    ".ModSlot6.destModuleID": 4.0,
+    ".ModSlot6.destModuleParamID": 1.0,
+    ".ModSlot6.kParamAmount": 100.0,
+    ".ModSlot6.source[0]": 29.0,
+    ".ModSlot6.source[1]": 0.0,
+    ".ModSlot7.destModuleID": 1.0,
+    ".ModSlot7.destModuleParamID": 1.0,
+    ".ModSlot7.kParamAmount": 50.96491575241089,
+    ".ModSlot7.source[0]": 30.0,
+    ".ModSlot7.source[1]": 0.0,
+    ".ModSlot8.destModuleID": 0.0,
+    ".ModSlot8.destModuleParamID": 1.0,
+    ".ModSlot8.kParamAmount": 100.0,
+    ".ModSlot8.source[0]": 31.0,
+    ".ModSlot8.source[1]": 0.0,
+    ".ModSlot9.destModuleID": 2.0,
+    ".ModSlot9.destModuleParamID": 8.0,
+    ".ModSlot9.kParamAmount": 100.0,
+    ".ModSlot9.source[0]": 32.0,
+    ".ModSlot9.source[1]": 0.0,
+    ".MultiSampleOsc[0].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[1].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".MultiSampleOsc[2].kUIParamMultiSampleOverviewMouseTag": 0.0,
+    ".Osc[0].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[0].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[0].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[1].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[1].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[1].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[2].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[2].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[2].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[3].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[3].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[3].kUIParamZoomToStartEnd": 0.0,
+    ".Osc[4].kUIParamAutoSyncSlicing": 0.0,
+    ".Osc[4].kUIParamShowMarkerAnimations": 0.0,
+    ".Osc[4].kUIParamZoomToStartEnd": 0.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 A#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 A#2.flac.numFrames": 375187.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 A#2.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 A#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 A#4.flac.numFrames": 232616.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 A#4.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 C4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 C4.flac.numFrames": 478607.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 C4.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 D4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 D4.flac.numFrames": 454607.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 D4.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 E4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 E4.flac.numFrames": 353799.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 E4.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 F#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 F#4.flac.numFrames": 284686.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long 03 F#4.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 A#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 A#3.flac.numFrames": 244031.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 A#3.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 C3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 C3.flac.numFrames": 262607.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 C3.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 F#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 F#2.flac.numFrames": 424235.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 F#2.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#2.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#2.flac.numFrames": 418051.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#2.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#3.flac.numFrames": 472586.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#3.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#4.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#4.flac.numFrames": 340495.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-02 03 G#4.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-03 03 D3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-03 03 D3.flac.numFrames": 288527.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-03 03 D3.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-04 03 E3.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-04 03 E3.flac.numFrames": 377822.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-04 03 E3.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-08 03 C5.flac.numChannels": 2.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-08 03 C5.flac.numFrames": 179779.0,
+    ".Oscillator0.MultiSampleOsc0.files.Trumpets Long Samples\\\\XFtrumpets long-08 03 C5.flac.sampleRate": 48000.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvAttack": 0.002151295393525102,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvDecay": 0.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvOverride": 1.0,
+    ".Oscillator0.MultiSampleOsc0.kParamEnvRelease": 1.0535610739913053,
+    ".Oscillator0.kParamVolume": 0.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B-1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B-1.flac.numFrames": 229662.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B-1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B0.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B0.flac.numFrames": 229275.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B0.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B1.flac.numFrames": 229358.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B2.flac.numFrames": 229148.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B3.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B3.flac.numFrames": 230001.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs B3.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs C-2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs C-2.flac.numFrames": 230505.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs C-2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D0.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D0.flac.numFrames": 229443.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D0.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D1.flac.numFrames": 230036.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D2.flac.numFrames": 228973.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D3.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D3.flac.numFrames": 229672.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D3.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D4.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D4.flac.numFrames": 229269.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs D4.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F0.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F0.flac.numFrames": 228573.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F0.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F1.flac.numFrames": 228247.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F2.flac.numFrames": 228796.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F3.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F3.flac.numFrames": 230894.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F3.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F4.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F4.flac.numFrames": 227869.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs F4.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#0.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#0.flac.numFrames": 231762.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#0.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#1.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#1.flac.numFrames": 228058.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#1.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#2.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#2.flac.numFrames": 229596.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#2.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#3.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#3.flac.numFrames": 228162.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#3.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#4.flac.numChannels": 2.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#4.flac.numFrames": 229270.0,
+    ".Oscillator1.MultiSampleOsc1.files.MKS80 Zombie Samples\\XFCcwzs G#4.flac.sampleRate": 48000.0,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvAttack": 0.0004712843751085521,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvDecay": 0.0,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvOverride": 1.0,
+    ".Oscillator1.MultiSampleOsc1.kParamEnvRelease": 1.1547580587709474,
+    ".Oscillator1.kParamEnable": 1.0,
+    ".Oscillator1.kParamVolume": 0.24044397794400485,
+    ".Oscillator2.SampleOsc2.baseNote": 43.0,
+    ".Oscillator2.SampleOsc2.numChannels": 2.0,
+    ".Oscillator2.SampleOsc2.numFrames": 70709.0,
+    ".Oscillator2.SampleOsc2.sampleRate": 48000.0,
+    ".Oscillator2.kParamEnable": 1.0,
+    ".Oscillator2.kParamLoopStart": 3.8805972784757614,
+    ".Oscillator2.kParamStart": 3.8805972784757614,
+    ".Oscillator2.kParamVolume": 1.0,
+    ".Oscillator3.NoiseOsc3.detuneFactor": 0.4758218478413068,
+    ".Oscillator3.NoiseOsc3.numChannels": 2.0,
+    ".Oscillator3.NoiseOsc3.numFrames": 151200.0,
+    ".Oscillator3.NoiseOsc3.sampleRate": 44100.0,
+    ".Oscillator3.kParamEnable": 1.0,
+    ".Oscillator3.kParamPitchTrack": 1.0,
+    ".Oscillator3.kParamVolume": 0.0,
+    ".Oscillator4.kParamEnable": 1.0,
+    ".Oscillator4.kParamVolume": 0.0,
+    ".PitchQuantizer0.scale[0]": 0.0,
+    ".PitchQuantizer0.scale[1]": 2.0,
+    ".PitchQuantizer0.scale[2]": 0.0,
+    ".PitchQuantizer0.scale[3]": 2.0,
+    ".PitchQuantizer0.scale[4]": 0.0,
+    ".PitchQuantizer0.scale[5]": 0.0,
+    ".PitchQuantizer0.scale[6]": 2.0,
+    ".PitchQuantizer0.scale[7]": 0.0,
+    ".PitchQuantizer0.scale[8]": 2.0,
+    ".PitchQuantizer0.scale[9]": 0.0,
+    ".PitchQuantizer0.scale[10]": 2.0,
+    ".PitchQuantizer0.scale[11]": 0.0,
+    ".RoutingSlot0.kParamFilterBalance": 0.0,
+    ".RoutingSlot0.kParamViaEnv1": 0.0,
+    ".RoutingSlot1.kParamFilterBalance": 0.0,
+    ".RoutingSlot1.kParamViaEnv1": 0.0,
+    ".RoutingSlot2.kParamFilterBalance": 0.0,
+    ".RoutingSlot4.kParamFilterBalance": 0.0,
+    ".SerumGUI.kUIParamShowKeyboard": 1.0,
+    ".SpectralOsc[0].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[0].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[1].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[1].kUIParamShowWaveformDisplay": 0.0,
+    ".SpectralOsc[2].kUIParamDisplayXYInput": 0.0,
+    ".SpectralOsc[2].kUIParamShowWaveformDisplay": 0.0,
+    ".VoiceFilter0.kParamEnable": 1.0,
+    ".VoiceFilter0.kParamFreq": 0.7438596487045288,
+    ".VoiceFilter0.kParamReso": 0.0,
+    ".VoiceFilter1.kParamDrive": 4.210526496171951,
+    ".VoiceFilter1.kParamEnable": 1.0,
+    ".VoiceFilter1.kParamFreq": 0.6438596844673157,
+    ".VoiceFilter1.kParamReso": 100.0,
+    ".VoiceFilter1.kParamVar": 43.85964870452881,
+    ".VoiceFilter1.kParamWet": 74.73683953285217,
+    ".WTOsc[0].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[1].kUIParamWTOverviewMouseTag": 0.0,
+    ".WTOsc[2].kUIParamWTOverviewMouseTag": 0.0,
+    ".lockOversampling": 0.0,
+    ".lockTuning": 0.0,
+    ".mpeConfig": 0.0,
+    ".mpeEnabled": 1.0,
+    ".mpePitchBendRange": 48.0,
+    ".version": 4.0
+  }
+}

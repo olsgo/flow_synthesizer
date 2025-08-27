@@ -67,13 +67,85 @@ $ pip install -r requirements.txt
 As our experiments are coded in PyTorch, no additional library is required to run them on GPU (provided you already have CUDA installed).
 
 
-#### RenderMan
+#### Synthesizer Backend
 
-For people interested in the research aspects of this repository, if you want to try new models or evaluate variations of the existing ones, you will need at one point to render the correponding audio. We rely on the great [RenderMan](https://github.com/fedden/RenderMan) library to batch generate audio output from synthesizer presets.
+The project now supports multiple synthesizer backends for better compatibility and performance:
+
+- **Pedalboard** (Recommended): Modern VST/AU hosting with excellent Serum 2 support and M1 Mac optimization
+- **RenderMan** (Legacy): Original backend for backward compatibility
+
+For people interested in the research aspects of this repository, if you want to try new models or evaluate variations of the existing ones, you will need at one point to render the corresponding audio. 
+
+**Pedalboard** is now the recommended backend, especially for:
+- Serum 2 synthesizer (with proper state loading via `raw_state`)
+- M1 Max/Apple Silicon optimization (AudioUnit preference)
+- Modern VST3 plugin support
+
+The legacy [RenderMan](https://github.com/fedden/RenderMan) library is still supported for backward compatibility.
 
 ### Usage
 
+The code supports both Diva and Serum synthesizers with multiple backend options:
+
+```bash
+# Using Serum with pedalboard backend (recommended for M1 Mac)
+python train.py --synth_type serum --backend pedalboard
+
+# Using Diva with auto backend selection  
+python train.py --synth_type diva --backend auto
+
+# Legacy RenderMan backend
+python train.py --synth_type diva --backend librenderman
+```
+
+#### Backend Selection
+
+- `--backend pedalboard`: Use pedalboard for VST/AU hosting (recommended)
+- `--backend librenderman`: Use legacy RenderMan library  
+- `--backend auto`: Automatically select best available backend
+
 The code is mostly divided into two scripts `train.py` and `evaluate.py`. The first script `train.py` allows to train a model from scratch as described in the paper. The second script `evaluate.py` allows to generate the figures of the papers, and also all the supporting additional materials visible on the [supporting page](https://acids-ircam.github.io/flow_synthesizer)) of this repository.
+
+#### Serum 2 Integration
+
+The project now has enhanced support for Serum 2 with proper state loading:
+
+```python
+from synth.synthesize import create_synth
+
+# Create Serum synthesizer with pedalboard backend
+engine, generator, defaults, rev_idx = create_synth(
+    dataset='my_dataset', 
+    synth_type='serum',
+    backend='pedalboard'  # Recommended for Serum 2
+)
+
+# Load Serum preset using raw_state (recommended approach)
+engine.load_preset('/path/to/serum_preset.fxp')
+
+# Set parameters directly
+patch_params = [(0, 0.8), (1, 0.5)]  # (param_index, value) pairs
+engine.set_patch(patch_params)
+```
+
+#### M1 Mac Optimization
+
+On Apple Silicon (M1 Max), the system automatically optimizes for better performance:
+
+- AudioUnit format preferred over VST3 for better compatibility
+- Optimized buffer sizes and processing
+- Native ARM64 performance through pedalboard
+
+#### OSC Interface Extensions
+
+New OSC commands for backend control:
+
+```
+/set_backend pedalboard    # Switch to pedalboard backend
+/set_backend librenderman  # Switch to RenderMan backend  
+/set_synth_type serum      # Switch to Serum synthesizer
+/set_synth_type diva       # Switch to Diva synthesizer
+```
 
 #### train.py arguments
 ```

@@ -243,7 +243,8 @@ Optimizer section
 # Optimizer model
 optimizer = optim.Adam(model.parameters(), lr=args.lr)
 # Learning rate scheduler
-scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=20, verbose=True, threshold=1e-7)
+# PyTorch >= 2.8: Remove deprecated/unsupported 'verbose' kwarg
+scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=20, threshold=1e-7)
 # Loss
 if (args.loss == 'mse'):
     loss = nn.MSELoss(reduction='mean').to(args.device)
@@ -367,10 +368,12 @@ with torch.no_grad():
         args = evaluate_latent_space(model, test_loader, args, train=False)
         # Perform meta-parameter analysis
         evaluate_meta_parameters(model, test_loader, args, train=False)
-        # Perform latent neighborhood analysis
-        evaluate_latent_neighborhood(model, test_loader, args, train=False)
-        # Perform semantic parameter analysis
-        evaluate_semantic_parameters(model, test_loader, args, train=False)
+        # Perform latent neighborhood analysis (requires synthesis engine)
+        if args.synthesize:
+            evaluate_latent_neighborhood(model, test_loader, args, train=False)
+        # Perform semantic parameter analysis (only when semantic supervision used)
+        if args.semantic_dim > -1:
+            evaluate_semantic_parameters(model, test_loader, args, train=False)
     # Synthesis engine (on GPU)
     if (args.synthesize):
         # Evaluate synthesizer output

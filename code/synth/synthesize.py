@@ -45,25 +45,46 @@ def midiname2num(patch, rev_diva_midi_desc):
     return [(rev_diva_midi_desc[k], float(v)) for k, v in patch.items()]
 
 
-def create_synth(dataset="toy", path="synth/diva.vst3"):
-    with open("synth/diva_params.txt") as f:
-        diva_midi_desc = ast.literal_eval(f.read())
-    rev_idx = {diva_midi_desc[key]: key for key in diva_midi_desc}
-
-    if dataset == "toy":
-        with open("synth/param_nomod.json") as f:
+def create_synth(dataset="toy", synth_type="diva", path=None):
+    """Create synthesizer engine with parameter mappings.
+    
+    Args:
+        dataset: Dataset type ("toy", "32par", etc.)
+        synth_type: Synthesizer type ("diva" or "opsix")
+        path: Custom path to plugin (optional)
+    """
+    if synth_type == "opsix":
+        # Opsix configuration
+        with open("code/synth/opsix_params.txt") as f:
+            param_desc = ast.literal_eval(f.read())
+        rev_idx = {param_desc[key]: key for key in param_desc}
+        
+        with open("code/synth/opsix_param_defaults.json") as f:
             param_defaults = json.load(f)
+            
+        plugin_path = path or "/Library/Audio/Plug-Ins/Components/opsix_native.component"
     else:
-        with open("synth/param_default_32.json") as f:
-            param_defaults = json.load(f)
+        # Diva configuration (default)
+        with open("code/synth/diva_params.txt") as f:
+            param_desc = ast.literal_eval(f.read())
+        rev_idx = {param_desc[key]: key for key in param_desc}
+
+        if dataset == "toy":
+            with open("code/synth/param_nomod.json") as f:
+                param_defaults = json.load(f)
+        else:
+            with open("code/synth/param_default_32.json") as f:
+                param_defaults = json.load(f)
+                
+        plugin_path = path or "/Library/Audio/Plug-Ins/VST/u-he/Diva.vst"
 
     engine = DDRenderer(sample_rate=44100, block_size=512)
-    engine.load_plugin(path)
+    engine.load_plugin(plugin_path)
     return engine, param_defaults, rev_idx
 
 
-def synthesize_audio(params, engine, params_default):
-    patch = midiname2num(params, params_default)
+def synthesize_audio(params, engine, rev_idx):
+    patch = midiname2num(params, rev_idx)
     audio, _ = play_patch(engine, patch)
     return audio
 

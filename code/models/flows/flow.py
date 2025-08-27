@@ -4,12 +4,20 @@ import numpy as np
 from torch import nn
 from torch import distributions as distrib
 from torch.distributions import MultivariateNormal, transforms as transform
+from torch.distributions import constraints
 
 class Flow(transform.Transform, nn.Module):
 
     """
     Main class for a single flow.
     """
+
+    # Ensure compatibility with torch.distributions.TransformedDistribution
+    # by defining domain/codomain and bijectivity at the class level.
+    domain = constraints.real
+    codomain = constraints.real
+    bijective = True
+    sign = +1
 
     def __init__(self, amortized='none'):
         """ Initialize as both transform and module """
@@ -304,4 +312,3 @@ class GenerativeFlow(NormalizingFlow):
     def n_parameters(self):
         """ Total number of parameters for all flows """
         return sum(self.n_params)
-

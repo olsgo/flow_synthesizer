@@ -81,6 +81,41 @@ python code/render_dataset_dd.py \
 
 See [`docs/dawdreamer_migration.md`](docs/dawdreamer_migration.md) for detailed information about the migration from RenderMan to DawDreamer.
 
+### Train on any AU/VST3 synth (e.g., ZENOLOGY)
+
+You can build a dataset from any installed plugin and train the model on it:
+
+1) Build the dataset with DawDreamer
+
+```
+python code/build_plugin_dataset.py \
+  --plugin "/Library/Audio/Plug-Ins/Components/ZENOLOGY.component" \
+  --out datasets/zenology \
+  --count 2000 \
+  --keep 64
+```
+
+This creates `datasets/zenology/{raw,mel,mfcc}/` with `params.txt` and a `parameter_index_map.json`.
+
+2) Train on the new dataset
+
+```
+python code/train.py \
+  --path datasets \
+  --dataset zenology \
+  --data mel \
+  --model vae_flow \
+  --loss mse \
+  --epochs 200 \
+  --batch_size 64 \
+  --device cpu
+```
+
+Notes:
+- Prefer VST3 paths when available (e.g., `/Library/Audio/Plug-Ins/VST3/ZENOLOGY.vst3`).
+- If the plugin requires licensing, ensure it’s authorized in your OS host.
+- Training/evaluation works with the standard mel/MFCC specs used in this repo.
+
 ### Usage
 
 The code is mostly divided into two scripts `train.py` and `evaluate.py`. The first script `train.py` allows to train a model from scratch as described in the paper. The second script `evaluate.py` allows to generate the figures of the papers, and also all the supporting additional materials visible on the [supporting page](https://acids-ircam.github.io/flow_synthesizer)) of this repository.

@@ -60,3 +60,9 @@ class DDRenderer:
         if self.inst is None:
             raise RuntimeError("No plugin loaded. Call load_plugin() first.")
         return self.inst.load_state(path)
+
+    def save_state(self, path: str):
+        if self.inst is None:
+            raise RuntimeError("No plugin loaded. Call load_plugin() first.")
+        # DawDreamer provides file-based state saving for many plugins
+        return self.inst.save_state(path)

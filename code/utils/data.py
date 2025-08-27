@@ -217,7 +217,8 @@ class SpecData(Dataset):
     def __init__(self, datadir, spectral_files, transform=None, data_type='mel', stats=None, set_type=None):
         self.data_type = data_type
         # Spectral transforms
-        self.spectral_files = np.array(spectral_files, dtype=np.unicode_)
+        # numpy 2.0: np.unicode_ removed; use np.str_
+        self.spectral_files = np.array(spectral_files, dtype=np.str_)
         self.datadir = datadir
         # Retrieve list of files
         # Compute mean and std of dataset
@@ -270,7 +271,8 @@ class CompSynthesizerDataset(Dataset):
     
     """
     def __init__(self, datadir, use_params, transform=None, data='mel_mfcc', splits=[.8, .1, .1], shuffle_files=True):
-        self.data = np.array(data.split("_"), dtype=np.unicode_) #["mel", "mfcc"] or ["mel"]
+        # numpy 2.0: np.unicode_ removed; use np.str_
+        self.data = np.array(data.split("_"), dtype=np.str_) #["mel", "mfcc"] or ["mel"]
         # Metadata and raw
         self.data_files = []
         # Transform files
@@ -284,11 +286,13 @@ class CompSynthesizerDataset(Dataset):
         self.datadir = datadir
         for t in range(len(tmp_files)):
             tmp_files[t] = os.path.basename(tmp_files[t])
-        self.data_files = np.array(tmp_files, dtype=np.unicode_)
+        # numpy 2.0: np.unicode_ removed; use np.str_
+        self.data_files = np.array(tmp_files, dtype=np.str_)
         self.means = {}
         self.vars = {}
         for dtype in self.data:
-            self.spectral_files[dtype] = np.array(sorted(glob.glob(datadir + '/' + dtype + '/*.npy')), dtype=np.unicode_)
+            # numpy 2.0: np.unicode_ removed; use np.str_
+            self.spectral_files[dtype] = np.array(sorted(glob.glob(datadir + '/' + dtype + '/*.npy')), dtype=np.str_)
             for t in range(len(self.spectral_files[dtype])):
                 self.spectral_files[dtype][t] = os.path.basename(self.spectral_files[dtype][t])
             self.trans_datasets[dtype] = SpecData(datadir, self.spectral_files[dtype], data_type=dtype, transform=transform)
@@ -302,7 +306,8 @@ class CompSynthesizerDataset(Dataset):
     def analyze_dataset(self):
         # Fill some properties based on the first file
         loaded = np.load(self.datadir + '/raw/' + self.data_files[0], allow_pickle=True)
-        self.param_names = np.array(sorted(list(self.use_params)), dtype=np.unicode_)
+        # numpy 2.0: np.unicode_ removed; use np.str_
+        self.param_names = np.array(sorted(list(self.use_params)), dtype=np.str_)
         # Keep some reference parameter values
         self.param_values = [loaded['param'].item()[v] for v in self.param_names]
         #spec = np.load(self.spectral_files[self.data[0]][0])
@@ -354,11 +359,13 @@ class CompSynthesizerDataset(Dataset):
         test_idx = idx[int((splits[0]+splits[1])*nb_files):]
         # Validation split
         self.valid_files = (
-                np.array([self.data_files[i] for i in valid_idx], dtype=np.unicode_),
+                # numpy 2.0: np.unicode_ removed; use np.str_
+                np.array([self.data_files[i] for i in valid_idx], dtype=np.str_),
                 torch.Tensor([self.metadata[i] for i in valid_idx]))
         # Test split
         self.test_files = (
-                np.array([self.data_files[i] for i in test_idx], dtype=np.unicode_), 
+                # numpy 2.0: np.unicode_ removed; use np.str_
+                np.array([self.data_files[i] for i in test_idx], dtype=np.str_), 
                 torch.Tensor([self.metadata[i] for i in test_idx]))
         self.valid_trans = {}
         self.test_trans = {}
@@ -367,7 +374,8 @@ class CompSynthesizerDataset(Dataset):
             self.test_trans[dtype] = SpecData(self.datadir, [self.spectral_files[dtype][i] for i in test_idx], data_type=dtype, stats=[self.means[dtype],self.vars[dtype]], set_type="test")
             self.trans_datasets[dtype] = SpecData(self.datadir, [self.spectral_files[dtype][i] for i in train_idx], data_type=dtype, stats=[self.means[dtype],self.vars[dtype]], set_type="train")
             self.spectral_files[dtype] = None
-        self.data_files = np.array([self.data_files[i] for i in train_idx], dtype=np.unicode_)
+        # numpy 2.0: np.unicode_ removed; use np.str_
+        self.data_files = np.array([self.data_files[i] for i in train_idx], dtype=np.str_)
         self.metadata = torch.Tensor([self.metadata[i] for i in train_idx])
         self.spectral_files = None
 
@@ -402,16 +410,52 @@ Load any given dataset and return DataLoaders
 ###################
 """
 def load_dataset(args, **kwargs):
-    if (args.dataset in ['toy'], ["32par"], ["64par"], ["64par_aug"], ["128par"]):
-        params = {'32par':'32contparams.txt', '64par':'64contparams.txt', '64par_aug':'64contparams.txt', '128par':'128contparams.txt'}
-        with open('synth/params/' + params[args.dataset]) as f: # load list of parameters to not fix
-            use_params = [line.strip() for line in f]
-        dset_train = CompSynthesizerDataset(args.path + '/' + args.dataset, use_params, data=args.data, **kwargs)
+    """
+    Load a dataset prepared in the repository format.
+
+    Backward compatible with the original preset-based Diva datasets
+    (32par/64par/128par), and also supports custom plugin datasets created by
+    code/build_plugin_dataset.py by detecting a params.txt file inside the
+    dataset directory.
+    """
+    # Resolve dataset directory once
+    base_dir = os.path.join(args.path, args.dataset)
+
+    # 1) Prefer dataset-local params.txt if it exists (custom plugin datasets)
+    params_txt = os.path.join(base_dir, 'params.txt')
+    if os.path.exists(params_txt):
+        with open(params_txt) as f:
+            use_params = [line.strip() for line in f if line.strip()]
+        dset_train = CompSynthesizerDataset(base_dir, use_params, data=args.data, **kwargs)
         dset_valid = copy.deepcopy(dset_train).switch_set('valid')
-        dset_test = copy.deepcopy(dset_train).switch_set('test')
+        dset_test  = copy.deepcopy(dset_train).switch_set('test')
         dset_train = dset_train.switch_set('train')
     else:
-        raise Exception('Wrong name of the dataset!')
+        # 2) Fallback to known preset datasets (Diva)
+        if (args.dataset in ['toy', '32par', '64par', '64par_aug', '128par']):
+            params = {
+                '32par':'32contparams.txt',
+                '64par':'64contparams.txt',
+                '64par_aug':'64contparams.txt',
+                '128par':'128contparams.txt'
+            }
+            with open('synth/params/' + params[args.dataset]) as f:
+                use_params = [line.strip() for line in f]
+            dset_train = CompSynthesizerDataset(base_dir, use_params, data=args.data, **kwargs)
+            dset_valid = copy.deepcopy(dset_train).switch_set('valid')
+            dset_test  = copy.deepcopy(dset_train).switch_set('test')
+            dset_train = dset_train.switch_set('train')
+        else:
+            # 3) Last resort: infer all parameter names from the first raw file
+            raw_files = sorted(glob.glob(os.path.join(base_dir, 'raw', '*.npz')))
+            if not raw_files:
+                raise Exception('Could not find dataset at ' + base_dir)
+            first = np.load(raw_files[0], allow_pickle=True)
+            inferred = sorted(list(first['param'].item().keys()))
+            dset_train = CompSynthesizerDataset(base_dir, inferred, data=args.data, **kwargs)
+            dset_valid = copy.deepcopy(dset_train).switch_set('valid')
+            dset_test  = copy.deepcopy(dset_train).switch_set('test')
+            dset_train = dset_train.switch_set('train')
     args.input_size = dset_train.input_size
     args.output_size = dset_train.output_size
     train_loader = DataLoader(dset_train, batch_size=args.batch_size, shuffle=True, num_workers=args.nbworkers, pin_memory=False, **kwargs)

@@ -528,10 +528,11 @@ def evaluate_params(model, test_loader, args, losses=[], train=False, name=None)
     print(loss_stats)
     # Save parameters difference results
     if (name is not None):
-        np.save(name + '.params.results', [losses, loss_stats])
+        # numpy 2.0: ensure heterogenous list saved as object array
+        np.save(name + '.params.results', np.array([losses, loss_stats], dtype=object))
     if (train == False and name is None):
         if (losses.sum() > 0):
-            np.save(args.base_model + '.params.results', [losses, loss_stats])
+            np.save(args.base_model + '.params.results', np.array([losses, loss_stats], dtype=object))
    
 """
 ###################

@@ -30,22 +30,43 @@ def play_patch(engine, patch_gen, patch=None):
     audio = engine.get_audio_frames()
     return np.array(audio), patch
 
-def midiname2num(patch, rev_diva_midi_desc): 
+def midiname2num(patch, rev_midi_desc): 
     """
     converts param dict {param_name: value,...} to librenderman patch [(param no., value),..]
     """
-    return [(rev_diva_midi_desc[k], float(v)) for k,v in patch.items()]
+    return [(rev_midi_desc[k], float(v)) for k,v in patch.items()]
 
-def create_synth(dataset, path='synth/diva.64.so'):
-    with open("synth/diva_params.txt") as f:
-        diva_midi_desc = ast.literal_eval(f.read())
-    rev_idx = {diva_midi_desc[key]: key for key in diva_midi_desc}
-    if dataset == "toy":
-        with open("synth/param_nomod.json") as f:
+def create_synth(dataset, synth_type='diva', path=None):
+    """
+    Create synthesizer engine for specified synthesizer type
+    
+    Args:
+        dataset: dataset type ('toy' or other)
+        synth_type: 'diva' or 'serum'
+        path: custom path to synthesizer plugin (optional)
+    """
+    if synth_type.lower() == 'diva':
+        if path is None:
+            path = 'synth/diva.64.so'
+        with open("synth/diva_params.txt") as f:
+            midi_desc = ast.literal_eval(f.read())
+        if dataset == "toy":
+            with open("synth/param_nomod.json") as f:
+                param_defaults = json.load(f)
+        else:
+            with open("synth/param_default_32.json") as f:
+                param_defaults = json.load(f)
+    elif synth_type.lower() == 'serum':
+        if path is None:
+            path = 'synth/serum.64.so'  # hypothetical Serum plugin path
+        with open("synth/serum_params.txt") as f:
+            midi_desc = ast.literal_eval(f.read())
+        with open("synth/serum_param_default.json") as f:
             param_defaults = json.load(f)
     else:
-        with open("synth/param_default_32.json") as f:
-            param_defaults = json.load(f)
+        raise ValueError(f"Unsupported synthesizer type: {synth_type}")
+    
+    rev_idx = {midi_desc[key]: key for key in midi_desc}
     engine = rm.RenderEngine(44100, 512, 512)
     engine.load_plugin(path)
     generator = rm.PatchGenerator(engine)
@@ -95,6 +116,7 @@ if __name__ == "__main__":
     parser.add_argument('--output',         type=str,   default='outputs',      help='')
     parser.add_argument('--dataset',        type=str,   default='toy',          help='')
     parser.add_argument('--data',           type=str,   default='mel',          help='')
+    parser.add_argument('--synth_type',     type=str,   default='diva',         help='Synthesizer type (diva or serum)')
     args = parser.parse_args()
     print('[Load the dataset]')
     # Take fixed batch
@@ -107,7 +129,7 @@ if __name__ == "__main__":
                     'VCF1: Resonance', 'VCF1: Frequency', 'OSC: Tune3',
                     'OSC: Tune2', 'OSC: Shape1', 'OSC: Shape2']
     # Create synth rendering system
-    engine, generator, param_defaults, rev_idx = create_synth()
+    engine, generator, param_defaults, rev_idx = create_synth(args.dataset, args.synth_type)
     print('[Synthesize batch]')
     # Generate the test batch for comparison
     audio = synthesize_batch(fixed_params[:16], final_params, engine, generator, param_defaults, rev_idx, orig_wave=fixed_audio, name='check')

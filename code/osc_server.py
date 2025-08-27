@@ -160,6 +160,8 @@ class FlowServer(OSCServer):
         self.param_dict = kwargs.get('param_dict')
         self.analysis = kwargs.get('analysis')
         self.pca = self.analysis['pca']
+        # Synthesizer type
+        self.synth_type = kwargs.get('synth_type', 'diva')
         print(self.pca)
         # Options flags
         self.freeze_mode = False
@@ -196,6 +198,7 @@ class FlowServer(OSCServer):
         # Changing model and dataset
         self.dispatcher.map('/set_model', osc_parse(self.set_model))
         self.dispatcher.map('/set_dataset', osc_parse(self.set_dataset))
+        self.dispatcher.map('/set_synth_type', osc_parse(self.set_synth_type))
         # Retrieve pre-analyzed properties
         self.dispatcher.map('/preset_space', osc_parse(self.preset_space))
         self.dispatcher.map('/dimension_analysis', osc_parse(self.dimension_analysis))
@@ -363,6 +366,13 @@ class FlowServer(OSCServer):
         self._model = torch.load(m_path, map_location='cpu')
         self.send_params_nb()
         self.get_state()
+
+    def set_synth_type(self, synth_type):
+        """ Set the synthesizer type (diva or serum) """
+        self.print(f'Setting synthesizer type to: {synth_type}')
+        self.synth_type = synth_type.lower()
+        # Send confirmation
+        self.send('/synth_type_set', [synth_type.lower()])
 
     model = property(getmodel, setmodel, delmodel, "vae model attached to server")
     

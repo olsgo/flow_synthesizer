@@ -85,6 +85,7 @@ parser.add_argument('--nbworkers',  type=int,   default=0, help='')
 parser.add_argument('--epochs',     type=int,   default=100, help='')
 parser.add_argument('--device',     type=str,   default='cuda:2', help='')
 parser.add_argument('--eval_type',  type=str,   default='summary', help='')
+parser.add_argument('--synth_type', type=str,   default='diva',   help='Synthesizer type (diva or serum)')
 args = parser.parse_args()
 if (args.device != 'cpu'):
     matplotlib.use('agg')
@@ -92,7 +93,7 @@ if (args.device != 'cpu'):
     # Import synthesis
     from synth.synthesize import create_synth
     # Create synth rendering system
-    args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset)
+    args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset, args.synth_type)
 # Load dataset
 ref_split = args.path + '/reference_split_' + args.dataset+ "_" +args.data + '.npz'
 data = np.load(ref_split)['arr_0']

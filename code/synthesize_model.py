@@ -21,6 +21,7 @@ parser.add_argument('--n_classes',      type=int,   default=32, help='')
 parser.add_argument('--batch_out',      type=int,   default=3, help='')
 parser.add_argument('--test_sounds',    type=str,   default='/fast-2/datasets/flow_synth_test', help='')
 parser.add_argument('--nbworkers',      type=int,   default=0,              help='')
+parser.add_argument('--synth_type',     type=str,   default='diva',         help='Synthesizer type (diva or serum)')
 args = parser.parse_args()
 
 
@@ -61,7 +62,7 @@ args.output_size = train_loader.dataset.output_size
 args.input_size = train_loader.dataset.input_size
 model = torch.load(args.model_path, map_location=args.device)
 model.to(args.device)
-args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset)
+args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset, args.synth_type)
 if not args.project:
     evaluate_synthesis(model, test_loader, args, train=False)
 else:

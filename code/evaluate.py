@@ -838,7 +838,7 @@ if __name__ == '__main__':
         # Import synthesis
         from synth.synthesize import create_synth
         # Create synth rendering system
-        args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth()
+        args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth('toy', 'diva')
     #%%
     
     """

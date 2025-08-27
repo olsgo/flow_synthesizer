@@ -81,6 +81,7 @@ parser.add_argument('--check_exists',   type=int,   default=0,              help
 parser.add_argument('--time_limit',     type=int,   default=0,              help='Maximum time to train (in minutes)')
 # CUDA arguments
 parser.add_argument('--device',         type=str,   default='cpu',          help='Device for CUDA')
+parser.add_argument('--synth_type',     type=str,   default='diva',         help='Synthesizer type (diva or serum)')
 args = parser.parse_args()
 # Track start time (for HPC)
 start_time = time.time()
@@ -358,7 +359,7 @@ with torch.no_grad():
         from synth.synthesize import create_synth
         print('[Synthesis evaluation]')
         # Create synth rendering system
-        args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset)
+        args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(args.dataset, args.synth_type)
     # Evaluation specific to AE models
     if (args.model not in ['mlp', 'gated_mlp', 'cnn', 'gated_cnn', 'res_cnn']):
         # Perform reconstruction evaluation

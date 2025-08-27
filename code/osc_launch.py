@@ -32,6 +32,7 @@ parser.add_argument('--nbworkers',  type=int,   default=0,          help='')
 parser.add_argument('--reanalyze',  type=int,   default=0,          help='')
 parser.add_argument('--device',     type=str,   default='cpu',      help='')
 parser.add_argument('--synth_type', type=str,   default='diva',     help='Synthesizer type (diva or serum)')
+parser.add_argument('--backend',    type=str,   default='auto',     help='Synthesizer backend (pedalboard, librenderman, or auto)')
 args = parser.parse_args()
 
 #%%
@@ -132,7 +133,7 @@ else:
 Create server
 ###################
 """
-server = FlowServer(args.in_port, args.out_port, model=model, dataset=audioset, data=args.data, param_names=param_names, param_dict=param_dict, analysis=model_analysis, debug=__DEBUG__, args=args, synth_type=args.synth_type)
+server = FlowServer(args.in_port, args.out_port, model=model, dataset=audioset, data=args.data, param_names=param_names, param_dict=param_dict, analysis=model_analysis, debug=__DEBUG__, args=args, synth_type=args.synth_type, backend=args.backend)
 #%%
 if (__DEBUG__):
     # Test pitch analysis

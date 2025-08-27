@@ -2,6 +2,7 @@ asyncio
 librosa
 matplotlib
 numpy
+pedalboard
 python-osc
 scipy
 torch

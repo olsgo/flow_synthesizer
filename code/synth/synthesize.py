@@ -1,10 +1,25 @@
 #%%
 import argparse
-import librenderman as rm
 import numpy as np
 import json, ast
 import librosa
 import scipy
+import warnings
+import os
+
+# Import backends - try pedalboard first, fallback to librenderman
+try:
+    from synth.pedalboard_synth import create_pedalboard_synth, PedalboardSynthEngine, PedalboardPatchGenerator
+    PEDALBOARD_AVAILABLE = True
+except ImportError:
+    PEDALBOARD_AVAILABLE = False
+
+try:
+    import librenderman as rm
+    LIBRENDERMAN_AVAILABLE = True
+except ImportError:
+    LIBRENDERMAN_AVAILABLE = False
+    warnings.warn("librenderman not available")
 
 def resample(y, orig_sr, target_sr):
     if orig_sr == target_sr:
@@ -36,7 +51,7 @@ def midiname2num(patch, rev_midi_desc):
     """
     return [(rev_midi_desc[k], float(v)) for k,v in patch.items()]
 
-def create_synth(dataset, synth_type='diva', path=None):
+def create_synth(dataset, synth_type='diva', path=None, backend='auto'):
     """
     Create synthesizer engine for specified synthesizer type
     
@@ -44,7 +59,38 @@ def create_synth(dataset, synth_type='diva', path=None):
         dataset: dataset type ('toy' or other)
         synth_type: 'diva' or 'serum'
         path: custom path to synthesizer plugin (optional)
+        backend: 'pedalboard', 'librenderman', or 'auto' (default)
     """
+    # Determine backend to use
+    if backend == 'auto':
+        # For Serum, prefer pedalboard (better Serum 2 support)
+        # For others, use pedalboard if available, otherwise librenderman
+        if synth_type.lower() == 'serum' and PEDALBOARD_AVAILABLE:
+            backend = 'pedalboard'
+        elif PEDALBOARD_AVAILABLE:
+            backend = 'pedalboard'
+        elif LIBRENDERMAN_AVAILABLE:
+            backend = 'librenderman'
+        else:
+            raise RuntimeError("No synthesizer backend available. Please install pedalboard or librenderman.")
+    
+    print(f"Using {backend} backend for {synth_type}")
+    
+    if backend == 'pedalboard':
+        return create_pedalboard_synth(dataset, synth_type, path)
+    elif backend == 'librenderman':
+        return _create_librenderman_synth(dataset, synth_type, path)
+    else:
+        raise ValueError(f"Unknown backend: {backend}")
+
+
+def _create_librenderman_synth(dataset, synth_type='diva', path=None):
+    """
+    Legacy librenderman-based synthesizer creation (backward compatibility)
+    """
+    if not LIBRENDERMAN_AVAILABLE:
+        raise ImportError("librenderman not available")
+        
     if synth_type.lower() == 'diva':
         if path is None:
             path = 'synth/diva.64.so'
@@ -58,7 +104,7 @@ def create_synth(dataset, synth_type='diva', path=None):
                 param_defaults = json.load(f)
     elif synth_type.lower() == 'serum':
         if path is None:
-            path = 'synth/serum.64.so'  # hypothetical Serum plugin path
+            path = 'synth/serum.64.so'  # hypothetical Serum plugin path for librenderman
         with open("synth/serum_params.txt") as f:
             midi_desc = ast.literal_eval(f.read())
         with open("synth/serum_param_default.json") as f:
@@ -80,16 +126,28 @@ def synthesize_audio(params, engine, generator, params_default):
 
 def synthesize_batch(batch, param_names, engine, generator, params_default, rev_idx, n_outs=2, orig_wave=None, name=None):
     final_audio = [None] * batch.shape[0]
-    # Ensure that we reset the synth
-    engine.load_preset("synth/osc_reset.fxb")
+    
+    # Handle different engine types - reset for both backends
+    if hasattr(engine, 'load_preset'):  # pedalboard engine
+        try:
+            # For pedalboard, try to load a reset preset if available
+            reset_preset_path = "synth/osc_reset.fxp"
+            if os.path.exists(reset_preset_path):
+                engine.load_preset(reset_preset_path)
+        except:
+            pass  # Continue without reset if preset not found
+    else:  # librenderman engine
+        engine.load_preset("synth/osc_reset.fxb")
+    
     for b in range(batch.shape[0]):
         cur_params = batch[b]
-        param_dict = params_default
+        param_dict = params_default.copy()
         # Create dict out of params
         for p in range(len(cur_params)):
             param_dict[param_names[p]] = float(cur_params[p])
         final_audio[b] = synthesize_audio(param_dict, engine, generator, rev_idx)
         final_audio[b] = resample(final_audio[b], 44100, 22050)
+    
     if (name is not None):
         n_outs = min(n_outs, len(final_audio))
         # Figure out len of full audio
@@ -117,6 +175,7 @@ if __name__ == "__main__":
     parser.add_argument('--dataset',        type=str,   default='toy',          help='')
     parser.add_argument('--data',           type=str,   default='mel',          help='')
     parser.add_argument('--synth_type',     type=str,   default='diva',         help='Synthesizer type (diva or serum)')
+    parser.add_argument('--backend',        type=str,   default='auto',         help='Synthesizer backend (pedalboard, librenderman, or auto)')
     args = parser.parse_args()
     print('[Load the dataset]')
     # Take fixed batch
@@ -129,7 +188,7 @@ if __name__ == "__main__":
                     'VCF1: Resonance', 'VCF1: Frequency', 'OSC: Tune3',
                     'OSC: Tune2', 'OSC: Shape1', 'OSC: Shape2']
     # Create synth rendering system
-    engine, generator, param_defaults, rev_idx = create_synth(args.dataset, args.synth_type)
+    engine, generator, param_defaults, rev_idx = create_synth(args.dataset, args.synth_type, backend=args.backend)
     print('[Synthesize batch]')
     # Generate the test batch for comparison
     audio = synthesize_batch(fixed_params[:16], final_params, engine, generator, param_defaults, rev_idx, orig_wave=fixed_audio, name='check')

@@ -160,8 +160,10 @@ class FlowServer(OSCServer):
         self.param_dict = kwargs.get('param_dict')
         self.analysis = kwargs.get('analysis')
         self.pca = self.analysis['pca']
-        # Synthesizer type
+        # Synthesizer type and backend
         self.synth_type = kwargs.get('synth_type', 'diva')
+        self.backend = kwargs.get('backend', 'auto')
+        print(f'Synthesizer: {self.synth_type} (backend: {self.backend})')
         print(self.pca)
         # Options flags
         self.freeze_mode = False
@@ -199,6 +201,7 @@ class FlowServer(OSCServer):
         self.dispatcher.map('/set_model', osc_parse(self.set_model))
         self.dispatcher.map('/set_dataset', osc_parse(self.set_dataset))
         self.dispatcher.map('/set_synth_type', osc_parse(self.set_synth_type))
+        self.dispatcher.map('/set_backend', osc_parse(self.set_backend))
         # Retrieve pre-analyzed properties
         self.dispatcher.map('/preset_space', osc_parse(self.preset_space))
         self.dispatcher.map('/dimension_analysis', osc_parse(self.dimension_analysis))
@@ -373,6 +376,13 @@ class FlowServer(OSCServer):
         self.synth_type = synth_type.lower()
         # Send confirmation
         self.send('/synth_type_set', [synth_type.lower()])
+
+    def set_backend(self, backend):
+        """ Set the synthesizer backend (pedalboard, librenderman, or auto) """
+        self.print(f'Setting synthesizer backend to: {backend}')
+        self.backend = backend.lower()
+        # Send confirmation
+        self.send('/backend_set', [backend.lower()])
 
     model = property(getmodel, setmodel, delmodel, "vae model attached to server")
     

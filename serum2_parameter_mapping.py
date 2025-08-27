@@ -1,12 +1,27 @@
 #!/usr/bin/env python3
 """
 Serum 2 Parameter Mapping
-Maps between preset JSON parameter names and VST parameter names.
+
+Purpose
+- Provide a robust mapping + normalization from Serum 2 preset JSON (dawdreamer_params)
+  to DawDreamer/VST parameter indices and normalized values.
+
+Notes
+- DawDreamer expects normalized values in [0.0, 1.0]. Serum JSON contains a mix of
+  normalized values, percentages, seconds, enumerations, and raw units (Hz, dB, etc.).
+- We combine: (1) explicit manual mappings for high-confidence pairs, (2) rule-based
+  inference for common patterns (Env, Oscillator, Filter, Global, Macro), and
+  (3) conservative skipping of risky/unknown parameters to avoid glitchy audio.
 """
+
+from __future__ import annotations
+
+import re
+from typing import Dict, Iterable, List, Optional, Tuple
 
 # Mapping from preset JSON parameter names to VST parameter names
 # Format: "preset_param_name": "vst_param_name"
-SERUM2_PARAMETER_MAPPING = {
+SERUM2_PARAMETER_MAPPING: Dict[str, str] = {
     # Envelopes (Env0 = Env 1, Env1 = Env 2, etc.)
     ".Env0.kParamAttack": "Env 1 Attack",
     ".Env0.kParamDecay": "Env 1 Decay", 
@@ -213,49 +228,293 @@ SERUM2_PARAMETER_MAPPING = {
     ".FXMain.kParamParam8": "FX Main Param 8",
 }
 
-def map_preset_to_vst_parameters(preset_data, vst_param_name_to_index):
+BLACKLIST_PREFIXES: Tuple[str, ...] = (
+    # Non-synthesis editors or transport helpers we should not touch
+    ".ClipPlayer",
+    ".MidiClip",
+    ".ArpClip",
+    ".Arp0",
+    ".WTOsc",           # wavetable data, indexes, etc.
+    ".GranularOsc",     # internal granular UI state
+    ".FXRack",          # FX contain many non-normalized params (Hz, dB). Skip for now.
+    ".LFOPointModBus",
+)
+
+def _is_blacklisted(preset_param: str) -> bool:
+    return preset_param.startswith(BLACKLIST_PREFIXES)
+
+
+def _osc_letter_from_index(idx: int) -> Optional[str]:
+    # Serum 2 exposes A/B/C oscillators. Noise/Sub are separate; skip them here.
+    return {0: "A", 1: "B", 2: "C"}.get(idx)
+
+
+def _infer_vst_param_name(preset_param: str) -> Optional[str]:
+    """Infer a DawDreamer parameter name from a Serum JSON key.
+
+    Patterns handled:
+    - .EnvN.kParamAttack/Decay/Sustain/Release/Hold/Curve{1,2,3}/Start/End
+    - .OscillatorN.kParam(Volume|Pan|Coarse|FineTune|Phase|Rand|Retrig|Unison|UnisonDetune|UnisonBlend)
+    - .VoiceFilterN.kParam(Freq|Reso|Drive|Var|Keytrack|Type|Slope|Enable)
+    - .Global0.kParam(MasterVolume|DirectVol|Pan|Portamento|BendRange|Polyphony)
+    - .MacroK.kParamValue
     """
-    Map preset parameters to VST parameters.
-    
+    # Envelopes Env0..Env3 -> Env 1..Env 4
+    m = re.match(r"^\.(?:Envelope(?P<e_legacy>[1-4])|Env(?P<e>[0-3]))\.kParam(?P<name>Attack|Decay|Sustain|Release|Hold|Curve1|Curve2|Curve3|Start|End)$", preset_param)
+    if m:
+        env_idx = int(m.group("e_legacy") or int(m.group("e")) + 1)
+        name = m.group("name")
+        # Map curves to Atk/Dec/Rel Curve
+        curve_map = {"Curve1": "Atk Curve", "Curve2": "Dec Curve", "Curve3": "Rel Curve"}
+        if name.startswith("Curve"):
+            return f"Env {env_idx} {curve_map[name]}"
+        return f"Env {env_idx} {name}"
+
+    # Oscillators Oscillator0..2 -> A/B/C
+    m = re.match(r"^\.Oscillator(?P<i>[0-4])\.kParam(?P<name>Enable|Volume|Pan|Coarse|FineTune|Phase|Rand|Retrig|Unison|UnisonDetune|UnisonBlend|Start|End)$", preset_param)
+    if m:
+        idx = int(m.group("i"))
+        name = m.group("name")
+        if idx in (0, 1, 2):
+            letter = _osc_letter_from_index(idx)
+            if letter is None:
+                return None
+            osc_map = {
+                "Enable": "Enable",  # maps to e.g. 'A Enable'
+                "Volume": "Level",
+                "Pan": "Pan",
+                "Coarse": "Semi",
+                "FineTune": "Fine",
+                "Phase": "Phase",
+                "Rand": "Rand Phase",
+                # Retrig is ambiguous in exposed params; skip mapping
+                "Retrig": None,
+                "Unison": "Unison",
+                "UnisonDetune": "Uni Detune",
+                "UnisonBlend": "Uni Blend",
+                "Start": "Start",
+                "End": "End",
+            }
+            suffix = osc_map.get(name)
+            if not suffix:
+                return None
+            return f"{letter} {suffix}"
+        elif idx == 3:  # Noise osc
+            noise_map = {
+                "Enable": "Noise Enable",
+                "Volume": "Noise Level",
+                "Pan": "Noise Pan",
+                "Phase": "Noise Phase",
+                "Rand": "Noise Rand Phase",
+            }
+            return noise_map.get(name)
+        elif idx == 4:  # Sub osc
+            sub_map = {
+                "Enable": "Sub Enable",
+                "Volume": "Sub Level",
+                "Pan": "Sub Pan",
+                "Phase": "Sub Phase",
+                "Coarse": "Sub Coarse Pitch",
+            }
+            return sub_map.get(name)
+        return None
+
+    # Voice Filters -> Filter 1/2 ...
+    m = re.match(r"^\.VoiceFilter(?P<i>[0-1])\.kParam(?P<name>Freq|Reso|Drive|Var|Keytrack|Type|Slope|Enable)$", preset_param)
+    if m:
+        idx = int(m.group("i")) + 1
+        name = m.group("name")
+        filt_map = {
+            "Freq": "Freq",      # some plugins expose Cutoff as Freq
+            "Reso": "Res",
+            "Drive": "Drive",
+            "Var": "Var",
+            "Keytrack": "Key",
+            "Slope": "Slope",
+            "Type": "Type",
+            "Enable": "Enable",
+        }
+        suffix = filt_map[name]
+        return f"Filter {idx} {suffix}"
+
+    # Global/Master
+    m = re.match(r"^\.Global0\.kParam(?P<name>MasterVolume|DirectVol|Portamento|BendRange|Polyphony|FXBus1Vol|FXBus2Vol)$", preset_param)
+    if m:
+        name = m.group("name")
+        if name == "MasterVolume":
+            return "Main Vol"
+        if name == "DirectVol":
+            return "Direct Vol"
+        if name == "Portamento":
+            return "Porta Time"
+        if name == "FXBus1Vol":
+            return "Bus 1 Vol"
+        if name == "FXBus2Vol":
+            return "Bus 2 Vol"
+        # BendRange/Polyphony have no direct simple exposed parameter; skip
+        return None
+
+    # Macros -> Macro 1..8
+    m = re.match(r"^\.Macro(?P<i>[0-7])\.kParamValue$", preset_param)
+    if m:
+        return f"Macro {int(m.group('i')) + 1}"
+
+    return None
+
+
+def _normalize_value(preset_param: str, vst_param_name: str, value: float) -> Optional[float]:
+    """Normalize raw preset value to [0,1] for DawDreamer.
+
+    We use conservative rules to avoid invalid values. Returns None if we
+    cannot confidently normalize the parameter.
+    """
+    if not isinstance(value, (int, float)):
+        return None
+
+    # Already normalized
+    if 0.0 <= value <= 1.0:
+        return float(value)
+
+    # Helper substrings for percentage-like params
+    percent_hints = ("Curve", "Wet", "Width", "Blend", "Mix", "Var", "Key", "Vel", "EnvAmt", "Detune")
+
+    # Envelope time constants (heuristic seconds range)
+    if re.search(r"\.Env[0-3]\.kParam(Attack|Decay|Release|Hold)$", preset_param):
+        # assume up to 10s typical max
+        return max(0.0, min(1.0, float(value) / 10.0))
+
+    if re.search(r"\.Env[0-3]\.kParamSustain$", preset_param):
+        # some presets store [0,100]
+        return max(0.0, min(1.0, float(value) / 100.0)) if value > 1.0 else float(value)
+
+    if any(h in vst_param_name for h in percent_hints) or any(h in preset_param for h in percent_hints):
+        # most of these are 0..100
+        if 1.0 < value <= 100.0:
+            return float(value) / 100.0
+
+    # Pan: could be -1..1 or -100..100
+    if re.search(r"kParamPan$", preset_param) or vst_param_name.endswith(" Pan"):
+        v = float(value)
+        if -1.0 <= v <= 1.0:
+            return (v + 1.0) / 2.0
+        if -100.0 <= v <= 100.0:
+            return (v + 100.0) / 200.0
+        return None
+
+    # Bend Range: typical 2..48
+    if "Bend Range" in vst_param_name or re.search(r"\.Global0\.kParamBendRange$", preset_param):
+        v = float(value)
+        return max(0.0, min(1.0, (v - 2.0) / (48.0 - 2.0)))
+
+    # Unison voices: 1..16
+    if re.search(r"\.Oscillator[0-4]\.kParamUnison$", preset_param) or vst_param_name.endswith(" Unison"):
+        v = float(value)
+        if 1.0 <= v <= 16.0:
+            return (v - 1.0) / 15.0
+        if 0.0 <= v <= 1.0:
+            return v
+        return None
+
+    # Master/levels or other simple gains often 0..1 or 0..100
+    if vst_param_name in ("Main Vol", "Direct Vol", "Bus 1 Vol", "Bus 2 Vol") or re.search(r"kParamVolume$", preset_param):
+        return float(value) / 100.0 if value > 1.0 else max(0.0, min(1.0, float(value)))
+
+    # Porta Time behaves like a time control; cap to 10s range heuristic
+    if vst_param_name == "Porta Time":
+        v = float(value)
+        return max(0.0, min(1.0, v / 10.0 if v > 1.0 else v))
+
+    # Filter Reso/Drive etc often 0..100
+    if re.search(r"\.VoiceFilter[0-1]\.kParam(Reso|Drive|Var|Keytrack)$", preset_param):
+        return float(value) / 100.0 if value > 1.0 else max(0.0, min(1.0, float(value)))
+
+    # Coarse semitone controls, typical -12..+12
+    if (" Semi" in vst_param_name) or ("Coarse Pitch" in vst_param_name):
+        v = float(value)
+        # try mapping -24..+24 as well, clamp
+        if -48.0 <= v <= 48.0:
+            # assume +/-12 covers most presets
+            return max(0.0, min(1.0, (v + 12.0) / 24.0))
+        return None
+
+    # Fine tune often -100..+100 cents
+    if vst_param_name.endswith(" Fine"):
+        v = float(value)
+        if -100.0 <= v <= 100.0:
+            return (v + 100.0) / 200.0
+        if -1.0 <= v <= 1.0:
+            return (v + 1.0) / 2.0
+        return None
+
+    # Position/Start/End often 0..100
+    if vst_param_name.endswith(" Start") or vst_param_name.endswith(" End"):
+        return float(value) / 100.0 if value > 1.0 else max(0.0, min(1.0, float(value)))
+
+    # Frequencies (Hz) and complex FX params: skip to avoid out-of-range glitches
+    if re.search(r"(kParamFreq|kParamFrequency)", preset_param) or preset_param.startswith(".FXRack"):
+        return None
+
+    # Generic fallbacks
+    if 1.0 < value <= 127.0:
+        return float(value) / 127.0
+    if value > 127.0:
+        # too big; likely raw unit (Hz/ms). Skip.
+        return None
+
+    # Clamp any remaining value
+    return max(0.0, min(1.0, float(value)))
+
+
+def map_preset_to_vst_parameters(preset_data: Dict[str, float], vst_param_name_to_index: Dict[str, int]):
+    """
+    Map preset parameters to VST parameters with normalization and safety checks.
+
     Args:
-        preset_data: Dictionary of preset parameters
+        preset_data: Dictionary of preset parameters (expect keys from 'dawdreamer_params')
         vst_param_name_to_index: Dictionary mapping VST parameter names to indices
-    
+
     Returns:
         List of tuples (vst_param_index, value) for successfully mapped parameters
     """
-    mapped_params = []
-    unmapped_params = []
-    
-    for preset_param, value in preset_data.items():
-        # Skip non-parameter data
-        if not preset_param.startswith('.'):
+    mapped_params: List[Tuple[int, float]] = []
+    skipped_params: List[str] = []
+
+    for preset_param, raw_value in preset_data.items():
+        if not isinstance(raw_value, (int, float)):
             continue
-            
-        # Check if we have a mapping for this parameter
-        if preset_param in SERUM2_PARAMETER_MAPPING:
-            vst_param_name = SERUM2_PARAMETER_MAPPING[preset_param]
-            
-            # Check if the VST parameter exists
-            if vst_param_name in vst_param_name_to_index:
-                vst_param_index = vst_param_name_to_index[vst_param_name]
-                
-                # Validate parameter value (should be 0.0 to 1.0)
-                if isinstance(value, (int, float)) and 0.0 <= value <= 1.0:
-                    mapped_params.append((vst_param_index, float(value)))
-                else:
-                    print(f"⚠️  Invalid value for {preset_param} -> {vst_param_name}: {value}")
-            else:
-                print(f"⚠️  VST parameter not found: {vst_param_name}")
-        else:
-            unmapped_params.append(preset_param)
-    
-    if unmapped_params:
-        print(f"ℹ️  Unmapped parameters ({len(unmapped_params)}): {unmapped_params[:5]}{'...' if len(unmapped_params) > 5 else ''}")
-    
+        if not preset_param.startswith('.'):
+            # we only handle flattened, dotted keys produced by conversion
+            continue
+        if _is_blacklisted(preset_param):
+            continue
+
+        # Resolve a VST param name
+        vst_param_name = SERUM2_PARAMETER_MAPPING.get(preset_param) or _infer_vst_param_name(preset_param)
+        if not vst_param_name:
+            skipped_params.append(preset_param)
+            continue
+
+        # Must exist in the plugin
+        if vst_param_name not in vst_param_name_to_index:
+            skipped_params.append(preset_param)
+            continue
+
+        # Normalize value
+        norm_value = _normalize_value(preset_param, vst_param_name, float(raw_value))
+        if norm_value is None or not (0.0 <= norm_value <= 1.0):
+            # Keep noise down but still signal when verbose environments run this
+            # print(f"⚠️  Skipping {preset_param} -> {vst_param_name}: cannot normalize {raw_value}")
+            skipped_params.append(preset_param)
+            continue
+
+        mapped_params.append((vst_param_name_to_index[vst_param_name], norm_value))
+
+    if skipped_params:
+        print(f"ℹ️  Skipped {len(skipped_params)} params (unmapped/unsafe). Examples: {skipped_params[:5]}{'...' if len(skipped_params) > 5 else ''}")
+
     return mapped_params
 
-def get_mapping_coverage(preset_data):
+def get_mapping_coverage(preset_data: Dict[str, float]):
     """
     Get statistics on mapping coverage for a preset.
     
@@ -265,14 +524,17 @@ def get_mapping_coverage(preset_data):
     Returns:
         Dictionary with mapping statistics
     """
-    preset_params = [k for k in preset_data.keys() if k.startswith('.')]
-    mapped_params = [k for k in preset_params if k in SERUM2_PARAMETER_MAPPING]
-    
+    preset_params = [k for k in preset_data.keys() if k.startswith('.') and not _is_blacklisted(k)]
+    # Count explicit + inferable
+    explicit = [k for k in preset_params if k in SERUM2_PARAMETER_MAPPING]
+    inferable = [k for k in preset_params if k in SERUM2_PARAMETER_MAPPING or _infer_vst_param_name(k)]
+
     return {
         'total_preset_params': len(preset_params),
-        'mapped_params': len(mapped_params),
-        'coverage_percent': (len(mapped_params) / len(preset_params) * 100) if preset_params else 0,
-        'unmapped_params': [k for k in preset_params if k not in SERUM2_PARAMETER_MAPPING]
+        'explicit_mapped_params': len(explicit),
+        'inferable_params': len(inferable),
+        'coverage_percent_inferable': (len(inferable) / len(preset_params) * 100) if preset_params else 0,
+        'unmapped_params': [k for k in preset_params if k not in SERUM2_PARAMETER_MAPPING and not _infer_vst_param_name(k)]
     }
 
 if __name__ == "__main__":

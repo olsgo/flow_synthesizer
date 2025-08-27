@@ -22,78 +22,17 @@ from typing import Dict, List, Optional, Tuple
 
 import dawdreamer as daw
 
+# Reuse robust mapping + normalization helpers
+from serum2_parameter_mapping import (
+    SERUM2_PARAMETER_MAPPING as EXPLICIT_MAP,
+    _infer_vst_param_name,
+    _normalize_value,
+)
 
-# Manual mapping dictionary for Serum 2 parameters
-# Based on analysis of plugin parameter names vs preset parameter names
-SERUM2_TO_DAWDREAMER_MAPPING = {
-    # Oscillator parameters
-    ".Osc0.kParamLevel": "A Level",
-    ".Osc1.kParamLevel": "B Level",
-    ".Osc0.kParamPan": "A Pan",
-    ".Osc1.kParamPan": "B Pan",
-    ".Osc0.kParamDetune": "A Fine",
-    ".Osc1.kParamDetune": "B Fine",
-    ".Osc0.kParamCoarse": "A Coarse",
-    ".Osc1.kParamCoarse": "B Coarse",
-    ".Osc0.kParamPhase": "A Phase",
-    ".Osc1.kParamPhase": "B Phase",
-    
-    # Filter parameters
-    ".Filter0.kParamCutoff": "Filter Cutoff",
-    ".Filter0.kParamResonance": "Filter Reso",
-    ".Filter0.kParamDrive": "Filter Drive",
-    ".Filter0.kParamFat": "Filter Fat",
-    ".Filter0.kParamKeytrack": "Filter Key",
-    
-    # Envelope parameters
-    ".Env0.kParamAttack": "Env 1 A",
-    ".Env0.kParamDecay": "Env 1 D",
-    ".Env0.kParamSustain": "Env 1 S",
-    ".Env0.kParamRelease": "Env 1 R",
-    ".Env1.kParamAttack": "Env 2 A",
-    ".Env1.kParamDecay": "Env 2 D",
-    ".Env1.kParamSustain": "Env 2 S",
-    ".Env1.kParamRelease": "Env 2 R",
-    ".Env2.kParamAttack": "Env 3 A",
-    ".Env2.kParamDecay": "Env 3 D",
-    ".Env2.kParamSustain": "Env 3 S",
-    ".Env2.kParamRelease": "Env 3 R",
-    ".Env3.kParamAttack": "Env 4 A",
-    ".Env3.kParamDecay": "Env 4 D",
-    ".Env3.kParamSustain": "Env 4 S",
-    ".Env3.kParamRelease": "Env 4 R",
-    
-    # LFO parameters
-    ".Lfo0.kParamRate": "LFO 1 Rate",
-    ".Lfo1.kParamRate": "LFO 2 Rate",
-    ".Lfo2.kParamRate": "LFO 3 Rate",
-    ".Lfo3.kParamRate": "LFO 4 Rate",
-    
-    # Global parameters
-    ".Global.kParamMasterVolume": "Master",
-    ".Global.kParamMasterTune": "Master Tune",
-    ".Global.kParamPolyphony": "Voices",
-    ".Global.kParamPortamento": "Glide",
-    ".Global.kParamBendRange": "Bend Range",
-    
-    # Effects parameters
-    ".Fx0.kParamMix": "FX Mix",
-    ".Fx1.kParamMix": "FX2 Mix",
-    ".Compressor.kParamThreshold": "Comp Thresh",
-    ".Compressor.kParamRatio": "Comp Ratio",
-    ".Compressor.kParamAttack": "Comp Attack",
-    ".Compressor.kParamRelease": "Comp Release",
-    
-    # Unison parameters
-    ".Osc0.kParamUnisonVoices": "A Uni Voices",
-    ".Osc1.kParamUnisonVoices": "B Uni Voices",
-    ".Osc0.kParamUnisonDetune": "A Uni Detune",
-    ".Osc1.kParamUnisonDetune": "B Uni Detune",
-    ".Osc0.kParamUnisonBlend": "A Uni Blend",
-    ".Osc1.kParamUnisonBlend": "B Uni Blend",
-    ".Osc0.kParamUnisonWarp": "A Uni Warp",
-    ".Osc1.kParamUnisonWarp": "B Uni Warp",
-}
+
+# Legacy manual mapping dictionary retained for reference; we now prefer EXPLICIT_MAP
+# and inference from serum2_parameter_mapping.
+SERUM2_TO_DAWDREAMER_MAPPING: Dict[str, str] = {}
 
 
 class Serum2ParameterMapper:
@@ -188,32 +127,53 @@ class Serum2ParameterMapper:
             for i, (key, value) in enumerate(list(extracted_params.items())[:10]):
                 print(f"  {key}: {value}")
         
-        # Process each extracted parameter
-        for param_name, param_value in extracted_params.items():
+        # Choose parameter source: prefer 'dawdreamer_params' if present since it uses dotted keys
+        source_params: Dict[str, float] = {}
+        if "dawdreamer_params" in preset_data and isinstance(preset_data["dawdreamer_params"], dict):
+            source_params = {
+                k: v for k, v in preset_data["dawdreamer_params"].items()
+                if isinstance(v, (int, float))
+            }
+        else:
+            source_params = extracted_params
+
+        # Process each parameter
+        for param_name, param_value in source_params.items():
             if not isinstance(param_value, (int, float)):
                 continue
                 
             plugin_param = None
             mapping_type = "unmapped"
             
-            # Try manual mapping first
-            if param_name in SERUM2_TO_DAWDREAMER_MAPPING:
-                plugin_param = SERUM2_TO_DAWDREAMER_MAPPING[param_name]
-                mapping_type = "manual"
-                mapped_count += 1
+            # 1) Try explicit mapping from shared map
+            if param_name in EXPLICIT_MAP:
+                plugin_param = EXPLICIT_MAP[param_name]
+                mapping_type = "explicit"
             else:
-                # Try fuzzy matching
-                plugin_param = self.find_closest_match(param_name)
-                if plugin_param:
-                    mapping_type = "fuzzy"
-                    fuzzy_mapped_count += 1
+                # 2) Try rule-based inference
+                inferred = _infer_vst_param_name(param_name)
+                if inferred:
+                    plugin_param = inferred
+                    mapping_type = "inferred"
+                else:
+                    # 3) As a last resort, fuzzy match with high threshold
+                    plugin_param = self.find_closest_match(param_name)
+                    if plugin_param:
+                        mapping_type = "fuzzy"
+                        fuzzy_mapped_count += 1
             
             if plugin_param and plugin_param in self.param_name_to_index:
+                norm_value = _normalize_value(param_name, plugin_param, float(param_value))
+                if norm_value is None:
+                    if verbose:
+                        print(f"Skip {param_name} -> {plugin_param}: cannot normalize {param_value}")
+                    continue
                 parameter_mapping[param_name] = {
                     'match': plugin_param,
-                    'value': float(param_value),
+                    'value': float(norm_value),
                     'index': self.param_name_to_index[plugin_param],
-                    'type': mapping_type
+                    'type': mapping_type,
+                    'original_value': float(param_value),
                 }
             elif verbose:
                 print(f"No mapping found for: {param_name}")

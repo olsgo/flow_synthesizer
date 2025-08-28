@@ -1,9 +1,6 @@
 #%%
 import argparse
-import numpy as np
 import json, ast
-import librosa
-import scipy
 import warnings
 import os
 
@@ -22,6 +19,8 @@ except ImportError:
     warnings.warn("librenderman not available")
 
 def resample(y, orig_sr, target_sr):
+    import numpy as np
+    import scipy
     if orig_sr == target_sr:
         return y
     ratio = float(target_sr) / orig_sr
@@ -31,6 +30,7 @@ def resample(y, orig_sr, target_sr):
     return np.ascontiguousarray(y_hat, dtype=y.dtype)
 
 def play_patch(engine, patch_gen, patch=None):
+    import numpy as np
     if patch is None:
         patch = patch_gen.get_random_patch()
     engine.set_patch(patch)
@@ -125,6 +125,8 @@ def synthesize_audio(params, engine, generator, params_default):
     return audio
 
 def synthesize_batch(batch, param_names, engine, generator, params_default, rev_idx, n_outs=2, orig_wave=None, name=None):
+    import numpy as np
+    import librosa
     final_audio = [None] * batch.shape[0]
     
     # Handle different engine types - reset for both backends

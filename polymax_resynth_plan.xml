@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PolyMAXResynthPlan>
+  <metadata>
+    <version>1.0</version>
+    <created>2025-08-28</created>
+    <description>Resynthesis plan for UAD PolyMAX synthesizer integration with Flow Synthesizer</description>
+    <plugin_id>ABCDEF019182FAEB5541447855493036</plugin_id>
+    <plugin_name>UADx PolyMAX Synth</plugin_name>
+    <plugin_vendor>Universal Audio (UADx)</plugin_vendor>
+  </metadata>
+
+  <analysis_settings>
+    <audio_preprocessing>
+      <sample_rate>44100</sample_rate>
+      <window_size>2048</window_size>
+      <hop_length>512</hop_length>
+      <n_mels>128</n_mels>
+      <n_mfcc>13</n_mfcc>
+      <spectral_features>true</spectral_features>
+      <temporal_features>true</temporal_features>
+    </audio_preprocessing>
+    
+    <feature_extraction>
+      <descriptors>
+        <descriptor name="loudness" enabled="true" weight="1.0"/>
+        <descriptor name="centroid" enabled="true" weight="1.2"/>
+        <descriptor name="bandwidth" enabled="true" weight="0.8"/>
+        <descriptor name="flatness" enabled="true" weight="0.6"/>
+        <descriptor name="rolloff" enabled="true" weight="0.9"/>
+        <descriptor name="mfcc" enabled="true" weight="1.5"/>
+        <descriptor name="spectral_contrast" enabled="true" weight="1.1"/>
+        <descriptor name="zero_crossing_rate" enabled="true" weight="0.7"/>
+      </descriptors>
+      <time_window>4.0</time_window>
+      <overlap>0.5</overlap>
+    </feature_extraction>
+  </analysis_settings>
+
+  <parameter_mapping>
+    <synthesis_parameters>
+      <!-- Core Oscillator Parameters -->
+      <parameter_group name="oscillators" priority="high">
+        <parameter name="OSC1 Waveform" index="4" type="categorical" range="[0,1]" weight="1.5" resynthesis_importance="critical"/>
+        <parameter name="OSC1 Octave" index="5" type="continuous" range="[0,1]" weight="1.2" resynthesis_importance="high"/>
+        <parameter name="OSC1 Semitone" index="6" type="continuous" range="[0,1]" weight="1.2" resynthesis_importance="high"/>
+        <parameter name="OSC1 Fine Tune" index="7" type="continuous" range="[0,1]" weight="0.8" resynthesis_importance="medium"/>
+        <parameter name="OSC1 Level" index="8" type="continuous" range="[0,1]" weight="1.3" resynthesis_importance="high"/>
+        <parameter name="OSC2 Waveform" index="12" type="categorical" range="[0,1]" weight="1.5" resynthesis_importance="critical"/>
+        <parameter name="OSC2 Octave" index="13" type="continuous" range="[0,1]" weight="1.2" resynthesis_importance="high"/>
+        <parameter name="OSC2 Semitone" index="14" type="continuous" range="[0,1]" weight="1.2" resynthesis_importance="high"/>
+        <parameter name="OSC2 Level" index="16" type="continuous" range="[0,1]" weight="1.3" resynthesis_importance="high"/>
+        <parameter name="OSC Mix" index="20" type="continuous" range="[0,1]" weight="1.4" resynthesis_importance="critical"/>
+      </parameter_group>
+
+      <!-- Filter Parameters -->
+      <parameter_group name="filter" priority="critical">
+        <parameter name="Filter Type" index="24" type="categorical" range="[0,1]" weight="1.8" resynthesis_importance="critical"/>
+        <parameter name="Filter Cutoff" index="25" type="continuous" range="[0,1]" weight="1.9" resynthesis_importance="critical"/>
+        <parameter name="Filter Resonance" index="26" type="continuous" range="[0,1]" weight="1.6" resynthesis_importance="high"/>
+        <parameter name="Filter Drive" index="27" type="continuous" range="[0,1]" weight="1.2" resynthesis_importance="medium"/>
+        <parameter name="Filter Env Amount" index="28" type="continuous" range="[0,1]" weight="1.5" resynthesis_importance="high"/>
+        <parameter name="Filter Key Track" index="31" type="continuous" range="[0,1]" weight="1.1" resynthesis_importance="medium"/>
+      </parameter_group>
+
+      <!-- Envelope Parameters -->
+      <parameter_group name="envelopes" priority="high">
+        <parameter name="Amp Attack" index="32" type="continuous" range="[0,1]" weight="1.4" resynthesis_importance="high"/>
+        <parameter name="Amp Decay" index="33" type="continuous" range="[0,1]" weight="1.3" resynthesis_importance="high"/>
+        <parameter name="Amp Sustain" index="34" type="continuous" range="[0,1]" weight="1.5" resynthesis_importance="critical"/>
+        <parameter name="Amp Release" index="35" type="continuous" range="[0,1]" weight="1.2" resynthesis_importance="high"/>
+        <parameter name="Filter Attack" index="37" type="continuous" range="[0,1]" weight="1.2" resynthesis_importance="medium"/>
+        <parameter name="Filter Decay" index="38" type="continuous" range="[0,1]" weight="1.1" resynthesis_importance="medium"/>
+        <parameter name="Filter Sustain" index="39" type="continuous" range="[0,1]" weight="1.3" resynthesis_importance="high"/>
+        <parameter name="Filter Release" index="40" type="continuous" range="[0,1]" weight="1.0" resynthesis_importance="medium"/>
+      </parameter_group>
+
+      <!-- Modulation Parameters -->
+      <parameter_group name="modulation" priority="medium">
+        <parameter name="LFO1 Rate" index="42" type="continuous" range="[0,1]" weight="1.0" resynthesis_importance="medium"/>
+        <parameter name="LFO1 Amount" index="43" type="continuous" range="[0,1]" weight="1.1" resynthesis_importance="medium"/>
+        <parameter name="LFO1 Waveform" index="44" type="categorical" range="[0,1]" weight="0.9" resynthesis_importance="low"/>
+        <parameter name="Filter LFO Amount" index="29" type="continuous" range="[0,1]" weight="1.2" resynthesis_importance="medium"/>
+      </parameter_group>
+
+      <!-- Effects Parameters -->
+      <parameter_group name="effects" priority="low">
+        <parameter name="Reverb Mix" index="58" type="continuous" range="[0,1]" weight="0.8" resynthesis_importance="low"/>
+        <parameter name="Delay Mix" index="62" type="continuous" range="[0,1]" weight="0.7" resynthesis_importance="low"/>
+        <parameter name="Chorus Mix" index="66" type="continuous" range="[0,1]" weight="0.6" resynthesis_importance="low"/>
+        <parameter name="Distortion Drive" index="70" type="continuous" range="[0,1]" weight="0.9" resynthesis_importance="medium"/>
+      </parameter_group>
+
+      <!-- Global Parameters -->
+      <parameter_group name="global" priority="medium">
+        <parameter name="Master Volume" index="0" type="continuous" range="[0,1]" weight="1.1" resynthesis_importance="medium"/>
+        <parameter name="Noise Level" index="21" type="continuous" range="[0,1]" weight="0.8" resynthesis_importance="low"/>
+        <parameter name="Sub Osc Level" index="22" type="continuous" range="[0,1]" weight="1.0" resynthesis_importance="medium"/>
+      </parameter_group>
+    </synthesis_parameters>
+  </parameter_mapping>
+
+  <resynthesis_workflow>
+    <stages>
+      <stage name="audio_analysis" order="1">
+        <description>Analyze input audio to extract features</description>
+        <operations>
+          <operation name="load_audio" timeout="30"/>
+          <operation name="normalize_audio" gain="-6dB"/>
+          <operation name="extract_spectral_features"/>
+          <operation name="extract_temporal_features"/>
+          <operation name="compute_descriptors"/>
+        </operations>
+        <output_format>feature_vector</output_format>
+      </stage>
+
+      <stage name="parameter_estimation" order="2">
+        <description>Map audio features to synthesis parameters</description>
+        <operations>
+          <operation name="load_flow_model" model_path="code/results/polymax_model.pth"/>
+          <operation name="encode_features"/>
+          <operation name="decode_parameters"/>
+          <operation name="apply_parameter_constraints"/>
+        </operations>
+        <constraints>
+          <constraint param="Filter Cutoff" min="0.1" max="1.0"/>
+          <constraint param="Amp Sustain" min="0.0" max="1.0"/>
+          <constraint param="OSC1 Level" min="0.0" max="1.0"/>
+        </constraints>
+      </stage>
+
+      <stage name="synthesis_optimization" order="3">
+        <description>Optimize parameters through iterative synthesis</description>
+        <operations>
+          <operation name="initial_synthesis"/>
+          <operation name="compare_audio" metric="spectral_distance"/>
+          <operation name="parameter_refinement" method="gradient_descent"/>
+          <operation name="convergence_check" tolerance="0.01"/>
+        </operations>
+        <optimization>
+          <max_iterations>50</max_iterations>
+          <learning_rate>0.01</learning_rate>
+          <early_stopping>true</early_stopping>
+          <loss_function>spectral_mse + perceptual_loss</loss_function>
+        </optimization>
+      </stage>
+
+      <stage name="output_generation" order="4">
+        <description>Generate final resynthesized audio and parameters</description>
+        <operations>
+          <operation name="final_synthesis"/>
+          <operation name="audio_validation"/>
+          <operation name="parameter_export"/>
+          <operation name="preset_creation"/>
+        </operations>
+        <validation>
+          <quality_threshold>0.85</quality_threshold>
+          <spectral_similarity_threshold>0.8</spectral_similarity_threshold>
+          <temporal_similarity_threshold>0.75</temporal_similarity_threshold>
+        </validation>
+      </stage>
+    </stages>
+  </resynthesis_workflow>
+
+  <model_configuration>
+    <flow_model>
+      <architecture>normalizing_flow</architecture>
+      <flow_type>maf</flow_type>
+      <flow_length>16</flow_length>
+      <hidden_dims>512</hidden_dims>
+      <num_layers>6</num_layers>
+      <latent_dims>64</latent_dims>
+      <context_dims>128</context_dims>
+    </flow_model>
+
+    <training_settings>
+      <batch_size>32</batch_size>
+      <learning_rate>0.0001</learning_rate>
+      <max_epochs>200</max_epochs>
+      <patience>20</patience>
+      <validation_split>0.2</validation_split>
+      <augmentation>true</augmentation>
+    </training_settings>
+
+    <dataset_settings>
+      <audio_duration>4.0</audio_duration>
+      <midi_note>60</midi_note>
+      <midi_velocity>100</midi_velocity>
+      <note_duration>3.0</note_duration>
+      <preprocessing>individual</preprocessing>
+    </dataset_settings>
+  </model_configuration>
+
+  <validation_metrics>
+    <audio_similarity>
+      <spectral_distance weight="1.5"/>
+      <mel_cepstral_distance weight="1.2"/>
+      <perceptual_loss weight="1.0"/>
+      <temporal_correlation weight="0.8"/>
+    </audio_similarity>
+
+    <parameter_accuracy>
+      <l2_distance weight="1.0"/>
+      <perceptual_importance_weighted weight="1.3"/>
+      <categorical_accuracy weight="1.1"/>
+    </parameter_accuracy>
+
+    <synthesis_quality>
+      <artifact_detection weight="2.0"/>
+      <dynamic_range weight="1.0"/>
+      <frequency_response weight="1.2"/>
+      <harmonic_content weight="1.1"/>
+    </synthesis_quality>
+  </validation_metrics>
+
+  <output_settings>
+    <audio_export>
+      <format>wav</format>
+      <sample_rate>44100</sample_rate>
+      <bit_depth>24</bit_depth>
+      <normalize>true</normalize>
+    </audio_export>
+
+    <preset_export>
+      <format>vstpreset</format>
+      <include_metadata>true</include_metadata>
+      <compatibility_check>true</compatibility_check>
+    </preset_export>
+
+    <analysis_export>
+      <parameter_values>true</parameter_values>
+      <feature_vectors>true</feature_vectors>
+      <similarity_scores>true</similarity_scores>
+      <optimization_history>true</optimization_history>
+    </analysis_export>
+  </output_settings>
+</PolyMAXResynthPlan>

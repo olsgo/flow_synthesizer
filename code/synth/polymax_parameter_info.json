@@ -1,0 +1,68 @@
+{
+  "plugin_name": "UAD PolyMAX",
+  "parameter_count": 10,
+  "parameters": {
+    "test_param_0": {
+      "index": 0,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_1": {
+      "index": 1,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_2": {
+      "index": 2,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_3": {
+      "index": 3,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_4": {
+      "index": 4,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_5": {
+      "index": 5,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_6": {
+      "index": 6,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_7": {
+      "index": 7,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_8": {
+      "index": 8,
+      "default_value": 0.5,
+      "type": "test"
+    },
+    "test_param_9": {
+      "index": 9,
+      "default_value": 0.5,
+      "type": "test"
+    }
+  },
+  "parameter_mapping": {
+    "0": "test_param_0",
+    "1": "test_param_1",
+    "2": "test_param_2",
+    "3": "test_param_3",
+    "4": "test_param_4",
+    "5": "test_param_5",
+    "6": "test_param_6",
+    "7": "test_param_7",
+    "8": "test_param_8",
+    "9": "test_param_9"
+  }
+}

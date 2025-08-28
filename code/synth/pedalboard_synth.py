@@ -14,17 +14,25 @@ import warnings
 try:
     import pedalboard
     from pedalboard import VST3Plugin, load_plugin
+    PEDALBOARD_AVAILABLE = True
+    # Optional AudioUnit support
     try:
         from pedalboard import AudioUnitPlugin
         AUDIOUNIT_AVAILABLE = True
-    except ImportError:
+    except Exception:
         AUDIOUNIT_AVAILABLE = False
         AudioUnitPlugin = None
-    PEDALBOARD_AVAILABLE = True
+    # Optional MIDIMessage (older pedalboard may not expose this)
+    try:
+        from pedalboard import MIDIMessage
+        HAVE_MIDI_MESSAGE = True
+    except Exception:
+        HAVE_MIDI_MESSAGE = False
 except ImportError as e:
     PEDALBOARD_AVAILABLE = False
     AUDIOUNIT_AVAILABLE = False
     AudioUnitPlugin = None
+    HAVE_MIDI_MESSAGE = False
     warnings.warn(f"Pedalboard not available: {e}. Please install with: pip install pedalboard")
 
 
@@ -55,6 +63,8 @@ class PedalboardSynthEngine:
             synth_type: Type of synthesizer ('serum', 'diva', etc.)
         """
         self.current_synth_type = synth_type.lower()
+        # Store the last requested plugin path for optional resets
+        self.plugin_path = plugin_path
         
         try:
             # Try different plugin formats based on platform and synth type
@@ -84,7 +94,11 @@ class PedalboardSynthEngine:
                 if plugin_path.endswith('.component') and AUDIOUNIT_AVAILABLE:
                     self.plugin = AudioUnitPlugin(plugin_path)
                 else:
-                    self.plugin = VST3Plugin(plugin_path)
+                    # Handle Serum 2 which has multiple plugins in one file
+                    if synth_type.lower() == 'serum' and 'Serum2.vst3' in plugin_path:
+                        self.plugin = VST3Plugin(plugin_path, plugin_name="Serum 2")
+                    else:
+                        self.plugin = VST3Plugin(plugin_path)
                 print(f"Loaded plugin from custom path: {plugin_path}")
                 return
                 
@@ -92,6 +106,14 @@ class PedalboardSynthEngine:
             print(f"Error loading plugin: {e}")
             
         raise FileNotFoundError(f"Could not find {synth_type} plugin in standard locations")
+
+    def reset_plugin(self):
+        """Reload the current plugin instance to clear internal state."""
+        if not self.current_synth_type:
+            raise RuntimeError("Synth type not set; call load_plugin first")
+        # Prefer reloading from the same resolved path when possible
+        path = getattr(self, 'plugin_path', '') or ''
+        self.load_plugin(path, self.current_synth_type)
     
     def _get_vst3_paths(self, synth_type: str) -> list:
         """Get standard VST3 paths for different synthesizers"""
@@ -126,16 +148,21 @@ class PedalboardSynthEngine:
         if not self.plugin:
             raise RuntimeError("No plugin loaded")
             
-        for param_idx, value in patch_params:
-            try:
-                # Get parameter by index and set normalized value (0.0-1.0)
-                if hasattr(self.plugin, 'parameters'):
-                    param_list = list(self.plugin.parameters.keys())
-                    if param_idx < len(param_list):
-                        param_name = param_list[param_idx]
-                        setattr(self.plugin.parameters, param_name, float(value))
-            except Exception as e:
-                print(f"Warning: Could not set parameter {param_idx} to {value}: {e}")
+        # Get the actual parameter names from the plugin
+        actual_param_names = list(self.plugin.parameters.keys())
+        
+        for i, (param_idx, value) in enumerate(patch_params):
+            # Use the actual parameter name directly by index
+            if param_idx < len(actual_param_names):
+                param_name = actual_param_names[param_idx]
+                
+                try:
+                    # Set parameter directly as attribute on the plugin
+                    setattr(self.plugin, param_name, float(value))
+                except Exception as e:
+                    print(f"Error setting parameter {param_idx} ({param_name}): {e}")
+            else:
+                print(f"Warning: Parameter index {param_idx} out of range (max: {len(actual_param_names)-1})")
     
     def load_preset(self, preset_path: str):
         """
@@ -148,23 +175,26 @@ class PedalboardSynthEngine:
             raise RuntimeError("No plugin loaded")
             
         try:
-            # For Serum 2, use raw_state loading as suggested in the problem statement
-            if self.current_synth_type == 'serum':
-                if preset_path.endswith(('.fxp', '.vstpreset')):
-                    # Use pedalboard's load_preset function
-                    with open(preset_path, 'rb') as f:
-                        preset_data = f.read()
-                    self._load_serum_preset_data(preset_data)
-                else:
-                    # Load raw state data
-                    with open(preset_path, 'rb') as f:
-                        state_data = f.read()
-                    self.plugin.raw_state = state_data
-            else:
-                # For other plugins, try standard preset loading
-                if hasattr(self.plugin, 'load_preset'):
+            # First, prefer native plugin preset loader if available
+            if hasattr(self.plugin, 'load_preset'):
+                try:
                     self.plugin.load_preset(preset_path)
-                    
+                    return
+                except Exception:
+                    pass
+
+            # Serum-specific fallback: set raw_state bytes (works for some state formats)
+            if self.current_synth_type == 'serum':
+                with open(preset_path, 'rb') as f:
+                    preset_data = f.read()
+                self._load_serum_preset_data(preset_data)
+                return
+
+            # Generic fallback: try raw state
+            with open(preset_path, 'rb') as f:
+                state_data = f.read()
+            self.plugin.raw_state = state_data
+
         except Exception as e:
             print(f"Warning: Could not load preset {preset_path}: {e}")
     
@@ -198,7 +228,7 @@ class PedalboardSynthEngine:
     
     def render_patch(self, midi_note: int, midi_velocity: int, 
                     note_length: float, render_length: float, 
-                    warm_up: bool = True):
+                    warm_up: bool = False):
         """
         Render audio from current patch
         
@@ -212,30 +242,52 @@ class PedalboardSynthEngine:
         if not self.plugin:
             raise RuntimeError("No plugin loaded")
             
-        # Generate MIDI data for note rendering
-        num_samples = int(render_length * self.sample_rate)
-        
-        # Create MIDI note sequence using simple note on/off approach
         try:
-            # Create empty audio buffer
-            audio_in = np.zeros((2, num_samples), dtype=np.float32)
+            # Calculate timing for MIDI messages
+            note_off_time = note_length
             
-            # For pedalboard, we need to simulate MIDI input differently
-            # This is a simplified approach - in a real implementation, 
-            # you'd want to use proper MIDI sequencing
+            # Create MIDI message sequence
+            if HAVE_MIDI_MESSAGE:
+                midi_messages = [
+                    MIDIMessage.note_on(note=int(midi_note), velocity=int(midi_velocity), time=0.0),
+                    MIDIMessage.note_off(note=int(midi_note), velocity=int(midi_velocity), time=float(note_off_time)),
+                ]
+            else:
+                # Compatibility fallback: provide minimal objects exposing .bytes()
+                class _CompatMidi:
+                    def __init__(self, status, note, velocity, time):
+                        self._data = bytes([status, note, velocity])
+                        self.time = time
+                    def bytes(self):
+                        return self._data
+                midi_messages = [
+                    _CompatMidi(0x90, int(midi_note), int(midi_velocity), 0.0),
+                    _CompatMidi(0x80, int(midi_note), int(midi_velocity), float(note_off_time)),
+                ]
             
-            # Process audio through plugin
-            audio_out = self.plugin.process(
-                audio_in, 
+            # Render audio using MIDI messages for instrument plugins
+            audio_out = self.plugin(
+                midi_messages,
+                duration=render_length,
                 sample_rate=self.sample_rate,
-                reset=warm_up
+                num_channels=2,
+                reset=bool(warm_up)
             )
             
+            # Ensure audio is in the correct format (channels, samples)
+            if audio_out.ndim == 1:
+                # Mono to stereo
+                audio_out = np.stack([audio_out, audio_out])
+            elif audio_out.shape[0] > audio_out.shape[1]:
+                # Transpose if needed (samples, channels) -> (channels, samples)
+                audio_out = audio_out.T
+                
             self.last_audio = audio_out
             
         except Exception as e:
             print(f"Error during audio rendering: {e}")
             # Return silence if rendering fails
+            num_samples = int(render_length * self.sample_rate)
             self.last_audio = np.zeros((2, num_samples), dtype=np.float32)
     
     def get_audio_frames(self) -> np.ndarray:

@@ -1,0 +1,190 @@
+split,audio_path,params_path,preset_name,stem,audio_file,param_file
+train,/Users/gjb/Datasets/polymax/render/Swedish_Brass.wav,/Users/gjb/Projects/flow_synthesizer/params/Swedish_Brass.json,Swedish Brass,Swedish_Brass,Swedish_Brass.wav,Swedish_Brass.json
+train,/Users/gjb/Datasets/polymax/render/Da_Twister.wav,/Users/gjb/Projects/flow_synthesizer/params/Da_Twister.json,Da Twister,Da_Twister,Da_Twister.wav,Da_Twister.json
+train,/Users/gjb/Datasets/polymax/render/Dusty_Sub_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/Dusty_Sub_Bass.json,Dusty Sub Bass,Dusty_Sub_Bass,Dusty_Sub_Bass.wav,Dusty_Sub_Bass.json
+train,/Users/gjb/Datasets/polymax/render/10_Aachen_Street.wav,/Users/gjb/Projects/flow_synthesizer/params/10_Aachen_Street.json,10 Aachen Street,10_Aachen_Street,10_Aachen_Street.wav,10_Aachen_Street.json
+train,/Users/gjb/Datasets/polymax/render/Monti_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/Monti_Bass.json,Monti Bass,Monti_Bass,Monti_Bass.wav,Monti_Bass.json
+train,/Users/gjb/Datasets/polymax/render/PizziKoto.wav,/Users/gjb/Projects/flow_synthesizer/params/PizziKoto.json,PizziKoto,PizziKoto,PizziKoto.wav,PizziKoto.json
+train,/Users/gjb/Datasets/polymax/render/Taiko_Tekno.wav,/Users/gjb/Projects/flow_synthesizer/params/Taiko_Tekno.json,Taiko Tekno,Taiko_Tekno,Taiko_Tekno.wav,Taiko_Tekno.json
+train,/Users/gjb/Datasets/polymax/render/Laser_Spring_Clap.wav,/Users/gjb/Projects/flow_synthesizer/params/Laser_Spring_Clap.json,Laser Spring Clap,Laser_Spring_Clap,Laser_Spring_Clap.wav,Laser_Spring_Clap.json
+train,/Users/gjb/Datasets/polymax/render/Dirty_Pulse_Glide_Lead.wav,/Users/gjb/Projects/flow_synthesizer/params/Dirty_Pulse_Glide_Lead.json,Dirty Pulse Glide Lead,Dirty_Pulse_Glide_Lead,Dirty_Pulse_Glide_Lead.wav,Dirty_Pulse_Glide_Lead.json
+train,/Users/gjb/Datasets/polymax/render/Citrus_Arp.wav,/Users/gjb/Projects/flow_synthesizer/params/Citrus_Arp.json,Citrus Arp,Citrus_Arp,Citrus_Arp.wav,Citrus_Arp.json
+train,/Users/gjb/Datasets/polymax/render/Flux_It.wav,/Users/gjb/Projects/flow_synthesizer/params/Flux_It.json,Flux It,Flux_It,Flux_It.wav,Flux_It.json
+train,/Users/gjb/Datasets/polymax/render/Cosmos.wav,/Users/gjb/Projects/flow_synthesizer/params/Cosmos.json,Cosmos,Cosmos,Cosmos.wav,Cosmos.json
+train,/Users/gjb/Datasets/polymax/render/Shimmer_Bells.wav,/Users/gjb/Projects/flow_synthesizer/params/Shimmer_Bells.json,Shimmer Bells,Shimmer_Bells,Shimmer_Bells.wav,Shimmer_Bells.json
+train,/Users/gjb/Datasets/polymax/render/And_Again.wav,/Users/gjb/Projects/flow_synthesizer/params/And_Again.json,And Again,And_Again,And_Again.wav,And_Again.json
+train,/Users/gjb/Datasets/polymax/render/Scrap_Yard_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/Scrap_Yard_Bass.json,Scrap Yard Bass,Scrap_Yard_Bass,Scrap_Yard_Bass.wav,Scrap_Yard_Bass.json
+train,/Users/gjb/Datasets/polymax/render/Just_Because.wav,/Users/gjb/Projects/flow_synthesizer/params/Just_Because.json,Just Because,Just_Because,Just_Because.wav,Just_Because.json
+train,/Users/gjb/Datasets/polymax/render/ZerOmega.wav,/Users/gjb/Projects/flow_synthesizer/params/ZerOmega.json,ZerOmega,ZerOmega,ZerOmega.wav,ZerOmega.json
+train,/Users/gjb/Datasets/polymax/render/PentaBell.wav,/Users/gjb/Projects/flow_synthesizer/params/PentaBell.json,PentaBell,PentaBell,PentaBell.wav,PentaBell.json
+train,/Users/gjb/Datasets/polymax/render/Organ_Combo.wav,/Users/gjb/Projects/flow_synthesizer/params/Organ_Combo.json,Organ Combo,Organ_Combo,Organ_Combo.wav,Organ_Combo.json
+train,/Users/gjb/Datasets/polymax/render/Double_Loop.wav,/Users/gjb/Projects/flow_synthesizer/params/Double_Loop.json,Double Loop,Double_Loop,Double_Loop.wav,Double_Loop.json
+train,/Users/gjb/Datasets/polymax/render/Regal.wav,/Users/gjb/Projects/flow_synthesizer/params/Regal.json,Regal,Regal,Regal.wav,Regal.json
+train,/Users/gjb/Datasets/polymax/render/Octaves_Lead.wav,/Users/gjb/Projects/flow_synthesizer/params/Octaves_Lead.json,Octaves Lead,Octaves_Lead,Octaves_Lead.wav,Octaves_Lead.json
+train,/Users/gjb/Datasets/polymax/render/Solo_Brass.wav,/Users/gjb/Projects/flow_synthesizer/params/Solo_Brass.json,Solo Brass,Solo_Brass,Solo_Brass.wav,Solo_Brass.json
+train,/Users/gjb/Datasets/polymax/render/Env_Follower.wav,/Users/gjb/Projects/flow_synthesizer/params/Env_Follower.json,Env Follower,Env_Follower,Env_Follower.wav,Env_Follower.json
+train,/Users/gjb/Datasets/polymax/render/Organ_Drawbar_2.wav,/Users/gjb/Projects/flow_synthesizer/params/Organ_Drawbar_2.json,Organ Drawbar 2,Organ_Drawbar_2,Organ_Drawbar_2.wav,Organ_Drawbar_2.json
+train,/Users/gjb/Datasets/polymax/render/Epic_4.wav,/Users/gjb/Projects/flow_synthesizer/params/Epic_4.json,Epic 4,Epic_4,Epic_4.wav,Epic_4.json
+train,/Users/gjb/Datasets/polymax/render/Eerie_Wind.wav,/Users/gjb/Projects/flow_synthesizer/params/Eerie_Wind.json,Eerie Wind,Eerie_Wind,Eerie_Wind.wav,Eerie_Wind.json
+train,/Users/gjb/Datasets/polymax/render/Sleep_Walk.wav,/Users/gjb/Projects/flow_synthesizer/params/Sleep_Walk.json,Sleep Walk,Sleep_Walk,Sleep_Walk.wav,Sleep_Walk.json
+train,/Users/gjb/Datasets/polymax/render/Woodpad.wav,/Users/gjb/Projects/flow_synthesizer/params/Woodpad.json,Woodpad,Woodpad,Woodpad.wav,Woodpad.json
+train,/Users/gjb/Datasets/polymax/render/Over_Low.wav,/Users/gjb/Projects/flow_synthesizer/params/Over_Low.json,Over Low,Over_Low,Over_Low.wav,Over_Low.json
+train,/Users/gjb/Datasets/polymax/render/October_31.wav,/Users/gjb/Projects/flow_synthesizer/params/October_31.json,October 31,October_31,October_31.wav,October_31.json
+train,/Users/gjb/Datasets/polymax/render/Waving.wav,/Users/gjb/Projects/flow_synthesizer/params/Waving.json,Waving,Waving,Waving.wav,Waving.json
+train,/Users/gjb/Datasets/polymax/render/Yip.wav,/Users/gjb/Projects/flow_synthesizer/params/Yip.json,Yip,Yip,Yip.wav,Yip.json
+train,/Users/gjb/Datasets/polymax/render/Trash_Can.wav,/Users/gjb/Projects/flow_synthesizer/params/Trash_Can.json,Trash Can,Trash_Can,Trash_Can.wav,Trash_Can.json
+train,/Users/gjb/Datasets/polymax/render/Organ_Drawbar_1.wav,/Users/gjb/Projects/flow_synthesizer/params/Organ_Drawbar_1.json,Organ Drawbar 1,Organ_Drawbar_1,Organ_Drawbar_1.wav,Organ_Drawbar_1.json
+train,/Users/gjb/Datasets/polymax/render/Cy_Reen.wav,/Users/gjb/Projects/flow_synthesizer/params/Cy_Reen.json,Cy Reen,Cy_Reen,Cy_Reen.wav,Cy_Reen.json
+train,/Users/gjb/Datasets/polymax/render/Phaze_Zero.wav,/Users/gjb/Projects/flow_synthesizer/params/Phaze_Zero.json,Phaze Zero,Phaze_Zero,Phaze_Zero.wav,Phaze_Zero.json
+train,/Users/gjb/Datasets/polymax/render/Raindrops_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Raindrops_Pad.json,Raindrops Pad,Raindrops_Pad,Raindrops_Pad.wav,Raindrops_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Octave_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Octave_Pad.json,Octave Pad,Octave_Pad,Octave_Pad.wav,Octave_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Shredz.wav,/Users/gjb/Projects/flow_synthesizer/params/Shredz.json,Shredz,Shredz,Shredz.wav,Shredz.json
+train,/Users/gjb/Datasets/polymax/render/Jet_Beats.wav,/Users/gjb/Projects/flow_synthesizer/params/Jet_Beats.json,Jet Beats,Jet_Beats,Jet_Beats.wav,Jet_Beats.json
+train,/Users/gjb/Datasets/polymax/render/Island_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Island_Pad.json,Island Pad,Island_Pad,Island_Pad.wav,Island_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Squidge.wav,/Users/gjb/Projects/flow_synthesizer/params/Squidge.json,Squidge,Squidge,Squidge.wav,Squidge.json
+train,/Users/gjb/Datasets/polymax/render/Son_Of_Sub.wav,/Users/gjb/Projects/flow_synthesizer/params/Son_Of_Sub.json,Son Of Sub,Son_Of_Sub,Son_Of_Sub.wav,Son_Of_Sub.json
+train,/Users/gjb/Datasets/polymax/render/Robot_Woves.wav,/Users/gjb/Projects/flow_synthesizer/params/Robot_Woves.json,Robot Woves,Robot_Woves,Robot_Woves.wav,Robot_Woves.json
+train,/Users/gjb/Datasets/polymax/render/Dirty_Clav_1.wav,/Users/gjb/Projects/flow_synthesizer/params/Dirty_Clav_1.json,Dirty Clav 1,Dirty_Clav_1,Dirty_Clav_1.wav,Dirty_Clav_1.json
+train,/Users/gjb/Datasets/polymax/render/Water_Trumpet.wav,/Users/gjb/Projects/flow_synthesizer/params/Water_Trumpet.json,Water Trumpet,Water_Trumpet,Water_Trumpet.wav,Water_Trumpet.json
+train,/Users/gjb/Datasets/polymax/render/Neon_Lullaby.wav,/Users/gjb/Projects/flow_synthesizer/params/Neon_Lullaby.json,Neon Lullaby,Neon_Lullaby,Neon_Lullaby.wav,Neon_Lullaby.json
+train,/Users/gjb/Datasets/polymax/render/Crusher.wav,/Users/gjb/Projects/flow_synthesizer/params/Crusher.json,Crusher,Crusher,Crusher.wav,Crusher.json
+train,/Users/gjb/Datasets/polymax/render/People_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/People_Bass.json,People Bass,People_Bass,People_Bass.wav,People_Bass.json
+train,/Users/gjb/Datasets/polymax/render/2_Saws.wav,/Users/gjb/Projects/flow_synthesizer/params/2_Saws.json,2 Saws,2_Saws,2_Saws.wav,2_Saws.json
+train,/Users/gjb/Datasets/polymax/render/The_Wow.wav,/Users/gjb/Projects/flow_synthesizer/params/The_Wow.json,The Wow,The_Wow,The_Wow.wav,The_Wow.json
+train,/Users/gjb/Datasets/polymax/render/Sweep_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Sweep_Pad.json,Sweep Pad,Sweep_Pad,Sweep_Pad.wav,Sweep_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Rave_Nostalgia.wav,/Users/gjb/Projects/flow_synthesizer/params/Rave_Nostalgia.json,Rave Nostalgia,Rave_Nostalgia,Rave_Nostalgia.wav,Rave_Nostalgia.json
+train,/Users/gjb/Datasets/polymax/render/BuzzBass.wav,/Users/gjb/Projects/flow_synthesizer/params/BuzzBass.json,BuzzBass,BuzzBass,BuzzBass.wav,BuzzBass.json
+train,/Users/gjb/Datasets/polymax/render/Bright_Wide_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Bright_Wide_Pad.json,Bright Wide Pad,Bright_Wide_Pad,Bright_Wide_Pad.wav,Bright_Wide_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Sub_Woofer_Kick.wav,/Users/gjb/Projects/flow_synthesizer/params/Sub_Woofer_Kick.json,Sub Woofer Kick,Sub_Woofer_Kick,Sub_Woofer_Kick.wav,Sub_Woofer_Kick.json
+train,/Users/gjb/Datasets/polymax/render/Gold_Dreams.wav,/Users/gjb/Projects/flow_synthesizer/params/Gold_Dreams.json,Gold Dreams,Gold_Dreams,Gold_Dreams.wav,Gold_Dreams.json
+train,/Users/gjb/Datasets/polymax/render/Zapland.wav,/Users/gjb/Projects/flow_synthesizer/params/Zapland.json,Zapland,Zapland,Zapland.wav,Zapland.json
+train,/Users/gjb/Datasets/polymax/render/UFO_Landing.wav,/Users/gjb/Projects/flow_synthesizer/params/UFO_Landing.json,UFO Landing,UFO_Landing,UFO_Landing.wav,UFO_Landing.json
+train,/Users/gjb/Datasets/polymax/render/Interpol.wav,/Users/gjb/Projects/flow_synthesizer/params/Interpol.json,Interpol,Interpol,Interpol.wav,Interpol.json
+train,/Users/gjb/Datasets/polymax/render/Eerie_Vox.wav,/Users/gjb/Projects/flow_synthesizer/params/Eerie_Vox.json,Eerie Vox,Eerie_Vox,Eerie_Vox.wav,Eerie_Vox.json
+train,/Users/gjb/Datasets/polymax/render/Calculation.wav,/Users/gjb/Projects/flow_synthesizer/params/Calculation.json,Calculation,Calculation,Calculation.wav,Calculation.json
+train,/Users/gjb/Datasets/polymax/render/Etherialls.wav,/Users/gjb/Projects/flow_synthesizer/params/Etherialls.json,Etherialls,Etherialls,Etherialls.wav,Etherialls.json
+train,/Users/gjb/Datasets/polymax/render/Procession_Brass.wav,/Users/gjb/Projects/flow_synthesizer/params/Procession_Brass.json,Procession Brass,Procession_Brass,Procession_Brass.wav,Procession_Brass.json
+train,/Users/gjb/Datasets/polymax/render/Pretzels.wav,/Users/gjb/Projects/flow_synthesizer/params/Pretzels.json,Pretzels,Pretzels,Pretzels.wav,Pretzels.json
+train,/Users/gjb/Datasets/polymax/render/Ever_Explain.wav,/Users/gjb/Projects/flow_synthesizer/params/Ever_Explain.json,Ever Explain,Ever_Explain,Ever_Explain.wav,Ever_Explain.json
+train,/Users/gjb/Datasets/polymax/render/Marimbus.wav,/Users/gjb/Projects/flow_synthesizer/params/Marimbus.json,Marimbus,Marimbus,Marimbus.wav,Marimbus.json
+train,/Users/gjb/Datasets/polymax/render/Double_Reed.wav,/Users/gjb/Projects/flow_synthesizer/params/Double_Reed.json,Double Reed,Double_Reed,Double_Reed.wav,Double_Reed.json
+train,/Users/gjb/Datasets/polymax/render/Organ_Pipes.wav,/Users/gjb/Projects/flow_synthesizer/params/Organ_Pipes.json,Organ Pipes,Organ_Pipes,Organ_Pipes.wav,Organ_Pipes.json
+train,/Users/gjb/Datasets/polymax/render/Paddiso.wav,/Users/gjb/Projects/flow_synthesizer/params/Paddiso.json,Paddiso,Paddiso,Paddiso.wav,Paddiso.json
+train,/Users/gjb/Datasets/polymax/render/Sol_Machina.wav,/Users/gjb/Projects/flow_synthesizer/params/Sol_Machina.json,Sol Machina,Sol_Machina,Sol_Machina.wav,Sol_Machina.json
+train,/Users/gjb/Datasets/polymax/render/Squelch_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Squelch_Pad.json,Squelch Pad,Squelch_Pad,Squelch_Pad.wav,Squelch_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Phase_One.wav,/Users/gjb/Projects/flow_synthesizer/params/Phase_One.json,Phase One,Phase_One,Phase_One.wav,Phase_One.json
+train,/Users/gjb/Datasets/polymax/render/Salt.wav,/Users/gjb/Projects/flow_synthesizer/params/Salt.json,Salt,Salt,Salt.wav,Salt.json
+train,/Users/gjb/Datasets/polymax/render/Jack_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/Jack_Bass.json,Jack Bass,Jack_Bass,Jack_Bass.wav,Jack_Bass.json
+train,/Users/gjb/Datasets/polymax/render/Thousand_Mallets.wav,/Users/gjb/Projects/flow_synthesizer/params/Thousand_Mallets.json,Thousand Mallets,Thousand_Mallets,Thousand_Mallets.wav,Thousand_Mallets.json
+train,/Users/gjb/Datasets/polymax/render/Precursor.wav,/Users/gjb/Projects/flow_synthesizer/params/Precursor.json,Precursor,Precursor,Precursor.wav,Precursor.json
+train,/Users/gjb/Datasets/polymax/render/Epic_2.wav,/Users/gjb/Projects/flow_synthesizer/params/Epic_2.json,Epic 2,Epic_2,Epic_2.wav,Epic_2.json
+train,/Users/gjb/Datasets/polymax/render/All_Chairs.wav,/Users/gjb/Projects/flow_synthesizer/params/All_Chairs.json,All Chairs,All_Chairs,All_Chairs.wav,All_Chairs.json
+train,/Users/gjb/Datasets/polymax/render/Clockwork.wav,/Users/gjb/Projects/flow_synthesizer/params/Clockwork.json,Clockwork,Clockwork,Clockwork.wav,Clockwork.json
+train,/Users/gjb/Datasets/polymax/render/Square_Anywhere.wav,/Users/gjb/Projects/flow_synthesizer/params/Square_Anywhere.json,Square Anywhere,Square_Anywhere,Square_Anywhere.wav,Square_Anywhere.json
+train,/Users/gjb/Datasets/polymax/render/Swell_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Swell_Pad.json,Swell Pad,Swell_Pad,Swell_Pad.wav,Swell_Pad.json
+train,/Users/gjb/Datasets/polymax/render/FM_Piano_2.wav,/Users/gjb/Projects/flow_synthesizer/params/FM_Piano_2.json,FM Piano 2,FM_Piano_2,FM_Piano_2.wav,FM_Piano_2.json
+train,/Users/gjb/Datasets/polymax/render/Telephone_Line.wav,/Users/gjb/Projects/flow_synthesizer/params/Telephone_Line.json,Telephone Line,Telephone_Line,Telephone_Line.wav,Telephone_Line.json
+train,/Users/gjb/Datasets/polymax/render/Like_A_Jungle.wav,/Users/gjb/Projects/flow_synthesizer/params/Like_A_Jungle.json,Like A Jungle,Like_A_Jungle,Like_A_Jungle.wav,Like_A_Jungle.json
+train,/Users/gjb/Datasets/polymax/render/Soft_and_Brassy.wav,/Users/gjb/Projects/flow_synthesizer/params/Soft_and_Brassy.json,Soft and Brassy,Soft_and_Brassy,Soft_and_Brassy.wav,Soft_and_Brassy.json
+train,/Users/gjb/Datasets/polymax/render/FM_Piano_1.wav,/Users/gjb/Projects/flow_synthesizer/params/FM_Piano_1.json,FM Piano 1,FM_Piano_1,FM_Piano_1.wav,FM_Piano_1.json
+train,/Users/gjb/Datasets/polymax/render/Stirred.wav,/Users/gjb/Projects/flow_synthesizer/params/Stirred.json,Stirred,Stirred,Stirred.wav,Stirred.json
+train,/Users/gjb/Datasets/polymax/render/Rocketship_Riser.wav,/Users/gjb/Projects/flow_synthesizer/params/Rocketship_Riser.json,Rocketship Riser,Rocketship_Riser,Rocketship_Riser.wav,Rocketship_Riser.json
+train,/Users/gjb/Datasets/polymax/render/Swarm.wav,/Users/gjb/Projects/flow_synthesizer/params/Swarm.json,Swarm,Swarm,Swarm.wav,Swarm.json
+train,/Users/gjb/Datasets/polymax/render/Curious_Poses.wav,/Users/gjb/Projects/flow_synthesizer/params/Curious_Poses.json,Curious Poses,Curious_Poses,Curious_Poses.wav,Curious_Poses.json
+train,/Users/gjb/Datasets/polymax/render/Temple.wav,/Users/gjb/Projects/flow_synthesizer/params/Temple.json,Temple,Temple,Temple.wav,Temple.json
+train,/Users/gjb/Datasets/polymax/render/Capo_Metallo.wav,/Users/gjb/Projects/flow_synthesizer/params/Capo_Metallo.json,Capo Metallo,Capo_Metallo,Capo_Metallo.wav,Capo_Metallo.json
+train,/Users/gjb/Datasets/polymax/render/Rubber_Bandpass.wav,/Users/gjb/Projects/flow_synthesizer/params/Rubber_Bandpass.json,Rubber Bandpass,Rubber_Bandpass,Rubber_Bandpass.wav,Rubber_Bandpass.json
+train,/Users/gjb/Datasets/polymax/render/Arp_Demon.wav,/Users/gjb/Projects/flow_synthesizer/params/Arp_Demon.json,Arp Demon,Arp_Demon,Arp_Demon.wav,Arp_Demon.json
+train,/Users/gjb/Datasets/polymax/render/Sounds_Like_4.wav,/Users/gjb/Projects/flow_synthesizer/params/Sounds_Like_4.json,Sounds Like 4,Sounds_Like_4,Sounds_Like_4.wav,Sounds_Like_4.json
+train,/Users/gjb/Datasets/polymax/render/Island_Arp.wav,/Users/gjb/Projects/flow_synthesizer/params/Island_Arp.json,Island Arp,Island_Arp,Island_Arp.wav,Island_Arp.json
+train,/Users/gjb/Datasets/polymax/render/Phase_Two.wav,/Users/gjb/Projects/flow_synthesizer/params/Phase_Two.json,Phase Two,Phase_Two,Phase_Two.wav,Phase_Two.json
+train,/Users/gjb/Datasets/polymax/render/Cinnamon.wav,/Users/gjb/Projects/flow_synthesizer/params/Cinnamon.json,Cinnamon,Cinnamon,Cinnamon.wav,Cinnamon.json
+train,/Users/gjb/Datasets/polymax/render/Seventy-Nine_At_54.wav,/Users/gjb/Projects/flow_synthesizer/params/Seventy-Nine_At_54.json,Seventy-Nine At '54,Seventy-Nine_At_54,Seventy-Nine_At_54.wav,Seventy-Nine_At_54.json
+train,/Users/gjb/Datasets/polymax/render/Epic_1.wav,/Users/gjb/Projects/flow_synthesizer/params/Epic_1.json,Epic 1,Epic_1,Epic_1.wav,Epic_1.json
+train,/Users/gjb/Datasets/polymax/render/Running_Bell.wav,/Users/gjb/Projects/flow_synthesizer/params/Running_Bell.json,Running Bell,Running_Bell,Running_Bell.wav,Running_Bell.json
+train,/Users/gjb/Datasets/polymax/render/NoizBazz.wav,/Users/gjb/Projects/flow_synthesizer/params/NoizBazz.json,NoizBazz,NoizBazz,NoizBazz.wav,NoizBazz.json
+train,/Users/gjb/Datasets/polymax/render/Sectional_Brass.wav,/Users/gjb/Projects/flow_synthesizer/params/Sectional_Brass.json,Sectional Brass,Sectional_Brass,Sectional_Brass.wav,Sectional_Brass.json
+train,/Users/gjb/Datasets/polymax/render/Epic_3.wav,/Users/gjb/Projects/flow_synthesizer/params/Epic_3.json,Epic 3,Epic_3,Epic_3.wav,Epic_3.json
+train,/Users/gjb/Datasets/polymax/render/Huge_Manna.wav,/Users/gjb/Projects/flow_synthesizer/params/Huge_Manna.json,Huge Manna,Huge_Manna,Huge_Manna.wav,Huge_Manna.json
+train,/Users/gjb/Datasets/polymax/render/Electric_Friends.wav,/Users/gjb/Projects/flow_synthesizer/params/Electric_Friends.json,Electric Friends,Electric_Friends,Electric_Friends.wav,Electric_Friends.json
+train,/Users/gjb/Datasets/polymax/render/Droplets.wav,/Users/gjb/Projects/flow_synthesizer/params/Droplets.json,Droplets,Droplets,Droplets.wav,Droplets.json
+train,/Users/gjb/Datasets/polymax/render/Oscillations_Saw.wav,/Users/gjb/Projects/flow_synthesizer/params/Oscillations_Saw.json,Oscillations Saw,Oscillations_Saw,Oscillations_Saw.wav,Oscillations_Saw.json
+train,/Users/gjb/Datasets/polymax/render/Res_Band_Sweep.wav,/Users/gjb/Projects/flow_synthesizer/params/Res_Band_Sweep.json,Res Band Sweep,Res_Band_Sweep,Res_Band_Sweep.wav,Res_Band_Sweep.json
+train,/Users/gjb/Datasets/polymax/render/Ghostly_Marimbas.wav,/Users/gjb/Projects/flow_synthesizer/params/Ghostly_Marimbas.json,Ghostly Marimbas,Ghostly_Marimbas,Ghostly_Marimbas.wav,Ghostly_Marimbas.json
+train,/Users/gjb/Datasets/polymax/render/Syncing_About.wav,/Users/gjb/Projects/flow_synthesizer/params/Syncing_About.json,Syncing About,Syncing_About,Syncing_About.wav,Syncing_About.json
+train,/Users/gjb/Datasets/polymax/render/Translator.wav,/Users/gjb/Projects/flow_synthesizer/params/Translator.json,Translator,Translator,Translator.wav,Translator.json
+train,/Users/gjb/Datasets/polymax/render/Nino.wav,/Users/gjb/Projects/flow_synthesizer/params/Nino.json,Nino,Nino,Nino.wav,Nino.json
+train,/Users/gjb/Datasets/polymax/render/The_Wiggler.wav,/Users/gjb/Projects/flow_synthesizer/params/The_Wiggler.json,The Wiggler,The_Wiggler,The_Wiggler.wav,The_Wiggler.json
+train,/Users/gjb/Datasets/polymax/render/Glider.wav,/Users/gjb/Projects/flow_synthesizer/params/Glider.json,Glider,Glider,Glider.wav,Glider.json
+train,/Users/gjb/Datasets/polymax/render/NotSync.wav,/Users/gjb/Projects/flow_synthesizer/params/NotSync.json,NotSync,NotSync,NotSync.wav,NotSync.json
+train,/Users/gjb/Datasets/polymax/render/Sugar.wav,/Users/gjb/Projects/flow_synthesizer/params/Sugar.json,Sugar,Sugar,Sugar.wav,Sugar.json
+train,/Users/gjb/Datasets/polymax/render/Expensive.wav,/Users/gjb/Projects/flow_synthesizer/params/Expensive.json,Expensive,Expensive,Expensive.wav,Expensive.json
+train,/Users/gjb/Datasets/polymax/render/Synth_Strings.wav,/Users/gjb/Projects/flow_synthesizer/params/Synth_Strings.json,Synth Strings,Synth_Strings,Synth_Strings.wav,Synth_Strings.json
+train,/Users/gjb/Datasets/polymax/render/Papyrus.wav,/Users/gjb/Projects/flow_synthesizer/params/Papyrus.json,Papyrus,Papyrus,Papyrus.wav,Papyrus.json
+train,/Users/gjb/Datasets/polymax/render/Tremolo_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Tremolo_Pad.json,Tremolo Pad,Tremolo_Pad,Tremolo_Pad.wav,Tremolo_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Boingy_Arp.wav,/Users/gjb/Projects/flow_synthesizer/params/Boingy_Arp.json,Boingy Arp,Boingy_Arp,Boingy_Arp.wav,Boingy_Arp.json
+train,/Users/gjb/Datasets/polymax/render/Running_Brass.wav,/Users/gjb/Projects/flow_synthesizer/params/Running_Brass.json,Running Brass,Running_Brass,Running_Brass.wav,Running_Brass.json
+train,/Users/gjb/Datasets/polymax/render/Snare_Layer.wav,/Users/gjb/Projects/flow_synthesizer/params/Snare_Layer.json,Snare Layer,Snare_Layer,Snare_Layer.wav,Snare_Layer.json
+train,/Users/gjb/Datasets/polymax/render/Stepper_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Stepper_Pad.json,Stepper Pad,Stepper_Pad,Stepper_Pad.wav,Stepper_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Glassy.wav,/Users/gjb/Projects/flow_synthesizer/params/Glassy.json,Glassy,Glassy,Glassy.wav,Glassy.json
+train,/Users/gjb/Datasets/polymax/render/Voxy.wav,/Users/gjb/Projects/flow_synthesizer/params/Voxy.json,Voxy,Voxy,Voxy.wav,Voxy.json
+train,/Users/gjb/Datasets/polymax/render/Cumin.wav,/Users/gjb/Projects/flow_synthesizer/params/Cumin.json,Cumin,Cumin,Cumin.wav,Cumin.json
+train,/Users/gjb/Datasets/polymax/render/Slomo_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Slomo_Pad.json,Slomo Pad,Slomo_Pad,Slomo_Pad.wav,Slomo_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Candidate.wav,/Users/gjb/Projects/flow_synthesizer/params/Candidate.json,Candidate,Candidate,Candidate.wav,Candidate.json
+train,/Users/gjb/Datasets/polymax/render/Flange_Pad_1.wav,/Users/gjb/Projects/flow_synthesizer/params/Flange_Pad_1.json,Flange Pad 1,Flange_Pad_1,Flange_Pad_1.wav,Flange_Pad_1.json
+train,/Users/gjb/Datasets/polymax/render/Scrapy_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/Scrapy_Bass.json,Scrapy Bass,Scrapy_Bass,Scrapy_Bass.wav,Scrapy_Bass.json
+train,/Users/gjb/Datasets/polymax/render/Attack_Brass.wav,/Users/gjb/Projects/flow_synthesizer/params/Attack_Brass.json,Attack Brass,Attack_Brass,Attack_Brass.wav,Attack_Brass.json
+train,/Users/gjb/Datasets/polymax/render/Dual_Saw_Lead.wav,/Users/gjb/Projects/flow_synthesizer/params/Dual_Saw_Lead.json,Dual Saw Lead,Dual_Saw_Lead,Dual_Saw_Lead.wav,Dual_Saw_Lead.json
+train,/Users/gjb/Datasets/polymax/render/Diving.wav,/Users/gjb/Projects/flow_synthesizer/params/Diving.json,Diving,Diving,Diving.wav,Diving.json
+train,/Users/gjb/Datasets/polymax/render/Goes_Anywhere.wav,/Users/gjb/Projects/flow_synthesizer/params/Goes_Anywhere.json,Goes Anywhere,Goes_Anywhere,Goes_Anywhere.wav,Goes_Anywhere.json
+train,/Users/gjb/Datasets/polymax/render/Eighties_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/Eighties_Bass.json,Eighties Bass,Eighties_Bass,Eighties_Bass.wav,Eighties_Bass.json
+train,/Users/gjb/Datasets/polymax/render/Oldksool.wav,/Users/gjb/Projects/flow_synthesizer/params/Oldksool.json,Oldksool,Oldksool,Oldksool.wav,Oldksool.json
+train,/Users/gjb/Datasets/polymax/render/Monti_Claps.wav,/Users/gjb/Projects/flow_synthesizer/params/Monti_Claps.json,Monti Claps,Monti_Claps,Monti_Claps.wav,Monti_Claps.json
+train,/Users/gjb/Datasets/polymax/render/Barking_Island.wav,/Users/gjb/Projects/flow_synthesizer/params/Barking_Island.json,Barking Island,Barking_Island,Barking_Island.wav,Barking_Island.json
+train,/Users/gjb/Datasets/polymax/render/Seasick.wav,/Users/gjb/Projects/flow_synthesizer/params/Seasick.json,Seasick,Seasick,Seasick.wav,Seasick.json
+train,/Users/gjb/Datasets/polymax/render/Eerie_Glow.wav,/Users/gjb/Projects/flow_synthesizer/params/Eerie_Glow.json,Eerie Glow,Eerie_Glow,Eerie_Glow.wav,Eerie_Glow.json
+train,/Users/gjb/Datasets/polymax/render/Single_Reed.wav,/Users/gjb/Projects/flow_synthesizer/params/Single_Reed.json,Single Reed,Single_Reed,Single_Reed.wav,Single_Reed.json
+train,/Users/gjb/Datasets/polymax/render/Landing_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Landing_Pad.json,Landing Pad,Landing_Pad,Landing_Pad.wav,Landing_Pad.json
+train,/Users/gjb/Datasets/polymax/render/Crisp_Poly.wav,/Users/gjb/Projects/flow_synthesizer/params/Crisp_Poly.json,Crisp Poly,Crisp_Poly,Crisp_Poly.wav,Crisp_Poly.json
+train,/Users/gjb/Datasets/polymax/render/Monti_Snare.wav,/Users/gjb/Projects/flow_synthesizer/params/Monti_Snare.json,Monti Snare,Monti_Snare,Monti_Snare.wav,Monti_Snare.json
+train,/Users/gjb/Datasets/polymax/render/That_Sync.wav,/Users/gjb/Projects/flow_synthesizer/params/That_Sync.json,That Sync,That_Sync,That_Sync.wav,That_Sync.json
+train,/Users/gjb/Datasets/polymax/render/Cave_Worms.wav,/Users/gjb/Projects/flow_synthesizer/params/Cave_Worms.json,Cave Worms,Cave_Worms,Cave_Worms.wav,Cave_Worms.json
+train,/Users/gjb/Datasets/polymax/render/Inda_Houz.wav,/Users/gjb/Projects/flow_synthesizer/params/Inda_Houz.json,Inda Houz,Inda_Houz,Inda_Houz.wav,Inda_Houz.json
+test,/Users/gjb/Datasets/polymax/render/Fiddle_Flange.wav,/Users/gjb/Projects/flow_synthesizer/params/Fiddle_Flange.json,Fiddle Flange,Fiddle_Flange,Fiddle_Flange.wav,Fiddle_Flange.json
+test,/Users/gjb/Datasets/polymax/render/Flutter.wav,/Users/gjb/Projects/flow_synthesizer/params/Flutter.json,Flutter,Flutter,Flutter.wav,Flutter.json
+test,/Users/gjb/Datasets/polymax/render/Rise_Up_1.wav,/Users/gjb/Projects/flow_synthesizer/params/Rise_Up_1.json,Rise Up 1,Rise_Up_1,Rise_Up_1.wav,Rise_Up_1.json
+test,/Users/gjb/Datasets/polymax/render/Moving.wav,/Users/gjb/Projects/flow_synthesizer/params/Moving.json,Moving,Moving,Moving.wav,Moving.json
+test,/Users/gjb/Datasets/polymax/render/Lupine.wav,/Users/gjb/Projects/flow_synthesizer/params/Lupine.json,Lupine,Lupine,Lupine.wav,Lupine.json
+test,/Users/gjb/Datasets/polymax/render/Claparound.wav,/Users/gjb/Projects/flow_synthesizer/params/Claparound.json,Claparound,Claparound,Claparound.wav,Claparound.json
+test,/Users/gjb/Datasets/polymax/render/Cord_Cutter.wav,/Users/gjb/Projects/flow_synthesizer/params/Cord_Cutter.json,Cord Cutter,Cord_Cutter,Cord_Cutter.wav,Cord_Cutter.json
+test,/Users/gjb/Datasets/polymax/render/Pizzicato_Ghost.wav,/Users/gjb/Projects/flow_synthesizer/params/Pizzicato_Ghost.json,Pizzicato Ghost,Pizzicato_Ghost,Pizzicato_Ghost.wav,Pizzicato_Ghost.json
+test,/Users/gjb/Datasets/polymax/render/Largobrass.wav,/Users/gjb/Projects/flow_synthesizer/params/Largobrass.json,Largobrass,Largobrass,Largobrass.wav,Largobrass.json
+test,/Users/gjb/Datasets/polymax/render/Vertigo_Chords.wav,/Users/gjb/Projects/flow_synthesizer/params/Vertigo_Chords.json,Vertigo Chords,Vertigo_Chords,Vertigo_Chords.wav,Vertigo_Chords.json
+test,/Users/gjb/Datasets/polymax/render/Glide_Vac.wav,/Users/gjb/Projects/flow_synthesizer/params/Glide_Vac.json,Glide Vac,Glide_Vac,Glide_Vac.wav,Glide_Vac.json
+test,/Users/gjb/Datasets/polymax/render/Wrex.wav,/Users/gjb/Projects/flow_synthesizer/params/Wrex.json,Wrex,Wrex,Wrex.wav,Wrex.json
+test,/Users/gjb/Datasets/polymax/render/Baroque.wav,/Users/gjb/Projects/flow_synthesizer/params/Baroque.json,Baroque,Baroque,Baroque.wav,Baroque.json
+test,/Users/gjb/Datasets/polymax/render/Snappy_Snare.wav,/Users/gjb/Projects/flow_synthesizer/params/Snappy_Snare.json,Snappy Snare,Snappy_Snare,Snappy_Snare.wav,Snappy_Snare.json
+test,/Users/gjb/Datasets/polymax/render/Rise_Up_2.wav,/Users/gjb/Projects/flow_synthesizer/params/Rise_Up_2.json,Rise Up 2,Rise_Up_2,Rise_Up_2.wav,Rise_Up_2.json
+test,/Users/gjb/Datasets/polymax/render/Butter.wav,/Users/gjb/Projects/flow_synthesizer/params/Butter.json,Butter,Butter,Butter.wav,Butter.json
+test,/Users/gjb/Datasets/polymax/render/Evolving_Arp.wav,/Users/gjb/Projects/flow_synthesizer/params/Evolving_Arp.json,Evolving Arp,Evolving_Arp,Evolving_Arp.wav,Evolving_Arp.json
+test,/Users/gjb/Datasets/polymax/render/Oscillations_Square.wav,/Users/gjb/Projects/flow_synthesizer/params/Oscillations_Square.json,Oscillations Square,Oscillations_Square,Oscillations_Square.wav,Oscillations_Square.json
+test,/Users/gjb/Datasets/polymax/render/InstaProg.wav,/Users/gjb/Projects/flow_synthesizer/params/InstaProg.json,InstaProg,InstaProg,InstaProg.wav,InstaProg.json
+test,/Users/gjb/Datasets/polymax/render/Dirty_Clav_2.wav,/Users/gjb/Projects/flow_synthesizer/params/Dirty_Clav_2.json,Dirty Clav 2,Dirty_Clav_2,Dirty_Clav_2.wav,Dirty_Clav_2.json
+test,/Users/gjb/Datasets/polymax/render/Flange_Pad_2.wav,/Users/gjb/Projects/flow_synthesizer/params/Flange_Pad_2.json,Flange Pad 2,Flange_Pad_2,Flange_Pad_2.wav,Flange_Pad_2.json
+test,/Users/gjb/Datasets/polymax/render/Meat_Cleaver.wav,/Users/gjb/Projects/flow_synthesizer/params/Meat_Cleaver.json,Meat Cleaver,Meat_Cleaver,Meat_Cleaver.wav,Meat_Cleaver.json
+test,/Users/gjb/Datasets/polymax/render/Bongo_Weasel.wav,/Users/gjb/Projects/flow_synthesizer/params/Bongo_Weasel.json,Bongo Weasel,Bongo_Weasel,Bongo_Weasel.wav,Bongo_Weasel.json
+test,/Users/gjb/Datasets/polymax/render/Somber_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Somber_Pad.json,Somber Pad,Somber_Pad,Somber_Pad.wav,Somber_Pad.json
+test,/Users/gjb/Datasets/polymax/render/Flexi.wav,/Users/gjb/Projects/flow_synthesizer/params/Flexi.json,Flexi,Flexi,Flexi.wav,Flexi.json
+test,/Users/gjb/Datasets/polymax/render/Syncronomicon.wav,/Users/gjb/Projects/flow_synthesizer/params/Syncronomicon.json,Syncronomicon,Syncronomicon,Syncronomicon.wav,Syncronomicon.json
+test,/Users/gjb/Datasets/polymax/render/Rollercoaster.wav,/Users/gjb/Projects/flow_synthesizer/params/Rollercoaster.json,Rollercoaster,Rollercoaster,Rollercoaster.wav,Rollercoaster.json
+test,/Users/gjb/Datasets/polymax/render/Hoover_De_Vil.wav,/Users/gjb/Projects/flow_synthesizer/params/Hoover_De_Vil.json,Hoover De Vil,Hoover_De_Vil,Hoover_De_Vil.wav,Hoover_De_Vil.json
+test,/Users/gjb/Datasets/polymax/render/Fifth_of_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/Fifth_of_Bass.json,Fifth of Bass,Fifth_of_Bass,Fifth_of_Bass.wav,Fifth_of_Bass.json
+test,/Users/gjb/Datasets/polymax/render/Hot_Sync.wav,/Users/gjb/Projects/flow_synthesizer/params/Hot_Sync.json,Hot Sync,Hot_Sync,Hot_Sync.wav,Hot_Sync.json
+test,/Users/gjb/Datasets/polymax/render/UFO_Launch.wav,/Users/gjb/Projects/flow_synthesizer/params/UFO_Launch.json,UFO Launch,UFO_Launch,UFO_Launch.wav,UFO_Launch.json
+test,/Users/gjb/Datasets/polymax/render/Thousand_Trumpets.wav,/Users/gjb/Projects/flow_synthesizer/params/Thousand_Trumpets.json,Thousand Trumpets,Thousand_Trumpets,Thousand_Trumpets.wav,Thousand_Trumpets.json
+test,/Users/gjb/Datasets/polymax/render/Outrun_Reso_Bass.wav,/Users/gjb/Projects/flow_synthesizer/params/Outrun_Reso_Bass.json,Outrun Reso Bass,Outrun_Reso_Bass,Outrun_Reso_Bass.wav,Outrun_Reso_Bass.json
+test,/Users/gjb/Datasets/polymax/render/Uno_Pad.wav,/Users/gjb/Projects/flow_synthesizer/params/Uno_Pad.json,Uno Pad,Uno_Pad,Uno_Pad.wav,Uno_Pad.json
+test,/Users/gjb/Datasets/polymax/render/Sprung.wav,/Users/gjb/Projects/flow_synthesizer/params/Sprung.json,Sprung,Sprung,Sprung.wav,Sprung.json
+test,/Users/gjb/Datasets/polymax/render/Sagging.wav,/Users/gjb/Projects/flow_synthesizer/params/Sagging.json,Sagging,Sagging,Sagging.wav,Sagging.json
+test,/Users/gjb/Datasets/polymax/render/Scientific.wav,/Users/gjb/Projects/flow_synthesizer/params/Scientific.json,Scientific,Scientific,Scientific.wav,Scientific.json
+test,/Users/gjb/Datasets/polymax/render/A_Square.wav,/Users/gjb/Projects/flow_synthesizer/params/A_Square.json,A Square,A_Square,A_Square.wav,A_Square.json

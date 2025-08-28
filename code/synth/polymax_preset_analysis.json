@@ -1,0 +1,1313 @@
+{
+  "directory": "/Library/Audio/Presets/UADx PolyMAX Synth/Bass",
+  "total_presets": 45,
+  "preset_files": [
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Goes Anywhere.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Env Follower.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Evolving Arp.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Dirty Pulse Glide Lead.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Curious Poses.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Crusher.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Dusty Sub Bass.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Sagging.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Inda Houz.vstpreset",
+    "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Trash Can.vstpreset"
+  ],
+  "sample_analyses": [
+    {
+      "file_path": "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Goes Anywhere.vstpreset",
+      "file_size": 10639,
+      "parameters": {},
+      "raw_data_preview": "565354330100000041424344454630313931383246414542353534313434373835353439333033364b290000000000007b2369096912756170775f6368756e6b5f76657273696f6e6902690b6163746976655f736c6f7453690141690b7072657365745f6e616d6553690d476f657320416e797768657265690c7072657365745f646972747946690a7072657365745f75696453692031313332383365373735613534306564386361613365326463643262303566336914706c7567696e5f73746174655f706179",
+      "text_content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<MetaInfo>\r\n\t<Attribute id=\"MediaFamily\" value=\"Factory Presets|IFQ7LQ8UL2AFKREM9QUB9NVV95\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MediaType\" value=\"VstPreset\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"MusicalCategory\" value=\"Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MusicalInstrument\" value=\"Bass|Synth Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"PlugInCategory\" value=\"Instrument|Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInName\" value=\"UADx PolyMAX Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInVendor\" value=\"Universal Audio (UADx)\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"VST3UniqueID\" value=\"ABCDEF019182FAEB5541447855493036\" type=\"string\" flags=\"hidden|writeProtected\"/>\r\n</MetaInfo>\r\nList\u0003\u0000\u0000\u0000Comp0\u0000\u0000\u0000\u0000\u0000\u0000\u0000%\u0000\u0000\u0000\u0000\u0000\u0000Cont\u0010&\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Info\u0010&\u0000\u0000\u0000\u0000\u0000\u0000;\u0003\u0000\u0000\u0000\u0000\u0000\u0000",
+      "parameter_patterns": [
+        {
+          "offset": 0,
+          "type": "float",
+          "value": 4.943589004824389e-08
+        },
+        {
+          "offset": 4,
+          "type": "float",
+          "value": 1.401298464324817e-45
+        },
+        {
+          "offset": 12,
+          "type": "float",
+          "value": 2.5651314405905623e-09
+        },
+        {
+          "offset": 16,
+          "type": "float",
+          "value": 1.0721401544344644e-08
+        },
+        {
+          "offset": 24,
+          "type": "float",
+          "value": 2.622369210669717e-09
+        },
+        {
+          "offset": 28,
+          "type": "float",
+          "value": 4.367921792436391e-05
+        },
+        {
+          "offset": 32,
+          "type": "float",
+          "value": 0.00017185958859045058
+        },
+        {
+          "offset": 36,
+          "type": "float",
+          "value": 2.6701134174800245e-06
+        },
+        {
+          "offset": 40,
+          "type": "float",
+          "value": 1.481312606637764e-41
+        },
+        {
+          "offset": 44,
+          "type": "float",
+          "value": 0.0
+        },
+        {
+          "offset": 48,
+          "type": "float",
+          "value": 2.8063037651371183e-33
+        },
+        {
+          "offset": 72,
+          "type": "float",
+          "value": 4.487598090425874e-32
+        },
+        {
+          "offset": 108,
+          "type": "float",
+          "value": 2.061646217916413e-19
+        },
+        {
+          "offset": 148,
+          "type": "float",
+          "value": 2.5775312995079958e-09
+        },
+        {
+          "offset": 152,
+          "type": "float",
+          "value": 4.288649435579828e-08
+        },
+        {
+          "offset": 156,
+          "type": "float",
+          "value": 6.825342211413954e-07
+        },
+        {
+          "offset": 160,
+          "type": "float",
+          "value": 6.555947451580835e-10
+        },
+        {
+          "offset": 176,
+          "type": "float",
+          "value": 6.570800223926199e-07
+        },
+        {
+          "offset": 180,
+          "type": "float",
+          "value": 1.1773630373139027e-26
+        },
+        {
+          "offset": 204,
+          "type": "float",
+          "value": 1.2638653879417158e-17
+        },
+        {
+          "offset": 212,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 224,
+          "type": "float",
+          "value": 0.0006197008769959211
+        },
+        {
+          "offset": 228,
+          "type": "float",
+          "value": 1.1729793317277581e-19
+        },
+        {
+          "offset": 232,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 236,
+          "type": "float",
+          "value": 2.170105028310418e-18
+        },
+        {
+          "offset": 248,
+          "type": "float",
+          "value": 1.5766218864095268e-19
+        },
+        {
+          "offset": 252,
+          "type": "float",
+          "value": 1.3555994852292993e-19
+        },
+        {
+          "offset": 256,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 260,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 276,
+          "type": "float",
+          "value": 1.5766193014701126e-19
+        },
+        {
+          "offset": 280,
+          "type": "float",
+          "value": 1.355589791706496e-19
+        },
+        {
+          "offset": 284,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 288,
+          "type": "float",
+          "value": 3.597129538679411e-12
+        },
+        {
+          "offset": 292,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 296,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 316,
+          "type": "float",
+          "value": 3.108845628922094e-18
+        },
+        {
+          "offset": 320,
+          "type": "float",
+          "value": 1.2091271543776332e-32
+        },
+        {
+          "offset": 324,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 328,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 332,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 344,
+          "type": "float",
+          "value": 3.1097449810430924e-18
+        },
+        {
+          "offset": 348,
+          "type": "float",
+          "value": 8.480152898050265e-33
+        },
+        {
+          "offset": 352,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 356,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 360,
+          "type": "float",
+          "value": 1.1703774609603667e-19
+        },
+        {
+          "offset": 364,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 368,
+          "type": "float",
+          "value": 2.170105028310418e-18
+        },
+        {
+          "offset": 384,
+          "type": "float",
+          "value": 1.5766193014701126e-19
+        },
+        {
+          "offset": 388,
+          "type": "float",
+          "value": 1.3555994852292993e-19
+        },
+        {
+          "offset": 392,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        }
+      ]
+    },
+    {
+      "file_path": "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Env Follower.vstpreset",
+      "file_size": 10712,
+      "parameters": {},
+      "raw_data_preview": "5653543301000000414243444546303139313832464145423535343134343738353534393330333694290000000000007b2369096912756170775f6368756e6b5f76657273696f6e6902690b6163746976655f736c6f7453690141690b7072657365745f6e616d6553690c456e7620466f6c6c6f776572690c7072657365745f646972747946690a7072657365745f75696453692062383465626238383663323234353731623635633934306566376439616262336914706c7567696e5f73746174655f7061796c",
+      "text_content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<MetaInfo>\r\n\t<Attribute id=\"MediaFamily\" value=\"Factory Presets|IFQ7LQ8UL2AFKREM9QUB9NVV95\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MediaType\" value=\"VstPreset\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"MusicalCategory\" value=\"Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MusicalInstrument\" value=\"Bass|Synth Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"PlugInCategory\" value=\"Instrument|Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInName\" value=\"UADx PolyMAX Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInVendor\" value=\"Universal Audio (UADx)\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"VST3UniqueID\" value=\"ABCDEF019182FAEB5541447855493036\" type=\"string\" flags=\"hidden|writeProtected\"/>\r\n</MetaInfo>\r\nList\u0003\u0000\u0000\u0000Comp0\u0000\u0000\u0000\u0000\u0000\u0000\u0000)&\u0000\u0000\u0000\u0000\u0000\u0000ContY&\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000InfoY&\u0000\u0000\u0000\u0000\u0000\u0000;\u0003\u0000\u0000\u0000\u0000\u0000\u0000",
+      "parameter_patterns": [
+        {
+          "offset": 0,
+          "type": "float",
+          "value": 4.943589004824389e-08
+        },
+        {
+          "offset": 4,
+          "type": "float",
+          "value": 1.401298464324817e-45
+        },
+        {
+          "offset": 12,
+          "type": "float",
+          "value": 2.5651314405905623e-09
+        },
+        {
+          "offset": 16,
+          "type": "float",
+          "value": 1.0721401544344644e-08
+        },
+        {
+          "offset": 24,
+          "type": "float",
+          "value": 2.622369210669717e-09
+        },
+        {
+          "offset": 28,
+          "type": "float",
+          "value": 4.367921792436391e-05
+        },
+        {
+          "offset": 32,
+          "type": "float",
+          "value": 0.00017185958859045058
+        },
+        {
+          "offset": 36,
+          "type": "float",
+          "value": 2.6701134174800245e-06
+        },
+        {
+          "offset": 40,
+          "type": "float",
+          "value": 1.4915420854273353e-41
+        },
+        {
+          "offset": 44,
+          "type": "float",
+          "value": 0.0
+        },
+        {
+          "offset": 48,
+          "type": "float",
+          "value": 2.8063037651371183e-33
+        },
+        {
+          "offset": 72,
+          "type": "float",
+          "value": 4.487598090425874e-32
+        },
+        {
+          "offset": 132,
+          "type": "float",
+          "value": 1.123179635954514e-32
+        },
+        {
+          "offset": 148,
+          "type": "float",
+          "value": 1.7172033039969392e-07
+        },
+        {
+          "offset": 152,
+          "type": "float",
+          "value": 5.397423592512496e-05
+        },
+        {
+          "offset": 156,
+          "type": "float",
+          "value": 1.322546694382254e-08
+        },
+        {
+          "offset": 160,
+          "type": "float",
+          "value": 1.0800593372550793e-05
+        },
+        {
+          "offset": 164,
+          "type": "float",
+          "value": 6.794317073399725e-07
+        },
+        {
+          "offset": 168,
+          "type": "float",
+          "value": 6.556516995992467e-10
+        },
+        {
+          "offset": 208,
+          "type": "float",
+          "value": 1.2107981195973271e-32
+        },
+        {
+          "offset": 212,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 224,
+          "type": "float",
+          "value": 1.5766211109277026e-19
+        },
+        {
+          "offset": 228,
+          "type": "float",
+          "value": 1.3555994852292993e-19
+        },
+        {
+          "offset": 232,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 252,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 256,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 260,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 276,
+          "type": "float",
+          "value": 2.3316109043491906e-09
+        },
+        {
+          "offset": 280,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 284,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 288,
+          "type": "float",
+          "value": 8.305032157768576e-33
+        },
+        {
+          "offset": 292,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 296,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 316,
+          "type": "float",
+          "value": 0.00061949179507792
+        },
+        {
+          "offset": 320,
+          "type": "float",
+          "value": 1.1729793317277581e-19
+        },
+        {
+          "offset": 324,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 328,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 332,
+          "type": "float",
+          "value": 2.170105028310418e-18
+        },
+        {
+          "offset": 344,
+          "type": "float",
+          "value": 0.0006194927846081555
+        },
+        {
+          "offset": 348,
+          "type": "float",
+          "value": 1.1705308771146012e-19
+        },
+        {
+          "offset": 352,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 360,
+          "type": "float",
+          "value": 1.355589274718613e-19
+        },
+        {
+          "offset": 364,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 388,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 392,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 396,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 412,
+          "type": "float",
+          "value": 3.820111305685714e-05
+        },
+        {
+          "offset": 416,
+          "type": "float",
+          "value": 8.482778658556414e-33
+        },
+        {
+          "offset": 420,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 424,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        }
+      ]
+    },
+    {
+      "file_path": "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Evolving Arp.vstpreset",
+      "file_size": 10689,
+      "parameters": {},
+      "raw_data_preview": "565354330100000041424344454630313931383246414542353534313434373835353439333033367d290000000000007b2369096912756170775f6368756e6b5f76657273696f6e6902690b6163746976655f736c6f7453690141690b7072657365745f6e616d6553690c45766f6c76696e6720417270690c7072657365745f646972747946690a7072657365745f75696453692032633836383236386335616534333938386438353462646466346163396163636914706c7567696e5f73746174655f7061796c",
+      "text_content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<MetaInfo>\r\n\t<Attribute id=\"MediaFamily\" value=\"Factory Presets|IFQ7LQ8UL2AFKREM9QUB9NVV95\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MediaType\" value=\"VstPreset\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"MusicalCategory\" value=\"Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MusicalInstrument\" value=\"Bass|Synth Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"PlugInCategory\" value=\"Instrument|Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInName\" value=\"UADx PolyMAX Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInVendor\" value=\"Universal Audio (UADx)\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"VST3UniqueID\" value=\"ABCDEF019182FAEB5541447855493036\" type=\"string\" flags=\"hidden|writeProtected\"/>\r\n</MetaInfo>\r\nList\u0003\u0000\u0000\u0000Comp0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0012&\u0000\u0000\u0000\u0000\u0000\u0000ContB&\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000InfoB&\u0000\u0000\u0000\u0000\u0000\u0000;\u0003\u0000\u0000\u0000\u0000\u0000\u0000",
+      "parameter_patterns": [
+        {
+          "offset": 0,
+          "type": "float",
+          "value": 4.943589004824389e-08
+        },
+        {
+          "offset": 4,
+          "type": "float",
+          "value": 1.401298464324817e-45
+        },
+        {
+          "offset": 12,
+          "type": "float",
+          "value": 2.5651314405905623e-09
+        },
+        {
+          "offset": 16,
+          "type": "float",
+          "value": 1.0721401544344644e-08
+        },
+        {
+          "offset": 24,
+          "type": "float",
+          "value": 2.622369210669717e-09
+        },
+        {
+          "offset": 28,
+          "type": "float",
+          "value": 4.367921792436391e-05
+        },
+        {
+          "offset": 32,
+          "type": "float",
+          "value": 0.00017185958859045058
+        },
+        {
+          "offset": 36,
+          "type": "float",
+          "value": 2.6701134174800245e-06
+        },
+        {
+          "offset": 40,
+          "type": "float",
+          "value": 1.4883190989593882e-41
+        },
+        {
+          "offset": 44,
+          "type": "float",
+          "value": 0.0
+        },
+        {
+          "offset": 48,
+          "type": "float",
+          "value": 2.8063037651371183e-33
+        },
+        {
+          "offset": 72,
+          "type": "float",
+          "value": 4.487598090425874e-32
+        },
+        {
+          "offset": 112,
+          "type": "float",
+          "value": 1.9602992737845918e-19
+        },
+        {
+          "offset": 132,
+          "type": "float",
+          "value": 1.123179635954514e-32
+        },
+        {
+          "offset": 148,
+          "type": "float",
+          "value": 5.416770000010729e-05
+        },
+        {
+          "offset": 152,
+          "type": "float",
+          "value": 2.655678599694511e-06
+        },
+        {
+          "offset": 160,
+          "type": "float",
+          "value": 0.00017090288747567683
+        },
+        {
+          "offset": 164,
+          "type": "float",
+          "value": 5.4411793826147914e-05
+        },
+        {
+          "offset": 208,
+          "type": "float",
+          "value": 1.2103655376762245e-32
+        },
+        {
+          "offset": 212,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 224,
+          "type": "float",
+          "value": 1.5766211109277026e-19
+        },
+        {
+          "offset": 228,
+          "type": "float",
+          "value": 1.3555994852292993e-19
+        },
+        {
+          "offset": 232,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 252,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 256,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 260,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 276,
+          "type": "float",
+          "value": 5.829027260872977e-10
+        },
+        {
+          "offset": 280,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 284,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 288,
+          "type": "float",
+          "value": 8.305032157768576e-33
+        },
+        {
+          "offset": 292,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 296,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 316,
+          "type": "float",
+          "value": 0.00061949179507792
+        },
+        {
+          "offset": 320,
+          "type": "float",
+          "value": 1.1729793317277581e-19
+        },
+        {
+          "offset": 324,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 328,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 332,
+          "type": "float",
+          "value": 2.170105028310418e-18
+        },
+        {
+          "offset": 344,
+          "type": "float",
+          "value": 0.0006194927846081555
+        },
+        {
+          "offset": 348,
+          "type": "float",
+          "value": 1.170497789890099e-19
+        },
+        {
+          "offset": 352,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 360,
+          "type": "float",
+          "value": 1.355589274718613e-19
+        },
+        {
+          "offset": 364,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 388,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 392,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 396,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 412,
+          "type": "float",
+          "value": 1.492230978783482e-07
+        },
+        {
+          "offset": 416,
+          "type": "float",
+          "value": 1.7153146814052889e-07
+        },
+        {
+          "offset": 420,
+          "type": "float",
+          "value": 2.5640467526955035e-09
+        },
+        {
+          "offset": 424,
+          "type": "float",
+          "value": 2.670172079888289e-06
+        },
+        {
+          "offset": 428,
+          "type": "float",
+          "value": 1.0978713362419512e-05
+        }
+      ]
+    },
+    {
+      "file_path": "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Dirty Pulse Glide Lead.vstpreset",
+      "file_size": 10677,
+      "parameters": {},
+      "raw_data_preview": "5653543301000000414243444546303139313832464145423535343134343738353534393330333671290000000000007b2369096912756170775f6368756e6b5f76657273696f6e6902690b6163746976655f736c6f7453690141690b7072657365745f6e616d6553691644697274792050756c736520476c696465204c656164690c7072657365745f646972747946690a7072657365745f75696453692061346233653534303964653134396361616132313230363133336435343166306914706c7567696e5f",
+      "text_content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<MetaInfo>\r\n\t<Attribute id=\"MediaFamily\" value=\"Factory Presets|IFQ7LQ8UL2AFKREM9QUB9NVV95\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MediaType\" value=\"VstPreset\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"MusicalCategory\" value=\"Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MusicalInstrument\" value=\"Bass|Synth Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"PlugInCategory\" value=\"Instrument|Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInName\" value=\"UADx PolyMAX Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInVendor\" value=\"Universal Audio (UADx)\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"VST3UniqueID\" value=\"ABCDEF019182FAEB5541447855493036\" type=\"string\" flags=\"hidden|writeProtected\"/>\r\n</MetaInfo>\r\nList\u0003\u0000\u0000\u0000Comp0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006&\u0000\u0000\u0000\u0000\u0000\u0000Cont6&\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Info6&\u0000\u0000\u0000\u0000\u0000\u0000;\u0003\u0000\u0000\u0000\u0000\u0000\u0000",
+      "parameter_patterns": [
+        {
+          "offset": 0,
+          "type": "float",
+          "value": 4.943589004824389e-08
+        },
+        {
+          "offset": 4,
+          "type": "float",
+          "value": 1.401298464324817e-45
+        },
+        {
+          "offset": 12,
+          "type": "float",
+          "value": 2.5651314405905623e-09
+        },
+        {
+          "offset": 16,
+          "type": "float",
+          "value": 1.0721401544344644e-08
+        },
+        {
+          "offset": 24,
+          "type": "float",
+          "value": 2.622369210669717e-09
+        },
+        {
+          "offset": 28,
+          "type": "float",
+          "value": 4.367921792436391e-05
+        },
+        {
+          "offset": 32,
+          "type": "float",
+          "value": 0.00017185958859045058
+        },
+        {
+          "offset": 36,
+          "type": "float",
+          "value": 2.6701134174800245e-06
+        },
+        {
+          "offset": 40,
+          "type": "float",
+          "value": 1.4866375408021984e-41
+        },
+        {
+          "offset": 44,
+          "type": "float",
+          "value": 0.0
+        },
+        {
+          "offset": 48,
+          "type": "float",
+          "value": 2.8063037651371183e-33
+        },
+        {
+          "offset": 72,
+          "type": "float",
+          "value": 4.487598090425874e-32
+        },
+        {
+          "offset": 164,
+          "type": "float",
+          "value": 0.00016804116603452712
+        },
+        {
+          "offset": 168,
+          "type": "float",
+          "value": 1.6521295265192748e-07
+        },
+        {
+          "offset": 176,
+          "type": "float",
+          "value": 1.0314210818762604e-08
+        },
+        {
+          "offset": 180,
+          "type": "float",
+          "value": 4.1260307170887245e-08
+        },
+        {
+          "offset": 184,
+          "type": "float",
+          "value": 1.6893390863970126e-07
+        },
+        {
+          "offset": 220,
+          "type": "float",
+          "value": 1.3555994852292993e-19
+        },
+        {
+          "offset": 232,
+          "type": "float",
+          "value": 3.2990045255806846e-18
+        },
+        {
+          "offset": 236,
+          "type": "float",
+          "value": 1.2091271543776332e-32
+        },
+        {
+          "offset": 240,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 244,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 256,
+          "type": "float",
+          "value": 0.000619790400378406
+        },
+        {
+          "offset": 260,
+          "type": "float",
+          "value": 1.1729793317277581e-19
+        },
+        {
+          "offset": 264,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 268,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 272,
+          "type": "float",
+          "value": 2.170105028310418e-18
+        },
+        {
+          "offset": 284,
+          "type": "float",
+          "value": 0.0006194927846081555
+        },
+        {
+          "offset": 288,
+          "type": "float",
+          "value": 1.1705308771146012e-19
+        },
+        {
+          "offset": 292,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 300,
+          "type": "float",
+          "value": 1.355589274718613e-19
+        },
+        {
+          "offset": 304,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 332,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 336,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 340,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 356,
+          "type": "float",
+          "value": 5.829027260872977e-10
+        },
+        {
+          "offset": 360,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 364,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 368,
+          "type": "float",
+          "value": 8.305032157768576e-33
+        },
+        {
+          "offset": 372,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 376,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 392,
+          "type": "float",
+          "value": 0.0006194923189468682
+        },
+        {
+          "offset": 396,
+          "type": "float",
+          "value": 1.1729793317277581e-19
+        },
+        {
+          "offset": 400,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 404,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 408,
+          "type": "float",
+          "value": 2.170105028310418e-18
+        },
+        {
+          "offset": 420,
+          "type": "float",
+          "value": 0.0006194927846081555
+        },
+        {
+          "offset": 424,
+          "type": "float",
+          "value": 4.0517922350602475e-11
+        },
+        {
+          "offset": 428,
+          "type": "float",
+          "value": 1.355589791706496e-19
+        },
+        {
+          "offset": 432,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        }
+      ]
+    },
+    {
+      "file_path": "/Library/Audio/Presets/UADx PolyMAX Synth/Bass/Curious Poses.vstpreset",
+      "file_size": 10667,
+      "parameters": {},
+      "raw_data_preview": "5653543301000000414243444546303139313832464145423535343134343738353534393330333667290000000000007b2369096912756170775f6368756e6b5f76657273696f6e6902690b6163746976655f736c6f7453690141690b7072657365745f6e616d6553690d437572696f757320506f736573690c7072657365745f646972747946690a7072657365745f75696453692064313832376434623763366234386137616166313230326532326534653632616914706c7567696e5f73746174655f706179",
+      "text_content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<MetaInfo>\r\n\t<Attribute id=\"MediaFamily\" value=\"Factory Presets|IFQ7LQ8UL2AFKREM9QUB9NVV95\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MediaType\" value=\"VstPreset\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"MusicalCategory\" value=\"Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"MusicalInstrument\" value=\"Bass|Synth Bass\" type=\"string\" flags=\"\"/>\r\n\t<Attribute id=\"PlugInCategory\" value=\"Instrument|Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInName\" value=\"UADx PolyMAX Synth\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"PlugInVendor\" value=\"Universal Audio (UADx)\" type=\"string\" flags=\"writeProtected\"/>\r\n\t<Attribute id=\"VST3UniqueID\" value=\"ABCDEF019182FAEB5541447855493036\" type=\"string\" flags=\"hidden|writeProtected\"/>\r\n</MetaInfo>\r\nList\u0003\u0000\u0000\u0000Comp0\u0000\u0000\u0000\u0000\u0000\u0000\u0000%\u0000\u0000\u0000\u0000\u0000\u0000Cont,&\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Info,&\u0000\u0000\u0000\u0000\u0000\u0000;\u0003\u0000\u0000\u0000\u0000\u0000\u0000",
+      "parameter_patterns": [
+        {
+          "offset": 0,
+          "type": "float",
+          "value": 4.943589004824389e-08
+        },
+        {
+          "offset": 4,
+          "type": "float",
+          "value": 1.401298464324817e-45
+        },
+        {
+          "offset": 12,
+          "type": "float",
+          "value": 2.5651314405905623e-09
+        },
+        {
+          "offset": 16,
+          "type": "float",
+          "value": 1.0721401544344644e-08
+        },
+        {
+          "offset": 24,
+          "type": "float",
+          "value": 2.622369210669717e-09
+        },
+        {
+          "offset": 28,
+          "type": "float",
+          "value": 4.367921792436391e-05
+        },
+        {
+          "offset": 32,
+          "type": "float",
+          "value": 0.00017185958859045058
+        },
+        {
+          "offset": 36,
+          "type": "float",
+          "value": 2.6701134174800245e-06
+        },
+        {
+          "offset": 40,
+          "type": "float",
+          "value": 1.4852362423378736e-41
+        },
+        {
+          "offset": 44,
+          "type": "float",
+          "value": 0.0
+        },
+        {
+          "offset": 48,
+          "type": "float",
+          "value": 2.8063037651371183e-33
+        },
+        {
+          "offset": 72,
+          "type": "float",
+          "value": 4.487598090425874e-32
+        },
+        {
+          "offset": 148,
+          "type": "float",
+          "value": 3.319678976154705e-09
+        },
+        {
+          "offset": 160,
+          "type": "float",
+          "value": 4.300681030144915e-05
+        },
+        {
+          "offset": 168,
+          "type": "float",
+          "value": 6.482622216807954e-10
+        },
+        {
+          "offset": 172,
+          "type": "float",
+          "value": 1.038397279273795e-08
+        },
+        {
+          "offset": 176,
+          "type": "float",
+          "value": 3.4154156764998334e-06
+        },
+        {
+          "offset": 180,
+          "type": "float",
+          "value": 1.1782662214206225e-26
+        },
+        {
+          "offset": 204,
+          "type": "float",
+          "value": 1.2638653879417158e-17
+        },
+        {
+          "offset": 212,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 224,
+          "type": "float",
+          "value": 0.0006197008769959211
+        },
+        {
+          "offset": 228,
+          "type": "float",
+          "value": 1.1729793317277581e-19
+        },
+        {
+          "offset": 232,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 236,
+          "type": "float",
+          "value": 2.170105028310418e-18
+        },
+        {
+          "offset": 248,
+          "type": "float",
+          "value": 1.5766218864095268e-19
+        },
+        {
+          "offset": 252,
+          "type": "float",
+          "value": 1.3555994852292993e-19
+        },
+        {
+          "offset": 256,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 260,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 276,
+          "type": "float",
+          "value": 1.5766193014701126e-19
+        },
+        {
+          "offset": 280,
+          "type": "float",
+          "value": 1.355589791706496e-19
+        },
+        {
+          "offset": 284,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 288,
+          "type": "float",
+          "value": 3.597129538679411e-12
+        },
+        {
+          "offset": 292,
+          "type": "float",
+          "value": 1.3563127992606555e-19
+        },
+        {
+          "offset": 296,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 316,
+          "type": "float",
+          "value": 3.108845628922094e-18
+        },
+        {
+          "offset": 320,
+          "type": "float",
+          "value": 1.2091271543776332e-32
+        },
+        {
+          "offset": 324,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 328,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 332,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 344,
+          "type": "float",
+          "value": 3.1097449810430924e-18
+        },
+        {
+          "offset": 348,
+          "type": "float",
+          "value": 8.480152898050265e-33
+        },
+        {
+          "offset": 352,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 356,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 360,
+          "type": "float",
+          "value": 1.1703774609603667e-19
+        },
+        {
+          "offset": 364,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 368,
+          "type": "float",
+          "value": 2.170105028310418e-18
+        },
+        {
+          "offset": 384,
+          "type": "float",
+          "value": 1.5766193014701126e-19
+        },
+        {
+          "offset": 388,
+          "type": "float",
+          "value": 1.3555994852292993e-19
+        },
+        {
+          "offset": 392,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        },
+        {
+          "offset": 396,
+          "type": "float",
+          "value": 1.3563156426940112e-19
+        }
+      ]
+    }
+  ]
+}

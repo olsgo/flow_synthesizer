@@ -1,0 +1,63 @@
+{
+  "mode": "sweep",
+  "note_events": [
+    {
+      "t0": 0.0,
+      "t1": 1.0
+    },
+    {
+      "t0": 1.0,
+      "t1": 2.0
+    },
+    {
+      "t0": 2.0,
+      "t1": 3.0
+    },
+    {
+      "t0": 3.0,
+      "t1": 4.0
+    }
+  ],
+  "automation": [
+    {
+      "time": 0.0,
+      "param": "filter_cutoff_freq",
+      "value": 0.6826415495352643
+    },
+    {
+      "time": 0.0,
+      "param": "filter_resonance",
+      "value": 0.398925473668594
+    },
+    {
+      "time": 1.0,
+      "param": "filter_cutoff_freq",
+      "value": 0.6925278215422354
+    },
+    {
+      "time": 1.0,
+      "param": "filter_resonance",
+      "value": 0.46305792362423537
+    },
+    {
+      "time": 2.0,
+      "param": "filter_cutoff_freq",
+      "value": 0.7024140935492064
+    },
+    {
+      "time": 2.0,
+      "param": "filter_resonance",
+      "value": 0.5271903735798769
+    },
+    {
+      "time": 3.0,
+      "param": "filter_cutoff_freq",
+      "value": 0.7123003655561774
+    },
+    {
+      "time": 3.0,
+      "param": "filter_resonance",
+      "value": 0.5913228235355182
+    }
+  ]
+}

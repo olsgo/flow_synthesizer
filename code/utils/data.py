@@ -474,9 +474,8 @@ class CompSynthesizerDataset(Dataset):
 
     def __getitem__(self, idx):        
         import json
-        #data = [self.fix_size(self.trans_datasets[dtype][idx], dtype).unsqueeze(0) for dtype in self.data]
-        #data = torch.cat(data)
         data = self.fix_size(self.trans_datasets[self.data[0]][idx], self.data[0]).unsqueeze(0)
+
         
         # Load raw data file
         loaded = np.load(self.datadir + '/raw/' + self.data_files[idx], allow_pickle=True)
@@ -550,7 +549,7 @@ def load_dataset(args, **kwargs):
         if args.dataset in ['polymax_dataset', 'polymax_dataset_v2']:
             # Use PolyMAX parameter order from params_schema.json (66 params)
             import json
-            with open('params_schema.json', 'r') as f:
+            with open('data/params_schema.json', 'r') as f:
                 schema = json.load(f)
             use_params = schema.get('parameter_order', [])
         else:

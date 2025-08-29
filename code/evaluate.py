@@ -121,7 +121,7 @@ def evaluate_dimensions(model, pca, args, n_steps = 50, pos=[-1, 0, 1]):
     # Reorder variances per dimension (for top parameters)	
     for l in range(latent_dims):	
         latent_variances[l, :] = np.argsort(latent_variances[l])[::-1]	
-    return latent_sort, latent_variances, latent_parameters, latent_descriptors, descriptor_max	
+    return latent_sort, latent_variances, latent_parameters, latent_descriptors, descriptor_max
 
 """	
 ###################	
@@ -185,7 +185,7 @@ def evaluate_latent_space(model, test_loader, args, train=False, name=None):
         # Send to device
         x, y = x.to(args.device), y.to(args.device)
         # Encode our fixed batch
-        if (not (args.model in ['mlp', 'gated_mlp', 'cnn', 'gated_cnn', 'res_cnn'])): 
+        if (not (args.model in ['mlp', 'gated_mlp', 'cnn', 'gated_cnn', 'res_cnn'])):
             # Auto-encode
             x_tilde, z_tilde, z_loss = model.ae_model(x)
             if (args.semantic_dim > -1):
@@ -226,10 +226,10 @@ def evaluate_latent_space(model, test_loader, args, train=False, name=None):
     ax.scatter(X[:, 0], X[:, 1], X[:, 2])#, c=yc, cmap=plt.cm.nipy_spectral, edgecolor='k')
     if (name is not None):
         plt.savefig(name + '_latent_space.pdf')
-        plt.close()                
+        plt.close()
     if (train == False and name is None):
         plt.savefig(args.base_img + '_latent_space.pdf')
-        plt.close()                
+        plt.close()
     return args
 
 """
@@ -256,10 +256,10 @@ def evaluate_semantic_parameters(model, test_loader, args, train=False, name=Non
         ax.set_title(meta_names[m])
     if (name is not None):
         plt.savefig(name + '_metatags_space.pdf')
-        plt.close()                
+        plt.close()
     if (train == False and name is None):
         plt.savefig(args.base_img + '_metatags_space.pdf')
-        plt.close()  
+        plt.close()
 
 """
 ###################
@@ -340,7 +340,7 @@ def evaluate_meta_parameters(model, test_loader, args, train=False, name=None, n
                 if (args.loss in ['multi_mse']):
                     tmp_data = tmp_data.view(tmp_data.shape[0], -1, args.latent_dims)
                     tmp_data = tmp_data[:, -1, :]
-                # Synthesize meta-modified test example :)                
+                # Synthesize meta-modified test example :)
                 _ensure_synth(args)
                 audio = synthesize_batch(tmp_data.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=None, name=None)
                 save_batch_audio(audio, args.base_audio + '_meta_parameters_z' + str(l) + '_b' + str(s))
@@ -356,7 +356,7 @@ def evaluate_meta_parameters(model, test_loader, args, train=False, name=None, n
             fig.add_subplot(ax)
         # Unscale and un-log output
         x_tilde_full = (x_tilde_full * test_loader.dataset.vars["mel"]) + test_loader.dataset.means["mel"]
-        if (args.data in ['mel',"mel_mfcc"]):
+        if (args.data in ["mel","mel_mfcc"]):
             x_tilde_full = torch.exp(x_tilde_full)
         x_tilde_full = x_tilde_full[:,0]
         # Compute descriptors
@@ -552,7 +552,7 @@ def evaluate_params(model, test_loader, args, losses=[], train=False, name=None)
 ###################
 Synthesis evaluation
 ###################
-""" 
+"""
 def evaluate_synthesis(model, test_loader, args, train=False, name=None):
     from synth.synthesize import synthesize_batch
     print('  - Evaluate audio synthesis losses.')
@@ -613,7 +613,7 @@ def evaluate_synthesis(model, test_loader, args, train=False, name=None):
 ###################
 Evaluate sounds from different synths
 ###################
-""" 
+"""
 def evaluate_projection(model, test_loader, args, train=False, name=None, type_val='project'):
     n_evals = 0
     sc_losses = []
@@ -626,7 +626,7 @@ def evaluate_projection(model, test_loader, args, train=False, name=None, type_v
         # Send to device
         x = x.to(args.device)
         # Encode our fixed batch
-        if (not (args.model in ['mlp', 'gated_mlp', 'cnn', 'gated_cnn', 'res_cnn'])): 
+        if (not (args.model in ['mlp', 'gated_mlp', 'cnn', 'gated_cnn', 'res_cnn'])):
             # Auto-encode
             x_tilde, z_tilde, z_loss = model.ae_model(x)
             if (args.semantic_dim > -1):
@@ -687,7 +687,7 @@ def evaluate_projection(model, test_loader, args, train=False, name=None, type_v
         # Send to device
         x = x.to(args.device)
         # Encode our fixed batch
-        if (not (args.model in ['mlp', 'gated_mlp', 'cnn', 'gated_cnn', 'res_cnn'])): 
+        if (not (args.model in ['mlp', 'gated_mlp', 'cnn', 'gated_cnn', 'res_cnn'])):
             # Auto-encode
             x_tilde, z_tilde, z_loss = model.ae_model(x)
             if (args.semantic_dim > -1):
@@ -725,7 +725,7 @@ Combined evaluations
 ###################
 Full final evaluation (end of train)
 ###################
-""" 
+"""
 def evaluate_model(model, fixed_data, test_loader, args, train=False, name=None):
     # Retrieve different datas
     (x, y, meta, wave) = fixed_data
@@ -848,7 +848,7 @@ if __name__ == '__main__':
     parser.add_argument('--epochs',     type=int,   default=100, help='')
     parser.add_argument('--device',     type=str,   default='cpu', help='')
     parser.add_argument('--eval_type',  type=str,   default='summary', help='')
-    parser.add_argument('--test_regress',type=int,   default=1 , help='')
+    parser.add_argument('--train_type',type=str,   default='random' , help='')
     args = parser.parse_args()
     if (args.device != 'cpu'):
         matplotlib.use('agg')
@@ -857,7 +857,7 @@ if __name__ == '__main__':
         from synth.synthesize import create_synth
         # Create synth rendering system
         args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth('toy', 'diva')
-    #%%
+    #%
     
     """
     #############
@@ -961,35 +961,54 @@ if __name__ == '__main__':
         for f in files:
             f.write(msg + '\n')
     
-    result_types = {'params':True, 'recons':False, 'synth':False, 'project':False, 'vocal':False}
-    summary = {}
-    # Parse through different results
-    for t,v in result_types.items():
-        # Simply list all results files
-        cur_res = sorted(glob.glob(args.output + '/models/*.' + t + '.results.npy'))
-        print('Retrieving ' + t)
-        summary = analyze_results(cur_res, t, summary, take_one=v)
-    
-    # First perform a results type analysis
-    for t,v in result_types.items():
-        cur_results = summary[t]
-        # Plot results as boxplot
-        for var, vals in variants.items():
-            for v_v in vals:
-                if (cur_results[var].get(v_v) is None):
-                    continue
-                cur_results[var][v_v] = torch.cat(cur_results[var][v_v])
-            boxplot_value(cur_results[var], vals, name='outputs/'+ t + '_' + var)
-        # Print tables of results
-        model_n = cur_results['model_list']
-        model_r = cur_results['results']
-        model_i = cur_results['idx']
-        print('----------------')
-        print('****************')
-        print('Best performing models for ' + t)
-        for i in range(10):
-            print(model_n[model_i[i]])
-            print(model_r[model_i[i]])
-        print('----------------')
+    if args.eval_type == 'full':
+        # Load the dataset
+        train_loader, test_loader, args.z_size, args.param_names = load_dataset(args)
+        # Get a fixed batch for comparison
+        fixed_data = next(iter(test_loader))
+        # Find the model file
+        model_files = glob.glob(args.output + '/models/*.model')
+        if len(model_files) == 0:
+            raise Exception('No model found in ' + args.output + '/models')
+        base_model = model_files[0].replace('.model', '')
+        # Load the model
+        model = torch.load(base_model + '.model')
+        # Evaluate the model
+        evaluate_model(model, fixed_data, test_loader, args, name=base_model)
+    else:
+        result_types = {'params':True, 'recons':False, 'synth':False, 'project':False, 'vocal':False}
+        summary = {}
+        # Parse through different results
+        for t,v in result_types.items():
+            # Simply list all results files
+            cur_res = sorted(glob.glob(args.output + '/models/*.' + t + '.results.npy'))
+            print('Retrieving ' + t)
+            if len(cur_res) == 0:
+                continue
+            summary = analyze_results(cur_res, t, summary, take_one=v)
+        
+        # First perform a results type analysis
+        for t,v in result_types.items():
+            if t not in summary:
+                continue
+            cur_results = summary[t]
+            # Plot results as boxplot
+            for var, vals in variants.items():
+                for v_v in vals:
+                    if (cur_results[var].get(v_v) is None):
+                        continue
+                    cur_results[var][v_v] = torch.cat(cur_results[var][v_v])
+                boxplot_value(cur_results[var], vals, name='outputs/'+ t + '_' + var)
+            # Print tables of results
+            model_n = cur_results['model_list']
+            model_r = cur_results['results']
+            model_i = cur_results['idx']
+            print('----------------')
+            print('****************')
+            print('Best performing models for ' + t)
+            for i in range(10):
+                print(model_n[model_i[i]])
+                print(model_r[model_i[i]])
+            print('----------------')
         
                 

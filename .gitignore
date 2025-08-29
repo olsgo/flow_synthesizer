@@ -125,11 +125,11 @@ dmypy.json
 .pyre/
 
 # Archive artifacts
-archive/
-archive_20250829/
+# archive/
+# archive_20250829/
 
-# datasets
-datasets/
+# # datasets
+# datasets/
 
-# chat history
-chat_history/
+# # chat history
+# chat_history/

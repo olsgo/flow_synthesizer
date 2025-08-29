@@ -33,6 +33,12 @@ sys.path.append('/Users/gjb/Projects/poc-audio-pedalboard')
 try:
     import pedalboard
     from pedalboard import VST3Plugin, load_plugin
+    try:
+        from pedalboard import MIDIMessage as _PB_MIDIMessage
+        _HAVE_MIDI_MESSAGE = True
+    except Exception:
+        _PB_MIDIMessage = None
+        _HAVE_MIDI_MESSAGE = False
 except ImportError:
     print("Error: pedalboard not found. Please install with: pip install pedalboard")
     sys.exit(1)
@@ -167,42 +173,94 @@ class PolyMAXDatasetGenerator:
             note_length = 3.0  # Note duration
             render_length = self.audio_duration  # Total render time
             
-            # Create MIDI message sequence (using compatibility fallback since MIDIMessage not available)
-            class _CompatMidi:
-                def __init__(self, status, note, velocity, time):
-                    self._data = bytes([status, note, velocity])
-                    self.time = time
-                def bytes(self):
-                    return self._data
-            midi_messages = [
-                _CompatMidi(0x90, int(midi_note), int(midi_velocity), 0.0),
-                _CompatMidi(0x80, int(midi_note), int(midi_velocity), float(note_length)),
-            ]
+            # Create MIDI message sequence
+            if _HAVE_MIDI_MESSAGE:
+                midi_messages = [
+                    _PB_MIDIMessage.note_on(note=int(midi_note), velocity=int(midi_velocity), time=0.0),
+                    _PB_MIDIMessage.note_off(note=int(midi_note), velocity=int(midi_velocity), time=float(note_length)),
+                ]
+            else:
+                class _CompatMidi:
+                    def __init__(self, status, note, velocity, time):
+                        self._data = bytes([status, note, velocity])
+                        self.time = time
+                    def bytes(self):
+                        return self._data
+                midi_messages = [
+                    _CompatMidi(0x90, int(midi_note), int(midi_velocity), 0.0),
+                    _CompatMidi(0x80, int(midi_note), int(midi_velocity), float(note_length)),
+                ]
             
             # Render audio using MIDI messages for instrument plugins
+            # First attempt: reset the plugin prior to rendering
             audio_out = self.plugin(
                 midi_messages,
-                duration=render_length,
+                duration=float(render_length),
                 sample_rate=self.sample_rate,
                 num_channels=2,
-                reset=False
+                reset=True
             )
-            
-            # Ensure audio is in the correct format (mono)
-            if audio_out.ndim == 2:
-                # Convert stereo to mono by taking left channel
-                if audio_out.shape[0] == 2:  # (channels, samples)
-                    audio_out = audio_out[0]  # Take left channel
-                elif audio_out.shape[1] == 2:  # (samples, channels)
-                    audio_out = audio_out[:, 0]  # Take left channel
-            
-            return audio_out.astype(np.float32)
+
+            audio = self._normalize_audio(audio_out)
+
+            # If the plugin returned empty or extremely short audio, try once more
+            expected = int(self.audio_duration * self.sample_rate)
+            if audio.size < max(1, expected // 10):
+                import time as _time
+                _time.sleep(0.05)
+                audio_out = self.plugin(
+                    midi_messages,
+                    duration=float(render_length),
+                    sample_rate=self.sample_rate,
+                    num_channels=2,
+                    reset=True
+                )
+                audio = self._normalize_audio(audio_out)
+
+            # Ensure exact target length by padding or truncating
+            if audio.size == 0:
+                total_samples = int(self.audio_duration * self.sample_rate)
+                return np.zeros(total_samples, dtype=np.float32)
+            if audio.size < expected:
+                pad = expected - audio.size
+                audio = np.pad(audio, (0, pad))
+            elif audio.size > expected:
+                audio = audio[:expected]
+
+            return audio.astype(np.float32)
             
         except Exception as e:
             print(f"Error generating audio: {e}")
             # Return silence if generation fails
             total_samples = int(self.audio_duration * self.sample_rate)
             return np.zeros(total_samples, dtype=np.float32)
+
+    def _normalize_audio(self, audio_out: np.ndarray) -> np.ndarray:
+        """Convert plugin output to a 1D mono float32 NumPy array, robustly handling shape variants."""
+        try:
+            a = np.asarray(audio_out)
+            if a.ndim == 0:
+                return np.zeros(0, dtype=np.float32)
+            if a.ndim == 1:
+                return a.astype(np.float32)
+            # 2D: try to detect (channels, samples) vs (samples, channels)
+            h, w = a.shape[0], a.shape[1]
+            # Prefer averaging channels when exactly 2 present on either axis
+            if h in (1, 2) and w not in (1, 2):
+                # (channels, samples)
+                return (a[0] if h == 1 else a.mean(axis=0)).astype(np.float32)
+            if w in (1, 2) and h not in (1, 2):
+                # (samples, channels)
+                return (a[:, 0] if w == 1 else a.mean(axis=1)).astype(np.float32)
+            # Fallback: assume longer axis is time (samples)
+            if h >= w:
+                # (samples, channels?)
+                return a.mean(axis=1).astype(np.float32)
+            else:
+                # (channels?, samples)
+                return a.mean(axis=0).astype(np.float32)
+        except Exception:
+            return np.zeros(0, dtype=np.float32)
     
     def _extract_parameters(self) -> Dict[str, float]:
         """Extract current plugin parameters as a dictionary."""

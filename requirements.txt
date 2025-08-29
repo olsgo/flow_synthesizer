@@ -1,10 +1,39 @@
-asyncio
-librosa
+# PolyMAX Parameter Prediction Web API Requirements
+# Install with: pip install -r requirements.txt
+
+# Core API framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Request/response models
+pydantic>=2.0.0
+
+# File handling and validation
+python-multipart>=0.0.6
+aiofiles>=23.0.0
+
+# Audio processing
+librosa>=0.10.0
+numpy>=1.24.0
+scipy>=1.10.0
 matplotlib
-numpy
-pedalboard
-python-osc
-scipy
-torch
-torchvision
+
+# Machine learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
 scikit_learn
+
+# OSC
+python-osc
+
+# Optional: Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0  # For testing API endpoints
+
+# Optional: Production deployment
+gunicorn>=21.0.0
+
+# pedalboard
+pedalboard

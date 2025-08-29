@@ -1,0 +1,20 @@
+{
+  "config": {
+    "strategy": "uniform",
+    "count": 3,
+    "output_dir": "test_fixed",
+    "duration": 2.0,
+    "sample_rate": 44100,
+    "seed": 42,
+    "note": 60,
+    "velocity": 100,
+    "note_duration": 1.5
+  },
+  "results": {
+    "successful_samples": 0,
+    "failed_samples": 3,
+    "total_requested": 3
+  },
+  "parameter_count": 66,
+  "strategy": "uniform"
+}

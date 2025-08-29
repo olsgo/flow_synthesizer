@@ -41,18 +41,24 @@ class VAE(AE):
         if (self.gaussian_dec):
             n_batch = z.size(0)
             x_vals = self.decoder(z)
-            x_vals = x_vals.view(-1, np.prod(self.input_dims))
+            x_vals = x_vals.reshape(-1, np.prod(self.input_dims))
             mu = self.mu_dec(x_vals)
             log_var = self.log_var_dec(x_vals)
             q = distrib.Normal(torch.zeros(mu.shape[1]), torch.ones(log_var.shape[1]))
             eps = q.sample((n_batch, )).detach().to(z.device)
             x_tilde = (log_var.exp().sqrt() * eps) + mu
-            x_tilde = x_tilde.view(-1, * self.input_dims)
+            x_tilde = x_tilde.reshape(-1, * self.input_dims)
         else:
             x_tilde = self.decoder(z)
         return x_tilde
 
     def forward(self, x):
+        # Set target width on decoder for adaptive resizing
+        if hasattr(self.decoder, 'target_width'):
+            self.decoder.target_width = x.shape[-1]
+        else:
+            setattr(self.decoder, 'target_width', x.shape[-1])
+        
         # Encode the inputs
         z_params = self.encode(x)
         #z_q_mean, z_q_logvar = z_params

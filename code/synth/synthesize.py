@@ -1,6 +1,7 @@
 #%%
 import argparse
 import json, ast
+import numpy as np
 import warnings
 import os
 
@@ -45,11 +46,27 @@ def play_patch(engine, patch_gen, patch=None):
     audio = engine.get_audio_frames()
     return np.array(audio), patch
 
-def midiname2num(patch, rev_midi_desc): 
+def midiname2num(patch: dict, name_to_index: dict):
     """
-    converts param dict {param_name: value,...} to librenderman patch [(param no., value),..]
+    Convert {param_name: value} to [(param_index, value)].
+    Accepts mapping in either direction; will invert if given as {index: name}.
     """
-    return [(rev_midi_desc[k], float(v)) for k,v in patch.items()]
+    # Detect if mapping is name->index; otherwise invert
+    mapping = name_to_index
+    try:
+        # If keys are not strings, try to invert (assumed index->name)
+        sample_key = next(iter(mapping.keys()))
+        if not isinstance(sample_key, str):
+            mapping = {v: k for k, v in mapping.items()}
+    except Exception:
+        mapping = name_to_index
+    result = []
+    for k, v in patch.items():
+        if k in mapping:
+            result.append((mapping[k], float(v)))
+        else:
+            print(f"Warning: Parameter '{k}' not found in synthesizer mapping, skipping")
+    return result
 
 def create_synth(dataset, synth_type='diva', path=None, backend='auto'):
     """
@@ -77,6 +94,7 @@ def create_synth(dataset, synth_type='diva', path=None, backend='auto'):
     print(f"Using {backend} backend for {synth_type}")
     
     if backend == 'pedalboard':
+        # Supports 'diva', 'serum', and 'polymax'
         return create_pedalboard_synth(dataset, synth_type, path)
     elif backend == 'librenderman':
         return _create_librenderman_synth(dataset, synth_type, path)
@@ -112,15 +130,16 @@ def _create_librenderman_synth(dataset, synth_type='diva', path=None):
     else:
         raise ValueError(f"Unsupported synthesizer type: {synth_type}")
     
-    rev_idx = {midi_desc[key]: key for key in midi_desc}
+    # Return name->index mapping for synthesis functions
+    rev_idx = midi_desc
     engine = rm.RenderEngine(44100, 512, 512)
     engine.load_plugin(path)
     generator = rm.PatchGenerator(engine)
     return engine, generator, param_defaults, rev_idx
 
-def synthesize_audio(params, engine, generator, params_default):
-    # Replace param_defaults with whatever preset to play
-    patch = midiname2num(params, params_default)
+def synthesize_audio(params, engine, generator, name_to_index):
+    # Map parameter names to indices for the synth engine
+    patch = midiname2num(params, name_to_index)
     audio, patch = play_patch(engine, generator, patch)
     return audio
 
@@ -139,15 +158,31 @@ def synthesize_batch(batch, param_names, engine, generator, params_default, rev_
         except:
             pass  # Continue without reset if preset not found
     else:  # librenderman engine
-        engine.load_preset("synth/osc_reset.fxb")
+        try:
+            engine.load_preset("synth/osc_reset.fxb")
+        except Exception:
+            pass
     
+    # Build a robust mapping from dataset names to plugin names
+    # rev_idx must be name->index. If it is index->name, invert it.
+    name_to_index = rev_idx
+    try:
+        sample_key = next(iter(name_to_index.keys()))
+        if not isinstance(sample_key, str):
+            name_to_index = {v: k for k, v in name_to_index.items()}
+    except Exception:
+        name_to_index = rev_idx
+
     for b in range(batch.shape[0]):
         cur_params = batch[b]
         param_dict = params_default.copy()
         # Create dict out of params
         for p in range(len(cur_params)):
-            param_dict[param_names[p]] = float(cur_params[p])
-        final_audio[b] = synthesize_audio(param_dict, engine, generator, rev_idx)
+            pname = param_names[p] if p < len(param_names) else None
+            if pname is None:
+                continue
+            param_dict[pname] = float(cur_params[p])
+        final_audio[b] = synthesize_audio(param_dict, engine, generator, name_to_index)
         final_audio[b] = resample(final_audio[b], 44100, 22050)
     
     if (name is not None):

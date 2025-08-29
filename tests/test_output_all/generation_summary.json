@@ -1,0 +1,19 @@
+{
+  "config": {
+    "strategy": "all",
+    "total_samples": 20,
+    "successful_samples": 20,
+    "duration": 2.0,
+    "seed": 456
+  },
+  "strategy_distribution": {
+    "uniform": 4,
+    "musical": 5,
+    "boundary": 3,
+    "semantic": 4,
+    "progressive": 3,
+    "perceptual": 1
+  },
+  "parameter_count": 66,
+  "timestamp": 1756487412.295862
+}

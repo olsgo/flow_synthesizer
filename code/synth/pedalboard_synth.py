@@ -127,6 +127,8 @@ class PedalboardSynthEngine:
         synth_specific = {
             'serum': ['Serum.vst3', 'Xfer/Serum.vst3'],
             'diva': ['u-he/Diva.vst3', 'Diva.vst3'],
+            # UAD PolyMAX official VST3 filename on macOS
+            'polymax': ['uaudio_polymax.vst3', 'UAD/uaudio_polymax.vst3', 'UADx PolyMAX Synth.vst3']
         }
         
         paths = []
@@ -157,9 +159,64 @@ class PedalboardSynthEngine:
                 param_name = actual_param_names[param_idx]
                 
                 try:
-                    # Set parameter directly as attribute on the plugin
+                    # Prefer setting normalized floats directly
                     setattr(self.plugin, param_name, float(value))
                 except Exception as e:
+                    # Try to coerce to allowed domain from error message
+                    msg = str(e)
+                    # 1) Boolean parameters
+                    if 'should be a boolean' in msg:
+                        try:
+                            setattr(self.plugin, param_name, bool(float(value) >= 0.5))
+                            continue
+                        except Exception:
+                            pass
+                    # 2) Enum choices
+                    if 'not in list of valid values' in msg:
+                        try:
+                            import re
+                            m = re.search(r"\[(.*)\]", msg)
+                            if m:
+                                choices_str = m.group(1)
+                                # split on comma while stripping quotes and spaces
+                                raw = [c.strip() for c in choices_str.split(',')]
+                                choices = [c.strip("'\"") for c in raw]
+                                if choices:
+                                    idx = int(round(max(0.0, min(1.0, float(value))) * (len(choices) - 1)))
+                                    setattr(self.plugin, param_name, choices[idx])
+                                    continue
+                        except Exception:
+                            pass
+                    # 3) Numeric range parsing (e.g., [100.0Hz, 10900.0Hz])
+                    if 'out of range [' in msg:
+                        try:
+                            import re
+                            m = re.search(r"out of range \[(.*),(.*)\]", msg)
+                            if m:
+                                def _to_num(s):
+                                    s = s.strip()
+                                    # strip units like Hz, k, ct
+                                    s = s.replace('Hz','').replace('ct','')
+                                    s = s.replace('k','000')
+                                    try:
+                                        return float(s)
+                                    except Exception:
+                                        return None
+                                lo = _to_num(m.group(1))
+                                hi = _to_num(m.group(2))
+                                if lo is not None and hi is not None and hi > lo:
+                                    v = lo + (hi - lo) * max(0.0, min(1.0, float(value)))
+                                    setattr(self.plugin, param_name, v)
+                                    continue
+                        except Exception:
+                            pass
+                    # 4) Last resort: set raw_value if available (normalized 0..1)
+                    try:
+                        p = self.plugin.parameters[param_name]
+                        p.raw_value = float(value)
+                        continue
+                    except Exception:
+                        pass
                     print(f"Error setting parameter {param_idx} ({param_name}): {e}")
             else:
                 print(f"Warning: Parameter index {param_idx} out of range (max: {len(actual_param_names)-1})")
@@ -289,6 +346,35 @@ class PedalboardSynthEngine:
             # Return silence if rendering fails
             num_samples = int(render_length * self.sample_rate)
             self.last_audio = np.zeros((2, num_samples), dtype=np.float32)
+
+    def render_midi(self, midi_messages, render_length: float, warm_up: bool = False):
+        """
+        Render audio from an arbitrary MIDI message sequence.
+
+        Args:
+            midi_messages: Iterable of pedalboard.MIDIMessage or objects with .bytes() and .time
+            render_length: Total render time in seconds
+            warm_up: Whether to reset the plugin before rendering
+        """
+        if not self.plugin:
+            raise RuntimeError("No plugin loaded")
+        try:
+            audio_out = self.plugin(
+                midi_messages,
+                duration=render_length,
+                sample_rate=self.sample_rate,
+                num_channels=2,
+                reset=bool(warm_up)
+            )
+            if audio_out.ndim == 1:
+                audio_out = np.stack([audio_out, audio_out])
+            elif audio_out.shape[0] > audio_out.shape[1]:
+                audio_out = audio_out.T
+            self.last_audio = audio_out
+        except Exception as e:
+            print(f"Error during MIDI rendering: {e}")
+            num_samples = int(render_length * self.sample_rate)
+            self.last_audio = np.zeros((2, num_samples), dtype=np.float32)
     
     def get_audio_frames(self) -> np.ndarray:
         """
@@ -369,23 +455,73 @@ def create_pedalboard_synth(dataset: str, synth_type: str = 'serum',
         if plugin_path is None:
             plugin_path = ''  # Will be resolved by engine
             
+    elif synth_type.lower() == 'polymax':
+        # For PolyMAX, use the parameter mapping that matches the training dataset
+        params_file = os.path.join(synth_dir, 'polymax_params.txt')
+        defaults_file = None  # Will be discovered from plugin
+
+        # Default VST3 location from assignment/context
+        if plugin_path is None:
+            plugin_path = '/Library/Audio/Plug-Ins/VST3/uaudio_polymax.vst3'
+            if not os.path.exists(plugin_path):
+                plugin_path = ''
+        
     else:
         raise ValueError(f"Unsupported synthesizer type: {synth_type}")
-    
-    # Load parameter mapping
-    with open(params_file, 'r') as f:
-        midi_desc = ast.literal_eval(f.read())
-    
-    # Load default parameters
-    with open(defaults_file, 'r') as f:
-        param_defaults = json.load(f)
-    
-    # Create reverse index
-    rev_idx = {midi_desc[key]: key for key in midi_desc}
     
     # Create engine and load plugin
     engine = PedalboardSynthEngine(sample_rate=44100, buffer_size=512)
     engine.load_plugin(plugin_path, synth_type)
+
+    # Build parameter mapping/defaults
+    if synth_type.lower() == 'polymax':
+        # Load parameter mapping from file (matches training dataset)
+        with open(params_file, 'r') as f:
+            midi_desc = ast.literal_eval(f.read())
+        
+        # Create mapping from dataset parameter names to synthesizer parameter names
+        # The dataset uses names from params_schema.json, but synthesizer expects generic names
+        import json
+        schema_path = os.path.join(os.path.dirname(params_file), '..', '..', 'params_schema.json')
+        if os.path.exists(schema_path):
+            with open(schema_path, 'r') as f:
+                schema = json.load(f)
+            dataset_param_names = schema.get('parameter_order', [])
+        else:
+            # Fallback to generic names if schema not found
+            dataset_param_names = [f'param_{i}' for i in range(66)]
+        
+        # Create mapping: dataset_name -> generic_name (param_0, param_1, etc.)
+        dataset_to_generic = {}
+        for i, dataset_name in enumerate(dataset_param_names):
+            dataset_to_generic[dataset_name] = f'param_{i}'
+        
+        # Update midi_desc to use dataset parameter names as keys
+        new_midi_desc = {}
+        for idx, synth_name in midi_desc.items():
+            if idx < len(dataset_param_names):
+                dataset_name = dataset_param_names[idx]
+                new_midi_desc[dataset_name] = idx
+        midi_desc = new_midi_desc
+        
+        # Discover default values from the loaded plugin
+        param_defaults = {}
+        plugin_params = list(engine.plugin.parameters.keys())
+        for dataset_name, idx in midi_desc.items():
+            try:
+                # Use dataset parameter name as key
+                param_defaults[dataset_name] = 0.5  # Default value
+            except Exception:
+                param_defaults[dataset_name] = 0.5
+    else:
+        # Load parameter mapping from files for other synths
+        with open(params_file, 'r') as f:
+            midi_desc = ast.literal_eval(f.read())
+        with open(defaults_file, 'r') as f:
+            param_defaults = json.load(f)
+
+    # For pedalboard usage, return name->index mapping
+    rev_idx = midi_desc
     
     # Create patch generator
     generator = PedalboardPatchGenerator(engine, param_defaults)

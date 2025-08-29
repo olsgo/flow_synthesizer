@@ -1,0 +1,14 @@
+{
+  "config": {
+    "strategy": "uniform",
+    "total_samples": 3,
+    "successful_samples": 3,
+    "duration": 2.0,
+    "seed": 42
+  },
+  "strategy_distribution": {
+    "uniform": 3
+  },
+  "parameter_count": 66,
+  "timestamp": 1756487528.614061
+}

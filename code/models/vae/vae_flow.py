@@ -17,7 +17,7 @@ class VAEFlow(VAE):
             
     def encode(self, x):
         x = self.encoder(x)
-        x = x.view(x.shape[0], -1)
+        x = x.reshape(x.shape[0], -1)
         mu = self.mu(x)
         log_var = self.log_var(x)
         flow_params = self.flow_enc(x)

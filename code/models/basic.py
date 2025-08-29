@@ -35,6 +35,11 @@ def construct_encoder_decoder(in_size, enc_size, latent_size, hidden_size = 512,
         type_ed = (type_mod == 'cnn') and 'normal' or ((type_mod == 'res_cnn') and 'residual' or 'gated')
         encoder = GatedCNN(in_size, enc_size, channels, n_layers, hidden_size, n_mlp, type_ed, args)
         decoder = DecodeCNN(latent_size, encoder.cnn_size, in_size, channels, n_layers, hidden_size, n_mlp, type_ed, args)
+    else:
+        # Default to gated CNN if type_mod is not recognized
+        type_ed = 'gated'
+        encoder = GatedCNN(in_size, enc_size, channels, n_layers, hidden_size, n_mlp, type_ed, args)
+        decoder = DecodeCNN(latent_size, encoder.cnn_size, in_size, channels, n_layers, hidden_size, n_mlp, type_ed, args)
     return encoder, decoder
 
 def construct_flow(flow_dim, flow_type='maf', flow_length=16, amortization='input'):
@@ -92,8 +97,6 @@ def construct_regressor(in_dims, out_dims, model='mlp', hidden_dims = 0, n_layer
                 regression_model.add_module('b%d'%l, nn.BatchNorm1d(out_s))
                 regression_model.add_module('r%d'%l, nn.ReLU())
                 regression_model.add_module('d%d'%l, nn.Dropout(p=.3))
-            else:
-                regression_model.add_module('h', nn.Sigmoid())
     # Bayesian regression
     elif (model == 'bnn'):
         _, blocks = construct_flow(in_dims, flow_type=flow_type, flow_length=1, amortization=amortize)
@@ -171,12 +174,22 @@ class GatedMLP(RegressionModel):
     
     def init_parameters(self):
         """ Initialize internal parameters (sub-modules) """
-        for param in self.parameters():
-            param.data.uniform_(-0.01, 0.01)
+        for module in self.modules():
+            if isinstance(module, nn.Conv2d):
+                nn.init.kaiming_normal_(module.weight, mode='fan_out', nonlinearity='relu')
+                if module.bias is not None:
+                    nn.init.constant_(module.bias, 0)
+            elif isinstance(module, nn.Linear):
+                nn.init.kaiming_normal_(module.weight, mode='fan_out', nonlinearity='relu')
+                if module.bias is not None:
+                    nn.init.constant_(module.bias, 0)
+            elif isinstance(module, nn.BatchNorm2d):
+                nn.init.constant_(module.weight, 1)
+                nn.init.constant_(module.bias, 0)
         
     def forward(self, inputs):
         # Flatten the input
-        out = inputs.view(inputs.shape[0], -1)
+        out = inputs.reshape(inputs.shape[0], -1)
         for m in range(len(self.net)):
             out = self.net[m](out)
         return out
@@ -192,7 +205,7 @@ class DecodeMLP(GatedMLP):
         # Use super function
         out = GatedMLP.forward(self, inputs)
         # Reshape output
-        out = out.view(inputs.shape[0], *self.out_size)
+        out = out.reshape(inputs.shape[0], *self.out_size)
         return out
     
 class GatedCNN(RegressionModel):
@@ -208,6 +221,7 @@ class GatedCNN(RegressionModel):
         in_channel = 1 if len(in_size)<3 else in_size[0] #in_size is (C,H,W) or (H,W)
         kernel = args.kernel
         stride = 2
+        print(f"[DEBUG] GatedCNN init: in_size={in_size}, size={size}, in_channel={in_channel}, kernel={kernel}, stride={stride}")
         """ First do a CNN """
         for l in range(n_layers):
             dil = ((args.dilation == 3) and (2 ** l) or args.dilation)
@@ -219,34 +233,101 @@ class GatedCNN(RegressionModel):
                 modules.add_module('b2%i'%l, nn.BatchNorm2d(out_s))
                 modules.add_module('a2%i'%l, nn.ReLU())
                 modules.add_module('d2%i'%l, nn.Dropout2d(p=.25))
+            old_size = size.copy()
             size[0] = int((size[0]+2*pad-(dil*(kernel-1)+1))/stride+1)
             size[1] = int((size[1]+2*pad-(dil*(kernel-1)+1))/stride+1)
+            print(f"[DEBUG] Layer {l}: dil={dil}, pad={pad}, {old_size} -> {size}")
         self.net = modules
         self.mlp = nn.Sequential()
         """ Then go through MLP """
+        print(f"[DEBUG] Final CNN size: {size}, flattened: {size[0] * size[1]}")
         for l in range(n_mlp):
             in_s = (l==0) and (size[0] * size[1]) or hidden_size
             out_s = (l == n_mlp - 1) and out_size or hidden_size
+            print(f"[DEBUG] MLP layer {l}: in_s={in_s}, out_s={out_s}")
             self.mlp.add_module('h%i'%l, dense_module(in_s, out_s))
             if (l < n_mlp - 1):
                 self.mlp.add_module('b%i'%l, nn.BatchNorm1d(out_s))
                 self.mlp.add_module('a%i'%l, nn.ReLU())
                 self.mlp.add_module('d%i'%l, nn.Dropout(p=.25))
         self.cnn_size = size
+        # Store attributes needed for MLP rebuilding
+        self.hidden_size = hidden_size
+        self.out_size = out_size
+        self.dense_module = dense_module
+        self.n_mlp = n_mlp
     
     def init_parameters(self):
         """ Initialize internal parameters (sub-modules) """
-        for param in self.parameters():
-            param.data.uniform_(-0.01, 0.01)
+        for module in self.modules():
+            if isinstance(module, nn.Conv2d):
+                nn.init.kaiming_normal_(module.weight, mode='fan_out', nonlinearity='relu')
+                if module.bias is not None:
+                    nn.init.constant_(module.bias, 0)
+            elif isinstance(module, nn.Linear):
+                nn.init.kaiming_normal_(module.weight, mode='fan_out', nonlinearity='relu')
+                if module.bias is not None:
+                    nn.init.constant_(module.bias, 0)
+            elif isinstance(module, nn.BatchNorm2d):
+                nn.init.constant_(module.weight, 1)
+                nn.init.constant_(module.bias, 0)
         
     def forward(self, inputs):
+        print(f"[DEBUG] GatedCNN forward: input shape = {inputs.shape}")
         out = inputs.unsqueeze(1) if len(inputs.shape) < 4 else inputs # force to (batch, C, H, W)
+        print(f"[DEBUG] GatedCNN forward: after unsqueeze shape = {out.shape}")
         for m in range(len(self.net)):
             out = self.net[m](out)
-        out = out.view(inputs.shape[0], -1)
+        print(f"[DEBUG] GatedCNN forward: after CNN shape = {out.shape}")
+        out = out.reshape(inputs.shape[0], -1)
+        print(f"[DEBUG] GatedCNN forward: after flatten shape = {out.shape}")
+        
+        # Handle variable input sizes by recalculating MLP if needed
+        first_layer = self.mlp[0]
+        expected_features = first_layer.h.in_features if hasattr(first_layer, 'h') else first_layer.in_features
+        if out.shape[1] != expected_features:
+            print(f"[DEBUG] MLP size mismatch: expected {expected_features}, got {out.shape[1]}")
+            print(f"[DEBUG] Rebuilding MLP with correct input size: {out.shape[1]}")
+            # Rebuild MLP with correct input size
+            self._rebuild_mlp(out.shape[1])
+            print(f"[DEBUG] MLP rebuilt successfully")
+        
         for m in range(len(self.mlp)):
             out = self.mlp[m](out)
         return out
+    
+    def _rebuild_mlp(self, new_input_size):
+        """ Rebuild MLP with new input size """
+        print(f"[DEBUG] Rebuilding MLP with correct input size: {new_input_size}")
+        
+        # Rebuild MLP with correct input size
+        new_mlp = nn.Sequential()
+        for l in range(self.n_mlp):
+            in_s = (l == 0) and new_input_size or self.hidden_size
+            out_s = (l == self.n_mlp - 1) and self.out_size or self.hidden_size
+            layer = self.dense_module(in_s, out_s)
+            
+            # Initialize weights properly to avoid NaN
+            if hasattr(layer, 'weight'):
+                nn.init.xavier_uniform_(layer.weight)
+                if hasattr(layer, 'bias') and layer.bias is not None:
+                    nn.init.zeros_(layer.bias)
+            
+            new_mlp.add_module('h%i' % l, layer)
+            if (l < self.n_mlp - 1):
+                new_mlp.add_module('b%i' % l, nn.BatchNorm1d(out_s))
+                new_mlp.add_module('a%i' % l, nn.ReLU())
+                new_mlp.add_module('d%i' % l, nn.Dropout(p=.25))
+        
+        # Replace the old MLP
+        self.mlp = new_mlp.to(next(self.parameters()).device)
+        
+        # Check for NaN in new weights
+        for name, param in self.mlp.named_parameters():
+            if torch.isnan(param).any():
+                print(f"[WARNING] NaN detected in {name} after rebuild")
+        
+        print(f"[DEBUG] MLP rebuilt successfully")
     
 class DecodeCNN(RegressionModel):
     
@@ -279,7 +360,7 @@ class DecodeCNN(RegressionModel):
                 pad = 2
             out_pad = (pad % 2)
             in_s = (l==0) and 1 or channels
-            out_s = (l == n_layers - 1) and out_size[0] or channels
+            out_s = (l == n_layers - 1) and 1 or channels
             modules.add_module('c2%i'%l, conv_module(in_s, out_s, kernel, stride, pad, output_padding=out_pad, dilation = dil))
             if (l < n_layers - 1):
                 modules.add_module('b2%i'%l, nn.BatchNorm2d(out_s))
@@ -294,16 +375,88 @@ class DecodeCNN(RegressionModel):
         """ Initialize internal parameters (sub-modules) """
         for param in self.parameters():
             param.data.uniform_(-0.01, 0.01)
+    
+    def _rebuild_mlp(self, new_input_size):
+        """ Rebuild MLP with new input size """
+        # Store the original MLP configuration
+        n_mlp = len([name for name, module in self.mlp.named_modules() if 'h' in name])
+        hidden_size = self.hidden_size
+        out_size = self.out_size
+        dense_module = self.dense_module
+        
+        # Rebuild MLP with correct input size
+        new_mlp = nn.Sequential()
+        for l in range(n_mlp):
+            in_s = (l == 0) and new_input_size or hidden_size
+            out_s = (l == n_mlp - 1) and out_size or hidden_size
+            new_mlp.add_module('h%i' % l, dense_module(in_s, out_s))
+            if (l < n_mlp - 1):
+                new_mlp.add_module('b%i' % l, nn.BatchNorm1d(out_s))
+                new_mlp.add_module('a%i' % l, nn.ReLU())
+                new_mlp.add_module('d%i' % l, nn.Dropout(p=.25))
+        
+        # Replace the old MLP
+        self.mlp = new_mlp.to(next(self.parameters()).device)
+        
+        # Initialize parameters for the new MLP
+        for param in self.mlp.parameters():
+            param.data.uniform_(-0.01, 0.01)
         
     def forward(self, inputs):
         out = inputs
         for m in range(len(self.mlp)):
             out = self.mlp[m](out)
-        out = out.unsqueeze(1).view(-1, 1, self.cnn_size[0], self.cnn_size[1])
+        out = out.unsqueeze(1).reshape(-1, 1, self.cnn_size[0], self.cnn_size[1])
         for m in range(len(self.net)):
             out = self.net[m](out)
-        if len(self.out_size) < 3:
-            out = out[:, :, :self.out_size[0], :self.out_size[1]].squeeze(1)
+        
+        # Handle variable output width using target_width if available
+        if hasattr(self, 'target_width'):
+            target_width = self.target_width
         else:
-            out = out[:, :, :self.out_size[1], :self.out_size[2]]
+            target_width = self.out_size[-1] if len(self.out_size) >= 2 else self.out_size[0]
+        
+        # Get current dimensions (keeping channel dimension)
+        # out shape: [batch, channel, height, width]
+        current_height, current_width = out.shape[2], out.shape[3]
+        
+        # Determine target dimensions based on out_size format
+        if len(self.out_size) == 2:  # (height, width)
+            target_height, target_width = self.out_size[0], self.out_size[1]
+        elif len(self.out_size) == 3:  # (channel, height, width)
+            target_height, target_width = self.out_size[1], self.out_size[2]
+        else:  # single dimension
+            target_height, target_width = self.out_size[0], self.out_size[0]
+        
+        # Handle height dimension first
+        if current_height != target_height:
+            if current_height < target_height:
+                # Pad height
+                pad_height = target_height - current_height
+                out = nn.functional.pad(out, (0, 0, 0, pad_height), mode='constant', value=0)
+            else:
+                # Crop height
+                out = out[:, :, :target_height, :]
+        
+        # Handle width dimension
+        current_width = out.shape[3]
+        # Use the target_width parameter if provided, otherwise use out_size width
+        if hasattr(self, 'target_width') and self.target_width is not None:
+            final_target_width = self.target_width
+        else:
+            final_target_width = target_width
+        if current_width != final_target_width:
+            if current_width < final_target_width:
+                # Pad width
+                pad_width = final_target_width - current_width
+                out = nn.functional.pad(out, (0, pad_width), mode='constant', value=0)
+            else:
+                # Crop width
+                out = out[:, :, :, :final_target_width]
+        
+        # Keep channel dimension to match input format [batch, channel, height, width]
+        # The input data has shape [batch, 1, height, width] so output should match
+        # out = out.squeeze(1)  # [batch, height, width] - REMOVED
+        # Keep as [batch, 1, height, width]
+        
         return out

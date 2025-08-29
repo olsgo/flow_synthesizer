@@ -1,0 +1,404 @@
+{
+  "plugin_name": "UAD PolyMAX",
+  "total_parameters": 66,
+  "parameter_details": {
+    "polyphony": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "POLY",
+      "min_value": null,
+      "max_value": null
+    },
+    "note_trigger_mode": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "RETRIG",
+      "min_value": null,
+      "max_value": null
+    },
+    "master_volume": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "47.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "mod_wheel": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "arp_enable": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "OUT",
+      "min_value": null,
+      "max_value": null
+    },
+    "arp_range": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "1.0",
+      "min_value": 1.0,
+      "max_value": 3.0
+    },
+    "arp_rate": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "1/16",
+      "min_value": null,
+      "max_value": null
+    },
+    "arp_mode": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "UP",
+      "min_value": null,
+      "max_value": null
+    },
+    "glide_rate": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "pitch_bend_range": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "2.0",
+      "min_value": 1.0,
+      "max_value": 12.0
+    },
+    "tuning": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0 ct",
+      "min_value": null,
+      "max_value": null
+    },
+    "unison": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "OFF",
+      "min_value": null,
+      "max_value": null
+    },
+    "amp_env_attack": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.001",
+      "min_value": 0.001,
+      "max_value": 13.0
+    },
+    "amp_env_decay": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.3",
+      "min_value": 0.002,
+      "max_value": 32.0
+    },
+    "amp_env_sustain": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "100.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "amp_env_release": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.008",
+      "min_value": 0.002,
+      "max_value": 32.0
+    },
+    "amp_env_velocity": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "filter_env_attack": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.001",
+      "min_value": 0.001,
+      "max_value": 13.0
+    },
+    "filter_env_decay": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.3",
+      "min_value": 0.002,
+      "max_value": 32.0
+    },
+    "filter_env_sustain": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "filter_env_release": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "1.0",
+      "min_value": 0.002,
+      "max_value": 32.0
+    },
+    "filter_env_velocity": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "50.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "filter_lfo_amt": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": -100.0,
+      "max_value": 100.0
+    },
+    "pitch_mod": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": -48.0,
+      "max_value": 48.0
+    },
+    "pitch_mod_source": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "ENV",
+      "min_value": null,
+      "max_value": null
+    },
+    "osc1_shape_mod": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": -100.0,
+      "max_value": 100.0
+    },
+    "osc1_shape_mod_source": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "LFO",
+      "min_value": null,
+      "max_value": null
+    },
+    "osc2_shape_mod": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": -100.0,
+      "max_value": 100.0
+    },
+    "osc2_shape_mod_source": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "LFO",
+      "min_value": null,
+      "max_value": null
+    },
+    "osc1_fm_mod": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "osc1_fm_mod_source": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "ENV",
+      "min_value": null,
+      "max_value": null
+    },
+    "osc2_sync_mod": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "osc2_sync_mod_source": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "ENV",
+      "min_value": null,
+      "max_value": null
+    },
+    "mod_wheel_amt": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "38.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "mod_wheel_dest": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "VIBRATO",
+      "min_value": null,
+      "max_value": null
+    },
+    "lfo_sync": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "False",
+      "min_value": false,
+      "max_value": true
+    },
+    "lfo_rate": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "5.5",
+      "min_value": 0.05,
+      "max_value": 50.0
+    },
+    "lfo_shape": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "TRIANGLE",
+      "min_value": null,
+      "max_value": null
+    },
+    "osc_2_coarse_tune": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "-12.0",
+      "min_value": -24.0,
+      "max_value": 24.0
+    },
+    "osc_2_fine_tune": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "-0.02",
+      "min_value": -1.0,
+      "max_value": 1.0
+    },
+    "osc_2_shape": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "SAWTOOTH",
+      "min_value": null,
+      "max_value": null
+    },
+    "osc_2_sync": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 36.0
+    },
+    "osc_1_coarse_tune": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": -24.0,
+      "max_value": 24.0
+    },
+    "osc_1_fine_tune": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": -1.0,
+      "max_value": 1.0
+    },
+    "osc_1_shape": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "SAWTOOTH",
+      "min_value": null,
+      "max_value": null
+    },
+    "osc_1_fm_amount": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "noise_color": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "WHITE",
+      "min_value": null,
+      "max_value": null
+    },
+    "osc_1_volume": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "80.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "osc_2_volume": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "noise_volume": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "filter_cutoff_freq": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "30.0 k",
+      "min_value": null,
+      "max_value": null
+    },
+    "filter_resonance": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "filter_env_amt": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": -100.0,
+      "max_value": 100.0
+    },
+    "filter_mode": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "LP",
+      "min_value": null,
+      "max_value": null
+    },
+    "filter_slope": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "4P",
+      "min_value": null,
+      "max_value": null
+    },
+    "filter_key_follow": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "voice_panning": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "1",
+      "min_value": null,
+      "max_value": null
+    },
+    "mod_fx_type": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "PHASER",
+      "min_value": null,
+      "max_value": null
+    },
+    "mod_fx_enable": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "False",
+      "min_value": false,
+      "max_value": true
+    },
+    "mod_fx_rate": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.16",
+      "min_value": 0.1,
+      "max_value": 5.0
+    },
+    "mod_fx_depth": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "79.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "space_fx_type": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "HALL",
+      "min_value": null,
+      "max_value": null
+    },
+    "space_fx_amount": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "0.0",
+      "min_value": 0.0,
+      "max_value": 100.0
+    },
+    "space_fx_param1": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": " 2.0 s",
+      "min_value": null,
+      "max_value": null
+    },
+    "space_fx_param2": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "2000.0",
+      "min_value": 100.0,
+      "max_value": 10900.0
+    },
+    "master_bypass": {
+      "type": "<class 'pedalboard._pedalboard.AudioProcessorParameter'>",
+      "value": "False",
+      "min_value": false,
+      "max_value": true
+    }
+  },
+  "schema_version": "3.0",
+  "notes": "Detailed parameter schema with types, ranges, and choices"
+}

@@ -3,7 +3,7 @@ import torch
 import numpy as np
 from torch import nn
 from torch import distributions as distrib
-from torch.distributions import MultivariateNormal, transforms as transform
+from torch.distributions import MultivariateNormal, transforms as transform, constraints
 
 class Flow(transform.Transform, nn.Module):
 
@@ -17,6 +17,16 @@ class Flow(transform.Transform, nn.Module):
         nn.Module.__init__(self)
         # Handle amortization
         self.amortized = amortized
+    
+    @property
+    def domain(self):
+        """ Domain constraint for the transform """
+        return constraints.real
+    
+    @property
+    def codomain(self):
+        """ Codomain constraint for the transform """
+        return constraints.real
 
     def init_parameters(self):
         """ Initialize internal parameters (sub-modules) """

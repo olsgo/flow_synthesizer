@@ -53,6 +53,19 @@ def save_batch_audio(final_audio, name):
         cur_p += final_audio[b].shape[0] + 2205
     librosa.output.write_wav(name + '.wav', wave_out, 22050)
 
+# Internal helper to lazily create a synth if needed
+def _ensure_synth(args):
+    try:
+        if getattr(args, 'synthesize', False):
+            if (not hasattr(args, 'engine')) or args.engine is None:
+                from synth.synthesize import create_synth
+                dataset = getattr(args, 'dataset', 'polymax_dataset')
+                synth_type = getattr(args, 'synth_type', 'polymax')
+                args.engine, args.generator, args.param_defaults, args.rev_idx = create_synth(dataset, synth_type)
+    except Exception as e:
+        print(f"[WARN] Could not create synth engine: {e}")
+    return args
+
 """
 ###################
 
@@ -302,6 +315,7 @@ def evaluate_meta_parameters(model, test_loader, args, train=False, name=None, n
         x_tilde = model.ae_model.decode(fake_batch)
         # Reconstruct with the synth engine
         if (args.synthesize == True and train == False and ((var_param[idx[:5]].mean().item() > 0.15) or ((args.semantic_dim > -1) and (l == 0)))):
+            _ensure_synth(args)
             out_batch = model.regression_model(fake_batch)
             if (args.loss in ['multinomial']):
                 tmp = out_batch.view(out_batch.shape[0], -1, args.latent_dims).max(dim=1)[1]
@@ -327,6 +341,7 @@ def evaluate_meta_parameters(model, test_loader, args, train=False, name=None, n
                     tmp_data = tmp_data.view(tmp_data.shape[0], -1, args.latent_dims)
                     tmp_data = tmp_data[:, -1, :]
                 # Synthesize meta-modified test example :)                
+                _ensure_synth(args)
                 audio = synthesize_batch(tmp_data.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=None, name=None)
                 save_batch_audio(audio, args.base_audio + '_meta_parameters_z' + str(l) + '_b' + str(s))
         if len(x_tilde.shape) > 3:
@@ -375,6 +390,7 @@ Evaluate latent neighborhoods
 def evaluate_latent_neighborhood(model, test_loader, args, train=False, name=None):
     from synth.synthesize import synthesize_batch
     print('  - Evaluate latent neighborhoods.')
+    _ensure_synth(args)
     cur_batch = 0
     for (x, y, _, x_wave) in test_loader:
         if (cur_batch > 8):
@@ -528,10 +544,9 @@ def evaluate_params(model, test_loader, args, losses=[], train=False, name=None)
     print(loss_stats)
     # Save parameters difference results
     if (name is not None):
-        np.save(name + '.params.results', [losses, loss_stats])
+        np.save(name + '.params.results', loss_stats)
     if (train == False and name is None):
-        if (losses.sum() > 0):
-            np.save(args.base_model + '.params.results', [losses, loss_stats])
+        np.save(args.base_model + '.params.results', loss_stats)
    
 """
 ###################
@@ -541,6 +556,7 @@ Synthesis evaluation
 def evaluate_synthesis(model, test_loader, args, train=False, name=None):
     from synth.synthesize import synthesize_batch
     print('  - Evaluate audio synthesis losses.')
+    _ensure_synth(args)
     n_evals = 0
     sc_losses = []
     lm_losses = []
@@ -627,6 +643,7 @@ def evaluate_projection(model, test_loader, args, train=False, name=None, type_v
             out = out[:, -1, :]
         if (args.synthesize == True):
             from synth.synthesize import synthesize_batch
+            _ensure_synth(args)
             # Generate the test batch for comparison
             audio = synthesize_batch(out.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=x_wave, name=None)
             # Compute mel spectrogram
@@ -686,6 +703,7 @@ def evaluate_projection(model, test_loader, args, train=False, name=None, type_v
             out = out.view(out.shape[0], args.n_classes + 1, -1)
             out = out[:, -1, :]
         # Generate the test batch for comparison
+        _ensure_synth(args)
         synthesize_batch(out.cpu(), test_loader.dataset.final_params, args.engine, args.generator, args.param_defaults, args.rev_idx, orig_wave=x_wave, n_outs=60, name=args.base_audio + '_' + type_val + '_best')
             
             

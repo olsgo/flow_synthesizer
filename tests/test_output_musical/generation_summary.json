@@ -1,0 +1,14 @@
+{
+  "config": {
+    "strategy": "musical",
+    "total_samples": 3,
+    "successful_samples": 3,
+    "duration": 2.0,
+    "seed": 123
+  },
+  "strategy_distribution": {
+    "musical": 3
+  },
+  "parameter_count": 66,
+  "timestamp": 1756487402.562697
+}
